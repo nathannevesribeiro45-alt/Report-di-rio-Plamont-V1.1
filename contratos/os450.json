@@ -17,10 +17,10 @@
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 0,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 0,
-          "Mestre Andaime": 0
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 2,
+          "Mestre Montagem": 2,
+          "Mestre Andaime": 2
         }
       },
       "histograma": {
@@ -41,13 +41,13 @@
         }
       },
       "ausencias": {
-        "Caldeireiro": 0,
+        "Caldeireiro": 3,
         "Mecanico": 0,
-        "Soldador": 0,
-        "Montador": 1,
+        "Soldador": 2,
+        "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 1,
+        "justificadas": 5,
         "naoJustificadas": 0
       },
       "mobilizacao": {
