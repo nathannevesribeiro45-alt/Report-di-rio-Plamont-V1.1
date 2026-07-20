@@ -90,15 +90,16 @@
           "lider": "Adilson",
           "tecnicoSeguranca": "98 98210-6618",
           "equipe": "03 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 M.andaime",
-          "status":"Em andamento",
           "oms": [
             {
               "numero": "202601435348",
-              "descricao": "TROCAR 08 CHAPAS DE DESGASTE CHUTE RC"
+              "descricao": "TROCAR 08 CHAPAS DE DESGASTE CHUTE RC",
+              "status":"Em andamento"
             },
             {
               "numero": "202505446647",
-              "descricao": "TROCAR 19 ROLOS DO TRIPPER ER02"
+              "descricao": "TROCAR 19 ROLOS DO TRIPPER ER02",
+              "status":"Em andamento"
             }
           ]
         },
@@ -215,11 +216,11 @@
           "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "03 Mecânicos + 01 Soldador + 01 Caldeireiro + 03 M.andaime",
-          "status":"Em andamento",
           "oms": [
             {
               "numero": "202505877837",
-              "descricao": "MODIFICAÇÃO DO CV MESA SUSPENSA 1114"
+              "descricao": "MODIFICAÇÃO DO CV MESA SUSPENSA 1114",
+              "status":"Em andamento"
             }
           ]
         },
