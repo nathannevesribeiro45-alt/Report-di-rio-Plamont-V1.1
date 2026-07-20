@@ -9,17 +9,17 @@
       "id": "desgaste",
       "qlp": {
         "direto": {
-          "Caldeireiro": 7,
-          "Mecanico": 13,
-          "Soldador": 7,
-          "Montador": 11,
-          "Eletricista": 1,
-          "Pintor": 1
+          "Caldeireiro": 3,
+          "Mecanico": 10,
+          "Soldador": 3,
+          "Montador": 9,
+          "Eletricista": 0,
+          "Pintor": 0
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 4,
+          "Mestre Montagem": 3,
           "Mestre Andaime": 1
         }
       },
@@ -138,8 +138,8 @@
           "Mecanico": 3,
           "Soldador": 4,
           "Montador": 2,
-          "Eletricista": 0,
-          "Pintor": 0
+          "Eletricista": 1,
+          "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
