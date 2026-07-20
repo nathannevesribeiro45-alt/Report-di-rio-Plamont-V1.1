@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!--Style CSS-->
+<link href="style.css" rel="stylesheet"/>
+<!-- ====================================================== -->
+<!--                    SPLASH SCREEN                       -->
+<!-- ====================================================== -->
+<link href="splash/splashstyle.css?v=1.2" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>.efetivo-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.efetivo-coluna{background:#f7f9fc;border:1px solid #dbe5f0;border-radius:10px;padding:12px}.efetivo-coluna h3{margin:0 0 10px;color:#0b4f8a}.efetivo-total{margin-top:12px;padding-top:10px;border-top:1px solid #dbe5f0;font-weight:700}@media(max-width:768px){.efetivo-grid{grid-template-columns:1fr}}</style></head>
+<body>
+<div class="splash-screen">
+<div class="splash-container">
+<img alt="Plamont Engenharia" class="splash-logo" src="logo_horplamont_V2.png"/>
+<h1 class="splash-title">Reports</h1>
+<p class="splash-contracts">OS 440 • OS 441<br/>OS 442 • OS 450</p>
+<p class="splash-subtitle">Programação Diária de Contratos</p>
+<div class="splash-loading">
+<div class="loading-bar">
+<div class="loading-fill"></div>
+</div>
+<span class="loading-text">Inicializando....</span>
+</div>
+</div>
+</div>
+<!-- ====================================================== -->
+<!--                    SIDEBAR                      -->
+<!-- ====================================================== -->
+<div class="sidebar">
+<div class="logo">
+<img alt="Plamont Engenharia" src="logo_plamont.png"/>
+<div class="filial">FILIAL SÃO LUÍS - MA</div>
+</div>
+<button class="menu-btn ativo" onclick="abrirPagina('dashboard', this)"><span class="icone"><img alt="Dashboard" src="assets/icons/home.svg"/></span><span class="menu-texto"><strong>Dashboard</strong><small>Página Inicial</small></span></button>
+<button class="menu-btn" onclick="abrirPagina('os440', this)"><span class="icone"><img alt="Contrato" src="assets/icons/clipboard.svg"/></span><span class="menu-texto"><strong>OS 440</strong><small>Integridade Estrutural</small></span></button>
+<button class="menu-btn" onclick="abrirPagina('os441', this)"><span class="icone"><img alt="Contrato" src="assets/icons/clipboard.svg"/></span><span class="menu-texto"><strong>OS 441</strong><small>Manutenção de Desgaste</small></span></button>
+<button class="menu-btn" onclick="abrirPagina('os442', this)"><span class="icone"><img alt="Contrato" src="assets/icons/clipboard.svg"/></span><span class="menu-texto"><strong>OS 442</strong><small>Manutenção e Utilidades</small></span></button>
+<button class="menu-btn" onclick="abrirPagina('os450', this)"><span class="icone"><img alt="Contrato" src="assets/icons/clipboard.svg"/></span><span class="menu-texto"><strong>OS 450 (GP)</strong><small>Manutenção de Ativos</small></span></button>
+</div>
+<div class="conteudo">
+<!-- ====================================================== -->
+<!--                      DASHBOARD                         -->
+<!-- ====================================================== -->
+<section class="pagina ativa" id="dashboard">
+<div class="cabecalho">
+<div>
+<h1>📊 Programação Diária</h1>
+<p class="subtitulo">
+                Relatório Diário de Mão de Obra, Recursos e Atividades
+            </p>
+</div>
+<div class="data-card">📅 <strong>20/07/2026</strong><br/>🕐 Turno Dia B</div>
+</div>
+<div class="cards">
+<div class="card">
+<h3>🏗️ OS 440</h3>
+<h1>92</h1>
+<p>Colaboradores</p>
+</div>
+<div class="card">
+<h3>🏗️ OS 441</h3>
+<h1>61</h1>
+<p>Colaboradores</p>
+</div>
+<div class="card">
+<h3>🏗️ OS 442</h3>
+<h1>21</h1>
+<p>Colaboradores</p>
+</div>
+<div class="card">
+<h3>🏗️ OS 450 (GP)</h3>
+<h1>37</h1>
+<p>Colaboradores</p>
+</div>
+</div>
+<div class="bloco">
+<h2>📈 Resumo Geral</h2>
+<ul class="lista">
+<li>👥 Total Geral de Colaboradores <strong>211</strong></li>
+<li>❌ Ausências Registradas <strong>0</strong></li>
+<li>🚚 Contratos Ativos <strong>4</strong></li>
+<li>📋 Ordens de Manutenção Programadas <strong>27</strong></li>
+</ul>
+</div>
+<div class="bloco">
+<h2>📌 Situação dos Contratos</h2>
+<ul class="lista">
+<li><span class="status verde"></span>OS 440 - Operação Normal</li>
+<li><span class="status verde"></span>OS 441 - Operação Normal</li>
+<li><span class="status verde"></span>OS 442 - Operação Normal</li>
+<li><span class="status verde"></span>OS 450 - Operação Normal</li>
+</ul>
+</div>
+</section>
+<!-- ====================================================== -->
+<!--                      OS 440                        -->
+<!-- ====================================================== -->
+<section class="pagina" id="os440">
+
+    <!-- Cabeçalho -->
+   <header id="os440-header" class="cabecalho">
+        <div>
+            <h1 id="os440-titulo"></h1>
+
+<p id="os440-subtitulo" class="subtitulo"></p>
+        </div>
+
+    <div id="os440-data-card" class="data-card"></div>
+    </header>
+
+    <!-- Navegação das abas -->
+   <nav id="os440-tabs" class="tabs"></nav>
+
+    <!-- Conteúdo renderizado -->
+    <main id="os440-content">
+        <!-- Conteúdo gerado pelo JavaScript -->
+
+    </main>
+
+</section>
+<!-- ====================================================== -->
+<!--                      OS 441                         -->
+<!-- ====================================================== -->
+<section class="pagina" id="os441">
+
+    <!-- Cabeçalho -->
+   <header id="os441-header" class="cabecalho">
+        <div>
+            <h1 id="os441-titulo"></h1>
+
+<p id="os441-subtitulo" class="subtitulo"></p>
+        </div>
+
+    <div id="os441-data-card" class="data-card"></div>
+    </header>
+
+    <!-- Navegação das abas -->
+    <nav id="os441-tabs" class="tabs"></nav>
+
+    <!-- Conteúdo renderizado -->
+    <main id="os441-content">
+        <!-- Conteúdo gerado pelo JavaScript -->
+
+    </main>
+
+</section>
+<!-- ====================================================== -->
+<!--                      OS 442                        -->
+<!-- ====================================================== -->
+<section class="pagina" id="os442">
+
+    <!-- Cabeçalho -->
+   <header id="os442-header" class="cabecalho">
+        <div>
+            <h1 id="os442-titulo"></h1>
+
+<p id="os442-subtitulo" class="subtitulo"></p>
+        </div>
+
+    <div id="os442-data-card" class="data-card"></div>
+    </header>
+
+    <!-- Navegação das abas -->
+    <nav id="os442-tabs" class="tabs"></nav>
+
+    <!-- Conteúdo renderizado -->
+    <main id="os442-content">
+        <!-- Conteúdo gerado pelo JavaScript -->
+
+    </main>
+
+</section>
+<!-- ====================================================== -->
+<!--                    OS 450                     -->
+<!-- ====================================================== -->
+<section class="pagina" id="os450">
+
+    <!-- Cabeçalho -->
+   <header id="os450-header" class="cabecalho">
+        <div>
+            <h1 id="os450-titulo"></h1>
+
+<p id="os450-subtitulo" class="subtitulo"></p>
+        </div>
+
+    <div id="os450-data-card" class="data-card"></div>
+    </header>
+
+    <!-- Navegação das abas -->
+    <nav id="os450-tabs" class="tabs"></nav>
+
+    <!-- Conteúdo renderizado -->
+    <main id="os450-content">
+        <!-- Conteúdo gerado pelo JavaScript -->
+
+    </main>
+
+</section>
+</div>
+<script src="js/core/navegacao.js"></script>
+<script src="js/core/utills.js"></script>
+<script src="js/core/splash.js"></script>
+<script src="js/core/header.js"></script>
+
+<script src="js/modules/qlp.js"></script>
+<script src="js/modules/histograma.js"></script>
+<script src="js/modules/ausencias.js"></script>
+<script src="js/modules/mobilizacao.js"></script>
+<script src="js/modules/recursos.js"></script>
+<script src="js/modules/atividades.js"></script>
+
+<script src="js/modules/abas.js"></script>
+<script src="js/core/render.js"></script>
+<script src="js/core/script.js"></script>
+</body>
+</html>

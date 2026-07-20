@@ -1,0 +1,285 @@
+{
+  "id": "os440",
+  "nome": "Contrato OS 440",
+  "data": "20/07/2026",
+  "turno": "Turno Dia(B)",
+  "horario": "07:00 às 19:00",
+  "abas": [
+    {
+      "id": "integridade",
+      "nome": "Integridade",
+
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 6,
+          "Mecanico": 15,
+          "Soldador": 4,
+          "Montador": 10,
+          "Eletricista": 4,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 1,
+          "Mestre Montagem": 3,
+          "Mestre Andaime": 0
+        }
+      },
+
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 4,
+          "Mecanico": 13,
+          "Soldador": 5,
+          "Montador": 10,
+          "Eletricista": 2,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 1,
+          "Mestre Montagem": 3,
+          "Mestre Andaime": 1
+        }
+      },
+
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 0,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 0,
+        "naoJustificadas": 0
+      },
+
+      "mobilizacao": {
+        "Caldeireiro": 0,
+        "Mecanico": 0,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0
+      },
+
+      "recursos": [
+        {
+          "tipo": "munck",
+          "placa": "SGA-3I26",
+          "operador": "Cícero",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "munck",
+          "placa": "SGA-3I14",
+          "operador": "Augusto",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "pick-up",
+          "placa": "SFU-0A24",
+          "operador": "",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "pick-up",
+          "placa": "SFU-0A47",
+          "operador": "",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "pick-up",
+          "placa": "SFU-0401",
+          "operador": "",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "guindasre",
+          "placa": "OCW-3I96",
+          "operador": "",
+          "status": "OPERANTE"
+        }
+      ],
+
+      "atividades": [
+        {
+          "lider": "Wallace Ferreira(EXTRA)",
+          "telefone": "98 9229-0970",
+          "tecnicoSeguranca": "",
+          "equipe": "3 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor",
+          "oms": []
+        },
+        {
+          "lider": "Fagner Brandão",
+          "telefone": "98 8542-9199",
+          "tecnicoSeguranca": "",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador",
+          "oms": [
+            {
+              "numero": "202501044538",
+              "descricao": "AE1.2_SUBS.PARAF.DAS TALAS COM DE DE.CD04 (EP-06)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Rogério",
+          "telefone": "98 9965-3798",
+          "tecnicoSeguranca": "",
+          "equipe": "3 Mecânicos + 1 Ajudante Mecânico + 1 Soldador + 1 Caldeireiro",
+          "oms": [
+            {
+              "numero": "202603671382",
+              "descricao": "DEGRAD.CD04.SUP.CREM (ER-02)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Mailson Cordeiro",
+          "telefone": "",
+          "tecnicoSeguranca": "",
+          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor + 1 Eletricista",
+          "oms": [
+            {
+              "numero": "2026030506266",
+              "descricao": "DESNIVELAMENTO DA CABEÇA MÓVEL (TR-1306)",
+              "status": "Em andamento"
+            }
+          ]
+        }
+      ],
+
+      "observacoes": [
+        "TR-1313 (AGUARDANDO ENTRADA DA EQUIPE)"
+      ]
+    },
+
+    {
+      "id": "ferrovia",
+      "nome": "Ferrovia",
+
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 5,
+          "Mecanico": 8,
+          "Soldador": 4,
+          "Montador": 11,
+          "Eletricista": 1,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 5,
+          "Mecanico": 8,
+          "Soldador": 4,
+          "Montador": 11,
+          "Eletricista": 1,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 0,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 0,
+        "naoJustificadas": 0
+      },
+
+      "mobilizacao": {},
+
+      "recursos": [],
+
+      "atividades": []
+    },
+
+    {
+      "id": "telhado",
+      "nome": "Telhado",
+
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 0,
+          "Mecanico": 8,
+          "Soldador": 0,
+          "Montador": 8,
+          "Eletricista": 1,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 1,
+          "Mestre Andaime": 1
+        }
+      },
+
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 8,
+          "Soldador": 0,
+          "Montador": 6,
+          "Eletricista": 1,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 1,
+          "Mestre Andaime": 1
+        }
+      },
+
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 0,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 0,
+        "naoJustificadas": 0
+      },
+
+      "mobilizacao": {},
+
+      "recursos": [],
+
+      "atividades": [
+        {
+          "lider": "Edeilson",
+          "telefone": "98 8498-4952",
+          "tecnicoSeguranca": "",
+          "equipe": "8 mec + 01 elet",
+          "oms": [
+            {
+              "numero": "202603082626",
+              "descricao": "TME-SUBSTITUIR-TLS-1502(TR-1502)",
+              "status": "Em andamento"
+            }
+          ]
+    }
+  ]
+}
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "os442",
+  "nome": "Contrato OS 442",
+  "data": "20/07/2026",
+  "turno": "Turno Dia(B)",
+  "horario": "07:00 às 19:00",
+  "abas": [
+    {
+      "id": "ambiental",
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 3,
+          "Soldador": 1,
+          "Montador": 0,
+          "Eletricista": 3,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 5,
+          "Soldador": 2,
+          "Montador": 1,
+          "Eletricista": 4,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 1,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 1,
+        "Pintor": 0,
+        "justificadas": 2,
+        "naoJustificadas": 0
+      },
+      "mobilizacao": {
+        "Mecanico": 0,
+        "Eletricista": 0
+      },
+      "recursos": [
+        {
+          "tipo": "munck",
+          "placa": "RBB-3I45",
+          "operador": "Fernando (98 8406-7236)",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "pick-up",
+          "placa": "SFT-9H25",
+          "operador": "Rafael",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "ônibus",
+          "placa": "SIB9H77",
+          "operador": "Otoniel Braga",
+          "status": "OPERANTE"
+        }
+      ],
+      "atividades": [
+        {
+          "lider": "Orlando",
+          "telefone": "98 9964-3876",
+          "tecnicoSeguranca": "",
+          "equipe": "03 Mecânicos + 03 Eletricista + 01 Soldador + 01 Caldeireiro",
+          "oms": []
+        }
+      ],
+      "nome": "Ambiental"
+    },
+    {
+      "id": "utililidades",
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 4,
+          "Soldador": 1,
+          "Montador": 3,
+          "Eletricista": 4,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 4,
+          "Soldador": 2,
+          "Montador": 1,
+          "Eletricista": 4,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 1,
+          "Mestre Andaime": 0
+        }
+      },
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 1,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 1,
+        "Pintor": 0,
+        "justificadas": 2,
+        "naoJustificadas": 0
+      },
+      "mobilizacao": {
+        "Mecanico": 0,
+        "Eletricista": 0
+      },
+      "recursos": [
+        {
+          "tipo": "munck",
+          "placa": "RBB-3I45",
+          "operador": "Fernando (98 8406-7236)",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "pick-up",
+          "placa": "SFT-9H25",
+          "operador": "Rafael",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "ônibus",
+          "placa": "SIB9H77",
+          "operador": "Otoniel Braga",
+          "status": "OPERANTE"
+        }
+      ],
+      "atividades": [
+        
+        {
+          "lider": "Dionatan",
+          "telefone": "98 8162-8039",
+          "tecnicoSeguranca": "",
+          "equipe": "04 Mecânico + 04 Eletricista + 01 Caldeireiro + 01 Soldador + 03 M.andaime",
+          "oms": [
+            {
+              "numero": "202603042417",
+              "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1384",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602924187",
+              "descricao": "MCM MPV LUB 24S MOTOR GUINCH ATS TR1384",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602909962",
+              "descricao": "MCM-MPV LUB 16S GUINCHO ATS TR1384",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202504144233",
+              "descricao": "ATS 1384 - FREIOS COM DESGASTES",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202502027047",
+              "descricao": "ATS 1384 - CABO DE AÇO COM CORROSÃO",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202603042082",
+              "descricao": "MCM-MPV ELE 08S ESTICAMENTO ATS TR1384",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202502774070",
+              "descricao": "MCM-MPV MEC 16S TALHA TE-11-227 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602717824",
+              "descricao": "MCM-MPV ELE 16S TALHA TE-11-227 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602717820",
+              "descricao": "MCM-MPV ELE 16S TALHA TE-11-220 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602717821",
+              "descricao": "MCM-MPV ELE 16S TALHA TE-11-228 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202502774077",
+              "descricao": "MCM-MPV MEC 16S TALHA TE-11-228 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202502774100",
+              "descricao": "MCM-MPV MEC 16S TALHA TE-11-232 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602717822",
+              "descricao": "MCM-MPV ELE 16S TALHA TE-11-232 VV8",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202602717825",
+              "descricao": "MCM-MPV ELE 16S TALHA TE-11-216 VV8",
+              "status":"Em andamento"
+            }
+          ]
+        }
+      ],
+      "nome": "Utililidades"
+    }
+  ]
+}
