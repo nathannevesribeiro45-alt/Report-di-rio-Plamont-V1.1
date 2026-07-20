@@ -8,7 +8,7 @@ const Render = {
     // ==========================================
     // Inicializa o contrato
     // ==========================================
-    inicializar() {
+    async inicializar() {
 
         if (!Dashboard.contratoAtual) {
             console.error("Nenhum contrato carregado.");
@@ -19,7 +19,7 @@ const Render = {
         Header.render(Dashboard.contratoAtual);
 
         // Abas
-        Abas.render(Dashboard.contratoAtual.abas);
+        await Abas.render(Dashboard.contratoAtual.abas);
 
         // Primeira aba
         const primeiraAba = Dashboard.contratoAtual.abas[0];
@@ -67,15 +67,10 @@ const Render = {
         container.innerHTML = "";
 
         QLP.render(Dashboard.abaAtual, container);
-
         Histograma.render(Dashboard.abaAtual, container);
-
         Ausencias.render(Dashboard.abaAtual, container);
-
         Mobilizacao.render(Dashboard.abaAtual, container);
-
         Recursos.render(Dashboard.abaAtual, container);
-
         Atividades.render(Dashboard.abaAtual, container);
 
     },

@@ -8,7 +8,7 @@ const Abas = {
     // ======================================
     // Renderiza todas as abas
     // ======================================
-    render(abas) {
+    async render(abas) {
 
         if (!abas || abas.length === 0) {
             console.warn("Nenhuma aba encontrada.");
@@ -24,28 +24,52 @@ const Abas = {
             return;
         }
 
-        // Limpa o container
         container.innerHTML = "";
 
-        // Cria as abas
-        abas.forEach(aba => {
-            container.appendChild(
-                this.criarBotao(aba)
-            );
-        });
+        for (const aba of abas) {
+            const botao = await this.criarBotao(aba);
+            container.appendChild(botao);
+        }
 
     },
 
     // ======================================
     // Cria um botão de aba
     // ======================================
-    criarBotao(aba) {
+    async criarBotao(aba) {
 
         const botao = document.createElement("button");
 
         botao.className = "tab-btn";
         botao.dataset.id = aba.id;
-        botao.textContent = aba.nome;
+
+        let svg = "";
+
+        try {
+
+            const resposta = await fetch(aba.icone);
+
+            if (!resposta.ok) {
+                throw new Error("SVG não encontrado.");
+            }
+
+            svg = await resposta.text();
+
+        } catch (erro) {
+
+            console.error(`Erro ao carregar ícone: ${aba.icone}`, erro);
+
+        }
+
+        botao.innerHTML = `
+            <span class="tab-icon">
+                ${svg}
+            </span>
+
+            <span class="tab-text">
+                ${aba.nome}
+            </span>
+        `;
 
         botao.addEventListener("click", () => {
             Render.selecionarAba(aba.id);

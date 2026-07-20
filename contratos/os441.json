@@ -7,6 +7,7 @@
   "abas": [
     {
       "id": "desgaste",
+      "icone": "assets/icons/desgaste.svg",
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
@@ -132,6 +133,7 @@
     },
     {
       "id": "cond.seguras",
+      "icone": "assets/icons/condseguras.svg",
       "qlp": {
         "direto": {
           "Caldeireiro":4,

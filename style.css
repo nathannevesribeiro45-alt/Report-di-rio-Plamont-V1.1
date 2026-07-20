@@ -730,42 +730,65 @@ body{
 }
 
 
-/* =====================================================
-   ABAS OS 440
-===================================================== */
 
-.tabs{
-    display:inline-flex;
-    align-items:center;
-
-    gap:18px;
-
-    margin:20px 0 30px;
-
-    padding:8px;
-
-    background:#eef3f8;
-
-    border-radius:16px;
-
-    border:1px solid rgba(11,59,99,.08);
-
-    overflow-x:auto;
-
-    max-width:100%;
-}
 
 .tab-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:8px;
+
     border:none;
     background:#ffffff;
     color:#0B3B63;
+
     padding:12px 22px;
+
     border-radius:12px;
+
     font-weight:600;
+    font-size:15px;
+
     cursor:pointer;
+
     transition:.25s ease;
+
     white-space:nowrap;
+
     box-shadow:0 2px 8px rgba(0,0,0,.06);
+}
+
+.tab-icon{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-shrink:0;
+
+}
+
+.tab-icon svg{
+
+    width:18px;
+
+    height:18px;
+
+    display:block;
+
+    stroke:currentColor;
+
+}
+
+.tab-text{
+
+    display:block;
+
+    line-height:1;
+
 }
 
 .tab-btn:hover{
@@ -797,137 +820,116 @@ body{
 }
 
 /* =====================================================
-   ABAS OS 441
+   COMPONENTE - ABAS
 ===================================================== */
 
 .tabs{
     display:inline-flex;
     align-items:center;
-
-    gap:18px;
+    gap:16px;
 
     margin:20px 0 30px;
-
     padding:8px;
 
-    background:#eef3f8;
-
-    border-radius:16px;
+    background:#EEF3F8;
 
     border:1px solid rgba(11,59,99,.08);
+    border-radius:16px;
 
     overflow-x:auto;
-
     max-width:100%;
 }
 
 .tab-btn{
-    border:none;
-    background:#ffffff;
-    color:#0B3B63;
-    padding:12px 22px;
-    border-radius:12px;
-    font-weight:600;
-    cursor:pointer;
-    transition:.25s ease;
-    white-space:nowrap;
-    box-shadow:0 2px 8px rgba(0,0,0,.06);
-}
 
-.tab-btn:hover{
-    background:#eaf3ff;
-    transform:translateY(-2px);
-}
-
-.tab-btn.ativa{
-    background:#0B3B63;
-    color:#fff;
-    box-shadow:0 8px 18px rgba(11,59,99,.25);
-}
-
-.os441-conteudo{
-    display:none;
-}
-
-@media(max-width:768px){
-
-    .tabs{
-        gap:18px;
-        padding:4px;
-    }
-
-    .tab-btn{
-        flex:0 0 auto;
-        padding:10px 18px;
-        font-size:14px;
-    }
-
-}
-
-/* =====================================================
-   ABAS OS 442
-===================================================== */
-
-.tabs{
-    display:inline-flex;
+    display:flex;
     align-items:center;
+    justify-content:center;
+    gap:8px;
 
-    gap:18px;
-
-    margin:20px 0 30px;
-
-    padding:8px;
-
-    background:#eef3f8;
-
-    border-radius:16px;
-
-    border:1px solid rgba(11,59,99,.08);
-
-    overflow-x:auto;
-
-    max-width:100%;
-}
-
-.tab-btn{
     border:none;
-    background:#ffffff;
+
+    background:#FFFFFF;
     color:#0B3B63;
+
     padding:12px 22px;
+
     border-radius:12px;
+
+    font-size:15px;
     font-weight:600;
+
     cursor:pointer;
-    transition:.25s ease;
+
     white-space:nowrap;
+
     box-shadow:0 2px 8px rgba(0,0,0,.06);
+
+    transition:.25s ease;
+
 }
 
 .tab-btn:hover{
-    background:#eaf3ff;
+
+    background:#EAF3FF;
+
     transform:translateY(-2px);
+
 }
 
 .tab-btn.ativa{
+
     background:#0B3B63;
-    color:#fff;
+    color:#FFFFFF;
+
     box-shadow:0 8px 18px rgba(11,59,99,.25);
+
 }
 
-.os442-conteudo{
-    display:none;
+.tab-icon{
+
+    width:18px;
+    height:18px;
+
+    flex-shrink:0;
+
+    object-fit:contain;
+
+    transition:inherit;
+
+}
+
+.tab-text{
+
+    line-height:1;
+
 }
 
 @media(max-width:768px){
 
     .tabs{
-        gap:18px;
-        padding:4px;
+
+        gap:12px;
+
+        padding:6px;
+
     }
 
     .tab-btn{
+
         flex:0 0 auto;
+
         padding:10px 18px;
+
         font-size:14px;
+
+    }
+
+    .tab-icon{
+
+        width:16px;
+        height:16px;
+
     }
 
 }
@@ -1592,5 +1594,16 @@ body{
         align-items:flex-start;
 
     }
+
+}
+
+
+.icon{
+
+    display:block;
+
+    width:18px;
+
+    height:18px;
 
 }

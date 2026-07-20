@@ -7,6 +7,7 @@
   "abas": [
     {
       "id": "ambiental",
+      "icone": "assets/icons/ambiental.svg",
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
@@ -86,6 +87,7 @@
     },
     {
       "id": "utililidades",
+      "icone": "assets/icons/utilidades.svg",
       "qlp": {
         "direto": {
           "Caldeireiro": 1,

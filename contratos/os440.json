@@ -8,6 +8,8 @@
     {
       "id": "integridade",
       "nome": "Integridade",
+      "icone": "assets/icons/integridade.svg",
+      
 
       "qlp": {
         "direto": {
@@ -159,6 +161,7 @@
     {
       "id": "ferrovia",
       "nome": "Ferrovia",
+      "icone": "assets/icons/ferrovia.svg",
 
       "qlp": {
         "direto": {
@@ -215,6 +218,7 @@
     {
       "id": "telhado",
       "nome": "Telhado",
+      "icone": "assets/icons/telhado.svg",
 
       "qlp": {
         "direto": {
