@@ -90,6 +90,7 @@
           "lider": "Adilson",
           "tecnicoSeguranca": "98 98210-6618",
           "equipe": "03 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 M.andaime",
+          "status":"Em andamento",
           "oms": [
             {
               "numero": "202601435348",
@@ -106,6 +107,7 @@
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
           "equipe": "04 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 M.andaime",
+          "status":"Em andamento",
           "oms": [
             {
               "numero": "202601663552",
@@ -213,6 +215,7 @@
           "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "03 Mecânicos + 01 Soldador + 01 Caldeireiro + 03 M.andaime",
+          "status":"Em andamento",
           "oms": [
             {
               "numero": "202505877837",
