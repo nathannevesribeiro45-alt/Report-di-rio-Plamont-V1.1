@@ -59,61 +59,108 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "identificador": "SFU-0A29",
+          "placa": "SFU-0A29",
           "operador": "Marcio Douglas (98 98805-1819)",
           "status": "Operante"
         },
         {
           "tipo": "Munck",
-          "identificador": "QRD-8D21",
+          "placa": "QRD-8D21",
           "operador": "Moises (94 99181-8671)",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
-          "identificador": "SFU-0A29",
+          "placa": "SFU-0A29",
           "operador": "Italo (98 98184-5269)",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
-          "identificador": "QRI-2G50",
+          "placa": "QRI-2G50",
           "operador": "Rosivaldo (98 99187-8772)",
           "status": "Operante"
         },
         {
           "tipo": "Caminhao comboio",
-          "identificador": "PTG3093",
+          "placa": "PTG3093",
           "operador": "Maxuel (98 98113-3561)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
-          "identificador": "35008 / SMX-4110",
+          "placa": "SMX-4110",
           "operador": "Jobert (98 98802-8232)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
-          "identificador": "35022 / SMX-3C99",
+          "placa": "SMX-3C99",
           "operador": "Jesus (98 97010-4041)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
-          "identificador": "35054 / SMX-6I53",
+          "placa": "SMX-6I53",
           "operador": "Estevan (98 98474-3782)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
-          "identificador": "35046 / SMX-6G78",
+          "placa": "SMX-6G78",
           "operador": "Bruno (98 98850-8993)",
           "status": "Operante"
         }
       ],
-      "atividades": [],
+      "atividades": [
+        {
+          "lider": "Jadilson",
+          "telefone": "98 8505-6539",
+          "tecnicoSeguranca": "",
+          "equipe": "3 Mecânicos + 1 Soldador + 3 Caldeireiros",
+          "oms": [
+            {
+              "numero": "2026000219835",
+              "descricao": "ROLO_TROCAR 30 ROLOS DE CARGA TR15-03(TR-1503)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Célio Roberto",
+          "telefone": "98 98782-8657",
+          "tecnicoSeguranca": "",
+          "equipe": "3 montadores de andaime",
+          "oms": [
+            {
+              "numero": "202503878581",
+              "descricao": "ANDAIME:ROLO_TROCR 60 ROLO DE CARGA TR 1401(TR-1401)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Célio Roberto",
+          "telefone": "98 98782-8657",
+          "tecnicoSeguranca": "",
+          "equipe": "3 Montadores de andaime",
+          "oms": [
+            {
+              "numero": "202503927384",
+              "descricao": "ANDAIME_ROLO TROCR 06 ROLO DE RETORNO V TR 1401(TR-1401)",
+              "status": "Em andamento"
+            }
+            
+          ]
+        }
+        
+      ],
+       "observacoes": [
+    "Restante do efetivo atuando na desmob do Silo-01 e 5s"
+  ],
       "nome": "Manutenção de ativos"
     }
+    
   ]
+  
 }

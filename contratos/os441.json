@@ -5,124 +5,253 @@
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
-   {
-  "id": "desgaste",
-  "icone":"assets/icons/desgaste.svg",
-  "qlp": {
-    "direto": {
-      "Caldeireiro": 0,
-      "Mecanico": 0,
-      "Soldador": 0,
-      "Montador": 0,
-      "Eletricista": 0,
-      "Pintor": 0
+    {
+      "id": "desgaste",
+      "nome": "Desgaste",
+      "icone": "assets/icons/desgaste.svg",
+
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 3,
+          "Mecanico": 12,
+          "Soldador": 3,
+          "Montador": 8,
+          "Eletricista": 0,
+          "Pintor": 1
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 5,
+          "Mestre Andaime": 1,
+          "Mestre Eletrica": 0
+        }
+      },
+
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 3,
+          "Mecanico": 14,
+          "Soldador": 3,
+          "Montador": 8,
+          "Eletricista": 1,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 3,
+          "Mestre Andaime": 1
+        }
+      },
+
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 2,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 2,
+        "naoJustificadas": 0
+      },
+
+      "mobilizacao": {
+        "Mecanico": 0,
+        "Eletricista": 0
+      },
+
+      "recursos": [
+        {
+          "tipo": "Munck",
+          "placa": "RQP-8G78",
+          "operador": "José Carlos",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "RBB-1B72",
+          "operador": "Augusto",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "SFT 9J87",
+          "operador": "Hilgles (98 98537-4937)",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "Ônibus",
+          "placa": "SIB-9H77",
+          "operador": "Marcello (98 99967-2922)",
+          "status": "OPERANTE"
+        }
+      ],
+
+      "atividades": [
+        {
+          "lider": "Elias",
+          "telefone": "98 98210-6618",
+          "tecnicoSeguranca": "",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 2 Montadores",
+          "oms": [
+            {
+              "numero": "202603502190",
+              "descricao": "PREPARAÇÃO/DESMOBILIZAÇÃO PARA ATIVIDADES DESGASTE (ER-313K-02)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Iego",
+          "telefone": "98 8506-6056",
+          "tecnicoSeguranca": "",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "oms": [
+            {
+              "numero": "202601663864",
+              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN01)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202601663693",
+              "descricao": "MONTAR ANDAIME APOIADO PARA TROCA DE ROLOS DE IMPACTO DA MESA DO (CN01)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202503901627",
+              "descricao": "CHUTE_REALIZAR MP GUIA INTERNA (AL314K_01)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202601663552",
+              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN01)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Alexandre",
+          "telefone": "98 99228-6538",
+          "tecnicoSeguranca": "",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "oms": [
+            {
+              "numero": "202505877837",
+              "descricao": "MODIFICAÇÃO DO CV DA MESA SUSPENSA (1114)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202505466631",
+              "descricao": "DG-TROCAR 04 CAVALETES AA CARGA (1114)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603473898",
+              "descricao": "DESMONTAR ANDAIME (1114)",
+              "status": "Em andamento"
+            }
+          ]
+        }
+      ]
     },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 0,
-      "Mestre Andaime": 0
-    }
-  },
 
-  "histograma": {
-    "direto": {
-      "Caldeireiro": 3,
-      "Mecanico": 14,
-      "Soldador": 3,
-      "Montador": 8,
-      "Eletricista": 1,
-      "Pintor": 0
-    },
-    "indireto": {
-      "Supervisor Montagem": 1,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 3,
-      "Mestre Andaime": 1
-    }
-  },
-
-  "ausencias": {
-    "Caldeireiro": 0,
-    "Mecanico": 0,
-    "Soldador": 0,
-    "Montador": 0,
-    "Eletricista": 0,
-    "Pintor": 0,
-    "justificadas": 0,
-    "naoJustificadas": 0
-  },
-
-  "mobilizacao": {
-    
-  },
-
-  "recursos": [
-  
-   
-  ],
-
-  "atividades": [],
-      "nome": "Desgaste"
-    },
     {
       "id": "cond.seguras",
-      "icone":"assets/icons/condseguras.svg",
+      "nome": "Cond.seguras",
+      "icone": "assets/icons/condseguras.svg",
+
       "qlp": {
-    "direto": {
-      "Caldeireiro": 0,
-      "Mecanico": 0,
-      "Soldador": 0,
-      "Montador": 0,
-      "Eletricista": 0,
-      "Pintor": 0
-    },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 0,
-      "Mestre Andaime": 0
-    }
-  },
+        "direto": {
+          "Caldeireiro": 3,
+          "Mecanico": 5,
+          "Soldador": 2,
+          "Montador": 3,
+          "Eletricista": 0,
+          "Pintor": 1
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 1,
+          "Mestre Andaime": 1,
+          "Mestre Eletrica": 0
+        }
+      },
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 3,
+          "Mecanico": 7,
+          "Soldador": 3,
+          "Montador": 4,
+          "Eletricista": 1,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 1,
+          "Mestre Andaime": 0
+        }
+      },
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 2,
+        "Soldador": 1,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 3,
+        "naoJustificadas": 0
+      },
+      "mobilizacao": {},
+      "recursos": [],
 
-  "histograma": {
-    "direto": {
-      "Caldeireiro": 3,
-      "Mecanico": 7,
-      "Soldador": 3,
-      "Montador": 4,
-      "Eletricista": 0,
-      "Pintor": 0
-    },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 1,
-      "Mestre Andaime": 0
-    }
-  },
-
-  "ausencias": {
-    "Caldeireiro": 0,
-    "Mecanico": 0,
-    "Soldador": 0,
-    "Montador": 0,
-    "Eletricista": 0,
-    "Pintor": 0,
-    "justificadas": 0,
-    "naoJustificadas": 0
-  },
-
-  "mobilizacao": {
-
-  },
-
-  "recursos": [
- 
-  ],
-
-  "atividades": [],
-      "nome": "Cond.seguras"
+      "atividades": [
+        {
+          "lider": "Julio / Erickson",
+          "telefone": "98 8506-6125 / 98 9609-7660",
+          "tecnicoSeguranca": "",
+          "equipe": "5 Mecânicos + 3 Caldeireiros + 2 Soldadores + 1 Pintor + 3 Montadores",
+          "oms": [
+            {
+              "numero": "202603670888",
+              "descricao": "SEG_PS_AV.GRAD.PISO.PROX.CARROTENSOR1114 (TR1114)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202600470462",
+              "descricao": "SEG_RP-2-FEC.AB.CH.ROD.DIR.ACES.CAM.ROL (TR1306)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603719087",
+              "descricao": "SEG_PS_GRADE PSO DEF.PROX.ESC.ACESTB02TR (EP06)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603146083",
+              "descricao": "SEG_PS: TROCAR CHAPA DE PISO COM CORROSÃO (CN01)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603582154",
+              "descricao": "SEG_PS: TROCAR PEÇAS DA PASSARELA AO M1 (CN01)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202601602414",
+              "descricao": "SEG_PS_TROC CHAPA PISO PASS L/D BL-67 CV (TR1501)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603146083",
+              "descricao": "SEG_PS: TROCAR CHAPA DE PISO COM CORROSÃO (AM01)",
+              "status": "Em andamento"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

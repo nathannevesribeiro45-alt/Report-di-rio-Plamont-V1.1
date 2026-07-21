@@ -5,125 +5,218 @@
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
-   {
-  "id": "ambiental",
-  "icone":"assets/icons/ambiental.svg",
-  "qlp": {
-    "direto": {
-      "Caldeireiro": 0,
-      "Mecanico": 0,
-      "Soldador": 0,
-      "Montador": 0,
-      "Eletricista": 0,
-      "Pintor": 0
-    },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 0,
-      "Mestre Andaime": 0
-    }
-  },
-
-  "histograma": {
-    "direto": {
-      "Caldeireiro": 1,
-      "Mecanico": 5,
-      "Soldador": 2,
-      "Montador": 1,
-      "Eletricista": 4,
-      "Pintor": 0
-    },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 0,
-      "Mestre Andaime": 0
-    }
-  },
-
-  "ausencias": {
-    "Caldeireiro": 0,
-    "Mecanico": 0,
-    "Soldador": 0,
-    "Montador": 0,
-    "Eletricista": 0,
-    "Pintor": 0,
-    "justificadas": 0,
-    "naoJustificadas": 0
-  },
-
-  "mobilizacao": {
-    
-  },
-
-  "recursos": [
- 
-    
-   
-  ],
-
-  "atividades": [],
-      "nome": "Ambiental"
-    },
     {
-      "id": "utililidades",
-    "icone":"assets/icons/utilidades.svg",
+      "id": "ambiental",
+      "nome": "Ambiental",
+      "icone": "assets/icons/ambiental.svg",
+
       "qlp": {
-    "direto": {
-      "Caldeireiro": 0,
-      "Mecanico": 0,
-      "Soldador": 0,
-      "Montador": 0,
-      "Eletricista": 0,
-      "Pintor": 0
+        "direto": {
+          "Caldeireiro": 0,
+          "Mecanico": 0,
+          "Soldador": 0,
+          "Montador": 0,
+          "Eletricista": 0,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 5,
+          "Soldador": 2,
+          "Montador": 1,
+          "Eletricista": 4,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
+
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 0,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 0,
+        "naoJustificadas": 0
+      },
+
+      "mobilizacao": {},
+
+      "recursos": [],
+
+      "atividades": []
     },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 0,
-      "Mestre Montagem": 0,
-      "Mestre Andaime": 0
-    }
-  },
 
-  "histograma": {
-    "direto": {
-      "Caldeireiro": 1,
-      "Mecanico": 4,
-      "Soldador": 1,
-      "Montador": 2,
-      "Eletricista": 4,
-      "Pintor": 0
-    },
-    "indireto": {
-      "Supervisor Montagem": 0,
-      "Encarregado Montagem": 1,
-      "Mestre Montagem": 0,
-      "Mestre Andaime": 0
-    }
-  },
+    {
+      "id": "utilidades",
+      "nome": "Utilidades",
+      "icone": "assets/icons/utilidades.svg",
 
-  "ausencias": {
-    "Caldeireiro": 0,
-    "Mecanico": 0,
-    "Soldador": 0,
-    "Montador": 0,
-    "Eletricista": 0,
-    "Pintor": 0,
-    "justificadas": 0,
-    "naoJustificadas": 0
-  },
+      "qlp": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 6,
+          "Soldador": 1,
+          "Montador": 3,
+          "Eletricista": 6,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 1,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0,
+          "Mestre Eletrica": 0
+        }
+      },
 
-  "mobilizacao": {
+      "histograma": {
+        "direto": {
+          "Caldeireiro": 1,
+          "Mecanico": 4,
+          "Soldador": 1,
+          "Montador": 2,
+          "Eletricista": 4,
+          "Pintor": 0
+        },
+        "indireto": {
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 1,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
+        }
+      },
 
-  },
+      "ausencias": {
+        "Caldeireiro": 0,
+        "Mecanico": 0,
+        "Soldador": 0,
+        "Montador": 0,
+        "Eletricista": 0,
+        "Pintor": 0,
+        "justificadas": 0,
+        "naoJustificadas": 0
+      },
 
-  "recursos": [
+      "mobilizacao": {
+        "Mecanico": 0,
+        "Eletricista": 0
+      },
 
-  ],
+      "recursos": [
+        {
+          "tipo": "munck",
+          "placa": "RBD 3I45",
+          "operador": "Euclides",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "pick-up",
+          "placa": "SFT-9H25",
+          "operador": "Domingos (98 98518-9687)",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "Ônibus",
+          "placa": "ROR-4B49",
+          "operador": "Andreía (98 98868-4821)",
+          "status": "OPERANTE"
+        }
+      ],
 
-  "atividades": [],
-      "nome": "Utililidades"
+      "atividades": [
+        {
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
+          "tecnicoSeguranca": "",
+          "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
+          "oms": [
+            {
+              "numero": "202601477720",
+              "descricao": "INSTALAÇÃO DE CHAVE DE EMERGÊNCIA TIPO CORDÃO",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "José Maria",
+          "telefone": "98 98185-6567",
+          "tecnicoSeguranca": "",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "oms": [
+            {
+              "numero": "202603387079",
+              "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-313K-217)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603387261",
+              "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-313K-217)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603387471",
+              "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-313K-217)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603273792",
+              "descricao": "SUBSTITUIR MOTOREDUTOR CORREIA (EX-313K-06)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603008288",
+              "descricao": "TAMBOR SUPERIOR ALINHADOR AVARIADO (EX-311K-216)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202602713454",
+              "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-311K-216)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202602713456",
+              "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-311K-216)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202602713743",
+              "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-311K-216)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202501526390",
+              "descricao": "RESFRIADOR DE ÓLEO AVARIADO (EX-315K-03)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202504103712",
+              "descricao": "MOTORES COM BAIXA ISOLAÇÃO (EX-315K-03)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202504103709",
+              "descricao": "MOTORES COM BAIXA ISOLAÇÃO (EX-315K-03)",
+              "status": "Em andamento"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
