@@ -1,255 +1,127 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "20/07/2026",
-  "turno": "Turno Dia(B)",
+  "data": "21/07/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
-    {
-      "id": "desgaste",
-      "icone": "assets/icons/desgaste.svg",
-      "qlp": {
-        "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 10,
-          "Soldador": 3,
-          "Montador": 9,
-          "Eletricista": 0,
-          "Pintor": 0
-        },
-        "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 1
-        }
-      },
-      "histograma": {
-        "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 14,
-          "Soldador": 3,
-          "Montador": 8,
-          "Eletricista": 1,
-          "Pintor": 0
-        },
-        "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 1
-        }
-      },
-      "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 2,
-        "Soldador": 0,
-        "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0,
-        "justificadas": 2,
-        "naoJustificadas": 0
-      },
-      "mobilizacao": {
-        "Mecanico": 0,
-        "Eletricista": 0
-      },
-      "recursos": [
-        {
-          "tipo": "Munck",
-          "placa": "RQP-8G78",
-          "operador": "Gleydson",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "Munck",
-          "placa": "RBB-1B72",
-          "operador": "Geovanne",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Patrick(98 9984-4559)",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "pick-up",
-          "placa": "SFU-OA35",
-          "operador": "Anderson",
-          "status": "PREVENTIVA"
-        },
-        {
-          "tipo": "ônibus",
-          "placa": "SHX-5E42",
-          "operador": "Joerbete(98 8778-6779)",
-          "status": "OPERANTE"
-        }
-      ],
-      "atividades": [
-        {
-          "lider": "Adilson",
-          "tecnicoSeguranca": "98 98210-6618",
-          "equipe": "03 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 M.andaime",
-          "oms": [
-            {
-              "numero": "202601435348",
-              "descricao": "TROCAR 08 CHAPAS DE DESGASTE CHUTE RC",
-              "status":"Em andamento"
-            },
-            {
-              "numero": "202505446647",
-              "descricao": "TROCAR 19 ROLOS DO TRIPPER ER02",
-              "status":"Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Fernando Maranhão",
-          "telefone": "98 8506-6056",
-          "tecnicoSeguranca": "",
-          "equipe": "04 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 M.andaime",
-          "status":"Em andamento",
-          "oms": [
-            {
-              "numero": "202601663552",
-              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO CN01 – ATCR",
-               "status":"Em andamento"
-            },
-            {
-              "numero": "202602762727",
-              "descricao": "ROLO_TROCA 4 ROLO RETORNO V BL:21C1-18C2",
-               "status":"Em andamento"
-            },
-            {
-              "numero": "202602898705",
-              "descricao": "ROLO_TROCAR 2 ROLOS RETORNO V BALIZA 40",
-               "status":"Em andamento"
-            }
-          ]
-        }
-      ],
+   {
+  "id": "desgaste",
+  "icone":"assets/icons/desgaste.svg",
+  "qlp": {
+    "direto": {
+      "Caldeireiro": 0,
+      "Mecanico": 0,
+      "Soldador": 0,
+      "Montador": 0,
+      "Eletricista": 0,
+      "Pintor": 0
+    },
+    "indireto": {
+      "Supervisor Montagem": 0,
+      "Encarregado Montagem": 0,
+      "Mestre Montagem": 0,
+      "Mestre Andaime": 0
+    }
+  },
+
+  "histograma": {
+    "direto": {
+      "Caldeireiro": 3,
+      "Mecanico": 14,
+      "Soldador": 3,
+      "Montador": 8,
+      "Eletricista": 1,
+      "Pintor": 0
+    },
+    "indireto": {
+      "Supervisor Montagem": 1,
+      "Encarregado Montagem": 0,
+      "Mestre Montagem": 3,
+      "Mestre Andaime": 1
+    }
+  },
+
+  "ausencias": {
+    "Caldeireiro": 0,
+    "Mecanico": 0,
+    "Soldador": 0,
+    "Montador": 0,
+    "Eletricista": 0,
+    "Pintor": 0,
+    "justificadas": 0,
+    "naoJustificadas": 0
+  },
+
+  "mobilizacao": {
+    
+  },
+
+  "recursos": [
+  
+   
+  ],
+
+  "atividades": [],
       "nome": "Desgaste"
     },
     {
       "id": "cond.seguras",
-      "icone": "assets/icons/condseguras.svg",
+      "icone":"assets/icons/condseguras.svg",
       "qlp": {
-        "direto": {
-          "Caldeireiro":4,
-          "Mecanico": 3,
-          "Soldador": 4,
-          "Montador": 2,
-          "Eletricista": 1,
-          "Pintor": 1
-        },
-        "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
-          "Mestre Andaime": 0
-        }
-      },
-      "histograma": {
-        "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 7,
-          "Soldador": 3,
-          "Montador": 4,
-          "Eletricista": 0,
-          "Pintor": 0
-        },
-        "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
-          "Mestre Andaime": 0
-        }
-      },
-      "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 4,
-        "Soldador": 0,
-        "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0,
-        "justificadas": 2,
-        "naoJustificadas": 2
-      },
-      "mobilizacao": {
-        "Mecanico": 0,
-        "Eletricista": 0
-      },
-      "recursos": [
-        {
-          "tipo": "munck",
-          "placa": "RQP-8G78",
-          "operador": "Gleydson",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "munck",
-          "placa": "RBB-1B72",
-          "operador": "Geovanne",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Patrick(98 9984-4559)",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "pick-up",
-          "placa": "SFU-OA35",
-          "operador": "Anderson",
-          "status": "PREVENTIVA"
-        },
-        {
-          "tipo": "ônibus",
-          "placa": "SHX-5E42",
-          "operador": "Joerbete(98 8778-6779)",
-          "status": "OPERANTE"
-        }
-      ],
-      "atividades": [
-        {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
-          "tecnicoSeguranca": "",
-          "equipe": "03 Mecânicos + 01 Soldador + 01 Caldeireiro + 03 M.andaime",
-          "oms": [
-            {
-              "numero": "202505877837",
-              "descricao": "MODIFICAÇÃO DO CV MESA SUSPENSA 1114",
-              "status":"Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Wandersson",
-          "telefone": "98 98508-8348",
-          "tecnicoSeguranca": "Mauricio Maia (98 8105-1741)",
-          "equipe": "03 Mecânicos + 04 Caldeireiros + 04 Soldadores + 2 Montadores",
-          "oms": [
-            {
-              "numero": "202600622304",
-              "descricao": "POMA-PPR-DSC-TRANS-TR1306-ST1-EA01",
-              "status":"Em andamento"
-            },
-            {
-              "numero": "202600470462",
-              "descricao": "POMA-PPR-DSC-TRANS-TR1306-ST1-EA01",
-               "status":"Em andamento"
-            },
-            {
-              "numero": "202601278411",
-              "descricao": "POMA-PPR-EMP-IMPIL-EP06-TP1-EA01",
-               "status":"Em andamento"
-            }
-          ]
-        }
-      ],
+    "direto": {
+      "Caldeireiro": 0,
+      "Mecanico": 0,
+      "Soldador": 0,
+      "Montador": 0,
+      "Eletricista": 0,
+      "Pintor": 0
+    },
+    "indireto": {
+      "Supervisor Montagem": 0,
+      "Encarregado Montagem": 0,
+      "Mestre Montagem": 0,
+      "Mestre Andaime": 0
+    }
+  },
+
+  "histograma": {
+    "direto": {
+      "Caldeireiro": 3,
+      "Mecanico": 7,
+      "Soldador": 3,
+      "Montador": 4,
+      "Eletricista": 0,
+      "Pintor": 0
+    },
+    "indireto": {
+      "Supervisor Montagem": 0,
+      "Encarregado Montagem": 0,
+      "Mestre Montagem": 1,
+      "Mestre Andaime": 0
+    }
+  },
+
+  "ausencias": {
+    "Caldeireiro": 0,
+    "Mecanico": 0,
+    "Soldador": 0,
+    "Montador": 0,
+    "Eletricista": 0,
+    "Pintor": 0,
+    "justificadas": 0,
+    "naoJustificadas": 0
+  },
+
+  "mobilizacao": {
+
+  },
+
+  "recursos": [
+ 
+  ],
+
+  "atividades": [],
       "nome": "Cond.seguras"
     }
   ]

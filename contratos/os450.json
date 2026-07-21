@@ -1,20 +1,20 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "20/07/2026",
-  "turno": "Turno Dia(B)",
+  "data": "21/07/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
       "id": "manutenção de ativos",
-      "icone": "assets/icons/manutecao.svg",
+      "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
           "Caldeireiro": 5,
-          "Mecanico": 12,
+          "Mecanico": 11,
           "Soldador": 5,
-          "Montador": 7,
-          "Eletricista": 7,
+          "Montador": 8,
+          "Eletricista": 8,
           "Pintor": 0
         },
         "indireto": {
@@ -43,72 +43,73 @@
         }
       },
       "ausencias": {
-        "Caldeireiro": 3,
-        "Mecanico": 0,
-        "Soldador": 2,
+        "Caldeireiro": 0,
+        "Mecanico": 1,
+        "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 5,
+        "justificadas": 1,
         "naoJustificadas": 0
       },
       "mobilizacao": {
+        "Montador": 0,
         "Eletricista": 0
       },
       "recursos": [
         {
-          "tipo": "munck",
-          "placa": "QRI-7I40",
-          "operador": "ITALO (98 98203-1746)",
-          "status": "OPERANTE"
+          "tipo": "Munck",
+          "identificador": "SFU-0A29",
+          "operador": "Marcio Douglas (98 98805-1819)",
+          "status": "Operante"
         },
         {
-          "tipo": "munck",
-          "placa": "QRD-8213",
-          "operador": "DJANE (94 98409-0167)",
-          "status": "INOPERANTE"
+          "tipo": "Munck",
+          "identificador": "QRD-8D21",
+          "operador": "Moises (94 99181-8671)",
+          "status": "Operante"
         },
         {
-          "tipo": "pick-up",
-          "placa": "SFU-0A29",
-          "operador": "DIEGO (98 98887-6086)",
-          "status": "OPERANTE"
+          "tipo": "Pick-up",
+          "identificador": "SFU-0A29",
+          "operador": "Italo (98 98184-5269)",
+          "status": "Operante"
         },
         {
-          "tipo": "pick-up",
-          "placa": "QRI-2G50",
-          "operador": "FELIX (98 98841-3585)",
-          "status": "OPERANTE"
+          "tipo": "Pick-up",
+          "identificador": "QRI-2G50",
+          "operador": "Rosivaldo (98 99187-8772)",
+          "status": "Operante"
         },
         {
-          "tipo": "caminhão comboio",
-          "placa": "PTG3093",
-          "operador": "MAXUEL (98 98113-3561)",
-          "status": "OPERANTE"
+          "tipo": "Caminhao comboio",
+          "identificador": "PTG3093",
+          "operador": "Maxuel (98 98113-3561)",
+          "status": "Operante"
         },
         {
-          "tipo": "veículo leve",
-          "placa": "SMX-4110",
-          "operador": "JOBERT (98 98802-8232)",
-          "status": "OPERANTE"
+          "tipo": "Veículo leve",
+          "identificador": "35008 / SMX-4110",
+          "operador": "Jobert (98 98802-8232)",
+          "status": "Operante"
         },
         {
-          "tipo": "veículo leve",
-          "placa": "SMX-3C99",
-          "operador": "JESUS (98 97010-4041)",
-          "status": "OPERANTE"
+          "tipo": "Veículo leve",
+          "identificador": "35022 / SMX-3C99",
+          "operador": "Jesus (98 97010-4041)",
+          "status": "Operante"
         },
         {
-          "tipo": "veículo leve",
-          "placa": "SMX-6I53",
-          "operador": "ESTEVAN (98 98474-3782)",
-          "status": "OPERANTE"
+          "tipo": "Veículo leve",
+          "identificador": "35054 / SMX-6I53",
+          "operador": "Estevan (98 98474-3782)",
+          "status": "Operante"
         },
         {
-          "tipo": "veículo leve",
-          "placa": "SMX-6G78",
-          "operador": "BRUNO (98 98850-8993)",
-          "status": "OPERANTE"
+          "tipo": "Veículo leve",
+          "identificador": "35046 / SMX-6G78",
+          "operador": "Bruno (98 98850-8993)",
+          "status": "Operante"
         }
       ],
       "atividades": [],
