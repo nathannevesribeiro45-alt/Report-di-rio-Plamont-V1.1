@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "21/07/2026",
+  "data": "22/07/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,16 +13,16 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 12,
+          "Mecanico": 14,
           "Soldador": 3,
-          "Montador": 8,
+          "Montador": 9,
           "Eletricista": 0,
-          "Pintor": 1
+          "Pintor": 0
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 5,
+          "Mestre Montagem": 3,
           "Mestre Andaime": 1,
           "Mestre Eletrica": 0
         }
@@ -65,19 +65,13 @@
         {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador": "José Carlos",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "Munck",
-          "placa": "RBB-1B72",
-          "operador": "Augusto",
+          "operador": "José Carlos(98 98814-7068)",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFT 9J87",
-          "operador": "Hilgles (98 98537-4937)",
+          "operador": "HILGLES (98 98537-4937)",
           "status": "OPERANTE"
         },
         {
@@ -96,8 +90,8 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 2 Montadores",
           "oms": [
             {
-              "numero": "202603502190",
-              "descricao": "PREPARAÇÃO/DESMOBILIZAÇÃO PARA ATIVIDADES DESGASTE (ER-313K-02)",
+              "numero": "202602877204",
+              "descricao": "ROLO_TROCAR 25 ROLOS CARGA C ANDAIME 1501 (ER-315K-01)",
               "status": "Em andamento"
             }
           ]
@@ -106,7 +100,7 @@
           "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
               "numero": "202601663864",
@@ -114,18 +108,13 @@
               "status": "Em andamento"
             },
             {
-              "numero": "202601663693",
-              "descricao": "MONTAR ANDAIME APOIADO PARA TROCA DE ROLOS DE IMPACTO DA MESA DO (CN01)",
+              "numero": "202601663552",
+              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN01)",
               "status": "Em andamento"
             },
             {
               "numero": "202503901627",
               "descricao": "CHUTE_REALIZAR MP GUIA INTERNA (AL314K_01)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202601663552",
-              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN01)",
               "status": "Em andamento"
             }
           ]
@@ -134,7 +123,7 @@
           "lider": "Alexandre",
           "telefone": "98 99228-6538",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
               "numero": "202505877837",
@@ -164,8 +153,8 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 5,
-          "Soldador": 2,
+          "Mecanico": 6,
+          "Soldador": 3,
           "Montador": 3,
           "Eletricista": 0,
           "Pintor": 1
@@ -212,21 +201,11 @@
           "lider": "Julio / Erickson",
           "telefone": "98 8506-6125 / 98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 3 Caldeireiros + 2 Soldadores + 1 Pintor + 3 Montadores",
+          "equipe": "6 Mecânicos + 3 Caldeireiros + 3 Soldadores + 1 Pintor + 3 Montadores",
           "oms": [
-            {
-              "numero": "202603670888",
-              "descricao": "SEG_PS_AV.GRAD.PISO.PROX.CARROTENSOR1114 (TR1114)",
-              "status": "Em andamento"
-            },
             {
               "numero": "202600470462",
               "descricao": "SEG_RP-2-FEC.AB.CH.ROD.DIR.ACES.CAM.ROL (TR1306)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603719087",
-              "descricao": "SEG_PS_GRADE PSO DEF.PROX.ESC.ACESTB02TR (EP06)",
               "status": "Em andamento"
             },
             {
