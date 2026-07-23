@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "22/07/2026",
-  "turno": "Dia A",
+  "data": "23/07/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,7 +11,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 5,
-          "Mecanico": 11,
+          "Mecanico": 12,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 8,
@@ -59,26 +59,26 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "SFU-0A29",
-          "operador": "Marcio Douglas (98 98805-1819)",
+          "placa": "QRI-7I40",
+          "operador": "ITALO (98 98203-1746)",
           "status": "Operante"
         },
         {
           "tipo": "Munck",
-          "placa": "QRD-8D21",
-          "operador": "Moises (94 99181-8671)",
+          "placa": "QRD-8213",
+          "operador": "DJANE (94 98409-0167)",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0A29",
-          "operador": "Italo (98 98184-5269)",
+          "placa": "SFV-7I13",
+          "operador": "DIEGO (98 98887-6086)",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G50",
-          "operador": "Rosivaldo (98 99187-8772)",
+          "operador": "",
           "status": "Operante"
         },
         {
@@ -90,74 +90,30 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": "Jobert (98 98802-8232)",
+          "operador": "Alciomar (98 98802-8232)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Jesus (98 97010-4041)",
+          "operador": "Oliveira (98 97010-4041)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Estevan (98 98474-3782)",
+          "operador": "Gilmar (98 98474-3782)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Bruno (98 98850-8993)",
+          "operador": "Geilson (98 98850-8993)",
           "status": "Operante"
         }
       ],
-      "atividades": [
-        {
-          "lider": "Jadilson",
-          "telefone": "98 8505-6539",
-          "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Soldador + 3 Caldeireiros",
-          "oms": [
-            {
-              "numero": "2026000219835",
-              "descricao": "ROLO_TROCAR 30 ROLOS DE CARGA TR15-03(TR-1503)",
-              "status": "Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Célio Roberto",
-          "telefone": "98 98782-8657",
-          "tecnicoSeguranca": "",
-          "equipe": "3 montadores de andaime",
-          "oms": [
-            {
-              "numero": "202503878581",
-              "descricao": "ANDAIME:ROLO_TROCR 60 ROLO DE CARGA TR 1401(TR-1401)",
-              "status": "Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Célio Roberto",
-          "telefone": "98 98782-8657",
-          "tecnicoSeguranca": "",
-          "equipe": "3 Montadores de andaime",
-          "oms": [
-            {
-              "numero": "202503927384",
-              "descricao": "ANDAIME_ROLO TROCR 06 ROLO DE RETORNO V TR 1401(TR-1401)",
-              "status": "Em andamento"
-            }
-            
-          ]
-        }
-        
-      ],
-       "observacoes": [
-    "Restante do efetivo atuando na desmob do Silo-01 e 5s"
-  ],
+      "atividades": [],
+       "observacoes": [],
       "nome": "Manutenção de ativos"
     }
     

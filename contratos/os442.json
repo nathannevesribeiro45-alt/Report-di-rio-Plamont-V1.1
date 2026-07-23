@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "22/07/2026",
-  "turno": "Dia A",
+  "data": "23/07/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -69,7 +69,7 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 1,
+          "Caldeireiro": 0,
           "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
@@ -121,67 +121,92 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": "RBB-1B72",
-          "operador": "José Ausgusto (98 98858-7321)",
+          "placa": " RQP - 8G78 ",
+          "operador": "GLEYDSON",
           "status": "OPERANTE"
         },
         {
           "tipo": "pick-up",
           "placa": "SFT-9H25",
-          "operador": "Domingos (98 98518-9687)",
+          "operador": "Rafael",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
-          "operador": "Andreía (98 98868-4821)",
+          "operador": "Marcello - 98 99967-2922",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Josias(INFRAELÉTRICA)",
-          "telefone": "98 8161-3655",
+          "lider": "Joderson(INFRAELÉTRICA)",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
           "oms": [
             {
-              "numero": "202601477720",
-              "descricao": "INSTALAÇÃO DE CHAVE DE EMERGÊNCIA TIPO CORDÃO",
+              "numero": "202505396876",
+              "descricao": "RPR-POSTE FOTODETECTOR LOC AVARIADO",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "José Maria",
-          "telefone": "98 98185-6567",
+          "lider": "Orlando",
+          "telefone": "98 9964-3876",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603557201",
-              "descricao": "MP ELE TRANSLAÇÃO CARRO PONTE 50/15T (TR-313K-06)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603008288",
-              "descricao": "EX-216 TAMBOR SUPERIOR ALINHADOR AVARIADO (TR-311K-12)",
-              "status": "Em andamento"
-            },
-            {
               "numero": "202502027047",
-              "descricao": "ATS 1384 - CABO DE AÇO COM CORROSÃO (TR-313K-84)",
+              "descricao": "ATS 1384 - CABO DE AÇO COM CORROSÃO",
               "status": "Em andamento"
             },
             {
-              "numero": "202603528885",
-              "descricao": "MONTAR/DESMONTAR ANDAIME NO CARRO TENSOR (TR-313K-84)",
+              "numero": "202504144233",
+              "descricao": "ATS 1384 - FREIOS COM DESGASTES",
               "status": "Em andamento"
             },
             {
               "numero": "202601874067",
-              "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-220 (TR-313K-84)",
+              "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-220",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603521228",
+              "descricao": "MCM-MPV LUB 08S GUINCHO ATS TR1387",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603516708",
+              "descricao": "EPO-MPV INST 3M CHAVE ROTATIVA",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603516713",
+              "descricao": "EPO-MPV ELE 3M PAINEL ELÉTRICO",
+              "status": "Em andamento"
+            },
+             {
+              "numero": "202603516788",
+              "descricao": "EPO-MPV ELE 3M PAINEL ELÉTRICO",
+              "status": "Em andamento"
+            },
+             {
+              "numero": "202603516787",
+              "descricao": "EPO-MPV HID 3M  REDUTOR GUINCHO",
+              "status": "Em andamento"
+            },
+              {
+              "numero": "202603516785",
+              "descricao": "EPO-MPV INST 3M CHAVE ROTATIVA",
+              "status": "Em andamento"
+            },
+              {
+              "numero": "202603516784",
+              "descricao": "EPO-MPV ELE 3M TRANSLAÇÃO",
               "status": "Em andamento"
             }
           

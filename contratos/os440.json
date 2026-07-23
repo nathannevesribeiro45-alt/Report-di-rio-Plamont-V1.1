@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "22/07/2026",
-  "turno": "Dia A",
+  "data": "23/07/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,9 +10,9 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 11,
-          "Mecanico": 20,
-          "Soldador": 9,
+          "Caldeireiro": 5,
+          "Mecanico": 11,
+          "Soldador": 3,
           "Montador": 10,
           "Eletricista": 2,
           "Pintor": 0
@@ -21,7 +21,7 @@
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 3,
-          "Mestre Andaime": 0
+          "Mestre Andaime": 2
         }
       },
       "histograma": {
@@ -35,19 +35,19 @@
         },
         "indireto": {
           "Supervisor Montagem": 1,
-          "Encarregado Montagem": 1,
+          "Encarregado Montagem": 0,
           "Mestre Montagem": 3,
-          "Mestre Andaime": 1
+          "Mestre Andaime": 2
         }
       },
       "ausencias": {
         "Caldeireiro": 0,
-        "Mecanico": 1,
+        "Mecanico": 2,
         "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 1,
+        "justificadas": 0,
         "naoJustificadas": 0
       },
       "mobilizacao": {
@@ -62,43 +62,51 @@
         {
           "tipo": "Munck",
           "placa": "SGA-3I26",
-          "operador": "Cícero",
-          "status": "OPERANTE"
+          "operador": "Milquenio (98 98331-7069) ",
+          "contato": "(98) 98331-7069"
         },
-        {
+          {
           "tipo": "Munck",
-          "placa": "SGA-3I14",
-          "operador": "Augusto",
-          "status": "OPERANTE"
+          "placa": "SGA3I14 (Manutenção)",
+          "operador": "Luis Ronaldo (98 98331-7069)  ",
+          "contato": "(98) 98331-7069"
         },
         {
           "tipo": "Munck",
           "placa": "SGA-3I06",
-          "operador": "APOIO À PPL",
-          "status": "OPERANTE"
+          "operador": "Mário (98 98461-3993) ",
+          "contato": "(98) 98461-3993"
+        },
+        {
+          "tipo": "Guindaste",
+          "placa": "NXK-0961",
+          "operador": "Alexandre (98 99224-0817) ",
+          "contato": "(98) 99224-0817"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0A24",
-          "operador": "",
-          "status": "OPERANTE"
+          "placa": "SFU-0A29",
+          "operador": "Paulo (98 99601-6428) ",
+          "contato": "(98) 99601-6428"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0401",
-          "operador": "",
-          "status": "OPERANTE"
+          "placa": "SFU-0A47",
+          "operador": "Janice (98 98880-3110)",
+          "contato": "(98) 98880-3110"
         },
-        {
+         {
           "tipo": "Pick-up",
-          "placa": "OCW-3I96",
-          "operador": "",
-          "status": "OPERANTE"
+          "placa": "SFU-0A01",
+          "operador": "Genillon (98 98715-5916)",
+          "contato": "(98) 98715-5916"
         }
+        
+        
       ],
       "atividades": [
         {
-          "lider": "Wallace Ferreira(EXTRA)",
+          "lider": "Wallace Ferreira",
           "telefone": "98 9229-0970",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor",
@@ -111,60 +119,38 @@
           ]
         },
         {
-          "lider": "Gutemberg",
-          "telefone": "98 8857-8265",
+          "lider": "Rogério",
+          "telefone": "98 9965-3798",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 3 Caldeireiros + 2 Soldadores + 1 Ajudante Montagem",
+          "equipe": "3 Mecânicos + 1 Caldeireiros + 1 Soldadores + 1 Ajudante Montagem",
           "oms": [
             {
-              "numero": "202603671382",
-              "descricao": "DEGRAD.CD04.SUP.CREM (ER-02)",
+              "numero": "202603769458",
+              "descricao": "RECUPERARTRINCA ESTRUTURA RODAEQGIRO(ER-03)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Mailson Cordeiro",
-          "telefone": "98 9614-6804",
+          "lider": "Fagner",
+          "telefone": "98 8542-9199",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor + 1 Eletricista",
+          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista",
           "oms": [
             {
-              "numero": "2026030506266",
-              "descricao": "DESNIVELAMENTO DA CABEÇA MÓVEL (TR-1306)",
+              "numero": "202603477003",
+              "descricao": "RECUP. TRINCAS ENTRE MESAS 1/2(CN-01)",
               "status": "Em andamento"
             }
           ]
-        },
-        {
-          "lider": "João Batista",
-          "telefone": "98 8887-8415",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 2 Soldadores + 2 Caldeireiros + 1 Eletricista",
-          "oms": [
-            {
-              "numero": "2026030506266",
-              "descricao": "DESNIVELAMENTO DA CABEÇA MÓVEL (TR-1306) (APOIO)",
-              "status": "Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Augusto Campos",
-          "telefone": "98 8508-9007",
-          "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 3 Soldadores + 2 Caldeireiros + 1 Eletricista",
-          "oms": [
-            {
-              "numero": "1202504416329",
-              "descricao": "PE1.0_REFORÇAR VIGA DO SIST.TRAVAMENTO (TR-1313) - Atividade no canteiro (FABRICAÇÃO)",
-              "status": "Em andamento"
-            }
-          ]
-        }
+        } 
       ],
       "nome": "Integridade",
-      "observacoes": []
+      "observacoes": [
+      
+       "Desmobilização do TR-313k-06 ainda em andamento." 
+
+      ]
     },
     {
       "id": "ferrovia",
@@ -229,10 +215,10 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 0,
-          "Mecanico": 8,
+          "Mecanico": 7,
           "Soldador": 0,
           "Montador": 8,
-          "Eletricista": 1,
+          "Eletricista": 2,
           "Pintor": 0
         },
         "indireto": {
@@ -269,24 +255,17 @@
         "naoJustificadas": 0
       },
       "mobilizacao": {},
-      "recursos": [
-        {
-          "tipo": "",
-          "identificador": "",
-          "operador": "",
-          "status": ""
-        }
-      ],
+      "recursos": [],
       "atividades": [
         {
-          "lider": "Jonindgne Carvalho",
-          "telefone": "98 98242-6658",
+          "lider": "Ronielisson Moraes",
+          "telefone": "98 98785-9820",
           "tecnicoSeguranca": "",
-          "equipe": "8 mecânicos + 01 eletricista",
+          "equipe": "7 mecânicos + 02 eletricista",
           "oms": [
             {
-              "numero": "202603082626",
-              "descricao": "TME-SUBSTITUIR-TLS-1502 (TR-1502)",
+              "numero": "202501444743",
+              "descricao": "TME-TROCAR-REPOR-TELHAS-CT-06-PIER3",
               "status": "Em andamento"
             }
           ]

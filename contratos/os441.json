@@ -13,7 +13,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 13,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -84,62 +84,53 @@
 
       "atividades": [
         {
-          "lider": "Elias",
+          "lider": "Adilson",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 2 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202602877204",
-              "descricao": "ROLO_TROCAR 25 ROLOS CARGA C ANDAIME 1501 (ER-315K-01)",
+              "numero": "202603528478",
+              "descricao": "PREPARAÇÃO/DESMOBILIZAÇÃO PARA ATIVIDADES DESGASTE (RP-313K-03)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Iego",
+          "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 3 Montadores",
           "oms": [
             {
+              "numero": "202602762727",
+              "descricao": "ROLO_TROCA 4 ROLO RETORNO V BL 21C1 18C2 ()",
+              "status": "Em andamento"
+            },
+            {
+              "numero": " 202602762854",
+              "descricao": "ANDAIME: CHUTE_TROCAR GUIA CHUTE 1501 (TR-1501)",
+              "status": "Em andamento"
+            },
+            {
               "numero": "202601663864",
-              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN01)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202601663552",
-              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN01)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202503901627",
-              "descricao": "CHUTE_REALIZAR MP GUIA INTERNA (AL314K_01)",
+              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN-01)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228-6538",
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202505877837",
-              "descricao": "MODIFICAÇÃO DO CV DA MESA SUSPENSA (1114)",
-              "status": "Em andamento"
-            },
-            {
               "numero": "202505466631",
-              "descricao": "DG-TROCAR 04 CAVALETES AA CARGA (1114)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603473898",
-              "descricao": "DESMONTAR ANDAIME (1114)",
+              "descricao": "DG-TROCAR 04 CAVALETES AA CARGA 1114 (TR-1114)",
               "status": "Em andamento"
             }
+        
           ]
         }
       ]
@@ -198,37 +189,11 @@
 
       "atividades": [
         {
-          "lider": "Julio / Erickson",
-          "telefone": "98 8506-6125 / 98 9609-7660",
+          "lider": "Wanderson / Mauricio Maia",
+          "telefone": "98 98508-8348 / 98 8105-1741",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 3 Caldeireiros + 3 Soldadores + 1 Pintor + 3 Montadores",
-          "oms": [
-            {
-              "numero": "202600470462",
-              "descricao": "SEG_RP-2-FEC.AB.CH.ROD.DIR.ACES.CAM.ROL (TR1306)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603146083",
-              "descricao": "SEG_PS: TROCAR CHAPA DE PISO COM CORROSÃO (CN01)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603582154",
-              "descricao": "SEG_PS: TROCAR PEÇAS DA PASSARELA AO M1 (CN01)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202601602414",
-              "descricao": "SEG_PS_TROC CHAPA PISO PASS L/D BL-67 CV (TR1501)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603146083",
-              "descricao": "SEG_PS: TROCAR CHAPA DE PISO COM CORROSÃO (AM01)",
-              "status": "Em andamento"
-            }
-          ]
+          "equipe": "4 Mecânicos + 4 Caldeireiros + 4 Soldadores + 1 Pintor + 2 Montadores",
+          "oms": []
         }
       ]
     }
