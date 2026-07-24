@@ -113,8 +113,41 @@
           "status": "Operante"
         }
       ],
-      "atividades": [],
-       "observacoes": [],
+      "atividades": [
+        {
+          "lider": "Jesse Tharlisson",
+          "telefone": "98 8817-1971",
+          "tecnicoSeguranca": "",
+          "equipe": "3 mecânicos + 02 caldereiros + 02 soldadores + 01 pintor + 01 ajudante mont.",
+          "oms": [
+            {
+              "numero": "202602949232",
+              "descricao": "ROLO_TROCAR 36 ROLOS CARG BLZ01 02 (CN-01)",
+              "status": "Em andamento"
+            }
+            
+            
+          ]
+        },
+        {
+          "lider": "Fabricio ",
+          "telefone": "98 9112-7960",
+          "tecnicoSeguranca": "",
+          "equipe": "3 mecânicos + 02 caldereiros + 02 soldadores",
+          "oms": [
+            {
+              "numero": "2026000468497",
+              "descricao": "CAVALETE_TROCAR 2 CV 4-5 B2 M1 RECB 1313(Tr-1313)",
+              "status": "Em andamento"
+            }
+            
+            
+          ]
+        }
+      ],
+       "observacoes": [
+        "Efetivo restante realizando a desmobilização do Silo 01"
+       ],
       "nome": "Manutenção de ativos"
     }
     
