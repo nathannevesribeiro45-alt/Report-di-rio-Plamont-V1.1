@@ -60,14 +60,14 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "QRI-7I40",
+          "placa": "QRD-8212",
           "operador": "ITALO (98 98203-1746)",
           "status": "Operante"
         },
         {
           "tipo": "Munck",
-          "placa": "QRD-8213",
-          "operador": "DJANE (94 98409-0167)",
+          "placa": "QRI-8D21",
+          "operador": "MOISÉS (98 98791-0912)",
           "status": "Operante"
         },
         {
@@ -79,7 +79,7 @@
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G50",
-          "operador": "Felix",
+          "operador": "JAKSON (98 98809-6321)",
           "status": "Operante"
         },
         {
