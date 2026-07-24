@@ -1,22 +1,22 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "23/07/2026",
+  "data": "24/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
       "id": "ambiental",
-      "nome": "Ambiental",
-      "icone": "assets/icons/ambiental.svg",
+      "nome": "Infraelétrica",
+      "icone": "assets/icons/raio.svg",
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 0,
+          "Caldeireiro": 1,
           "Mecanico": 0,
-          "Soldador": 0,
+          "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 0,
+          "Eletricista": 3,
           "Pintor": 0
         },
         "indireto": {
@@ -30,9 +30,9 @@
       "histograma": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 5,
-          "Soldador": 2,
-          "Montador": 1,
+          "Mecanico": 0,
+          "Soldador": 0,
+          "Montador": 0,
           "Eletricista": 4,
           "Pintor": 0
         },
@@ -59,7 +59,22 @@
 
       "recursos": [],
 
-      "atividades": []
+      "atividades": [{
+          "lider": "Joderson",
+          "telefone": "98 9964-3876",
+          "tecnicoSeguranca": "",
+          "equipe": "03 eletricistas + 01 caldereiro + 01 soldador",
+          "oms": [
+            {
+              "numero": "202505396876",
+              "descricao": "RPR-POSTE FOTODETECTOR LOC AVARIADO",
+              "status": "Em andamento"
+            }
+           
+      
+          ]
+        }
+      ]
     },
 
     {
@@ -121,8 +136,8 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": " RQP - 8G78 ",
-          "operador": "GLEYDSON",
+          "placa": " RBB-1B72 ",
+          "operador": "GEOVANE",
           "status": "OPERANTE"
         },
         {
@@ -140,78 +155,123 @@
       ],
 
       "atividades": [
-        {
-          "lider": "Joderson(INFRAELÉTRICA)",
-          "telefone": "98 8476-4303",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
-          "oms": [
-            {
-              "numero": "202505396876",
-              "descricao": "RPR-POSTE FOTODETECTOR LOC AVARIADO",
-              "status": "Em andamento"
-            }
-          ]
-        },
-        {
+    {
           "lider": "Orlando",
           "telefone": "98 9964-3876",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
           "oms": [
-            {
-              "numero": "202502027047",
-              "descricao": "ATS 1384 - CABO DE AÇO COM CORROSÃO",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202504144233",
-              "descricao": "ATS 1384 - FREIOS COM DESGASTES",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202601874067",
-              "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-220",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603521228",
-              "descricao": "MCM-MPV LUB 08S GUINCHO ATS TR1387",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603516708",
-              "descricao": "EPO-MPV INST 3M CHAVE ROTATIVA",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603516713",
-              "descricao": "EPO-MPV ELE 3M PAINEL ELÉTRICO",
-              "status": "Em andamento"
-            },
-             {
-              "numero": "202603516788",
-              "descricao": "EPO-MPV ELE 3M PAINEL ELÉTRICO",
-              "status": "Em andamento"
-            },
-             {
-              "numero": "202603516787",
-              "descricao": "EPO-MPV HID 3M  REDUTOR GUINCHO",
-              "status": "Em andamento"
-            },
-              {
-              "numero": "202603516785",
-              "descricao": "EPO-MPV INST 3M CHAVE ROTATIVA",
-              "status": "Em andamento"
-            },
-              {
-              "numero": "202603516784",
-              "descricao": "EPO-MPV ELE 3M TRANSLAÇÃO",
-              "status": "Em andamento"
-            }
-          
-      
-          ]
+  {
+    "numero": "202603322957",
+    "descricao": "MCM-MPV ELE 08S GUINCHO ESTIC TR1383",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603321432",
+    "descricao": "PREVENTIVA LUB_HID REDUTOR",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603325698",
+    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1383",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603662767",
+    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1502",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602244759",
+    "descricao": "MCM-MPV MEC UTL 08S TR1502 GC02",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602244820",
+    "descricao": "MCM-MPV ELE UTL 08S TR1502 GC02",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602345003",
+    "descricao": "GC 1317 - PARAFUSOS DA BASE CORROIDO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603516788",
+    "descricao": "EPO-MPV ELE 3M PAINEL ELÉTRICO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603516787",
+    "descricao": "EPO-MPV HID 3M REDUTOR GUINCHO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603516785",
+    "descricao": "EPO-MPV INST 3M CHAVE ROTATIVA",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603516784",
+    "descricao": "EPO-MPV ELE 3M TRANSLAÇÃO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603521231",
+    "descricao": "MCM-MPV MEC 08S ESTICAMENTO ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602361525",
+    "descricao": "MCM-MPV MEC 08S ESTICAMENTO ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603516707",
+    "descricao": "EPO-MPV ELE 3M ESTICAMENTO 1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602358734",
+    "descricao": "MCM MPV LUB 24S MOTOR GUINCH ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602361527",
+    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602361529",
+    "descricao": "MCM-MPV LUB 08S GUINCHO ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602850487",
+    "descricao": "MCM-TRC LUB 01A ÓLEO GUINCH ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603520859",
+    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603521228",
+    "descricao": "MCM-MPV LUB 08S GUINCHO ATS TR1387",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603516711",
+    "descricao": "EPO-MPV HID 3M REDUTOR GUINCHO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603399421",
+    "descricao": "RETIRAR TALHA TE-3150KP-09",
+    "status": "Em andamento"
+  }
+         ]
         }
       ]
     }

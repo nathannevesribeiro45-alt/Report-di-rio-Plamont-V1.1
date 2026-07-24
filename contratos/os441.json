@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "23/07/2026",
+  "data": "24/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,8 +13,8 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
-          "Soldador": 3,
+          "Mecanico": 12,
+          "Soldador": 2,
           "Montador": 9,
           "Eletricista": 0,
           "Pintor": 0
@@ -65,19 +65,25 @@
         {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador": "José Carlos(98 98814-7068)",
+          "operador": "Gleydson",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFT 9J87",
-          "operador": "HILGLES (98 98537-4937)",
+          "placa": "SFU0A35",
+          "operador": "Wesley",
+          "status": "OPERANTE"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "SFR-3B97",
+          "operador": "Patrick",
           "status": "OPERANTE"
         },
         {
           "tipo": "Ônibus",
-          "placa": "SIB-9H77",
-          "operador": "Marcello (98 99967-2922)",
+          "placa": "SHX-5E42",
+          "operador": "Joeberte",
           "status": "OPERANTE"
         }
       ],
@@ -103,18 +109,8 @@
           "equipe": "4 Mecânicos + 1 Caldeireiro + 3 Montadores",
           "oms": [
             {
-              "numero": "202602762727",
-              "descricao": "ROLO_TROCA 4 ROLO RETORNO V BL 21C1 18C2 ()",
-              "status": "Em andamento"
-            },
-            {
               "numero": " 202602762854",
               "descricao": "ANDAIME: CHUTE_TROCAR GUIA CHUTE 1501 (TR-1501)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202601663864",
-              "descricao": "ANDAIME: ROLO_TROCAR 50 ROLOS DE IMPACTO (CN-01)",
               "status": "Em andamento"
             }
           ]
@@ -123,11 +119,16 @@
           "lider": "Ederson",
           "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
               "numero": "202505466631",
               "descricao": "DG-TROCAR 04 CAVALETES AA CARGA 1114 (TR-1114)",
+              "status": "Em andamento"
+            },
+             {
+              "numero": "202603473898",
+              "descricao": "DESMONTAR ANDAIME",
               "status": "Em andamento"
             }
         
@@ -143,10 +144,10 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 6,
-          "Soldador": 3,
-          "Montador": 3,
+          "Caldeireiro": 4,
+          "Mecanico": 4,
+          "Soldador": 4,
+          "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
         },
@@ -193,7 +194,13 @@
           "telefone": "98 98508-8348 / 98 8105-1741",
           "tecnicoSeguranca": "",
           "equipe": "4 Mecânicos + 4 Caldeireiros + 4 Soldadores + 1 Pintor + 2 Montadores",
-          "oms": []
+          "oms": [
+            {
+             "numero": "202603505406",
+              "descricao": "SEG_PS_FABRICAR 4 TAMPAS PARA ALÇAPÕES",
+              "status": "Em andamento" 
+            }
+          ]
         }
       ]
     }

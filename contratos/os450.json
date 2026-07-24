@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "23/07/2026",
+  "data": "24/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -14,7 +14,8 @@
           "Mecanico": 12,
           "Soldador": 5,
           "Montador": 8,
-          "Eletricista": 8,
+          "Eletricista": 7,
+          "Ajudante de mont.":2,
           "Pintor": 0
         },
         "indireto": {
@@ -78,7 +79,7 @@
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G50",
-          "operador": "",
+          "operador": "Felix",
           "status": "Operante"
         },
         {

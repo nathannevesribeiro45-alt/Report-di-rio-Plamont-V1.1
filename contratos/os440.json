@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "23/07/2026",
+  "data": "24/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -51,9 +51,10 @@
         "naoJustificadas": 0
       },
       "mobilizacao": {
-        "Caldeireiro": 0,
-        "Mecanico": 0,
-        "Soldador": 0,
+        "Caldeireiro": 1,
+        "Mecanico": 3,
+        "Soldador": 1,
+        "Ajudante mont.":1,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0
@@ -119,19 +120,6 @@
           ]
         },
         {
-          "lider": "Rogério",
-          "telefone": "98 9965-3798",
-          "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiros + 1 Soldadores + 1 Ajudante Montagem",
-          "oms": [
-            {
-              "numero": "202603769458",
-              "descricao": "RECUPERARTRINCA ESTRUTURA RODAEQGIRO(ER-03)",
-              "status": "Em andamento"
-            }
-          ]
-        },
-        {
           "lider": "Fagner",
           "telefone": "98 8542-9199",
           "tecnicoSeguranca": "",
@@ -148,7 +136,8 @@
       "nome": "Integridade",
       "observacoes": [
       
-       "Desmobilização do TR-313k-06 ainda em andamento." 
+       "Desmobilização da RP-04 ainda em andamento.",
+       "Mobilização para TR-325K-16." 
 
       ]
     },
@@ -207,7 +196,7 @@
         }
       ],
       "atividades": [],
-      "nome": "Ferrovia"
+      "nome": "Porto Eventual"
     },
     {
       "id": "telhado",
