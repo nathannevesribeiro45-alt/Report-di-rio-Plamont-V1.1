@@ -55,8 +55,9 @@
         "naoJustificadas": 0
       },
       "mobilizacao": {
-        "Montador": 0,
-        "Eletricista": 0
+        "Montador": 5,
+        "Caldeireiro": 2,
+        "Soldador":1
       },
       "recursos": [
         {
