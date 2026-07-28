@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "24/07/2026",
+  "data": "28/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -28,11 +28,12 @@
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 8,
+          "Caldeireiro": 5,
           "Mecanico": 12,
-          "Soldador": 7,
+          "Soldador": 5,
           "Montador": 7,
-          "Eletricista": 7,
+          "Eletricista": 8,
+          "Ajudante de mont.": 2,
           "Pintor": 0
         },
         "indireto": {
@@ -60,7 +61,7 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "QRD-8212",
+          "placa": "QRI-7I40",
           "operador": "ITALO (98 98203-1746)",
           "status": "Operante"
         },
@@ -68,7 +69,7 @@
           "tipo": "Munck",
           "placa": "QRI-8D21",
           "operador": "MOISÉS (98 98791-0912)",
-          "status": "Operante"
+          "status": "Manutenção"
         },
         {
           "tipo": "Pick-up",
@@ -78,8 +79,8 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G50",
-          "operador": "JAKSON (98 98809-6321)",
+          "placa": "SFR-3V97",
+          "operador": "KAKA (98 98480-6556)",
           "status": "Operante"
         },
         {
@@ -91,63 +92,29 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": "Alciomar (98 98802-8232)",
+          "operador": " CRISTIANO (98 98802-8232)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Oliveira (98 97010-4041)",
+          "operador": "OSVALDO (98 97010-4041)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Gilmar (98 98474-3782)",
+          "operador": "HUGO (98 98474-3782)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Geilson (98 98850-8993)",
+          "operador": "FRANCINILDO (98 98850-8993)",
           "status": "Operante"
         }
       ],
-      "atividades": [
-        {
-          "lider": "Jesse Tharlisson",
-          "telefone": "98 8817-1971",
-          "tecnicoSeguranca": "",
-          "equipe": "3 mecânicos + 02 caldereiros + 02 soldadores + 01 pintor + 01 ajudante mont.",
-          "oms": [
-            {
-              "numero": "202602949232",
-              "descricao": "ROLO_TROCAR 36 ROLOS CARG BLZ01 02 (CN-01)",
-              "status": "Em andamento"
-            }
-            
-            
-          ]
-        },
-        {
-          "lider": "Fabricio ",
-          "telefone": "98 9112-7960",
-          "tecnicoSeguranca": "",
-          "equipe": "3 mecânicos + 02 caldereiros + 02 soldadores",
-          "oms": [
-            {
-              "numero": "2026000468497",
-              "descricao": "CAVALETE_TROCAR 2 CV 4-5 B2 M1 RECB 1313(Tr-1313)",
-              "status": "Em andamento"
-            }
-            
-            
-          ]
-        }
-      ],
-       "observacoes": [
-        "Efetivo restante realizando a desmobilização do Silo 01"
-       ],
+      "atividades": [],
       "nome": "Manutenção de ativos"
     }
     

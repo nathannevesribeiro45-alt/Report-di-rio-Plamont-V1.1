@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "24/07/2026",
+  "data": "28/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -16,7 +16,7 @@
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 3,
+          "Eletricista": 4,
           "Pintor": 0
         },
         "indireto": {
@@ -61,13 +61,13 @@
 
       "atividades": [{
           "lider": "Joderson",
-          "telefone": "98 9964-3876",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "03 eletricistas + 01 caldereiro + 01 soldador",
           "oms": [
             {
-              "numero": "202505396876",
-              "descricao": "RPR-POSTE FOTODETECTOR LOC AVARIADO",
+              "numero": "202504833609",
+              "descricao": "SUBSTITUIR BANDEJAMENTO INTERMED P/ GIRO, RETIRADA DO BANDEJAMENTO AVARIADO (PREPARAÇÃO/FABRICAÇÃO)",
               "status": "Em andamento"
             }
            
@@ -156,119 +156,74 @@
 
       "atividades": [
     {
-          "lider": "Orlando",
-          "telefone": "98 9964-3876",
+          "lider": "Dionatan",
+          "telefone": "98 8299-8136",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
           "oms": [
   {
-    "numero": "202603322957",
-    "descricao": "MCM-MPV ELE 08S GUINCHO ESTIC TR1383",
+    "numero": "202603113530",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-207",
     "status": "Em andamento"
   },
   {
-    "numero": "202603321432",
-    "descricao": "PREVENTIVA LUB_HID REDUTOR",
+    "numero": "202603113687",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-311K-207",
     "status": "Em andamento"
   },
   {
-    "numero": "202603325698",
-    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1383",
+    "numero": "202603113528",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-311K-207",
     "status": "Em andamento"
   },
   {
-    "numero": "202603662767",
-    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1502",
+    "numero": "202603115161",
+    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT EX207 T",
     "status": "Em andamento"
   },
   {
-    "numero": "202602244759",
-    "descricao": "MCM-MPV MEC UTL 08S TR1502 GC02",
+    "numero": "202603698404",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1113",
     "status": "Em andamento"
   },
   {
-    "numero": "202602244820",
-    "descricao": "MCM-MPV ELE UTL 08S TR1502 GC02",
+    "numero": "202603593684",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1115",
     "status": "Em andamento"
   },
   {
-    "numero": "202602345003",
-    "descricao": "GC 1317 - PARAFUSOS DA BASE CORROIDO",
+    "numero": "202603698514",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1113",
     "status": "Em andamento"
   },
   {
-    "numero": "202603516788",
-    "descricao": "EPO-MPV ELE 3M PAINEL ELÉTRICO",
+    "numero": "202603593809",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1115",
     "status": "Em andamento"
   },
   {
-    "numero": "202603516787",
-    "descricao": "EPO-MPV HID 3M REDUTOR GUINCHO",
+    "numero": "202603698408",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1359",
     "status": "Em andamento"
   },
   {
-    "numero": "202603516785",
-    "descricao": "EPO-MPV INST 3M CHAVE ROTATIVA",
+    "numero": "202603698516",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1359",
     "status": "Em andamento"
   },
   {
-    "numero": "202603516784",
-    "descricao": "EPO-MPV ELE 3M TRANSLAÇÃO",
+    "numero": "202603247301",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1106",
     "status": "Em andamento"
   },
   {
-    "numero": "202603521231",
-    "descricao": "MCM-MPV MEC 08S ESTICAMENTO ATS TR1387",
+    "numero": "202603248160",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1106",
     "status": "Em andamento"
   },
   {
-    "numero": "202602361525",
-    "descricao": "MCM-MPV MEC 08S ESTICAMENTO ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603516707",
-    "descricao": "EPO-MPV ELE 3M ESTICAMENTO 1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602358734",
-    "descricao": "MCM MPV LUB 24S MOTOR GUINCH ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602361527",
-    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602361529",
-    "descricao": "MCM-MPV LUB 08S GUINCHO ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602850487",
-    "descricao": "MCM-TRC LUB 01A ÓLEO GUINCH ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603520859",
-    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603521228",
-    "descricao": "MCM-MPV LUB 08S GUINCHO ATS TR1387",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603516711",
-    "descricao": "EPO-MPV HID 3M REDUTOR GUINCHO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603399421",
-    "descricao": "RETIRAR TALHA TE-3150KP-09",
+    "numero": "202603068847",
+    "descricao": "Des/Montar TB fixo para fazer asbuilt (5S CMT)",
     "status": "Em andamento"
   }
          ]

@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "24/07/2026",
+  "data": "28/07/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,9 +13,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 12,
-          "Soldador": 2,
-          "Montador": 9,
+          "Mecanico": 13,
+          "Soldador": 3,
+          "Montador": 8,
           "Eletricista": 0,
           "Pintor": 0
         },
@@ -71,12 +71,12 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU0A35",
-          "operador": "Wesley",
+          "operador": "Anderson",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFR-3B97",
+          "placa": "SFT9J87",
           "operador": "Patrick",
           "status": "OPERANTE"
         },
@@ -93,11 +93,11 @@
           "lider": "Adilson",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603528478",
-              "descricao": "PREPARAÇÃO/DESMOBILIZAÇÃO PARA ATIVIDADES DESGASTE (RP-313K-03)",
+              "numero": "202603084151",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS E MATERIAIS (RP-313K-03)",
               "status": "Em andamento"
             }
           ]
@@ -106,14 +106,11 @@
           "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 3 Montadores",
-          "oms": [
-            {
-              "numero": " 202602762854",
-              "descricao": "ANDAIME: CHUTE_TROCAR GUIA CHUTE 1501 (TR-1501)",
-              "status": "Em andamento"
-            }
-          ]
+          "equipe": "4 Mecânicos + 1 soldador + 1 Caldeireiro + 2 Montadores",
+          "oms": [{
+            "descricao":"Fabricação de gaiolas de içamento para rolos e 5s no canteiro central."
+          }
+        ]
         },
         {
           "lider": "Ederson",
@@ -122,15 +119,11 @@
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202505466631",
-              "descricao": "DG-TROCAR 04 CAVALETES AA CARGA 1114 (TR-1114)",
-              "status": "Em andamento"
-            },
-             {
-              "numero": "202603473898",
-              "descricao": "DESMONTAR ANDAIME",
+              "numero": "202601193850",
+              "descricao": "ANDAIME P TROCAR ROLO DE RETORNO 1105 (TR-1105)",
               "status": "Em andamento"
             }
+         
         
           ]
         }
@@ -146,10 +139,10 @@
         "direto": {
           "Caldeireiro": 4,
           "Mecanico": 4,
-          "Soldador": 4,
+          "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
-          "Pintor": 1
+          "Pintor": 0
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -193,11 +186,31 @@
           "lider": "Wanderson / Mauricio Maia",
           "telefone": "98 98508-8348 / 98 8105-1741",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 4 Caldeireiros + 4 Soldadores + 1 Pintor + 2 Montadores",
+          "equipe": "4 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
           "oms": [
             {
-             "numero": "202603505406",
-              "descricao": "SEG_PS_FABRICAR 4 TAMPAS PARA ALÇAPÕES",
+             "numero": "202602759163 ",
+              "descricao": "SEG_PS_TROC CH P. NO TERCEIRO PISO TORRE",
+              "status": "Em andamento" 
+            },
+             {
+             "numero": "202603541579 ",
+              "descricao": "SEG_PS_TROC CH PISO NO 3º PISO D TORRE 3",
+              "status": "Em andamento" 
+            },
+             {
+             "numero": "202603577438",
+              "descricao": " SEG_PS_TROC CH PISO NO 5º PISO D TORRE 3",
+              "status": "Em andamento" 
+            },
+             {
+             "numero": "202603577690",
+              "descricao": "SEG_PS_TROC CH PISO NO 5º PISO D TORRE 3",
+              "status": "Em andamento" 
+            },
+             {
+             "numero": "202603577425",
+              "descricao": "SEG_PS_TROC CH PISO NO 6º PISO D TORRE 3",
               "status": "Em andamento" 
             }
           ]
