@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "28/07/2026",
-  "turno": "Dia B",
+  "data": "29/07/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -60,10 +60,10 @@
       "recursos": [],
 
       "atividades": [{
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
-          "equipe": "03 eletricistas + 01 caldereiro + 01 soldador",
+          "equipe": "04 eletricistas + 01 caldereiro + 01 soldador",
           "oms": [
             {
               "numero": "202504833609",
@@ -84,7 +84,7 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 0,
+          "Caldeireiro": 1,
           "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
@@ -156,77 +156,57 @@
 
       "atividades": [
     {
-          "lider": "Dionatan",
-          "telefone": "98 8299-8136",
+          "lider": "José Maria",
+          "telefone": "98 98185-6567",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
-          "oms": [
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 soldador + 1 caldereiro + 3 Montadores",
+         "oms": [
   {
-    "numero": "202603113530",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-207",
-    "status": "Em andamento"
+    "numero": "202603038071",
+    "descricao": "MP LUBRIFICAÇÃO PÓRTICO (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
-    "numero": "202603113687",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-311K-207",
-    "status": "Em andamento"
+    "numero": "202603038070",
+    "descricao": "MP ELETROMECÂNICA PÓRTICO (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
-    "numero": "202603113528",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-311K-207",
-    "status": "Em andamento"
+    "numero": "202603420111",
+    "descricao": "MP ELE TRANSLAÇÃO PÓRTICO 50/15T PD (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
-    "numero": "202603115161",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT EX207 T",
-    "status": "Em andamento"
+    "numero": "202603420112",
+    "descricao": "MP ELE ENROLADOR DE CABO PD (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
-    "numero": "202603698404",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1113",
-    "status": "Em andamento"
+    "numero": "202603420117",
+    "descricao": "MP ELE SENSORIAMENTO E SINALIZAÇÃO (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
-    "numero": "202603593684",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1115",
-    "status": "Em andamento"
+    "numero": "202603420118",
+    "descricao": "MP ELE TRANSLAÇÃO CARRO PONTE 50/15T PD (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
-    "numero": "202603698514",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1113",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603593809",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1115",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603698408",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1359",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603698516",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1359",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603247301",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1106",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603248160",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1106",
-    "status": "Em andamento"
+    "numero": "202603420119",
+    "descricao": "MP ELE ELEVAÇÃO PRINCIPAL E AUXILIAR (PR_3110KP_03)",
+    "status": "em_andamento"
   },
   {
     "numero": "202603068847",
-    "descricao": "Des/Montar TB fixo para fazer asbuilt (5S CMT)",
-    "status": "Em andamento"
+    "descricao": "DES/MONTAR TB FIXO PARA FAZER ASBUILT (CMT)",
+    "status": "em_andamento"
+  },
+  {
+    "numero": "202603115161",
+    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT EX207 (TR-311K-06)",
+    "status": "em_andamento"
   }
-         ]
+]
         }
       ]
     }

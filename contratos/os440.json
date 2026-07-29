@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "28/07/2026",
-  "turno": "Dia B",
+  "data": "29/07/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,12 +10,13 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
-          "Mecanico": 11,
-          "Soldador": 3,
+          "Caldeireiro": 7,
+          "Mecanico": 15,
+          "Soldador": 5,
           "Montador": 10,
           "Eletricista": 2,
-          "Pintor": 1
+          "Pintor": 1,
+          "Ajudante mont.": 2
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -31,19 +32,20 @@
           "Soldador": 5,
           "Montador": 10,
           "Eletricista": 2,
-          "Pintor": 0
+          "Pintor": 0,
+          "Ajudante mont.": 2
         },
         "indireto": {
           "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
+          "Encarregado Montagem": 1,
           "Mestre Montagem": 3,
-          "Mestre Andaime": 2
+          "Mestre Andaime": 1
         }
       },
       "ausencias": {
         "Caldeireiro": 0,
         "Mecanico": 0,
-        "Soldador": 2,
+        "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
@@ -55,25 +57,25 @@
           {
           "tipo": "Munck",
           "placa": "SGA3I14 (Manutenção)",
-          "operador": "Luis Ronaldo (98 98331-7069)  ",
-          "contato": "(98) 98331-7069"
+          "operador": "",
+          "contato": ""
         },
         {
           "tipo": "Munck",
           "placa": "SGA-3I06",
-          "operador": "Mário (98 98461-3993) ",
-          "contato": "(98) 98461-3993"
+          "operador": "",
+          "contato": ""
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A47",
-          "operador": "Janice (98 98880-3110)",
-          "contato": "(98) 98880-3110"
+          "operador": "",
+          "contato": ""
         },
          {
           "tipo": "Pick-up",
-          "placa": "SFU-0A01",
-          "operador": "Genillon (98 98715-5916)",
+          "placa": "SFU-OA29",
+          "operador": "",
           "contato": ""
         }
         
@@ -81,10 +83,10 @@
       ],
       "atividades": [
         {
-          "lider": "Wallace Ferreira",
-          "telefone": "98 9229-0970",
+          "lider": "João Batista",
+          "telefone": "98 98887-8415",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor",
+          "equipe": "4 Mecânicos + 2 Soldador + 2 Caldeireiros + 1 eletricista",
           "oms": [
             {
               "numero": "202501829498",
@@ -94,10 +96,10 @@
           ]
         },
         {
-          "lider": "Fagner",
-          "telefone": "98 8542-9199",
+          "lider": "Gutemberg ",
+          "telefone": "98 98857-8265",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista",
+          "equipe": "6 Mecânicos + 2 Soldador + 3 Caldeireiros + 1 ajudante mont.",
           "oms": [
             {
               "numero": "202502094301",
@@ -106,10 +108,10 @@
             }
           ]
         },   {
-          "lider": "Rogério",
-          "telefone": "98 9965-3798",
+          "lider": "Mailson Cordeiro",
+          "telefone": "98 99614-6804",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Soldador + 1 Caldeireiros + 1 ajudante.mont",
+          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista + 1 ajudante mont. + 1 pintor",
           "oms": [
             {
               "numero": "202603291998",
@@ -120,7 +122,9 @@
         } 
       ],
       "nome": "Integridade",
-      "observacoes": []
+      "observacoes": [
+        "TR-1318 em fase de preparação."
+      ]
     },
     {
       "id": "ferrovia",
@@ -228,8 +232,8 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Edeilson Soares",
-          "telefone": "98 9 8498-4952",
+          "lider": "Ronielisson Moraes ",
+          "telefone": "98 9 8785-9820",
           "tecnicoSeguranca": "",
           "equipe": "6 mecânicos + 02 eletricista",
           "oms": [
@@ -237,12 +241,6 @@
               "numero": "202501444743",
               "descricao": "TME-TROCAR-REPOR-TELHAS-CT-06-PIER3 (CT-06)",
               "status": "Concluida"
-            },
-
-            {
-              "numero": "202603188152",
-              "descricao": "TMAPOIO-RETIRAR/MONTAR TELHADO (TR-1515)",
-              "status": "Em andamento"
             }
           ]
         }

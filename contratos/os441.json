@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "28/07/2026",
-  "turno": "Dia B",
+  "data": "29/07/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -15,7 +15,7 @@
           "Caldeireiro": 3,
           "Mecanico": 13,
           "Soldador": 3,
-          "Montador": 8,
+          "Montador": 9,
           "Eletricista": 0,
           "Pintor": 0
         },
@@ -65,32 +65,32 @@
         {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador": "Gleydson",
+          "operador": "José Carlos - 98 98814-7068",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU0A35",
-          "operador": "Anderson",
+          "operador": "Hilgles - 98 98537-4937 ",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFT9J87",
-          "operador": "Patrick",
+          "operador": "Carlos - 98 98124-4272",
           "status": "OPERANTE"
         },
         {
           "tipo": "Ônibus",
           "placa": "SHX-5E42",
-          "operador": "Joeberte",
+          "operador": "Marcello - 98 99967-2922 ",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Adilson",
+          "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
@@ -99,28 +99,40 @@
               "numero": "202603084151",
               "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS E MATERIAIS (RP-313K-03)",
               "status": "Em andamento"
+            },
+              {
+              "numero": "202602949063",
+              "descricao": "MONTDESM AND TROCAR 90 ROLOS (TR-313K-29)",
+              "status": "Em andamento"
             }
+            
           ]
         },
         {
-          "lider": "Fernando Maranhão",
+          "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 soldador + 1 Caldeireiro + 2 Montadores",
+          "equipe": "5 Mecânicos + 1 soldador + 1 Caldeireiro + 3 Montadores",
           "oms": [{
-            "descricao":"Fabricação de gaiolas de içamento para rolos e 5s no canteiro central."
+            "numero":"202603084151",
+            "descricao":" DESG-PREPARAÇ MOBILIZAÇDESMOBIL_5S (ER-313K-04 APOIO AO PÁTIO)"
           }
         ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Alexandre",
+          "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202601193850",
-              "descricao": "ANDAIME P TROCAR ROLO DE RETORNO 1105 (TR-1105)",
+              "numero": "202603632397",
+              "descricao": "PREPARAÇÃO DE FERRAMENTAS E 5S-PLAMONT (TR-311K-05)",
+              "status": "Em andamento"
+            },
+              {
+              "numero": "202603221040",
+              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS -PLAMONT (TR-313K-23)",
               "status": "Em andamento"
             }
          
@@ -137,12 +149,12 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 4,
-          "Soldador": 3,
+          "Caldeireiro": 3,
+          "Mecanico": 6,
+          "Soldador": 2,
           "Montador": 2,
           "Eletricista": 0,
-          "Pintor": 0
+          "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -183,34 +195,34 @@
 
       "atividades": [
         {
-          "lider": "Wanderson / Mauricio Maia",
-          "telefone": "98 98508-8348 / 98 8105-1741",
+          "lider": "Julio / Erickson",
+          "telefone": "98 8506-6125 / 98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
+          "equipe": "6 Mecânicos + 3 Caldeireiros + 2 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-             "numero": "202602759163 ",
-              "descricao": "SEG_PS_TROC CH P. NO TERCEIRO PISO TORRE",
+             "numero": "202506823141 ",
+              "descricao": "SEG_A_GC_INS GUARD-CORP PROX ESC MAST UH (ER-313K-04)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202603541579 ",
-              "descricao": "SEG_PS_TROC CH PISO NO 3º PISO D TORRE 3",
+             "numero": "202506823071 ",
+              "descricao": "SEG_A_GC_INST GUAR-CORPS TRIPP LD (ER-313K-04)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202603577438",
-              "descricao": " SEG_PS_TROC CH PISO NO 5º PISO D TORRE 3",
+             "numero": "202603123755",
+              "descricao": "SEG_GC_SOLD.G.CORP.PASS.TB.RET.LE.ER04 (ER-313K-04)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202603577690",
-              "descricao": "SEG_PS_TROC CH PISO NO 5º PISO D TORRE 3",
+             "numero": "202506823074",
+              "descricao": "SEG_D_PS_TRO 01 TEL PROX BL09 LD TR LAN (ER-313K-04)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202603577425",
-              "descricao": "SEG_PS_TROC CH PISO NO 6º PISO D TORRE 3",
+             "numero": "202603122568",
+              "descricao": "- SEG_GC_ FABR.INST.GC.SIST.LUB SPIDER ER4 (ER-313K-04)",
               "status": "Em andamento" 
             }
           ]
