@@ -122,9 +122,7 @@
         } 
       ],
       "nome": "Integridade",
-      "observacoes": [
-        "TR-1318 em fase de preparação."
-      ]
+      "observacoes": []
     },
     {
       "id": "ferrovia",
