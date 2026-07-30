@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "29/07/2026",
+  "data": "30/07/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -69,6 +69,12 @@
           "status": "OPERANTE"
         },
         {
+          "tipo": "Munck",
+          "placa": "RBB-1B72",
+          "operador": "José Augusto - 98 98858-7321",
+          "status": "OPERANTE"
+        },
+        {
           "tipo": "Pick-up",
           "placa": "SFU0A35",
           "operador": "Hilgles - 98 98537-4937 ",
@@ -82,7 +88,7 @@
         },
         {
           "tipo": "Ônibus",
-          "placa": "SHX-5E42",
+          "placa": "SIB-9H77",
           "operador": "Marcello - 98 99967-2922 ",
           "status": "OPERANTE"
         }
@@ -96,13 +102,13 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603084151",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS E MATERIAIS (RP-313K-03)",
+              "numero": "202603595998",
+              "descricao": "TROCAR CHAPAS DESGASTE DEFLETORA DO CHUTE (ER-313K-04)",
               "status": "Em andamento"
             },
               {
-              "numero": "202602949063",
-              "descricao": "MONTDESM AND TROCAR 90 ROLOS (TR-313K-29)",
+              "numero": "202603596863",
+              "descricao": "DEMONT AND CHUT DEFLET (ER-313K-04)",
               "status": "Em andamento"
             }
             
@@ -114,8 +120,8 @@
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 soldador + 1 Caldeireiro + 3 Montadores",
           "oms": [{
-            "numero":"202603084151",
-            "descricao":" DESG-PREPARAÇ MOBILIZAÇDESMOBIL_5S (ER-313K-04 APOIO AO PÁTIO)"
+            "numero":"202602948909",
+            "descricao":"TROCAR 90 ROLOS DE CARGA AO LONGO DO TR1329 (ER-313K-04)"
           }
         ]
         },
@@ -126,13 +132,18 @@
           "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603632397",
-              "descricao": "PREPARAÇÃO DE FERRAMENTAS E 5S-PLAMONT (TR-311K-05)",
+              "numero": "202603221040",
+              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS -PLAMONT (TR-313K-23)",
               "status": "Em andamento"
             },
               {
-              "numero": "202603221040",
-              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS -PLAMONT (TR-313K-23)",
+              "numero": "202600625230",
+              "descricao": "TROCAR 8 ROLOS DE RET. V BL07 CV01 A 04 (TR-313K-23)",
+              "status": "Em andamento"
+            },
+                {
+              "numero": "202600625250",
+              "descricao": "ANDAIMETROCAR 8 ROLOS DE RETORNO EM V (TR-313K-23)",
               "status": "Em andamento"
             }
          
@@ -201,28 +212,28 @@
           "equipe": "6 Mecânicos + 3 Caldeireiros + 2 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-             "numero": "202506823141 ",
-              "descricao": "SEG_A_GC_INS GUARD-CORP PROX ESC MAST UH (ER-313K-04)",
+             "numero": " 202601438843",
+              "descricao": "SEG_A_GC_INST GUARD-CORP M03LE CAU (TR-313K-29)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202506823071 ",
-              "descricao": "SEG_A_GC_INST GUAR-CORPS TRIPP LD (ER-313K-04)",
+             "numero": " 202600932177",
+              "descricao": "SEG_RD_TROC.RODPÉ.LE.BAL01 (TR-313K-01)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202603123755",
-              "descricao": "SEG_GC_SOLD.G.CORP.PASS.TB.RET.LE.ER04 (ER-313K-04)",
+             "numero": "202600930579",
+              "descricao": "SEG_PS_TROC.TELA.PIS.LE BAL03 (A-313K-01)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202506823074",
-              "descricao": "SEG_D_PS_TRO 01 TEL PROX BL09 LD TR LAN (ER-313K-04)",
+             "numero": "202505355084",
+              "descricao": "SEG-TROCAR 9 DEGRAUS AVARIADOS (TR-313K-01)",
               "status": "Em andamento" 
             },
              {
-             "numero": "202603122568",
-              "descricao": "- SEG_GC_ FABR.INST.GC.SIST.LUB SPIDER ER4 (ER-313K-04)",
+             "numero": "202600427557",
+              "descricao": "SEG_D_ES_REV ESC MAR ACES ROL 45° LD CAU (TR-313K-60)",
               "status": "Em andamento" 
             }
           ]

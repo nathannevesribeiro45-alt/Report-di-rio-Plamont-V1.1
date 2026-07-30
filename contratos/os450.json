@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "29/07/2026",
+  "data": "30/07/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -11,7 +11,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 11,
+          "Mecanico": 10,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 7,
@@ -46,7 +46,7 @@
       },
       "ausencias": {
         "Caldeireiro": 1,
-        "Mecanico": 1,
+        "Mecanico": 2,
         "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
@@ -54,11 +54,7 @@
         "justificadas": 1,
         "naoJustificadas": 0
       },
-      "mobilizacao": {
-        "Montador": 5,
-        "Caldeireiro": 2,
-        "Soldador":1
-      },
+      "mobilizacao": {},
       "recursos": [
         {
           "tipo": "Munck",
@@ -93,25 +89,25 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": " Alciomar (98 98802-8232)",
+          "operador": " Cristiano (98 98802-8232)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Oliveira (98 97010-4041)",
+          "operador": "Hugo (98 97010-4041)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Gilmar (98 98474-3782)",
+          "operador": "Osvaldo (98 98474-3782)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Geilson (98 98850-8993)",
+          "operador": "Francinildo (98 98850-8993)",
           "status": "Operante"
         }
       ],

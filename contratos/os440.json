@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "29/07/2026",
+  "data": "30/07/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -56,13 +56,13 @@
       "recursos": [
           {
           "tipo": "Munck",
-          "placa": "SGA3I14 (Manutenção)",
+          "placa": "SGA3I14 ",
           "operador": "",
           "contato": ""
         },
         {
           "tipo": "Munck",
-          "placa": "SGA-3I06",
+          "placa": "SGA-3I06(Apoio á PPL)",
           "operador": "",
           "contato": ""
         },
@@ -75,6 +75,12 @@
          {
           "tipo": "Pick-up",
           "placa": "SFU-OA29",
+          "operador": "",
+          "contato": ""
+        },
+           {
+          "tipo": "Guindaste",
+          "placa": "OCW-3196",
           "operador": "",
           "contato": ""
         }
@@ -228,25 +234,11 @@
       },
       "mobilizacao": {},
       "recursos": [],
-      "atividades": [
-        {
-          "lider": "Ronielisson Moraes ",
-          "telefone": "98 9 8785-9820",
-          "tecnicoSeguranca": "",
-          "equipe": "6 mecânicos + 02 eletricista",
-          "oms": [
-            {
-              "numero": "202501444743",
-              "descricao": "TME-TROCAR-REPOR-TELHAS-CT-06-PIER3 (CT-06)",
-              "status": "Concluida"
-            }
-          ]
-        }
-      ],
+      "atividades": [],
       "nome": "Telhado",
       "observacoes":[
         
-          "CT -06 somente na descida de material, atividade já finalizada."
+          "Somente desmobilização de material no TR-1539."
       ]
     }
   ]
