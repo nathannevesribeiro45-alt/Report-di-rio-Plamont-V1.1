@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "30/07/2026",
-  "turno": "Dia A",
+  "data": "31/07/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -60,14 +60,14 @@
       "recursos": [],
 
       "atividades": [{
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "04 eletricistas + 01 caldereiro + 01 soldador",
           "oms": [
             {
-              "numero": "202504833609",
-              "descricao": "SUBSTITUIR BANDEJAMENTO INTERMED P/ GIRO, RETIRADA DO BANDEJAMENTO AVARIADO (CN-04)",
+              "numero": "202603165835",
+              "descricao": "AJUSTE INFRA ELETRODUTO RP03",
               "status": "Em andamento"
             }
            
@@ -137,107 +137,63 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "Romário",
+          "operador": "Fernando",
           "status": "OPERANTE"
         },
         {
           "tipo": "pick-up",
           "placa": "SFT-9H25",
-          "operador": "Domingos - 98 98518-9687 ",
+          "operador": "Rafael",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
-          "operador": "Andreia - 98 98868-4821",
+          "operador": "Marcello - 98 99967-2922",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
     {
-          "lider": "José Maria",
-          "telefone": "98 98185-6567",
+          "lider": "Dionatan",
+          "telefone": "98 8299-8136",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 soldador + 1 caldereiro + 3 Montadores",
-         "oms": [
-  {
-    "numero": "202602797828",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT NO EX20 (PREPARAÇÃO)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202602797829",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT NO EX20 (PREPARAÇÃO)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202601683047",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-313K-218)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202601683049",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-313K-218)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202601683271",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-313K-218)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603468111",
-    "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC (TR1419)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603468112",
-    "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC (TR1517)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603468113",
-    "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC (TR1518)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603593684",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO (TR1115)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603593809",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO (TR1115)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603698408",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO (TR1359) (necessário solicitar limpeza)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603698516",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO (TR1359) (necessário solicitar limpeza)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202601445040",
-    "descricao": "MP ELETROMECANICA TALHA (TE-326K-032) (checar se dá para executar)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202601444859",
-    "descricao": "MP ELETROMECANICA TALHA (TE-3260KP-11) (checar se dá para executar)",
-    "status": "em_andamento"
-  },
-  {
-    "numero": "202603464309",
-    "descricao": "MP ELETROMECANICA ELEVADOR (EL-314K-04)",
-    "status": "em_andamento"
-  }
-]
-        }
+         
+  "oms": [
+    {
+      "numero": "202603464309",
+      "descricao": "MP ELETROMECANICA ELEVADOR EL-314K-04",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202601588607",
+      "descricao": "GC 1329 - MOITÃO ENROLADO",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603468111",
+      "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC TR1419",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603468112",
+      "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC TR1517",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603468113",
+      "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC TR1518",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603236313",
+      "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1303",
+      "status": "Em andamento"
+    }
+  ]
+}
       ]
     }
   ]

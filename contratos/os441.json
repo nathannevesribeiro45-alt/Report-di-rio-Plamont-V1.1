@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "30/07/2026",
-  "turno": "Dia A",
+  "data": "31/07/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -13,9 +13,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
+          "Mecanico": 11,
           "Soldador": 3,
-          "Montador": 9,
+          "Montador": 8,
           "Eletricista": 0,
           "Pintor": 0
         },
@@ -47,12 +47,12 @@
 
       "ausencias": {
         "Caldeireiro": 0,
-        "Mecanico": 1,
+        "Mecanico": 0,
         "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 1,
+        "justificadas": 0,
         "naoJustificadas": 0
       },
 
@@ -65,60 +65,60 @@
         {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador": "José Carlos - 98 98814-7068",
+          "operador": "Gleydson",
           "status": "OPERANTE"
         },
         {
           "tipo": "Munck",
           "placa": "RBB-1B72",
-          "operador": "José Augusto - 98 98858-7321",
+          "operador": "Geovanne",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU0A35",
-          "operador": "Hilgles - 98 98537-4937 ",
+          "operador": "Anderson",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFT9J87",
-          "operador": "Carlos - 98 98124-4272",
+          "operador": "Patrick",
           "status": "OPERANTE"
         },
         {
           "tipo": "Ônibus",
           "placa": "SIB-9H77",
-          "operador": "Marcello - 98 99967-2922 ",
+          "operador": "Joeberte",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Elias",
+          "lider": "Adilson",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603595998",
-              "descricao": "TROCAR CHAPAS DESGASTE DEFLETORA DO CHUTE (ER-313K-04)",
+              "numero": "202603084151",
+              "descricao": "DESG-PREPARAÇ MOBILIZAÇDESMOBIL_ (5s)",
               "status": "Em andamento"
             },
               {
-              "numero": "202603596863",
-              "descricao": "DEMONT AND CHUT DEFLET (ER-313K-04)",
+              "numero": "202602948909",
+              "descricao": "TROCAR 90 ROLOS DE CARGA AO LONGO DO TRTR1329 (ER-313K-04)",
               "status": "Em andamento"
             }
             
           ]
         },
         {
-          "lider": "Iego",
-          "telefone": "98 8506-6056",
+          "lider": "Fernando Maranhão",
+          "telefone": "98 98506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 soldador + 1 Caldeireiro + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 soldador + 1 Caldeireiro + 2 Montadores",
           "oms": [{
             "numero":"202602948909",
             "descricao":"TROCAR 90 ROLOS DE CARGA AO LONGO DO TR1329 (ER-313K-04)"
@@ -126,24 +126,14 @@
         ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Ederson",
+          "telefone": "98 98242-1348",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603221040",
-              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS -PLAMONT (TR-313K-23)",
-              "status": "Em andamento"
-            },
-              {
-              "numero": "202600625230",
-              "descricao": "TROCAR 8 ROLOS DE RET. V BL07 CV01 A 04 (TR-313K-23)",
-              "status": "Em andamento"
-            },
-                {
-              "numero": "202600625250",
-              "descricao": "ANDAIMETROCAR 8 ROLOS DE RETORNO EM V (TR-313K-23)",
+              "numero": "202603766231",
+              "descricao": "PREPARAÇÃOMATERIAIS, FERRAMENTAS E 5S (VV-311K-04) ",
               "status": "Em andamento"
             }
          
@@ -160,9 +150,9 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 6,
-          "Soldador": 2,
+          "Caldeireiro": 4,
+          "Mecanico": 3,
+          "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -206,38 +196,69 @@
 
       "atividades": [
         {
-          "lider": "Julio / Erickson",
-          "telefone": "98 8506-6125 / 98 9609-7660",
+          "lider": "Wandeerson/ Mauricio Maia",
+          "telefone": "98 98508-8348 / 98 8105-1741",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 3 Caldeireiros + 2 Soldadores + 2 Montadores + 1 pintor",
-          "oms": [
-            {
-             "numero": " 202601438843",
-              "descricao": "SEG_A_GC_INST GUARD-CORP M03LE CAU (TR-313K-29)",
-              "status": "Em andamento" 
-            },
-             {
-             "numero": " 202600932177",
-              "descricao": "SEG_RD_TROC.RODPÉ.LE.BAL01 (TR-313K-01)",
-              "status": "Em andamento" 
-            },
-             {
-             "numero": "202600930579",
-              "descricao": "SEG_PS_TROC.TELA.PIS.LE BAL03 (A-313K-01)",
-              "status": "Em andamento" 
-            },
-             {
-             "numero": "202505355084",
-              "descricao": "SEG-TROCAR 9 DEGRAUS AVARIADOS (TR-313K-01)",
-              "status": "Em andamento" 
-            },
-             {
-             "numero": "202600427557",
-              "descricao": "SEG_D_ES_REV ESC MAR ACES ROL 45° LD CAU (TR-313K-60)",
-              "status": "Em andamento" 
-            }
-          ]
-        }
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
+          
+  "oms": [
+    {
+      "numero": "202505355084",
+      "descricao": "SEG-TROCAR 9 DEGRAUS AVARIADOS",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603347931",
+      "descricao": "SEG_GC_FAB.GUARDA CORPO ENT.DIR.GIROVV04",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603122770",
+      "descricao": "SEG_PS-TROCAR 7 TELAS DE PISO AVARIADAS",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202601439041",
+      "descricao": "SEG-PS-TROC. /FIXAR TELA DE PISO PAS.ESQ.TR1",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202601439045",
+      "descricao": "SEG-PS-FIXAR TELA DE PISO PS.DIR.TR1515(02",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603399237",
+      "descricao": "SEG_PS. TROCAR 5 TELAS DE PISO AVARIADAS",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202602949331",
+      "descricao": "SEG_PS_TROC.CH.PISO PLATAF.ABAIXO AL1301",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202600930579",
+      "descricao": "SEG_PS_TROC.TELA.PIS.LE BAL03.TR1301",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202600932177",
+      "descricao": "SEG_RD_TROC.RODPÉ.LE. BAL01.TR1301",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202601438843",
+      "descricao": "SEG_A_GC_INST GUARD-CORP MOBILE CAU",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202600427557",
+      "descricao": "SEG_D_ES_REV ESC MAR ACES ROL 45° LD CAU",
+      "status": "Em andamento"
+    }
+  ]
+}
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "30/07/2026",
-  "turno": "Dia A",
+  "data": "31/07/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,12 +11,12 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 7,
-          "Mecanico": 15,
-          "Soldador": 5,
+          "Mecanico": 14,
+          "Soldador": 6,
           "Montador": 10,
           "Eletricista": 2,
           "Pintor": 1,
-          "Ajudante mont.": 2
+          "Ajudante mont.": 3
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -39,7 +39,7 @@
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 3,
-          "Mestre Andaime": 1
+          "Mestre Andaime": 2
         }
       },
       "ausencias": {
@@ -56,13 +56,13 @@
       "recursos": [
           {
           "tipo": "Munck",
-          "placa": "SGA3I14 ",
+          "placa": "SGA-3I14 ",
           "operador": "",
           "contato": ""
         },
         {
           "tipo": "Munck",
-          "placa": "SGA-3I06(Apoio á PPL)",
+          "placa": "QRD-0212",
           "operador": "",
           "contato": ""
         },
@@ -74,7 +74,7 @@
         },
          {
           "tipo": "Pick-up",
-          "placa": "SFU-OA29",
+          "placa": "SFU-OA01",
           "operador": "",
           "contato": ""
         },
@@ -89,10 +89,10 @@
       ],
       "atividades": [
         {
-          "lider": "João Batista",
-          "telefone": "98 98887-8415",
+          "lider": "Wallace",
+          "telefone": "98 9229-0970",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 2 Soldador + 2 Caldeireiros + 1 eletricista",
+          "equipe": "4 Mecânicos + 3 Soldadores + 2 Caldeireiros + 1 ajudante mont. + 1 eletricista",
           "oms": [
             {
               "numero": "202501829498",
@@ -102,33 +102,41 @@
           ]
         },
         {
-          "lider": "Gutemberg ",
-          "telefone": "98 98857-8265",
+          "lider": "Fagner(Apoio)",
+          "telefone": "98 8542-9199",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 2 Soldador + 3 Caldeireiros + 1 ajudante mont.",
           "oms": [
             {
-            
-              "descricao": "Apoio canteiro central e fabricação."
+               "om":"202501829498",
+              "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
+              "status":"Em andamento"
           
             }
           ]
         },   {
-          "lider": "Mailson Cordeiro",
-          "telefone": "98 99614-6804",
+          "lider": "Rogério",
+          "telefone": "98 9965-3798",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista + 1 ajudante mont. + 1 pintor",
+          "equipe": "4 Mecânicos + 1 Soldador + 1 Caldeireiros + 1 ajudante mont. + 2 eletricistas",
           "oms": [
             {
-              "numero": "202603291998",
-              "descricao": "TRINCAS CREMALHEIRA GIRO DA ER04-CD4 (ER-04)",
+              "numero": "202504260142",
+              "descricao": " PE1.0_RECUPERAR COLUNA DO ALIMENTADOR (TRAM3-AMOS4)/MOBILIZAÇÃO",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202504875194",
+              "descricao": "PC1.0_FAB/SUBST.DUTOS DA CALHA DO REDLEY (TR-1519)",
               "status": "Em andamento"
             }
           ]
         } 
       ],
       "nome": "Integridade",
-      "observacoes": []
+      "observacoes": [
+        "Equipe do lider Rogério responsável por recolher barreiras físicas na área."
+      ]
     },
     {
       "id": "ferrovia",
@@ -193,10 +201,10 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 0,
-          "Mecanico": 6,
+          "Mecanico": 8,
           "Soldador": 0,
-          "Montador": 8,
-          "Eletricista": 2,
+          "Montador": 6,
+          "Eletricista": 1,
           "Pintor": 0
         },
         "indireto": {
@@ -234,7 +242,21 @@
       },
       "mobilizacao": {},
       "recursos": [],
-      "atividades": [],
+      "atividades": [
+        {
+          "lider": "Edeilson",
+          "telefone": "98 8498-4952",
+          "tecnicoSeguranca": "",
+          "equipe": "8 mecânicos + 1 eletricista",
+          "oms": [
+            {
+              "numero": "202603188152",
+              "descricao": "TMAPOIO-RETIRAR/MONTAR TELHADO",
+              "status": "Em andamento"
+            }
+          ]
+        }
+      ],
       "nome": "Telhado",
       "observacoes":[
         
