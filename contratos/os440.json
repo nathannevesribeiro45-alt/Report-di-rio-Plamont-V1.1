@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "31/07/2026",
-  "turno": "Dia B",
+  "data": "03/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,13 +10,13 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 7,
-          "Mecanico": 14,
-          "Soldador": 6,
+          "Caldeireiro": 5,
+          "Mecanico": 13,
+          "Soldador": 5,
           "Montador": 10,
-          "Eletricista": 2,
+          "Eletricista": 3,
           "Pintor": 1,
-          "Ajudante mont.": 3
+          "Ajudante mont.": 2
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -62,37 +62,48 @@
         },
         {
           "tipo": "Munck",
-          "placa": "QRD-0212",
+          "placa": "RBD-1B72 ",
+          "operador": "",
+          "contato": ""
+        },
+        {
+          "tipo": "Munck",
+          "placa": "SGA-3I06 (APOIO PPL)",
           "operador": "",
           "contato": ""
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0A47",
+          "placa": "SFU-0A29",
           "operador": "",
           "contato": ""
         },
          {
           "tipo": "Pick-up",
+          "placa": "SFU-OA47",
+          "operador": "",
+          "contato": ""
+        },
+          {
+          "tipo": "Pick-up",
           "placa": "SFU-OA01",
           "operador": "",
           "contato": ""
         },
-           {
+         {
           "tipo": "Guindaste",
           "placa": "OCW-3196",
           "operador": "",
           "contato": ""
         }
         
-        
       ],
       "atividades": [
         {
-          "lider": "Wallace",
-          "telefone": "98 9229-0970",
+          "lider": "João Batista",
+          "telefone": "98 8887-8415",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 3 Soldadores + 2 Caldeireiros + 1 ajudante mont. + 1 eletricista",
+          "equipe": "4 Mecânicos + 2 Soldadores + 2 Caldeireiros+ 1 Eletricista",
           "oms": [
             {
               "numero": "202501829498",
@@ -102,32 +113,27 @@
           ]
         },
         {
-          "lider": "Fagner(Apoio)",
-          "telefone": "98 8542-9199",
+          "lider": "Gutemberg Feitosa",
+          "telefone": "98 8177-7618",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 2 Soldador + 3 Caldeireiros + 1 ajudante mont.",
+          "equipe": "4 Mecânicos + 2 Soldador + 1 Caldeireiro + 1 eletricista + 1 ajudante mont.",
           "oms": [
             {
-               "om":"202501829498",
-              "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
+               "om":"202504260142",
+              "descricao": " PE1.0_RECUPERAR COLUNA DO ALIMENTADOR (TRAM3-AMOS4)",
               "status":"Em andamento"
           
             }
           ]
         },   {
-          "lider": "Rogério",
-          "telefone": "98 9965-3798",
+          "lider": "Mailson Cordeiro",
+          "telefone": "98 9614-6804",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Soldador + 1 Caldeireiros + 1 ajudante mont. + 2 eletricistas",
+          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 ajudante mont. + 1 eletricista + 1 pintor",
           "oms": [
             {
-              "numero": "202504260142",
-              "descricao": " PE1.0_RECUPERAR COLUNA DO ALIMENTADOR (TRAM3-AMOS4)/MOBILIZAÇÃO",
-              "status": "Em andamento"
-            },
-            {
               "numero": "202504875194",
-              "descricao": "PC1.0_FAB/SUBST.DUTOS DA CALHA DO REDLEY (TR-1519)",
+              "descricao": "PC1.0_FAB/SUBST.DUTOS DA CALHA DO REDLAY (TR-1519)",
               "status": "Em andamento"
             }
           ]
@@ -135,7 +141,7 @@
       ],
       "nome": "Integridade",
       "observacoes": [
-        "Equipe do lider Rogério responsável por recolher barreiras físicas na área."
+        "MObilização para ER-03"
       ]
     },
     {
@@ -244,14 +250,14 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Edeilson",
-          "telefone": "98 8498-4952",
+          "lider": "Ronielisson Moraes",
+          "telefone": "98 9963-7084",
           "tecnicoSeguranca": "",
           "equipe": "8 mecânicos + 1 eletricista",
           "oms": [
             {
-              "numero": "202603188152",
-              "descricao": "TMAPOIO-RETIRAR/MONTAR TELHADO",
+              "numero": "202601274485",
+              "descricao": "DESMONTAR/MONTAR TELHADO ACIMA DO ACIONA (TR-1516)",
               "status": "Em andamento"
             }
           ]
@@ -260,7 +266,7 @@
       "nome": "Telhado",
       "observacoes":[
         
-          "Somente desmobilização de material no TR-1539."
+          "Em fase de mobilização para o TR-1516."
       ]
     }
   ]

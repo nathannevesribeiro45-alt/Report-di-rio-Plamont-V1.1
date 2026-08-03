@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "31/07/2026",
-  "turno": "Dia B",
+  "data": "03/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,7 +11,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 5,
-          "Mecanico": 12,
+          "Mecanico": 11,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 7,
@@ -59,14 +59,14 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Moisés (94 99181-8671)",
+          "operador": "Italo (98 98203-1746)",
           "status": "Operante"
         },
-        {
+          {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "José Carlos (98 98814-7068)",
-          "status": "Manutenção"
+          "operador": "Moisés (98 98791-0912)",
+          "status": "Operante"
         },
         {
           "tipo": "Pick-up",
@@ -76,7 +76,7 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFR-3V97",
+          "placa": "SFR-3B97",
           "operador": "Rosivaldo (98 99187-8772)",
           "status": "Operante"
         },
@@ -89,25 +89,25 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": " Cristiano (98 98802-8232)",
+          "operador": " Alciomar (98 98802-8232)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Hugo (98 97010-4041)",
+          "operador": "Oliveira (98 97010-4041)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Osvaldo (98 98474-3782)",
+          "operador": "Gilmar (98 98474-3782)",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Francinildo (98 98850-8993)",
+          "operador": "Geilson (98 98850-8993)",
           "status": "Operante"
         }
       ],
