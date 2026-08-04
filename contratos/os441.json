@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "03/08/2026",
-  "turno": "Dia A",
+  "data": "04/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -13,9 +13,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 11,
+          "Mecanico": 13,
           "Soldador": 3,
-          "Montador": 8,
+          "Montador": 9,
           "Eletricista": 0,
           "Pintor": 0
         },
@@ -47,12 +47,12 @@
 
       "ausencias": {
         "Caldeireiro": 0,
-        "Mecanico": 3,
-        "Soldador": 1,
+        "Mecanico": 1,
+        "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 0,
+        "justificadas": 1,
         "naoJustificadas": 0
       },
 
@@ -65,89 +65,90 @@
         {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador": "José Carlos (98 98814-7068)",
+          "operador": "Gleydson",
+          "contato":"",
           "status": "OPERANTE"
         },
-        {
+
+          {
           "tipo": "Munck",
           "placa": "RBB-1B72",
-          "operador": "José Augusto (98 98858-7321)",
+          "operador": "Geovanne",
+          "contato":"",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU0A35",
-          "operador": "Hilgles (98 98537-4937)",
+          "placa": "SFU-0A35",
+          "operador": "Anderson",
+          "contrato":"",
           "status": "OPERANTE"
         },
-        {
+          {
           "tipo": "Pick-up",
-          "placa": "SFT9J87",
-          "operador": "Carlos (98 98124-4272)",
+          "placa": "SFU-0A35",
+          "operador": "Patrick",
+          "contrato":"",
           "status": "OPERANTE"
         },
         {
           "tipo": "Ônibus",
-          "placa": "SIB-9H77",
-          "operador": "Marcello (98 99967-2922)",
+          "placa": "SHX-5E42",
+          "operador": "Joerbete",
+          "contato":"",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Elias",
+          "lider": "Adilson",
           "telefone": "98 98210-6618",
+          "tecnicoSeguranca": "",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "oms": [
+            {
+              "numero": "202603736808",
+              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S",
+              "status": "Em andamento"
+            },
+
+             {
+              "numero": "202602272330",
+              "descricao": "TROCAR17CHAPASDEDESGASTECHUTERC",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Fernando Maranhão",
+          "telefone": "98 8506-6056",
+          "tecnicoSeguranca": "",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "oms": [
+            {
+              "numero": "202603475517",
+              "descricao": "APOIO FAZER PREPARAÇÃO MANUTENÇÃO e 5S",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": " 202603736808",
-              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S (RP-313K-08)",
+              "numero": "202603669349 ",
+              "descricao": "MONTAR/DESMONTAR AND PARA TROCAR 36 ROLOS DE TRANSIÇÃO",
               "status": "Em andamento"
             },
-              {
-              "numero": "202603737143",
-              "descricao": "MONTAR ANDAIME PARA TROCAR 18 ROLOS GUIAS DOS CV AUTO ALINH (RP-313K-08)",
+             {
+              "numero": "202602669344",
+              "descricao": "TROCAR 36 ROLOS DE TRANSIÇÃO",
               "status": "Em andamento"
             }
-            
-          ]
-        },
-        {
-          "lider": "Iego",
-          "telefone": "98 98506-6056",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 soldador + 1 Caldeireiro + 2 Montadores",
-          "oms": [{
-            "numero":"202603227448",
-            "descricao":"CHUTE_FAZER MP NO CHUTE 2509 REC 2516 (TR-325K-09)"
-          },
-
-          {
-            "numero":"202601986414",
-            "descricao":"CHUTE_TROCAR CHAPA GUIA REC1509 (TR-315K-17)"
-          }
-        ]
-        },
-        {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
-          "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
-          "oms": [
-            {
-              "numero": "202603845651",
-              "descricao": "MONTAR E DESMONTAR ANDAIME CHUTE DO (TR-313K-01)",
-              "status": "Em andamento"
-            },
-
-            {
-              "numero": "202603845398",
-              "descricao": "- 15 CHAPAS DESGASTADAS RECEBIMENTO (TR-313K-01)",
-              "status": "Em andamento"
-            }
-         
         
           ]
         }
@@ -161,9 +162,9 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 6,
-          "Soldador": 2,
+          "Caldeireiro": 4,
+          "Mecanico": 3,
+          "Soldador": 4,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -207,40 +208,23 @@
 
       "atividades": [
         {
-          "lider": "Julio/ Erickson",
-          "telefone": "98 98508-8348 / 98 8105-1741",
+          "lider": "Wanderson / Adeilton",
+          "telefone": "98 98508-8348",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 3 Caldeireiros + 2 Soldadores + 2 Montadores + 1 pintor",
-          
-  "oms": [
-    {
-      "numero": "202402990383",
-      "descricao": "TROCAR 17 DEGRAUS ESCA ACESS BE (CN-325K-03)",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202601512491",
-      "descricao": "SEG_GC_TROC T. PISO PASS ROL DE CAB (CN-325K-04)",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202601513409",
-      "descricao": "SEG_GC_TROC T. PISO PASS ROL ELEVAC (CN-325K-04)",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202601600933",
-      "descricao": "SEG_GC_TROC CHAPAS PISO AO LADO DO (CN-325K-04)",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202601601093",
-      "descricao": " SEG_GC_TROC CHAPAS PISO AO LADO DO (CN-325K-04)",
-      "status": "Em andamento"
-    }
- 
-  ]
-}
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores",
+          "oms": [
+            {
+              "numero": "202402990383",
+              "descricao": "SEG_CDITROCAR 17 DEGRAUS ESCA ACESS ELE",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202601512491",
+              "descricao": "SEG_GC_TROC T. PISO PASS ROLDANAS DE CAB",
+              "status": "Em andamento"
+            }
+          ]
+        }
       ]
     }
   ]

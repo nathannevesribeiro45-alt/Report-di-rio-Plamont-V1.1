@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "03/08/2026",
-  "turno": "Dia A",
+  "data": "04/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -15,7 +15,6 @@
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 7,
-          "Ajudante de mont.":2,
           "Pintor": 0
         },
         "indireto": {
@@ -28,12 +27,11 @@
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 5,
+          "Caldeireiro": 8,
           "Mecanico": 12,
-          "Soldador": 5,
+          "Soldador": 7,
           "Montador": 7,
-          "Eletricista": 8,
-          "Ajudante de mont.": 2,
+          "Eletricista": 7,
           "Pintor": 0
         },
         "indireto": {
@@ -45,8 +43,8 @@
         }
       },
       "ausencias": {
-        "Caldeireiro": 1,
-        "Mecanico": 2,
+        "Caldeireiro": 0,
+        "Mecanico": 1,
         "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
@@ -54,7 +52,10 @@
         "justificadas": 1,
         "naoJustificadas": 0
       },
-      "mobilizacao": {},
+      "mobilizacao": {
+        "Montador": 0,
+        "Eletricista": 0
+      },
       "recursos": [
         {
           "tipo": "Munck",
@@ -62,22 +63,22 @@
           "operador": "Italo (98 98203-1746)",
           "status": "Operante"
         },
-          {
-          "tipo": "Munck",
-          "placa": "QRI-8D21",
-          "operador": "Moisés (98 98791-0912)",
-          "status": "Operante"
-        },
         {
-          "tipo": "Pick-up",
-          "placa": "SFV-7I13",
-          "operador": "Italo (98 98184-5269)",
+          "tipo": "Munck",
+          "placa": "QRD-8213",
+          "operador": "MOisés (94 99181-8671)",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Rosivaldo (98 99187-8772)",
+          "operador": "Kaka (98 98480-6556)",
+          "status": "Operante"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "SFV-7I13",
+          "operador": "Alisson (98 98876-4732)",
           "status": "Operante"
         },
         {
@@ -89,7 +90,7 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": " Alciomar (98 98802-8232)",
+          "operador": "Alciomar (98 98802-8232)",
           "status": "Operante"
         },
         {
@@ -112,6 +113,7 @@
         }
       ],
       "atividades": [],
+       "observacoes": [],
       "nome": "Manutenção de ativos"
     }
     

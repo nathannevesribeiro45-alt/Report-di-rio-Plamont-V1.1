@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "03/08/2026",
-  "turno": "Dia A",
+  "data": "04/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -31,7 +31,7 @@
         "direto": {
           "Caldeireiro": 1,
           "Mecanico": 0,
-          "Soldador": 0,
+          "Soldador": 1,
           "Montador": 0,
           "Eletricista": 4,
           "Pintor": 0
@@ -59,19 +59,17 @@
 
       "recursos": [],
 
-      "atividades": [{
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+      "atividades": [ {
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
-          "equipe": "04 eletricistas + 01 caldereiro + 01 soldador",
+          "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
           "oms": [
             {
               "numero": "202504833609",
-              "descricao": "- SUBSTITUIR BANDEJAMENTO INTERMED P/ GIRO, RETIRADA DO BANDEJAMENTO AVARIADO CN-04",
+              "descricao": "-  SUBSTITUIR BANDEJAMENTO INTERMED P/ GIRO, RETIRADA DO BANDEJAMENTO AVARIADO CN-04",
               "status": "Em andamento"
             }
-           
-      
           ]
         }
       ]
@@ -84,8 +82,8 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 1,
-          "Mecanico": 5,
+          "Caldeireiro": 0,
+          "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -136,114 +134,65 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": "RBD-3I45",
-          "operador": "Romário",
+          "placa": " RQP - 8G78 ",
+          "operador": "GLEYDSON",
           "status": "OPERANTE"
         },
         {
           "tipo": "pick-up",
           "placa": "SFT-9H25",
-          "operador": "Domingos (98 98518-9687)",
+          "operador": "Rafael",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
-          "operador": "Andreia (98 98868-4821)",
+          "operador": "Marcello - 98 99967-2922",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
-    {
-          "lider": "José Maria",
-          "telefone": "98 981850-6567",
+        {
+          "lider": "Dionatan",
+          "telefone": "98 8299-8136",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 6 Eletricistas + 1 soldador + 1 caldereiro + 3 Montadores",
-         
-  "oms": [
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
+          "oms": [
   {
-    "numero": "202602797828",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT NO EX20",
-    "status": "Em andamento"
+    "numero": "202403402084",
+    "descricao": "SUBSTITUIR MOTOREDUTOR DEVIDO VAZAMENTO"
+  },
+  {
+    "numero": "202603962080",
+    "descricao": "EX 1301- EIXO DO TB MOTRIZ AVARIADO"
+  },
+  {
+    "numero": "202601980923",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-01"
+  },
+  {
+    "numero": "202601980925",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-01"
+  },
+  {
+    "numero": "202601980935",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-01"
   },
   {
     "numero": "202602797829",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT NO EX20",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603720306",
-    "descricao": "MCM-MPV MEC 16S TALHA TE-10-202 VV4",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603720307",
-    "descricao": "MCM-MPV MEC 16S TALHA TE-10-202 VV4",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602797856",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-10-09 VV4",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602797857",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-10-202 VV4",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603157421",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1301",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603157559",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1301",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603467081",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-315K-18",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202403402084",
-    "descricao": "SUBSTITUIR MOTORREDUTOR DEVIDO VAZAMENTO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602795738",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-311K-208",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602795740",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-208",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602795935",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-311K-208",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602795742",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-311K-209",
-    "status": "Em andamento"
+    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT NO EX209"
   },
   {
     "numero": "202602795744",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-209",
-    "status": "Em andamento"
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-209 (concluir MP e alinhar correia)"
   },
   {
-    "numero": "202602795936",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-311K-209",
-    "status": "Em andamento"
+    "numero": "202602795740",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-208 (Alinhar Correia)"
   }
 ]
-}
+        }
       ]
     }
   ]
