@@ -163,7 +163,8 @@
             }
           ]
         },
-            {
+
+        {
           "lider": "Rogério",
           "telefone": "98 9965-3798",
           "tecnicoSeguranca": "",
@@ -175,14 +176,14 @@
               "latitude":"-2,565035",
               "longitude":"-44,348737",
               "descricao": "- APOIO - RETIRAR TELA DO BATENTE (RP-03)",
-              "status": ""
+              "status": "Atrasada"
             }
           ]
         },
 
         {
           "lider": "Gutemberg",
-          "telefone": "98 8857-8265",
+          "telefone": "98 8177-7618",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 2 Soldador + 3 Caldeireiros + 1 Ajudante mont.",
           "oms": [
