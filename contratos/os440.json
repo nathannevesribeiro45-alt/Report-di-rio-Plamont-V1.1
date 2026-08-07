@@ -224,7 +224,7 @@
     },
     {
       "id": "ferrovia",
-      "icone":"assets/icons/ferrovia.svg",
+      "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
           "Caldeireiro": 5,
@@ -277,7 +277,7 @@
         }
       ],
       "atividades": [],
-      "nome": "Ferrovia"
+      "nome": "Pier 3"
     },
     {
       "id": "telhado",
