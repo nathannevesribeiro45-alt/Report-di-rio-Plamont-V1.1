@@ -140,8 +140,8 @@
             {
               "numero": "202501829498",
               "frente":"TR-2516",
-              "latitude":"null",
-              "longitude":"null",
+              "latitude":"-2,5641472",
+              "longitude":"-44,3774923",
               "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
               "status": "Em andamento"
             }
@@ -156,8 +156,8 @@
             {
               "numero": "202502094301",
               "frente":"TR-1318",
-              "latitude":"null",
-              "longitude":"null",
+              "latitude":"-2,562896",
+              "longitude":"-44,358521",
               "descricao": "PE2._FABR.TROC.COL. SUST.EIXO.08.09 TR(TR-1318)",
               "status": "Em andamento"
             }
@@ -172,8 +172,8 @@
             {
               "numero": "202603923807",
               "frente":"Rp-03",
-              "latitude":"null",
-              "longitude":"null",
+              "latitude":"-2,565035",
+              "longitude":"-44,348737",
               "descricao": "- APOIO - RETIRAR TELA DO BATENTE (RP-03)",
               "status": ""
             }
@@ -188,9 +188,9 @@
           "oms": [
             {
               "numero": "",
-              "frente":"null",
-              "latitude":"null",
-              "longitude":"null",
+              "frente":"Canteiro Central",
+              "latitude":"-2,556165",
+              "longitude":"-44,350504",
               "descricao": "Fabricação de peças.",
               "status": "Em andamento"
             }
