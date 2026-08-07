@@ -19,7 +19,10 @@ const Mapa = {
     filtrosAtivos: new Set(["concluida", "andamento", "atrasada", "planejada"]),
 
     // Ponto central de referência (Porto do Itaqui — São Luís/MA)
-    // Usado apenas para posicionar os pinos fictícios (ver aviso acima)
+    // Usado apenas como posição inicial/central da câmera do mapa
+    // (botão "Localizar" e primeiro carregamento). Nunca é usado
+    // para posicionar um marcador — marcadores só existem a
+    // partir de coordenadas reais de uma OM.
     centroReferencia: { lat: -2.5716, lng: -44.3696 },
 
     statusConfig: {
@@ -355,8 +358,14 @@ const Mapa = {
     },
 
     // ======================================
-    // Constrói a lista de marcadores a partir dos
-    // dados de contrato/frente/líder
+    // Constrói a lista de marcadores a partir do JSON
+    // do contrato — a menor unidade é a OM, e é dela
+    // (e só dela) que vem a localização.
+    //
+    // O mapa NUNCA inventa coordenadas: uma OM sem
+    // latitude/longitude válidas simplesmente não gera
+    // marcador (mas continua existindo no restante do
+    // sistema, como o resumo de atividades).
     // ======================================
     montarMarcadores(contrato) {
 
@@ -364,209 +373,39 @@ const Mapa = {
 
         (contrato.abas || []).forEach(aba => {
 
-            const lideres = aba.atividades || [];
+            (aba.atividades || []).forEach(lider => {
 
-            if (lideres.length) {
+                (lider.oms || []).forEach(om => {
 
-                lideres.forEach((lider, indice) => {
-                    marcadores.push(this.criarDadosMarcador(contrato, aba, lider, indice));
+                    const lat = parseCoordenadaOM(om.latitude);
+                    const lng = parseCoordenadaOM(om.longitude);
+
+                    if (lat === null || lng === null) return;
+
+                    marcadores.push({
+
+                        id: `${contrato.id}-${aba.id}-${om.numero || om.frente}`,
+
+                        lat,
+                        lng,
+
+                        status: normalizarStatusOM(om.status),
+
+                        // Contexto completo — exatamente como veio do JSON
+                        contrato,
+                        aba,
+                        lider,
+                        om
+
+                    });
+
                 });
 
-            } else {
-
-                // Frente ainda sem equipe/atividade lançada no dia —
-                // exibimos mesmo assim, como "Planejada", para não
-                // sumir do mapa (bom para acompanhamento futuro).
-                marcadores.push(this.criarDadosMarcador(contrato, aba, null, 0));
-
-            }
+            });
 
         });
 
         return marcadores;
-
-    },
-
-    // ======================================
-    // Normaliza os dados de uma frente/líder
-    // em um objeto pronto para virar pino
-    // ======================================
-    criarDadosMarcador(contrato, aba, lider, indice) {
-
-        const seed = `${contrato.id}-${aba.id}-${lider?.lider || "frente"}-${indice}`;
-        const coordenada = this.obterCoordenada(seed, aba, lider);
-
-        return {
-
-    id: seed,
-
-    lat: coordenada.lat,
-    lng: coordenada.lng,
-
-    status: this.calcularStatus(lider),
-
-    // Contexto completo
-    contrato,
-    aba,
-    lider,
-
-    // Primeira OM com coordenadas válidas (ou a primeira disponível)
-    om: lider?.oms?.find(om =>
-        this.parseCoordenadaBR(om.latitude) !== null &&
-        this.parseCoordenadaBR(om.longitude) !== null
-    ) || lider?.oms?.[0] || null
-
-};
-
-    },
-
-     // ======================================
-    //       COORDENADAS DO MAPA 
-   // ======================================
-    obterCoordenada(seed, aba, lider) {
-
-    // 1 - Procura a primeira OM com coordenadas reais válidas
-    //     (os valores vêm como texto e em formato BR, ex: "-2,564037")
-    const omComCoordenada = lider?.oms?.find(om => {
-
-        const lat = this.parseCoordenadaBR(om.latitude);
-        const lng = this.parseCoordenadaBR(om.longitude);
-
-        return lat !== null && lng !== null;
-
-    });
-
-    if (omComCoordenada) {
-
-        return {
-
-    lat: this.parseCoordenadaBR(omComCoordenada.latitude),
-    lng: this.parseCoordenadaBR(omComCoordenada.longitude)
-
-};
-
-    }
-
-    // 2 - Compatibilidade com versões antigas
-    if (
-        lider &&
-        typeof lider.lat === "number" &&
-        typeof lider.lng === "number"
-    ) {
-
-        return {
-            lat: lider.lat,
-            lng: lider.lng
-        };
-
-    }
-
-    // 3 - Compatibilidade com versões antigas
-    if (
-        typeof aba.lat === "number" &&
-        typeof aba.lng === "number"
-    ) {
-
-        return {
-            lat: aba.lat,
-            lng: aba.lng
-        };
-
-    }
-
-    // 4 - Coordenada fictícia
-    const raio = 0.011;
-
-    return {
-
-        lat:
-            this.centroReferencia.lat +
-            (this.pseudoAleatorio(`${seed}-lat`) - 0.5) * raio,
-
-        lng:
-            this.centroReferencia.lng +
-            (this.pseudoAleatorio(`${seed}-lng`) - 0.5) * raio
-
-    };
-
-},
-
-    // ======================================
-    // Converte latitude/longitude vindas do JSON
-    // do contrato para número.
-    // ======================================
-    parseCoordenadaBR(valor) {
-
-        if (valor === null || valor === undefined) return null;
-
-        if (typeof valor === "number") {
-            return Number.isFinite(valor) ? valor : null;
-        }
-
-        const texto = String(valor).trim();
-
-        if (!texto || texto.toLowerCase() === "null") return null;
-
-        // Aceita tanto vírgula ("-2,564037") quanto ponto ("-2.564037")
-        const numero = Number(texto.replace(",", "."));
-
-        return Number.isFinite(numero) ? numero : null;
-
-    },
-
-    // ======================================
-    // Gera um número pseudo-aleatório (0 a 1)
-    // estável para uma mesma string — assim os
-    // pinos não "pulam de lugar" a cada render
-    // ======================================
-    pseudoAleatorio(texto) {
-
-        let hash = 0;
-
-        for (let i = 0; i < texto.length; i++) {
-            hash = (hash << 5) - hash + texto.charCodeAt(i);
-            hash |= 0;
-        }
-
-        return (Math.abs(hash) % 1000) / 1000;
-
-    },
-
-    // ======================================
-    // Define o status agregado de uma frente/líder
-    // a partir do status das OMs do dia
-    // ======================================
-    calcularStatus(lider) {
-
-        const oms = lider?.oms || [];
-
-        if (!oms.length) return "planejada";
-
-        const statusList = oms.map(om => this.normalizarStatus(om.status));
-
-        if (statusList.includes("atrasada")) return "atrasada";
-        if (statusList.includes("andamento")) return "andamento";
-        if (statusList.every(s => s === "concluida")) return "concluida";
-
-        return "andamento";
-
-    },
-
-    // ======================================
-    // Normaliza o texto de status das OMs
-    // (os dados vêm com grafias diferentes:
-    // "Em andamento", "Concluída", "Postergada"...)
-    // ======================================
-    normalizarStatus(status) {
-
-        const s = (status || "").trim().toLowerCase();
-
-        if (!s) return "planejada";
-        if (s.includes("posterg") || s.includes("atras")) return "atrasada";
-        if (s.includes("andamento")) return "andamento";
-        if (s.includes("conclu")) return "concluida";
-
-        return "planejada";
 
     },
 

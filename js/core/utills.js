@@ -83,3 +83,49 @@ function limparElemento(elemento) {
     }
 
 }
+
+/**
+ * Normaliza o texto de status de uma OM para uma das
+ * quatro chaves usadas em todo o sistema:
+ * "planejada" | "andamento" | "concluida" | "atrasada".
+ *
+ * Fonte única desta regra — usada pelo Mapa e pelo
+ * Resumo de Atividades, para que os dois módulos nunca
+ * divirjam sobre o que significa cada status vindo do JSON.
+ */
+function normalizarStatusOM(status) {
+
+    const s = (status || "").trim().toLowerCase();
+
+    if (!s) return "planejada";
+    if (s.includes("posterg") || s.includes("atras")) return "atrasada";
+    if (s.includes("andamento")) return "andamento";
+    if (s.includes("conclu")) return "concluida";
+
+    return "planejada";
+
+}
+
+/**
+ * Converte latitude/longitude vindas do JSON do contrato
+ * (texto, formato BR com vírgula, ex: "-2,564037") para número.
+ * Retorna null quando a OM não possui coordenada válida —
+ * nunca inventa um valor.
+ */
+function parseCoordenadaOM(valor) {
+
+    if (valor === null || valor === undefined) return null;
+
+    if (typeof valor === "number") {
+        return Number.isFinite(valor) ? valor : null;
+    }
+
+    const texto = String(valor).trim();
+
+    if (!texto || texto.toLowerCase() === "null") return null;
+
+    const numero = Number(texto.replace(",", "."));
+
+    return Number.isFinite(numero) ? numero : null;
+
+}

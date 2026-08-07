@@ -18,8 +18,14 @@ render(aba, container) {
 
     const listaContainer = secao.querySelector(".atividades-lista");
 
+    // O resumo responde "o que está acontecendo hoje?" — por isso
+    // mostra toda atividade realmente executada (em andamento,
+    // concluída ou atrasada), mesmo sem localização ainda, mas
+    // nunca uma OM que ainda é apenas "Planejada".
+    const atividadesDoResumo = this.filtrarAtividadesDoResumo(aba.atividades);
+
     this.criarLista(
-        aba.atividades,
+        atividadesDoResumo,
         listaContainer
     );
 
@@ -37,7 +43,7 @@ render(aba, container) {
 
     const painelTotal = secao.querySelector(".painel-total");
 
-    const totalOms = (aba.atividades || []).reduce(
+    const totalOms = atividadesDoResumo.reduce(
         (total, lider) => total + (lider.oms?.length || 0),
         0
     );
@@ -59,6 +65,26 @@ render(aba, container) {
 });
 
 },
+
+    // ======================================
+    // Filtra as OMs "Planejada" de cada líder —
+    // o resumo só mostra o que já está de fato em
+    // execução (ou concluído/atrasado). Um líder cujas
+    // OMs do dia são todas planejadas não aparece no
+    // resumo, pois ainda não há nada "acontecendo hoje".
+    // ======================================
+    filtrarAtividadesDoResumo(atividades) {
+
+        return (atividades || [])
+            .map(lider => ({
+                ...lider,
+                oms: (lider.oms || []).filter(
+                    om => normalizarStatusOM(om.status) !== "planejada"
+                )
+            }))
+            .filter(lider => lider.oms.length > 0);
+
+    },
 
     // ======================================
     // Cria a seção
