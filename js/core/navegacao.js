@@ -3,9 +3,8 @@
 // ======================================
 
 const paginas = document.querySelectorAll(".pagina");
-const botoes = document.querySelectorAll(".menu-btn");
 
-function abrirPagina(idPagina, botao) {
+function abrirPagina(idPagina, botao, idAba = null) {
 
     console.log("Clique:", idPagina);
 
@@ -25,7 +24,7 @@ function abrirPagina(idPagina, botao) {
     }
 
     // Atualiza botão ativo
-    botoes.forEach(btn => {
+    document.querySelectorAll(".menu-btn, .submenu-btn").forEach(btn => {
         btn.classList.remove("ativo");
     });
 
@@ -37,6 +36,12 @@ function abrirPagina(idPagina, botao) {
     if (Dashboard && Dashboard.contratos && Dashboard.contratos[idPagina]) {
 
         Dashboard.contratoAtual = Dashboard.contratos[idPagina];
+
+        if (idAba) {
+            Dashboard.abaAtual = Dashboard.contratoAtual.abas.find(
+                aba => aba.id === idAba
+            );
+        }
 
         console.log("Contrato carregado:", Dashboard.contratoAtual);
 

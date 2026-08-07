@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "04/08/2026",
+  "data": "05/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -66,8 +66,13 @@
           "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
           "oms": [
             {
-              "numero": "202504833609",
-              "descricao": "-SUBSTITUIR BANDEJAMENTO INTERMED P/ GIRO, RETIRADA DO BANDEJAMENTO AVARIADO CN-04",
+              "numero": "202603789673",
+              "descricao": "TROCAR SUPORTE CHAVE SDN 64 - TR 1393",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603739573",
+              "descricao": "NORMALIZAR SUPORTE CHAVE SDN 70 - TR1393",
               "status": "Em andamento"
             }
           ]
@@ -134,8 +139,8 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": " RQP - 8G78 ",
-          "operador": "GLEYDSON",
+          "placa": "RBD-3I45",
+          "operador": "Fernando",
           "status": "OPERANTE"
         },
         {
@@ -160,36 +165,54 @@
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
           "oms": [
   {
-    "numero": "202403402084",
-    "descricao": "SUBSTITUIR MOTOREDUTOR DEVIDO VAZAMENTO"
+    "numero": "202603387265",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-216",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603387267",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-216",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603387472",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-216",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603514947",
+    "descricao": "MCM-MPV ELE 08S GUINCHO ESTIC TR1393",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603512938",
+    "descricao": "PREVENTIVA LUB_HID REDUTOR",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603520864",
+    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1393",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603520873",
+    "descricao": "MCM-MPV UTL MEC 08S GUINCHO ATS TR1393",
+    "status": "Em andamento"
   },
   {
     "numero": "202603962080",
-    "descricao": "EX 1301- EIXO DO TB MOTRIZ AVARIADO"
+    "descricao": "EX 1301- EIXO DO TB MOTRIZ AVARIADO",
+    "status": "Em andamento"
   },
   {
-    "numero": "202601980923",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-01"
-  },
-  {
-    "numero": "202601980925",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-01"
+    "numero": "202602917629",
+    "descricao": "MP ELMEC PONTE ROLANTE PR-311K-203",
+    "status": "Em andamento"
   },
   {
     "numero": "202601980935",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-01"
-  },
-  {
-    "numero": "202602797829",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT NO EX209"
-  },
-  {
-    "numero": "202602795744",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-209 (concluir MP e alinhar correia)"
-  },
-  {
-    "numero": "202602795740",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-208 (Alinhar Correia)"
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-01",
+    "status": "Em andamento"
   }
 ]
         }

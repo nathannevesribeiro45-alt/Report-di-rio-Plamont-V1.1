@@ -29,37 +29,62 @@ const Histograma = {
             aba.histograma.indireto
         );
 
-        const totalDiv = document.createElement("div");
+        const painelTotal = secao.querySelector(".painel-total");
 
-        totalDiv.className = "painel-total";
+        painelTotal.innerHTML =
+        `👥 Total do Histograma: <strong>${total}</strong> colaboradores`;
 
-        totalDiv.innerHTML =
-            `👥 Total do Histograma: <strong>${total}</strong> colaboradores`;
 
-        secao.appendChild(totalDiv);
+        const header = secao.querySelector(".bloco-header");
+        const content = secao.querySelector(".bloco-content");
+        const toggle = secao.querySelector(".bloco-toggle");
+
+       header.addEventListener("click", () => {
+
+       content.classList.toggle("recolhido");
+
+       toggle.classList.toggle("recolhido");
+
+});
+
+       
 
         container.appendChild(secao);
 
     },
 
-    // ======================================
-    // Cria a seção
-    // ======================================
-    criarSecao() {
+   // ======================================
+// Cria a seção
+// ======================================
+criarSecao() {
 
-        const secao = document.createElement("section");
+    const secao = document.createElement("section");
 
-        secao.className = "bloco";
+    secao.className = "bloco card-histograma";
 
-        secao.innerHTML = `
-            <h2>📊 Histograma</h2>
+    secao.innerHTML = `
+
+        <div class="bloco-header">
+
+            <h2>${Icons.histograma} Histograma</h2>
+
+            <span class="bloco-toggle">▼</span>
+
+        </div>
+
+        <div class="bloco-content">
 
             <div class="painel-grid"></div>
-        `;
 
-        return secao;
+        </div>
 
-    },
+        <div class="painel-total"></div>
+
+    `;
+
+    return secao;
+
+},
 
     // ======================================
     // Cria os cards

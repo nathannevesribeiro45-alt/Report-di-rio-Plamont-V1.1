@@ -70,7 +70,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Splash
     inicializarSplash();
 
+    //Sidebar
+    Sidebar.init();
+
+    // Busca inteligente da sidebar
+    Busca.init();
+
     // Interface
     Render.inicializar();
+
+    
 
 });

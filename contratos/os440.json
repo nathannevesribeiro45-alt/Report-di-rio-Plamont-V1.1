@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "04/08/2026",
+  "data": "05/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,17 +10,17 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 8,
-          "Mecanico": 16,
-          "Soldador": 5,
+          "Caldeireiro": 11,
+          "Mecanico": 27,
+          "Soldador": 8,
           "Montador": 10,
-          "Eletricista": 4,
+          "Eletricista": 5,
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 2,
+          "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 4,
+          "Mestre Montagem": 3,
           "Mestre Andaime": 2
         }
       },
@@ -51,12 +51,13 @@
         "naoJustificadas": 0
       },
       "mobilizacao": {
-        "Caldeireiro": 1,
-        "Mecanico": 0,
-        "Soldador": 0,
+        "Caldeireiro": 2,
+        "Mecanico": 5,
+        "Soldador": 1,
         "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0
+        "Eletricista": 1,
+        "Pintor": 1,
+        "Ajudante de mont.": 1
       },
       "recursos": [
         {
@@ -67,16 +68,30 @@
         },
           {
           "tipo": "Munck",
-          "placa": "SGA3I14",
+          "placa": "SGA-3I14",
           "operador": "",
           "contato": ""
         },
         {
           "tipo": "Munck",
           "placa": "SGA-3I06",
-          "operador": "Mário",
+          "operador": "",
           "contato": ""
         },
+        {
+          "tipo": "Munck",
+          "placa": "️QRD-8212",
+          "operador": "",
+          "contato": ""
+        },
+
+        {
+          "tipo": "Guindaste",
+          "placa": "️NXK-0961",
+          "operador": "",
+          "contato": ""
+        },
+        
         {
           "tipo": "Pick-up",
           "placa": "QRI 2G24",
@@ -108,6 +123,9 @@
           "oms": [
             {
               "numero": "202501829498",
+              "frente":"TR-2516",
+              "latitude":"-2,564037",
+              "longitude":"-44,378207",
               "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
               "status": "Em andamento"
             }
@@ -121,6 +139,9 @@
           "oms": [
             {
               "numero": "202501829498",
+              "frente":"TR-2516",
+              "latitude":"null",
+              "longitude":"null",
               "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
               "status": "Em andamento"
             }
@@ -134,6 +155,9 @@
           "oms": [
             {
               "numero": "202502094301",
+              "frente":"TR-1318",
+              "latitude":"null",
+              "longitude":"null",
               "descricao": "PE2._FABR.TROC.COL. SUST.EIXO.08.09 TR(TR-1318)",
               "status": "Em andamento"
             }
@@ -147,15 +171,54 @@
           "oms": [
             {
               "numero": "202603923807",
+              "frente":"Rp-03",
+              "latitude":"null",
+              "longitude":"null",
               "descricao": "- APOIO - RETIRAR TELA DO BATENTE (RP-03)",
+              "status": ""
+            }
+          ]
+        },
+
+        {
+          "lider": "Gutemberg",
+          "telefone": "98 8857-8265",
+          "tecnicoSeguranca": "",
+          "equipe": "6 Mecânicos + 2 Soldador + 3 Caldeireiros + 1 Ajudante mont.",
+          "oms": [
+            {
+              "numero": "",
+              "frente":"null",
+              "latitude":"null",
+              "longitude":"null",
+              "descricao": "Fabricação de peças.",
               "status": "Em andamento"
             }
           ]
-        } 
+        },
+
+         {
+          "lider": "Mailson",
+          "telefone": "98 9614-6804",
+          "tecnicoSeguranca": "",
+          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante mont. + 1 Eletricista",
+          "oms": [
+            {
+              "numero": "",
+              "frente":"null",
+              "latitude":"null",
+              "longitude":"null",
+              "descricao": "Responsável pelas mobilizações de ativos.",
+              "status": "Em andamento"
+            }
+          ]
+        }
       ],
       "nome": "Integridade",
       "observacoes": [
-        "Mobilização da ER-03 em andamento."
+        "Mobilização da Ct-06 em andamento.",
+        "Mobilização de um banheiro para o Tr-313k-12",
+        "Equipe do lider Mailson responsável pelas mobilizações."
       ]
     },
     {

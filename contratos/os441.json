@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "04/08/2026",
+  "data": "05/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,8 +13,8 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
-          "Soldador": 3,
+          "Mecanico": 12,
+          "Soldador": 2,
           "Montador": 9,
           "Eletricista": 0,
           "Pintor": 0
@@ -64,7 +64,7 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "RQP-8G78",
+          "placa": "SGC-7H66",
           "operador": "Gleydson",
           "contato":"",
           "status": "OPERANTE"
@@ -79,14 +79,14 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0A35",
+          "placa": "QRI-2G50",
           "operador": "Anderson",
           "contrato":"",
           "status": "OPERANTE"
         },
           {
           "tipo": "Pick-up",
-          "placa": "SFU-0A35",
+          "placa": "SFT-9J87",
           "operador": "Patrick",
           "contrato":"",
           "status": "OPERANTE"
@@ -108,14 +108,14 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603736808",
-              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S",
+              "numero": "202602226060",
+              "descricao": "TROCAR 20 ROLOS GUIAS DOS CV AA DE RET",
               "status": "Em andamento"
             },
 
              {
-              "numero": "202602272330",
-              "descricao": "TROCAR17CHAPASDEDESGASTECHUTERC",
+              "numero": "202603713509",
+              "descricao": "MONTAR ANDAIME PARA TROCAR 12 ROLOS DE CARGA AVARIADOS",
               "status": "Em andamento"
             }
           ]
@@ -124,7 +124,7 @@
           "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 3 Montadores",
           "oms": [
             {
               "numero": "202603475517",
@@ -137,16 +137,16 @@
           "lider": "Ederson",
           "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603669349 ",
-              "descricao": "MONTAR/DESMONTAR AND PARA TROCAR 36 ROLOS DE TRANSIÇÃO",
+              "numero": "202603845651",
+              "descricao": "MONTAR E DESMONTAR ANDAIME CHUTE DO 1301",
               "status": "Em andamento"
             },
              {
-              "numero": "202602669344",
-              "descricao": "TROCAR 36 ROLOS DE TRANSIÇÃO",
+              "numero": "202603845398",
+              "descricao": "15 CHAPAS DESGASTADAS RECEBIMENTO TR1301",
               "status": "Em andamento"
             }
         

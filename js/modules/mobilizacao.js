@@ -42,18 +42,24 @@ if (total === 0) {
 
 }
 
-        const rodape = document.createElement("div");
+const painelTotal = secao.querySelector(".painel-total");
 
-        rodape.className = "lista-total";
+painelTotal.innerHTML = `
+    <span>👥 Total em Mobilização:</span>
+    <strong>${total}</strong>
+`;
 
-        rodape.innerHTML = `
-            <div class="lista-resumo">
-                <span>👥 Total em Mobilização</span>
-                <strong>${total}</strong>
-            </div>
-        `;
+const header = secao.querySelector(".bloco-header");
+const content = secao.querySelector(".bloco-content");
+const toggle = secao.querySelector(".bloco-toggle");
 
-        secao.appendChild(rodape);
+header.addEventListener("click", () => {
+
+    content.classList.toggle("recolhido");
+
+    toggle.classList.toggle("recolhido");
+
+});
 
         container.appendChild(secao);
 
@@ -62,25 +68,38 @@ if (total === 0) {
     // ======================================
     // Cria a seção
     // ======================================
-    criarSecao() {
+    // ======================================
+// Cria a seção
+// ======================================
+criarSecao() {
 
-        const secao = document.createElement("section");
+    const secao = document.createElement("section");
 
-        secao.className = "bloco";
+    secao.className = "bloco card-mobilizacao";
 
-        secao.innerHTML = `
-            <h2>👷 Efetivo em Mobilização</h2>
+    secao.innerHTML = `
 
-            <p class="lista-subtitulo">
-                Colaboradores fora da área operacional
-            </p>
+        <div class="bloco-header">
+
+            <h2>${Icons.mobilizacao} Efetivo em Mobilização</h2>
+
+            <span class="bloco-toggle">▼</span>
+
+        </div>
+
+        <div class="bloco-content">
 
             <div class="lista-card"></div>
-        `;
 
-        return secao;
+        </div>
 
-    },
+        <div class="painel-total"></div>
+
+    `;
+
+    return secao;
+
+},
 
     // ======================================
     // Cria a lista

@@ -42,46 +42,69 @@ if (total === 0) {
 
 }
 
-        const rodape = document.createElement("div");
 
-        rodape.className = "lista-total";
+const painelTotal = secao.querySelector(".painel-total");
 
-        rodape.innerHTML = `
-            <span>📋 Justificadas: <strong>${aba.ausencias.justificadas}</strong></span>
+painelTotal.innerHTML = `
 
-            <span>❌ Não Justificadas: <strong>${aba.ausencias.naoJustificadas}</strong></span>
+    <span>📋 Justificadas: <strong>${aba.ausencias.justificadas}</strong></span>
 
-            <span>👥 Total: <strong>${total}</strong></span>
-        `;
+    <span>❌ Não justificadas: <strong>${aba.ausencias.naoJustificadas}</strong></span>
 
-        secao.appendChild(rodape);
+    <span>👥 Total: <strong>${total}</strong></span>
+
+`;
+
+    
+
+        const header = secao.querySelector(".bloco-header");
+        const content = secao.querySelector(".bloco-content");
+        const toggle = secao.querySelector(".bloco-toggle");
+
+        header.addEventListener("click", () => {
+ 
+        content.classList.toggle("recolhido");
+
+        toggle.classList.toggle("recolhido");
+
+});
 
         container.appendChild(secao);
 
     },
 
-    // ======================================
-    // Cria a seção
-    // ======================================
-    criarSecao() {
+   // ======================================
+// Cria a seção
+// ======================================
+criarSecao() {
 
-        const secao = document.createElement("section");
+    const secao = document.createElement("section");
 
-        secao.className = "bloco";
+    secao.className = "bloco card-ausencias";
 
-        secao.innerHTML = `
-            <h2>🚫 Ausências</h2>
+    secao.innerHTML = `
 
-            <p class="lista-subtitulo">
-                Controle diário do efetivo
-            </p>
+        <div class="bloco-header">
+
+            <h2>${Icons.ausencias} Ausências</h2>
+
+            <span class="bloco-toggle">▼</span>
+
+        </div>
+
+        <div class="bloco-content">
 
             <div class="lista-card"></div>
-        `;
 
-        return secao;
+        </div>
 
-    },
+        <div class="painel-total"></div>
+
+    `;
+
+    return secao;
+
+},
 
     // ======================================
     // Cria a lista

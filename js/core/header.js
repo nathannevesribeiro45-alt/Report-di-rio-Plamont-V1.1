@@ -19,27 +19,51 @@ const Header = {
             `${contrato.id}-subtitulo`
         );
 
-        const dataCard = document.getElementById(
-            `${contrato.id}-data-card`
+        const data = document.getElementById(
+            `${contrato.id}-data`
         );
 
-        if (!titulo || !subtitulo || !dataCard) {
+        const turno = document.getElementById(
+            `${contrato.id}-turno`
+        );
+
+        const horario = document.getElementById(
+            `${contrato.id}-horario`
+        );
+
+        if (
+            !titulo ||
+            !subtitulo ||
+            !data ||
+            !turno ||
+            !horario
+        ) {
             console.error("Elementos do cabeçalho não encontrados.");
             return;
         }
 
+        // ===============================
         // Título
+        // ===============================
+
         titulo.textContent = contrato.nome;
 
+        // ===============================
         // Subtítulo
-        subtitulo.textContent =
-            `${contrato.turno} • ${contrato.horario}`;
+        // ===============================
 
-        // Card da data
-        dataCard.innerHTML = `
-            📅 <strong>${contrato.data}</strong><br>
-            🕐 ${contrato.turno}
-        `;
+        subtitulo.textContent =
+            ``;
+
+        // ===============================
+        // Calendar Card
+        // ===============================
+
+        data.textContent = `📅 ${contrato.data}`;
+
+        turno.textContent = contrato.turno;
+
+        horario.textContent = contrato.horario;
 
     }
 

@@ -6,53 +6,94 @@
 
 const Atividades = {
 
-    // ======================================
-    // Renderiza a seção
-    // ======================================
-    render(aba, container) {
+// ======================================
+// Renderiza a seção
+// ======================================
+render(aba, container) {
 
-        if (!aba || !aba.atividades) return;
-        if (!container) return;
+    if (!aba || !aba.atividades) return;
+    if (!container) return;
 
-        const secao = this.criarSecao();
+    const secao = this.criarSecao();
 
-        const listaContainer = secao.querySelector(".atividades-lista");
+    const listaContainer = secao.querySelector(".atividades-lista");
 
-        this.criarLista(
-            aba.atividades,
-            listaContainer
+    this.criarLista(
+        aba.atividades,
+        listaContainer
+    );
+
+    if (aba.observacoes && aba.observacoes.length > 0) {
+
+        const containerObservacoes = secao.querySelector(
+            ".atividade-observacoes-container"
         );
 
-        if (aba.observacoes && aba.observacoes.length > 0) {
+        containerObservacoes.appendChild(
+            this.criarObservacoes(aba.observacoes)
+        );
 
-            secao.appendChild(
-                this.criarObservacoes(aba.observacoes)
-            );
+    }
 
-        }
+    const painelTotal = secao.querySelector(".painel-total");
 
-        container.appendChild(secao);
+    const totalOms = (aba.atividades || []).reduce(
+        (total, lider) => total + (lider.oms?.length || 0),
+        0
+    );
 
-    },
+    painelTotal.innerHTML = `
+        <strong>${totalOms}</strong>
+        OM${totalOms !== 1 ? "'s" : ""}
+    `;
+
+    container.appendChild(secao);
+
+    const header = secao.querySelector(".bloco-header");
+    const content = secao.querySelector(".bloco-content");
+    const toggle = secao.querySelector(".bloco-toggle");
+
+    header.addEventListener("click", () => {
+    content.classList.toggle("recolhido");
+    toggle.classList.toggle("recolhido");
+});
+
+},
 
     // ======================================
     // Cria a seção
     // ======================================
-    criarSecao() {
+   criarSecao() {
 
-        const secao = document.createElement("section");
+    const secao = document.createElement("section");
 
-        secao.className = "bloco atividades";
+    secao.className = "bloco card-atividades";
 
-        secao.innerHTML = `
-            <h2>📋 OMs do Dia</h2>
+    secao.innerHTML = `
+
+        <div class="bloco-header">
+
+            <h2>${Icons.oms} OM's do Dia</h2>
+
+            <span class="bloco-toggle">▼</span>
+
+        </div>
+
+        <div class="bloco-content">
 
             <div class="atividades-lista"></div>
-        `;
 
-        return secao;
+            <div class="atividade-observacoes-container"></div>
 
-    },
+        </div>
+
+        <div class="painel-total"></div>
+
+    `;
+
+    return secao;
+
+},
 
     // ======================================
     // Cria todos os cards dos líderes
@@ -91,6 +132,8 @@ const Atividades = {
         const card = document.createElement("div");
 
         card.className = "atividade-card";
+
+        card.dataset.busca = lider.lider;
 
         card.appendChild(
             this.criarCabecalho(lider)
@@ -185,6 +228,8 @@ ${lider.tecnicoSeguranca ? `
 
         card.className = "atividade-om";
 
+        card.dataset.busca = (om.numero || "").toString();
+
         card.innerHTML = `
 
             <div class="om-topo">
@@ -196,7 +241,7 @@ ${lider.tecnicoSeguranca ? `
                 </div>
 
                 ${om.status ? `
-                    <div class="om-status">
+                    <div class="om-status ${this.classeStatus(om.status)}">
                         ${om.status}
                     </div>
                 ` : ""}
@@ -215,35 +260,79 @@ ${lider.tecnicoSeguranca ? `
 
     },
 
-    // ======================================
-    // Observações
-    // ======================================
-    criarObservacoes(observacoes) {
+   // ======================================
+// Observações
+// ======================================
+criarObservacoes(observacoes) {
 
-        const bloco = document.createElement("div");
+    const bloco = document.createElement("div");
 
-        bloco.className = "atividade-observacoes";
+    bloco.className = "atividade-observacoes";
 
-        bloco.innerHTML = `
-            <h3>📝 Observações Gerais</h3>
-        `;
+    bloco.innerHTML = `
 
-        const lista = document.createElement("ul");
+        <div class="observacoes-header">
 
-        observacoes.forEach(obs => {
+            <div class="observacoes-titulo">
 
-            const item = document.createElement("li");
+                📝
 
-            item.textContent = obs;
+                <span>Observações Gerais</span>
 
-            lista.appendChild(item);
+            </div>
 
-        });
+        </div>
 
-        bloco.appendChild(lista);
+        <div class="observacoes-body">
 
-        return bloco;
+        </div>
+
+    `;
+
+    const body = bloco.querySelector(".observacoes-body");
+
+    const lista = document.createElement("ul");
+
+    observacoes.forEach(obs => {
+
+        const item = document.createElement("li");
+
+        item.textContent = obs;
+
+        item.dataset.busca = obs;
+
+        lista.appendChild(item);
+
+    });
+
+    body.appendChild(lista);
+
+    return bloco;
+
+},
+
+
+    classeStatus(status){
+
+    switch(status?.toLowerCase()){
+
+        case "em andamento":
+            return "status-andamento";
+
+        case "concluída":
+            return "status-concluida";
+
+        case "concluída parcial":
+            return "status-parcial";
+
+        case "postergada":
+            return "status-postergada";
+
+        default:
+            return "status-neutro";
 
     }
+
+}
 
 };

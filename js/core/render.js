@@ -22,11 +22,13 @@ const Render = {
         await Abas.render(Dashboard.contratoAtual.abas);
 
         // Primeira aba
-        const primeiraAba = Dashboard.contratoAtual.abas[0];
+     const abaInicial =
+    Dashboard.abaAtual ??
+    Dashboard.contratoAtual.abas[0];
 
-        if (primeiraAba) {
-            this.selecionarAba(primeiraAba.id);
-        }
+if (abaInicial) {
+    this.selecionarAba(abaInicial.id);
+}
 
     },
 
@@ -35,20 +37,53 @@ const Render = {
     // ==========================================
     selecionarAba(idAba) {
 
-        Dashboard.abaAtual = Dashboard.contratoAtual.abas.find(
-            aba => aba.id === idAba
-        );
+    const container = document.getElementById(
+        `${Dashboard.contratoAtual.id}-content`
+    );
 
-        if (!Dashboard.abaAtual) {
-            console.warn("Aba não encontrada.");
-            return;
-        }
+    Dashboard.abaAtual = Dashboard.contratoAtual.abas.find(
+        aba => aba.id === idAba
+    );
 
-        Abas.atualizarAtiva(idAba);
+    if (!Dashboard.abaAtual) {
+        console.warn("Aba não encontrada.");
+        return;
+    }
+
+    Abas.atualizarAtiva(idAba);
+
+    // Primeira renderização (sem animação)
+    if (!container.hasChildNodes()) {
 
         this.conteudo();
 
-    },
+        return;
+
+    }
+
+    container.classList.add("aba-animando");
+    container.classList.add("aba-slide-out");
+
+    setTimeout(() => {
+
+        this.conteudo();
+
+        container.classList.remove("aba-slide-out");
+        container.classList.add("aba-slide-in");
+
+        requestAnimationFrame(() => {
+
+            requestAnimationFrame(() => {
+
+                container.classList.remove("aba-slide-in");
+
+            });
+
+        });
+
+    },220);
+
+},
 
     // ==========================================
     // Renderiza conteúdo da aba
@@ -67,12 +102,20 @@ const Render = {
         container.innerHTML = "";
 
         QLP.render(Dashboard.abaAtual, container);
-        Histograma.render(Dashboard.abaAtual, container);
-        Ausencias.render(Dashboard.abaAtual, container);
-        Mobilizacao.render(Dashboard.abaAtual, container);
-        Recursos.render(Dashboard.abaAtual, container);
-        Atividades.render(Dashboard.abaAtual, container);
 
+        Histograma.render(Dashboard.abaAtual, container);
+
+// Grid para Ausências + Mobilização
+const gridSecoes = document.createElement("div");
+gridSecoes.className = "grid-secoes";
+
+container.appendChild(gridSecoes);
+
+Ausencias.render(Dashboard.abaAtual, gridSecoes);
+Mobilizacao.render(Dashboard.abaAtual, gridSecoes);
+
+Recursos.render(Dashboard.abaAtual, container);
+Atividades.render(Dashboard.abaAtual, container);
     },
 
     // ==========================================

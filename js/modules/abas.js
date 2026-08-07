@@ -26,6 +26,11 @@ const Abas = {
 
         container.innerHTML = "";
 
+        // Cria o slider animado das abas
+         const slider = document.createElement("div");
+        slider.className = "tab-slider";
+        container.appendChild(slider);
+
         for (const aba of abas) {
             const botao = await this.criarBotao(aba);
             container.appendChild(botao);
@@ -80,23 +85,38 @@ const Abas = {
     },
 
     // ======================================
-    // Atualiza a aba ativa
-    // ======================================
-    atualizarAtiva(idAba) {
+// Atualiza a aba ativa
+// ======================================
+atualizarAtiva(idAba) {
 
-        const botoes = document.querySelectorAll(
-            `#${Dashboard.contratoAtual.id}-tabs .tab-btn`
-        );
+    const container = document.getElementById(
+        `${Dashboard.contratoAtual.id}-tabs`
+    );
 
-        botoes.forEach(botao => {
+    const slider = container.querySelector(".tab-slider");
 
-            botao.classList.toggle(
-                "ativa",
-                botao.dataset.id === idAba
-            );
+    const botoes = container.querySelectorAll(".tab-btn");
 
-        });
+    botoes.forEach(botao => {
 
-    }
+        const ativa = botao.dataset.id === idAba;
+
+        botao.classList.toggle("ativa", ativa);
+
+        if (ativa && slider) {
+
+            slider.style.width = `${botao.offsetWidth}px`;
+
+            slider.style.height = `${botao.offsetHeight}px`;
+
+            slider.style.left = `${botao.offsetLeft}px`;
+
+            slider.style.top = `${botao.offsetTop}px`;
+
+        }
+
+    });
+
+}
 
 };

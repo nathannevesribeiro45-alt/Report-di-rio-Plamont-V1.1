@@ -51,6 +51,21 @@ const QLP = {
 
         container.appendChild(secao);
 
+        const header = secao.querySelector(".bloco-header");
+        const content = secao.querySelector(".bloco-content");
+
+        const toggle = secao.querySelector(".bloco-toggle");
+
+        header.addEventListener("click", () => {
+
+        content.classList.toggle("recolhido");
+
+        toggle.classList.toggle("recolhido");
+
+
+
+});
+
     },
 
     // ======================================
@@ -62,11 +77,28 @@ const QLP = {
 
         secao.className = "bloco";
 
-        secao.innerHTML = `
-            <h2>👷 Efetivo (QLP)</h2>
+       secao.innerHTML = `
 
-            <div class="painel-grid"></div>
-        `;
+    <div class="bloco-header">
+
+        <h2>
+            ${Icons.qlp}
+            Efetivo (QLP)
+        </h2>
+
+        <span class="bloco-toggle">
+            ▼
+        </span>
+
+    </div>
+
+    <div class="bloco-content">
+
+        <div class="painel-grid"></div>
+
+    </div>
+
+`;
 
         return secao;
 

@@ -16,35 +16,90 @@ const Recursos = {
 
         const secao = this.criarSecao();
 
-        const lista = secao.querySelector(".recursos-grid");
+       const lista = secao.querySelector(".recursos-grid");
 
-        this.criarLista(
-            aba.recursos,
-            lista
-        );
+const recursos = aba.recursos.filter(recurso =>
+    recurso?.tipo?.trim()
+);
 
-        container.appendChild(secao);
+this.criarLista(
+    recursos,
+    lista
+);
+
+// Total de recursos
+const total = recursos.length;
+
+const painelTotal = secao.querySelector(".painel-total");
+
+painelTotal.innerHTML = `
+    ${total}
+    recurso${total !== 1 ? "s" : ""}
+    ${total !== 1 ? "disponíveis" : "disponível"}
+`;
+
+const header = secao.querySelector(".bloco-header");
+
+const content = secao.querySelector(".bloco-content");
+
+const toggle = secao.querySelector(".bloco-toggle");
+
+header.addEventListener("click", () => {
+
+    content.classList.toggle("recolhido");
+
+    toggle.classList.toggle("recolhido");
+
+});
+
+container.appendChild(secao);
 
     },
 
     // ======================================
     // Cria a seção
     // ======================================
-    criarSecao() {
+ criarSecao() {
 
-        const secao = document.createElement("section");
+    const secao = document.createElement("section");
 
-        secao.className = "bloco recursos";
+    secao.className = "bloco card-recursos";
 
-        secao.innerHTML = `
-            <h2>🚚 Recursos Disponíveis</h2>
+    secao.innerHTML = `
+
+        <div class="bloco-header">
+
+            <h2>
+
+                ${Icons.carro}
+
+                Recursos Disponíveis
+
+            </h2>
+
+            <span class="bloco-toggle">
+
+                ▼
+
+            </span>
+
+        </div>
+
+        <div class="bloco-content">
 
             <div class="recursos-grid"></div>
-        `;
 
-        return secao;
+        </div>
 
-    },
+        <div class="painel-total">
+
+        </div>
+
+    `;
+
+    return secao;
+
+},
 
 // ======================================
 // Cria a lista
@@ -114,11 +169,13 @@ criarItem(tipo, recursos) {
             <div class="recurso-linha">
 
                 <span class="recurso-placa">
-                    🚘 ${recurso.placa || "--"}
+                    <span class="recurso-linha-icone" aria-hidden="true">&#128663;</span>
+                    <span class="recurso-ponto" aria-hidden="true"></span>
+                    <span class="recurso-placa-texto">${recurso.placa || "--"}</span>
                 </span>
 
                 <span class="recurso-operador">
-                    👷 ${recurso.operador || "--"}
+                    ${this.formatarOperador(recurso)}
                 </span>
 
             </div>
@@ -129,21 +186,34 @@ criarItem(tipo, recursos) {
 
     item.innerHTML = `
 
-        <div class="recurso-header">
+        <div class="recurso-header" role="button" tabindex="0" aria-expanded="false">
 
-            <span class="recurso-icone">
+    <span class="recurso-icone">
 
-                ${this.icone(tipo)}
+        ${this.icone(tipo)}
 
-            </span>
+    </span>
 
-            <span class="recurso-titulo">
+    <div class="recurso-titulo">
 
-                ${tipo}
+        <span class="recurso-nome">
 
-            </span>
+            ${tipo}
 
-        </div>
+        </span>
+
+        <span class="recurso-quantidade">
+
+            ${recursos.length}
+            recurso${recursos.length > 1 ? "s" : ""}
+
+        </span>
+
+    </div>
+
+    <span class="recurso-toggle" aria-hidden="true">&#9660;</span>
+
+</div>
 
         <div class="recurso-info">
 
@@ -153,7 +223,52 @@ criarItem(tipo, recursos) {
 
     `;
 
+    const header = item.querySelector(".recurso-header");
+
+    const alternarDetalhes = () => {
+
+        const aberto = item.classList.toggle("aberto");
+
+        header.setAttribute("aria-expanded", String(aberto));
+
+    };
+
+    header.addEventListener("click", alternarDetalhes);
+
+    header.addEventListener("keydown", evento => {
+
+        if (evento.key === "Enter" || evento.key === " ") {
+
+            evento.preventDefault();
+            alternarDetalhes();
+
+        }
+
+    });
+
     return item;
+
+},
+
+formatarOperador(recurso) {
+
+    const contatoInformado = (recurso.contato || "").trim();
+    const operadorOriginal = (recurso.operador || "").trim();
+    const contatoEncontrado = operadorOriginal.match(
+        /\(?\d{2}\)?\s?\d{4,5}[-\s]?\d{4}/
+    );
+    const contato = contatoInformado || contatoEncontrado?.[0] || "";
+    const nome = contato
+        ? operadorOriginal.replace(contato, "").replace(/[\s()\-]+$/, "").trim()
+        : operadorOriginal;
+
+    return `
+        <span class="recurso-operador-icone" aria-hidden="true">&#128119;</span>
+        <span class="recurso-operador-dados">
+            <span class="recurso-operador-nome">${nome || "--"}</span>
+            ${contato ? `<span class="recurso-operador-contato">${contato}</span>` : ""}
+        </span>
+    `;
 
 },
     // ======================================
