@@ -503,7 +503,8 @@
 .menu-icon img,.icone img{
     width:20px;
     height:20px;
-    display:block
+    display:block;
+    filter: brightness(0) invert(1);
 }
 
 .menu-title{
