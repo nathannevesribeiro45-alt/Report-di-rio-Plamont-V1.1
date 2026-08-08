@@ -359,17 +359,24 @@ const Mapa = {
 
     // ======================================
     // Constrói a lista de marcadores a partir do JSON
-    // do contrato — a menor unidade é a OM, e é dela
-    // (e só dela) que vem a localização.
+    // do contrato.
     //
-    // O mapa NUNCA inventa coordenadas: uma OM sem
-    // latitude/longitude válidas simplesmente não gera
-    // marcador (mas continua existindo no restante do
-    // sistema, como o resumo de atividades).
+    // A entidade espacial do mapa passou a ser a FRENTE
+    // (propriedade "frente" da OM), não mais a OM isolada.
+    // Todas as OMs de um mesmo líder que compartilham a
+    // mesma frente são agrupadas em um único marcador.
+    //
+    // A localização do marcador ainda vem exclusivamente
+    // de uma OM real (a primeira do grupo que tiver
+    // latitude/longitude válidas). O mapa NUNCA inventa
+    // coordenadas: uma frente sem nenhuma OM com coordenada
+    // válida simplesmente não gera marcador (mas continua
+    // existindo no restante do sistema, como o resumo de
+    // atividades).
     // ======================================
     montarMarcadores(contrato) {
 
-        const marcadores = [];
+        const grupos = new Map();
 
         (contrato.abas || []).forEach(aba => {
 
@@ -377,29 +384,72 @@ const Mapa = {
 
                 (lider.oms || []).forEach(om => {
 
-                    const lat = parseCoordenadaOM(om.latitude);
-                    const lng = parseCoordenadaOM(om.longitude);
+                    const frente = om.frente || "Sem frente";
+                    const chave = `${aba.id}::${lider.lider}::${frente}`;
 
-                    if (lat === null || lng === null) return;
+                    if (!grupos.has(chave)) {
 
-                    marcadores.push({
+                        grupos.set(chave, {
+                            id: chave,
+                            contrato,
+                            aba,
+                            lider,
+                            frente,
+                            oms: [],
+                            lat: null,
+                            lng: null
+                        });
 
-                        id: `${contrato.id}-${aba.id}-${om.numero || om.frente}`,
+                    }
 
-                        lat,
-                        lng,
+                    const grupo = grupos.get(chave);
+                    grupo.oms.push(om);
 
-                        status: normalizarStatusOM(om.status),
+                    // A primeira OM do grupo com coordenada válida
+                    // define a posição do marcador da frente.
+                    if (grupo.lat === null || grupo.lng === null) {
 
-                        // Contexto completo — exatamente como veio do JSON
-                        contrato,
-                        aba,
-                        lider,
-                        om
+                        const lat = parseCoordenadaOM(om.latitude);
+                        const lng = parseCoordenadaOM(om.longitude);
 
-                    });
+                        if (lat !== null && lng !== null) {
+                            grupo.lat = lat;
+                            grupo.lng = lng;
+                        }
+
+                    }
 
                 });
+
+            });
+
+        });
+
+        const marcadores = [];
+
+        grupos.forEach(grupo => {
+
+            // Frente sem nenhuma coordenada conhecida: não renderiza.
+            if (grupo.lat === null || grupo.lng === null) return;
+
+            const statusDasOms = grupo.oms.map(om => normalizarStatusOM(om.status));
+
+            marcadores.push({
+
+                id: grupo.id,
+
+                lat: grupo.lat,
+                lng: grupo.lng,
+
+                status: statusRepresentativoFrente(statusDasOms),
+
+                // Contexto completo do marcador — exatamente
+                // o que o painel precisa para se renderizar.
+                contrato: grupo.contrato,
+                aba: grupo.aba,
+                lider: grupo.lider,
+                frente: grupo.frente,
+                oms: grupo.oms
 
             });
 
@@ -423,7 +473,7 @@ const Mapa = {
                     <div class="mapa-marker ${cfg.classe}"></div>
                     <div class="mapa-marker-label">
                         <span class="mapa-marker-tag ${cfg.classe}">${cfg.label}</span>
-                        <strong>${dado.om?.frente}</strong>
+                        <strong>${dado.frente}</strong>
                     </div>
                 </div>
             `,

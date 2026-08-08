@@ -107,6 +107,32 @@ function normalizarStatusOM(status) {
 }
 
 /**
+ * Ordem de prioridade usada para escolher o status
+ * "representativo" de uma Frente de Trabalho no mapa,
+ * quando ela agrupa várias OMs com status diferentes.
+ *
+ * O status mais crítico/urgente vence — assim o marcador
+ * sempre chama atenção para a situação que mais precisa
+ * de acompanhamento naquela frente.
+ */
+const PRIORIDADE_STATUS_FRENTE = ["atrasada", "andamento", "planejada", "concluida"];
+
+/**
+ * Recebe a lista de status (já normalizados) de todas as
+ * OMs de uma frente e devolve o status que deve representar
+ * o marcador daquela frente no mapa.
+ */
+function statusRepresentativoFrente(statusList) {
+
+    for (const chave of PRIORIDADE_STATUS_FRENTE) {
+        if (statusList.includes(chave)) return chave;
+    }
+
+    return "planejada";
+
+}
+
+/**
  * Converte latitude/longitude vindas do JSON do contrato
  * (texto, formato BR com vírgula, ex: "-2,564037") para número.
  * Retorna null quando a OM não possui coordenada válida —

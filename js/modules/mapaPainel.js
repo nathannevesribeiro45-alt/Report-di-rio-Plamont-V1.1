@@ -16,9 +16,7 @@ const MapaPainel = {
     
     const aba = dado.aba;
     
-    const om = dado.om;
-    
-    const recursos = aba?.recursos || [];
+    const oms = dado.oms || [];
 
     const equipe = lider
         ? this.parseEquipe(lider.equipe)
@@ -31,7 +29,7 @@ const MapaPainel = {
                 <div class="mapa-painel-titulo">
                     <span class="mapa-painel-pino ${cfg.classe}"></span>
                     <div>
-                        <h2>${om?.frente || lider?.lider || "Sem frente"}</h2>
+                        <h2>${dado.frente || lider?.lider || "Sem frente"}</h2>
                         <div class="mapa-painel-categoria">${aba?.nome || ""}</div>
                     </div>
                 </div>
@@ -78,16 +76,26 @@ const MapaPainel = {
                 </div>
             `}
 
-            ${recursos.length ? `
+            ${oms.length ? `
                 <div class="mapa-painel-secao">
-                    <div class="mapa-painel-secao-titulo">🚚 Equipamentos</div>
-                    <div class="mapa-painel-lista">
-                        ${recursos.map(rec => `
-                            <div class="mapa-painel-lista-linha">
-                                <span>${rec.tipo}${rec.placa ? ` · ${rec.placa}` : ""}</span>
-                                <span class="mapa-painel-status-dot operante">Operante</span>
-                            </div>
-                        `).join("")}
+                    <div class="mapa-painel-secao-titulo">📋 Atividades da Frente (${oms.length})</div>
+                    <div class="mapa-painel-atividades">
+                        ${oms.map(om => {
+
+                            const statusOm = normalizarStatusOM(om.status);
+                            const cfgOm = statusConfig[statusOm];
+
+                            return `
+                                <div class="mapa-painel-atividade">
+                                    <span class="mapa-painel-atividade-dot ${cfgOm.classe}"></span>
+                                    <div class="mapa-painel-atividade-texto">
+                                        <div class="mapa-painel-atividade-numero">OM ${om.numero || "—"}</div>
+                                        <div class="mapa-painel-atividade-descricao">${om.descricao || ""}</div>
+                                    </div>
+                                </div>
+                            `;
+
+                        }).join("")}
                     </div>
                 </div>
             ` : ""}

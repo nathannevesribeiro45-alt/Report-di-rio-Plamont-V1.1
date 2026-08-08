@@ -596,6 +596,62 @@
 .mapa-painel-status-dot.parada{ color:var(--danger); }
 .mapa-painel-status-dot.parada::before{ background:var(--danger); }
 
+/* Atividades da Frente (lista de OMs do marcador) */
+
+.mapa-painel-atividades{
+    display:flex;
+    flex-direction:column;
+}
+
+.mapa-painel-atividade{
+
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+
+    padding:10px 0;
+    border-top:1px dashed #E3E8EE;
+
+}
+
+.mapa-painel-atividade:first-child{
+    border-top:none;
+    padding-top:0;
+}
+
+.mapa-painel-atividade-dot{
+
+    flex-shrink:0;
+    margin-top:5px;
+
+    width:9px;
+    height:9px;
+    border-radius:50%;
+
+}
+
+.mapa-painel-atividade-dot.status-concluida{ background:var(--success); }
+.mapa-painel-atividade-dot.status-andamento{ background:#F2A70B; }
+.mapa-painel-atividade-dot.status-atrasada{ background:var(--danger); }
+.mapa-painel-atividade-dot.status-planejada{ background:#3B82F6; }
+
+.mapa-painel-atividade-texto{
+    min-width:0;
+}
+
+.mapa-painel-atividade-numero{
+    font-size:12.5px;
+    font-weight:700;
+    color:var(--text);
+}
+
+.mapa-painel-atividade-descricao{
+    margin-top:2px;
+    font-size:13px;
+    line-height:1.45;
+    color:var(--text-light);
+}
+
 /* Observações */
 
 .mapa-painel-obs{
