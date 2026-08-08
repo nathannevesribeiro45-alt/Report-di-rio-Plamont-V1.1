@@ -236,19 +236,28 @@
 
              {
               "numero": "202402990383",
+              "frente":"CN-05",
+              "latitude":"-2,5594678",
+              "longitude":"-44,3791102",
               "descricao": "SEG_CDITROCAR 17 DEGRAUS ESCA ACESS ELE (CN-05)",
               "status": "Em andamento"
             },
 
               {
               "numero": "202603399802",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
               "descricao": "SEG_PS TROCAR 6 TELAS DE PISO AVARIADAS (TR-325K-16)",
               "status": "Em andamento"
             },
 
             {
               "numero": "202603122778",
-              "descricao": "SEG_PSSOLDAR TELAS COM FALTA DE FIXAÇÃO (TR-315K16)",
+              "frente":"TR-315K-16",
+              "latitude":"-2,5628536",
+              "longitude":"-44,3603660",
+              "descricao": "SEG_PSSOLDAR TELAS COM FALTA DE FIXAÇÃO (TR-315K-16)",
               "status": "Em andamento"
             }
 
