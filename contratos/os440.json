@@ -483,23 +483,24 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Ronielisson Moraes",
-          "telefone": "98 98785-9820",
+          "lider": "Edeilson",
+          "telefone": "98 8498-4952",
           "tecnicoSeguranca": "",
           "equipe": "7 mecânicos + 02 eletricista",
           "oms": [
             {
-              "numero": "",
-              "descricao": "",
-              "status": ""
+              "numero": "202601785020",
+              "frente":"Oficina de Subconjunto",
+              "descricao": "TME-SUBST-TELHA-ANEXO-OFIC-SUBCONJUNTO",
+              "latitude":"-2,5594118",
+              "longitude":"-44,3624348",
+              "status": "Em andamento"
             }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": [
-        "Mobilização de telhas para o TR-1516"
-      ]
+      "observacoes": []
     }
   ]
 }
