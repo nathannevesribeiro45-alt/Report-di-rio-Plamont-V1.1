@@ -67,6 +67,9 @@
           "oms": [
             {
               "numero": "202603210101",
+              "frente":"ER-03",
+              "latitude":"-2,5629104",
+              "longitude":"-44,3535788",
               "descricao": "APOIO RETROFIT ENRL CABO TRANSL ER03 (ER-03)",
               "status": "Em andamento"
             }
