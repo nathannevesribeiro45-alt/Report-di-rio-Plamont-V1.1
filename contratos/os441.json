@@ -122,12 +122,18 @@
           "oms": [
             {
               "numero": "202603657905",
+              "frente":"CN-05",
+              "latitude":"-2,5594112",
+              "longitude":"-44,3792181",
               "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S CN05",
               "status": "Em andamento"
             },
 
             {
               "numero": "202505875202",
+              "frente":"CN-05",
+              "latitude":"-2,5594005",
+              "longitude":"-44,3790212",
               "descricao": "CHUTE_FAZER MP CHUTELANÇADO CN05",
               "status": "Em andamento"
             }
@@ -141,6 +147,9 @@
           "oms": [
             {
               "numero": "202604054344",
+              "frente":"VV-04",
+              "latitude":"-2,5686231",
+              "longitude":"-44,3458035",
               "descricao": " PREPARAÇÃO MATERIAIS, FERRAMENTAS E 5S VV04",
               "status": "Em andamento"
             }
