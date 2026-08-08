@@ -172,9 +172,9 @@
   },
   {
     "numero": "202603403481",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
+    "frente": "TR-315K-34",
+    "latitude": "-2,5654041",
+    "longitude": "-44,3592253",
     "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1534",
     "status": "Em andamento"
   },
@@ -188,9 +188,9 @@
   },
   {
     "numero": "202603943345",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
+    "frente": "TR-315K-33",
+   "latitude": "-2,5684617",
+    "longitude": "-44,3548216",
     "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1533",
     "status": "Em andamento"
   },
@@ -204,9 +204,9 @@
   },
   {
     "numero": "202603943347",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
+    "frente": "TR-315K-35",
+    "latitude": "-2,5634221",
+    "longitude": "-44,3613362",
     "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1535",
     "status": "Em andamento"
   },
