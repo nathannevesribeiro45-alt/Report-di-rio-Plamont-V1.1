@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "05/08/2026",
+  "data": "08/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,7 +13,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 12,
+          "Mecanico": 14,
           "Soldador": 2,
           "Montador": 9,
           "Eletricista": 0,
@@ -108,14 +108,8 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202602226060",
-              "descricao": "TROCAR 20 ROLOS GUIAS DOS CV AA DE RET",
-              "status": "Em andamento"
-            },
-
-             {
-              "numero": "202603713509",
-              "descricao": "MONTAR ANDAIME PARA TROCAR 12 ROLOS DE CARGA AVARIADOS",
+              "numero": "202603840702",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO ER05",
               "status": "Em andamento"
             }
           ]
@@ -124,11 +118,17 @@
           "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 3 Montadores",
           "oms": [
             {
-              "numero": "202603475517",
-              "descricao": "APOIO FAZER PREPARAÇÃO MANUTENÇÃO e 5S",
+              "numero": "202603657905",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S CN05",
+              "status": "Em andamento"
+            },
+
+            {
+              "numero": "202505875202",
+              "descricao": "CHUTE_FAZER MP CHUTELANÇADO CN05",
               "status": "Em andamento"
             }
           ]
@@ -137,16 +137,11 @@
           "lider": "Ederson",
           "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603845651",
-              "descricao": "MONTAR E DESMONTAR ANDAIME CHUTE DO 1301",
-              "status": "Em andamento"
-            },
-             {
-              "numero": "202603845398",
-              "descricao": "15 CHAPAS DESGASTADAS RECEBIMENTO TR1301",
+              "numero": "202604054344",
+              "descricao": " PREPARAÇÃO MATERIAIS, FERRAMENTAS E 5S VV04",
               "status": "Em andamento"
             }
         
@@ -214,15 +209,43 @@
           "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores",
           "oms": [
             {
-              "numero": "202402990383",
-              "descricao": "SEG_CDITROCAR 17 DEGRAUS ESCA ACESS ELE",
+              "numero": "202603068362",
+              "descricao": "SEG_PS_TROC.GRAD.PIS. TR LANÇA LD ER 05 (ER-05)",
               "status": "Em andamento"
             },
             {
-              "numero": "202601512491",
-              "descricao": "SEG_GC_TROC T. PISO PASS ROLDANAS DE CAB",
+              "numero": "202603074014",
+              "descricao": "SEG_PS_TROC.GRAD.PIS.BASE.ESC.CAB.ER5 (ER-05)",
+              "status": "Em andamento"
+            },
+
+            {
+              "numero": "202603074060",
+              "descricao": "SEG_PS_TROC. 2GRAD.PIS LD ESQ .ER 0 (ER-05)",
+              "status": "Em andamento"
+            },
+
+             {
+              "numero": "202402990383",
+              "descricao": "SEG_CDITROCAR 17 DEGRAUS ESCA ACESS ELE (CN-05)",
+              "status": "Em andamento"
+            },
+
+              {
+              "numero": "202603399802",
+              "descricao": "SEG_PS TROCAR 6 TELAS DE PISO AVARIADAS (TR-325K-16)",
+              "status": "Em andamento"
+            },
+
+            {
+              "numero": "202603122778",
+              "descricao": "SEG_PSSOLDAR TELAS COM FALTA DE FIXAÇÃO (TR-315K16)",
               "status": "Em andamento"
             }
+
+
+          
+
           ]
         }
       ]

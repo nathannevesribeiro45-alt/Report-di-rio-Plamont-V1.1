@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "05/08/2026",
+  "data": "08/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -16,7 +16,7 @@
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 4,
+          "Eletricista": 3,
           "Pintor": 0
         },
         "indireto": {
@@ -63,16 +63,11 @@
           "lider": "Joderson",
           "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
-          "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
+          "equipe": "3 Eletricistas + 1 Caldeireiro + 1 Soldador",
           "oms": [
             {
-              "numero": "202603789673",
-              "descricao": "TROCAR SUPORTE CHAVE SDN 64 - TR 1393",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603739573",
-              "descricao": "NORMALIZAR SUPORTE CHAVE SDN 70 - TR1393",
+              "numero": "202603210101",
+              "descricao": "APOIO RETROFIT ENRL CABO TRANSL ER03 (ER-03)",
               "status": "Em andamento"
             }
           ]
@@ -88,7 +83,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 0,
-          "Mecanico": 6,
+          "Mecanico": 5,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -162,56 +157,70 @@
           "lider": "Dionatan",
           "telefone": "98 8299-8136",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
           "oms": [
   {
-    "numero": "202603387265",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-216",
+    "numero": "202603403480",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1535",
     "status": "Em andamento"
   },
   {
-    "numero": "202603387267",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-216",
+    "numero": "202603403481",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1534",
     "status": "Em andamento"
   },
   {
-    "numero": "202603387472",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-216",
+    "numero": "202603403482",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1533",
     "status": "Em andamento"
   },
   {
-    "numero": "202603514947",
-    "descricao": "MCM-MPV ELE 08S GUINCHO ESTIC TR1393",
+    "numero": "202603943345",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1533",
     "status": "Em andamento"
   },
   {
-    "numero": "202603512938",
-    "descricao": "PREVENTIVA LUB_HID REDUTOR",
+    "numero": "202603943346",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1534",
     "status": "Em andamento"
   },
   {
-    "numero": "202603520864",
-    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1393",
+    "numero": "202603943347",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1535",
     "status": "Em andamento"
   },
   {
-    "numero": "202603520873",
-    "descricao": "MCM-MPV UTL MEC 08S GUINCHO ATS TR1393",
+    "numero": "202603306887",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "Des/Montar t fixo para absuilt",
     "status": "Em andamento"
   },
   {
-    "numero": "202603962080",
-    "descricao": "EX 1301- EIXO DO TB MOTRIZ AVARIADO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602917629",
-    "descricao": "MP ELMEC PONTE ROLANTE PR-311K-203",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202601980935",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-01",
+    "numero": "202604047164",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "INSTALAR EXTENSOR LUBRIF MANUAL",
     "status": "Em andamento"
   }
 ]

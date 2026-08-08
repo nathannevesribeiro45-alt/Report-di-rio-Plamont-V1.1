@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "05/08/2026",
-  "turno": "Dia A",
+  "data": "08/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,11 +10,12 @@
       "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
+          "Caldeireiro": 4,
           "Mecanico": 11,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 8,
+          "Ajudante de mont.":"2",
           "Pintor": 0
         },
         "indireto": {
@@ -52,63 +53,70 @@
         "justificadas": 1,
         "naoJustificadas": 0
       },
-      "mobilizacao": {
-        "Montador": 0,
-        "Eletricista": 0
-      },
+      "mobilizacao": {},
+
       "recursos": [
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "ITALO (98 98203-1746)",
+          "operador": "Fernando",
+          "telefone":"(98) 98406-7236",
           "status": "Operante"
         },
         {
           "tipo": "Munck",
-          "placa": "QRD-8213",
-          "operador": "DJANE (94 98409-0167)",
+          "placa": "QRI-8D21",
+          "operador": "José Carlos",
+          "telefone":"(98) 98814-7068",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFV-7I13",
-          "operador": "DIEGO (98 98887-6086)",
+          "operador": "Alisson",
+          "telefone":"98 98876-4732",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G50",
-          "operador": "",
-          "status": "Operante"
+          "placa": "SFR-3B97",
+          "operador": "KAKA",
+          "telefone":"(98) 98480-6556",
+          "status": "Manutenção"
         },
         {
           "tipo": "Caminhao comboio",
           "placa": "PTG3093",
-          "operador": "Maxuel (98 98113-3561)",
+          "operador": "Maxuel",
+          "telefone":"98 98113-3561",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": "Alciomar (98 98802-8232)",
+          "operador": "Alciomar",
+          "telefone":"98 98802-8232",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Oliveira (98 97010-4041)",
+          "operador": "Oliveira",
+          "telefone":"98 97010-4041",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Gilmar (98 98474-3782)",
+          "operador": "Gilmar",
+          "telefone":"98 98474-3782",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Geilson (98 98850-8993)",
+          "operador": "Geilson",
+          "telefone":"98 98850-8993",
           "status": "Operante"
         }
       ],

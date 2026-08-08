@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "05/08/2026",
+  "data": "08/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,11 +10,11 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 11,
-          "Mecanico": 27,
-          "Soldador": 8,
+          "Caldeireiro": 6,
+          "Mecanico": 14,
+          "Soldador": 5,
           "Montador": 10,
-          "Eletricista": 5,
+          "Eletricista": 4,
           "Pintor": 0
         },
         "indireto": {
@@ -77,162 +77,84 @@
           "placa": "SGA-3I06",
           "operador": "",
           "contato": ""
-        },
-        {
-          "tipo": "Munck",
-          "placa": "️QRD-8212",
-          "operador": "",
-          "contato": ""
-        },
-
-        {
-          "tipo": "Guindaste",
-          "placa": "️NXK-0961",
-          "operador": "",
-          "contato": ""
-        },
-        
-        {
-          "tipo": "Pick-up",
-          "placa": "QRI 2G24",
-          "operador": "",
-          "contato": ""
-        },
-        {
-          "tipo": "Pick-up",
-          "placa": "SFU-0A47",
-          "operador": "",
-          "contato": ""
-        },
-         {
-          "tipo": "Pick-up",
-          "placa": "SFU-0A01",
-          "operador": "",
-          "contato": ""
         }
-        
-        
-        
+       
       ],
       "atividades": [
         {
-          "lider": "Wallace Ferreira",
-          "telefone": "98 9229-0970",
-          "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor",
-          "oms": [
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista",
+
+          "oms":[
             {
-              "numero": "202501829498",
-              "frente":"TR-2516",
-              "latitude":"-2,564037",
-              "longitude":"-44,378207",
-              "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
-              "status": "Em andamento"
+              "numero":"202502094301",
+              "frente":"TR-313k-18",
+              "descricao":"PE2._FABR.TROC.COL. SUST.EIXO.08.09 TR(TR-1318)",
+              "latitude":"-2,5628957",
+              "longitude":"-44,3585214",
+              "status":"Em andamento"
+
+
             }
           ]
         },
+
+
         {
-          "lider": "João Batista(Apoio)",
-          "telefone": "98 8887-8415",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 2 Caldeireiros + 2 Soldadores + 1 Eletricista",
-          "oms": [
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"4 Mecânicos + 1 Soldador + 2 Caldeireiros + 2 Eletricista + 1 ajudante mont.",
+
+          "oms":[
             {
-              "numero": "202501829498",
-              "frente":"TR-2516",
-              "latitude":"-2,5641472",
-              "longitude":"-44,3774923",
-              "descricao": "AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ (TR-2516)",
-              "status": "Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Fagner",
-          "telefone": "98 8542-9199",
-          "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista",
-          "oms": [
-            {
-              "numero": "202502094301",
-              "frente":"TR-1318",
-              "latitude":"-2,562896",
-              "longitude":"-44,358521",
-              "descricao": "PE2._FABR.TROC.COL. SUST.EIXO.08.09 TR(TR-1318)",
-              "status": "Em andamento"
+              "numero":"202603923807",
+              "frente":"RP-03",
+              "descricao":"- APOIO - RETIRAR TELA DO BATENTE (RP-03)",
+              "latitude":"-2,5650352",
+              "longitude":"-44,3487367",
+              "status":"Em andamento"
+
+
             }
           ]
         },
 
         {
-          "lider": "Rogério",
-          "telefone": "98 9965-3798",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Soldador + 2 Caldeireiros + 2 Eletricista + 1 ajudante mont.",
-          "oms": [
-            {
-              "numero": "202603923807",
-              "frente":"Rp-03",
-              "latitude":"-2,565035",
-              "longitude":"-44,348737",
-              "descricao": "- APOIO - RETIRAR TELA DO BATENTE (RP-03)",
-              "status": "Atrasada"
-            }
-          ]
-        },
+          "lider":"Augusto Campos",
+          "telefone":"98 8508-9007",
+          "equipe":"5 Mecânicos + 3 Soldador + 2 Caldeireiros + 1 Eletricista + 1 ajudante mont.",
 
-        {
-          "lider": "Gutemberg",
-          "telefone": "98 8177-7618",
-          "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 2 Soldador + 3 Caldeireiros + 1 Ajudante mont.",
-          "oms": [
+          "oms":[
             {
-              "numero": "",
+              "numero":"202603923807",
               "frente":"Canteiro Central",
-              "latitude":"-2,556165",
-              "longitude":"-44,350504",
-              "descricao": "Fabricação de peças.",
-              "status": "Em andamento"
-            }
-          ]
-        },
+              "descricao":"Fabricação para CT-1504",
+              "latitude":"-2,5561646",
+              "longitude":"-44,3505036",
+              "status":"Em andamento"
 
-         {
-          "lider": "Mailson",
-          "telefone": "98 9614-6804",
-          "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante mont. + 1 Eletricista",
-          "oms": [
-            {
-              "numero": "",
-              "frente":"null",
-              "latitude":"null",
-              "longitude":"null",
-              "descricao": "Responsável pelas mobilizações de ativos.",
-              "status": "Em andamento"
+
             }
           ]
         }
       ],
-      "nome": "Integridade",
-      "observacoes": [
-        "Mobilização da Ct-06 em andamento.",
-        "Mobilização de um banheiro para o Tr-313k-12",
-        "Equipe do lider Mailson responsável pelas mobilizações."
-      ]
+      
+      "nome":"Integridade"
+     
     },
+    
     {
       "id": "ferrovia",
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
-          "Mecanico": 8,
-          "Soldador": 4,
-          "Montador": 1,
-          "Eletricista": 1,
-          "Pintor": 0
+          "Caldeireiro": 2,
+          "Mecanico": 3,
+          "Soldador": 1,
+          "Montador": 0,
+          "Eletricista": 0,
+          "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 0,
@@ -243,17 +165,17 @@
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 5,
-          "Mecanico": 8,
-          "Soldador": 4,
-          "Montador": 1,
-          "Eletricista": 1,
+          "Caldeireiro": 4,
+          "Mecanico": 15,
+          "Soldador": 6,
+          "Montador": 12,
+          "Eletricista": 0,
           "Pintor": 0
         },
         "indireto": {
           "Supervisor Montagem": 0,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
+          "Mestre Montagem": 4,
           "Mestre Andaime": 1
         }
       },
@@ -276,7 +198,240 @@
           "status": ""
         }
       ],
-      "atividades": [],
+      "atividades": [
+      {
+
+        "lider":"Fagner",
+        "telefone":"98 8542-9199",
+        "equipe":"5 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Eletricista",
+        
+        "oms":[
+          {
+              "numero": "202402401605",
+              "frente":"CT-1504",
+              "latitude":"-2,5607953",
+              "longitude":"-44,3641131",
+              "descricao":"FABRICAR /TROCAR BASE METALICA DA  COLUNA DA CT",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202304536805",
+              "frente":"TR-325k-19",
+              "latitude":"-2,5636916",
+              "longitude":"-44,3790864",
+              "descricao":"SUBSTITUI PERFIL U PERFIL U DE LIGAÇÃO  NA BASE DE FIXAÇÃO DE TAMBOR DE ACIONAMNETO REGIÃO INTERNA",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202300985625",
+              "frente":"CN-325K-03",
+              "latitude":"-2,5595317",
+              "longitude":"-44,3793697",
+              "descricao":"SUBSTITUIR  ELEMENTOS DE FIXAÇÃO  BASE CAMINHO DE ROLAMENTO DA  LANÇA MOVEL",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202304283800",
+              "frente":"CT-07",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SUBS.PARAF.EX.03.FIL.C E D.ELE.21",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202304283754",
+              "frente":"CT-07",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SUBS.PAR.EIX03.FILA B E C EL.9300",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+         {
+        
+        "oms":[
+          {
+              "numero": "202304371175",
+              "frente":"CT-07",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SUBS.PARAF.CTV.EX.02.FIL.C E D EL",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202304388279",
+              "frente":"CT-07",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SUBSTITUIR  PARAFUSOS EIXO 02/03 FILA D ELEVAÇÃO 21.250",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+         {
+        
+        "oms":[
+          {
+              "numero": "202304371560",
+              "frente":"CT-07",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SUBSTITUIR PARAFUSOS SUSTENTAÇÃO CHUTE REJEITE MATERIAIS",
+              "status":""
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202505246435",
+              "frente":"TR-313K-12",
+              "latitude":"-2,5668174",
+              "longitude":"-44,3581106",
+              "descricao":"PE1.0_SUBST. APOIOS DECK TR-313K-12",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202504875194",
+              "frente":"TR-315K-19",
+              "latitude":"-2,5648632",
+              "longitude":"-44,3747841",
+              "descricao":"PC1.0_FAB/SUBST.DUTOS DA CALHA DO REDLAY",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+          "lider":"Wallace",
+          "telefone":"98 9229-0970",
+          "equipe":"3 Mecânicos + 1 Soldador + 2 Caldeireiros + 1 Ajudante Mecânico + 1 Pintor",
+        
+        "oms":[
+
+          {
+              "numero": "202501965981",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640370",
+              "longitude":"-44,3782065",
+              "descricao":"AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ BALIZA 37 ATÉ BALIZA 55, GALERIA DO EIXO 09 AO EIXO 11( AGAR)",
+              "status":"Em andamento"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202501829498",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "descricao":"AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202501964657",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640726",
+              "longitude":"-44,3779936",
+              "descricao":"AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ BALIZA 20 ATÉ BALIZA 36, GALERIA DO EIXO 08 AO EIXO 09 ( AGAR)",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202504874297",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5642594",
+              "longitude":"-44,3770363",
+              "descricao":"PE1.2_SUBST. DOIS DUTOS COM CORROSÃO",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+    
+        {
+        
+        "oms":[
+          {
+              "numero": "202301450248",
+              "frente":"CN-325K-03",
+              "latitude":"-2,5599429",
+              "longitude":"-44,3793490",
+              "descricao":"SUBS CHAPA BASE/GRAMPO CAMINHO ROLAMENTO",
+              "status":"Planejada"
+            }
+          ]
+        },
+
+        {
+        
+        "oms":[
+          {
+              "numero": "202302108119",
+              "frente":"CN-325K-03",
+              "latitude":"-2,5593266",
+              "longitude":"-44,3793507",
+              "descricao":"SUBSTITUIR  DE ELEMENTO  DE FIXAÇÃO UN16/18 CN",
+              "status":""
+            }
+          ]
+        }
+      ],
       "nome": "Pier 3"
     },
     {
