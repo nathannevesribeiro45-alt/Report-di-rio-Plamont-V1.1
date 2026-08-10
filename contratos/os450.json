@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "08/08/2026",
-  "turno": "Dia B",
+  "data": "10/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,11 +11,11 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 11,
+          "Mecanico": 10,
           "Soldador": 5,
           "Montador": 8,
-          "Eletricista": 8,
-          "Ajudante de mont.":"2",
+          "Eletricista": 7,
+          "Ajudante de mont.": 2,
           "Pintor": 0
         },
         "indireto": {
@@ -59,29 +59,29 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Fernando",
-          "telefone":"(98) 98406-7236",
+          "operador": "Marcio Dolglas",
+          "telefone":"(98) 98805-1819",
           "status": "Operante"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "José Carlos",
-          "telefone":"(98) 98814-7068",
+          "operador": "Moisés",
+          "telefone":"(94) 99181-8671",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFV-7I13",
-          "operador": "Alisson",
-          "telefone":"98 98876-4732",
+          "operador": "Italo",
+          "telefone":"(98) 98184-5269",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "KAKA",
-          "telefone":"(98) 98480-6556",
+          "operador": "Rosivaldo",
+          "telefone":"(98) 99187-8772",
           "status": "Manutenção"
         },
         {

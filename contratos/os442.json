@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "08/08/2026",
-  "turno": "Dia B",
+  "data": "10/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -44,26 +44,17 @@
         }
       },
 
-      "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 0,
-        "Soldador": 0,
-        "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0,
-        "justificadas": 0,
-        "naoJustificadas": 0
-      },
+      "ausencias": {},
 
       "mobilizacao": {},
 
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
-          "equipe": "3 Eletricistas + 1 Caldeireiro + 1 Soldador",
+          "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
           "oms": [
             {
               "numero": "202603210101",
@@ -157,74 +148,98 @@
 
       "atividades": [
         {
-          "lider": "Dionatan",
-          "telefone": "98 8299-8136",
+          "lider": "José Maria",
+          "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 6 Eletricistas + 1 Soldador + 3 Montadores",
-          "oms": [
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
+         "oms": [
   {
-    "numero": "202603403480",
+    "numero": "202603597281",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1535",
-    "status": "Em andamento"
+    "descricao": "MONTAR ROLDANAS DO SUPORTE E QUADRO",
+    "status": ""
   },
   {
-    "numero": "202603403481",
-    "frente": "TR-315K-34",
-    "latitude": "-2,5654041",
-    "longitude": "-44,3592253",
-    "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1534",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603403482",
+    "numero": "202603886114",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "MP TROCA OLEO REDUTOR GUINCHO TR1533",
-    "status": "Em andamento"
+    "descricao": "MCM-MPV ELE 12S BOBINADORES BC-3000KP-02",
+    "status": ""
   },
   {
-    "numero": "202603943345",
-    "frente": "TR-315K-33",
-   "latitude": "-2,5684617",
-    "longitude": "-44,3548216",
-    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1533",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603943346",
+    "numero": "202603886113",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1534",
-    "status": "Em andamento"
+    "descricao": "MCM-MPV MEC 12S BOBINADORES BC-3000KP-02",
+    "status": ""
   },
   {
-    "numero": "202603943347",
-    "frente": "TR-315K-35",
-    "latitude": "-2,5634221",
-    "longitude": "-44,3613362",
-    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1535",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603306887",
+    "numero": "202604007201",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "Des/Montar t fixo para absuilt",
-    "status": "Em andamento"
+    "descricao": "MCM-MPV ELE 12S BOBINADORES BC-3000KP-03",
+    "status": ""
   },
   {
-    "numero": "202604047164",
+    "numero": "202604007200",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "INSTALAR EXTENSOR LUBRIF MANUAL",
-    "status": "Em andamento"
+    "descricao": "MCM-MPV MEC 12S BOBINADORES BC-3000KP-03",
+    "status": ""
+  },
+  {
+    "numero": "202603832931",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELETROMECANICA ELEVADOR EL-314K-01",
+    "status": ""
+  },
+  {
+    "numero": "202603832932",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELETROMECANICA ELEVADOR EL-314K-02",
+    "status": ""
+  },
+  {
+    "numero": "202603933481",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP LUB TALHA ELÉTRICA TE-3140KP-03",
+    "status": ""
+  },
+  {
+    "numero": "202603612754",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP MEC TALHA ELÉTRICA TE-3140KP-03",
+    "status": ""
+  },
+  {
+    "numero": "202603662766",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1401",
+    "status": ""
+  },
+  {
+    "numero": "202603068847",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "DES/MONTAR TB FIXO PARA FAZER ASBUILT",
+    "status": ""
   }
 ]
         }

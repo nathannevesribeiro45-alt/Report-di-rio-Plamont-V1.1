@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "08/08/2026",
-  "turno": "Dia B",
+  "data": "10/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -13,7 +13,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 13,
           "Soldador": 2,
           "Montador": 9,
           "Eletricista": 0,
@@ -102,7 +102,7 @@
 
       "atividades": [
         {
-          "lider": "Adilson",
+          "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
@@ -115,7 +115,7 @@
           ]
         },
         {
-          "lider": "Fernando Maranhão",
+          "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 3 Montadores",
@@ -127,30 +127,21 @@
               "longitude":"-44,3792181",
               "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S CN05",
               "status": "Em andamento"
-            },
-
-            {
-              "numero": "202505875202",
-              "frente":"CN-05",
-              "latitude":"-2,5594005",
-              "longitude":"-44,3790212",
-              "descricao": "CHUTE_FAZER MP CHUTELANÇADO CN05",
-              "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Alexandre",
+          "telefone": "(98) 9 9228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202604054344",
-              "frente":"VV-04",
-              "latitude":"-2,5686231",
-              "longitude":"-44,3458035",
-              "descricao": " PREPARAÇÃO MATERIAIS, FERRAMENTAS E 5S VV04",
+              "numero": "202603657905",
+              "frente":"CN-05",
+              "latitude":"-2,5594500",
+              "longitude":"-44,3791798",
+              "descricao": "- PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S (CN05)(APOIO AO EMBARQUE)",
               "status": "Em andamento"
             }
         
@@ -166,9 +157,9 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 3,
-          "Soldador": 4,
+          "Caldeireiro": 2,
+          "Mecanico": 6,
+          "Soldador": 2,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -212,61 +203,41 @@
 
       "atividades": [
         {
-          "lider": "Wanderson / Adeilton",
-          "telefone": "98 98508-8348",
+          "lider": "Julio / Erickson",
+          "telefone": "98 8506-6125",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores",
+          "equipe": "6 Mecânicos + 2 Caldeireiros + 2 Soldadores + 2 Montadores",
           "oms": [
             {
-              "numero": "202603068362",
-              "frente":"ER-05",
-              "latitude":"-2,5755604",
-              "longitude":"-44,3405926",
-              "descricao": "SEG_PS_TROC.GRAD.PIS. TR LANÇA LD ER 05 (ER-05)",
+              "numero": "202600599824",
+              "frente":"TR-313K-18",
+              "latitude":"-2,5628957",
+              "longitude":"-44,3585214",
+              "descricao": "SEG_D_PS_TROC 01 TEL PROX TB11 LE CAUD (TR-313K-18)",
               "status": "Em andamento"
             },
             {
-              "numero": "202603074014",
-              "descricao": "SEG_PS_TROC.GRAD.PIS.BASE.ESC.CAB.ER5 (ER-05)",
+              "numero": "202506584018",
+              "descricao": "SEG_D_GC_REP GUARD-CORP PROX M01 CAR-TEN (TR-313K-18)",
               "status": "Em andamento"
             },
 
             {
-              "numero": "202603074060",
-              "descricao": "SEG_PS_TROC. 2GRAD.PIS LD ESQ .ER 0 (ER-05)",
+              "numero": "202505596250",
+              "descricao": "SEG_D_GC_REP ESC MAR PROX ROL 90° LE CAU (TR-313K-18)",
               "status": "Em andamento"
             },
 
              {
-              "numero": "202402990383",
-              "frente":"CN-05",
-              "latitude":"-2,5594678",
-              "longitude":"-44,3791102",
-              "descricao": "SEG_CDITROCAR 17 DEGRAUS ESCA ACESS ELE (CN-05)",
-              "status": "Em andamento"
-            },
-
-              {
-              "numero": "202603399802",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
-              "descricao": "SEG_PS TROCAR 6 TELAS DE PISO AVARIADAS (TR-325K-16)",
-              "status": "Em andamento"
-            },
-
-            {
-              "numero": "202603122778",
-              "frente":"TR-315K-16",
-              "latitude":"-2,5628536",
-              "longitude":"-44,3603660",
-              "descricao": "SEG_PSSOLDAR TELAS COM FALTA DE FIXAÇÃO (TR-315K-16)",
+              "numero": "202603202896",
+              "frente":"TR-311K-10",
+              "latitude":"-2,5690416",
+              "longitude":"-44,3448926",
+              "descricao": "SEG_PS_GRADE PSO DEF.PROX.PAINELPNEUM.11 (TR-311K-10)",
               "status": "Em andamento"
             }
 
-
-          
-
+             
           ]
         }
       ]
