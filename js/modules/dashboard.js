@@ -13,7 +13,7 @@ const dashboardStatus = {
         "Nenhuma ocorrência crítica registrada neste turno."
     ],
 
-    turno: "Dia B",
+    turno: "Dia A",
 
     horario: "07:00 às 19:00",
 
