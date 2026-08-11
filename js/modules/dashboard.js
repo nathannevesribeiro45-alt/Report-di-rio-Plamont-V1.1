@@ -17,7 +17,7 @@ const dashboardStatus = {
 
     horario: "07:00 às 19:00",
 
-    atualizacao: "10/08/2026 às 07:00"
+    atualizacao: "11/08/2026 às 07:00"
 
 };
 
@@ -155,4 +155,5 @@ function calcularStatusOperacao() {
     ];
 
 }
+
 

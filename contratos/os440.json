@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "10/08/2026",
+  "data": "11/08/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,18 +10,18 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 6,
+          "Caldeireiro": 2,
+          "Mecanico": 4,
           "Soldador": 2,
+          "Ajudante de mont.": 1, 
           "Montador": 0,
-          "Eletricista": 0,
-          "Pintor": 0
+          "Eletricista": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 1,
-          "Mestre Andaime": 1
+          "Mestre Andaime": 0
         }
       },
       "histograma": {
@@ -35,13 +35,21 @@
         },
         "indireto": {
           "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
+          "Encarregado Montagem": 1,
           "Mestre Montagem": 3,
           "Mestre Andaime": 2
         }
       },
       "ausencias": {},
-      "mobilizacao": {},
+      "mobilizacao": {
+
+      "Caldeireiro": 2,
+        "Mecanico": 4,
+        "Soldador": 2,
+        "Eletricista": 2,
+        "Ajudante de mont.":1
+
+      },
       "recursos": [
         {
           "tipo": "Munck",
@@ -96,23 +104,27 @@
       ],
       "atividades": [
         {
-          "lider":"Gutemberg",
-          "telefone":"(98) 8177-7618",
-          "equipe":"6 mecânicos + 2 soldadores + 3 caldeireiro + 1 ajudante de montagem",
+          "lider":"Walter Tavares",
+          "telefone":"98 8757-1331",
+          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiro + 1 ajudante de montagem + 1 eletricista",
         
         "oms":[
           {
-              "numero": "202503667302",
-              "frente":"ER-03",
-              "latitude":"-2,5629104",
-              "longitude":"-44,3535788",
-              "descricao":"AE2.2_FABRICARLONGARINA/CONJUNTODAGU (ER-03)",
+              "numero": "202604032281",
+              "frente":"VV-01",
+              "latitude":"-2,5681063",
+              "longitude":"-44,3457358",
+              "descricao":"RCFRECUPESTRUPAREDEINTTREMONHA VV01",
               "status":"Em andamento"
             }
           ]
-        }],
+        }
+      ],
       
-      "nome":"Integridade"
+      "nome":"Integridade",
+      "observacoes": [
+        "Walter Tavares responsável pela mobilização para o ativo VV-01"
+      ]
      
     },
     
@@ -121,34 +133,34 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 13,
-          "Soldador": 7,
-          "Montador": 0,
+          "Caldeireiro": 7,
+          "Mecanico": 23,
+          "Soldador": 10,
+          "Montador": 12,
           "Eletricista": 1,
           "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 0,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
+          "Mestre Montagem": 5,
           "Mestre Andaime": 1
         }
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 13,
-          "Soldador": 6,
-          "Montador": 12,
+          "Caldeireiro": 9,
+          "Mecanico": 28,
+          "Soldador": 11,
+          "Montador": 24,
           "Eletricista": 0,
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 0,
+          "Supervisor Montagem": 2,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 1
+          "Mestre Montagem": 6,
+          "Mestre Andaime": 2
         }
       },
       "ausencias": {
@@ -185,7 +197,7 @@
               "frente":"CT-1504",
               "latitude":"-2,5607953",
               "longitude":"-44,3641131",
-              "descricao":"FABRICAR /TROCAR BASE METALICA DA  COLUNA DA CT",
+              "descricao":"FABRICAR /TROCAR BASE METALICA DA  COLUNA DA CT-1504",
               "status":"Em andamento"
 
             }
@@ -249,15 +261,19 @@
         },
 
          {
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"5 mecânicos + 2 soldadores + 1 caldereiro",
         
         "oms":[
           {
               "numero": "202304371175",
               "frente":"CT-07",
-              "latitude":"",
-              "longitude":"",
-              "descricao":"SUBS.PARAF.CTV.EX.02.FIL.C E D EL",
-              "status":"Planejada"
+              "latitude":"-2,5586479",
+              "longitude":"-44,3790518",
+              "descricao":"SUBS.PARAF.CTV.EX.02.FIL.C E D EL (CT-07)",
+              "status":"Em andamento"
+          
             }
           ]
         },
@@ -291,6 +307,11 @@
         },
 
         {
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":" 5 mecânicos + 1 soldador + 2 caldereiros ",
+
+
         
         "oms":[
           {
@@ -299,21 +320,22 @@
               "latitude":"-2,5668174",
               "longitude":"-44,3581106",
               "descricao":"PE1.0_SUBST. APOIOS DECK TR-313K-12",
-              "status":"Planejada"
+              "status":"Em andamento"
             }
           ]
         },
 
         {
+          
         "lider":"--",
         "oms":[
-          {
+          {  
               "numero": "202504875194",
               "frente":"TR-315K-19",
-              "latitude":"-2,5648632",
-              "longitude":"-44,3747841",
+              "latitude":"",
+              "longitude":"",
               "descricao":"PC1.0_FAB/SUBST.DUTOS DA CALHA DO REDLAY",
-              "status":"Concluida",
+              "status":"",
               "observacoes":"Atividade concluida no inicio da parada"
             }
           ]
