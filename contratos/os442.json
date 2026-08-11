@@ -16,7 +16,7 @@
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 3,
+          "Eletricista": 4,
           "Pintor": 0
         },
         "indireto": {
@@ -51,8 +51,8 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Jonilson",
+          "telefone": "98 98864-4567",
           "tecnicoSeguranca": "",
           "equipe": "4 Eletricistas + 1 Caldeireiro + 1 Soldador",
           "oms": [
@@ -95,10 +95,10 @@
       "histograma": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 4,
+          "Mecanico": 6,
           "Soldador": 1,
-          "Montador": 2,
-          "Eletricista": 4,
+          "Montador": 3,
+          "Eletricista": 6,
           "Pintor": 0
         },
         "indireto": {
@@ -129,120 +129,113 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "Fernando",
+        "operador": "Romário",
           "status": "OPERANTE"
         },
         {
           "tipo": "pick-up",
           "placa": "SFT-9H25",
-          "operador": "Rafael",
+          "operador": "Domingos",
+          "telefone":"98 98518-9687",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
-          "operador": "Marcello - 98 99967-2922",
+          "operador": "Andréia",
+          "telefone":"98 98868-4821",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "José Maria",
-          "telefone": "98 981850-6567",
+          "lider": "Jefferson",
+          "telefone": "98 98162-8039",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
          "oms": [
   {
-    "numero": "202603597281",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MONTAR ROLDANAS DO SUPORTE E QUADRO",
-    "status": ""
+    "numero": "202602243401",
+    "frente": "EX-311K-215",
+    "latitude": "-2,5691743",
+    "longitude": "-44,3449043",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-311K-215",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603886114",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 12S BOBINADORES BC-3000KP-02",
-    "status": ""
+    "numero": "202602243402",
+    "frente": "EX-311K-215",
+    "latitude": "-2,5691743",
+    "longitude": "-44,3449043",
+    "descricao": "MCM-MPV ELE 16S MED PNL EX-311K-215",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603886113",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV MEC 12S BOBINADORES BC-3000KP-02",
-    "status": ""
+    "numero": "202602243403",
+    "frente": "EX-311K-215",
+    "latitude": "-2,5691743",
+    "longitude": "-44,3449043",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-311K-215",
+    "status": "Em andamento"
   },
   {
-    "numero": "202604007201",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 12S BOBINADORES BC-3000KP-03",
-    "status": ""
+    "numero": "202602419571",
+    "frente": "EX-311K-215",
+    "latitude": "-2,5691743",
+    "longitude": "-44,3449043",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-311K-215",
+    "status": "Em andamento"
   },
   {
-    "numero": "202604007200",
+    "numero": "202604049252",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "MCM-MPV MEC 12S BOBINADORES BC-3000KP-03",
-    "status": ""
+    "descricao": "APOIO_FAZER RECUPERAÇÃO DAS ROLDANAS",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603832931",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP ELETROMECANICA ELEVADOR EL-314K-01",
-    "status": ""
+    "numero": "202603883733",
+    "frente": "TR-313K-23",
+    "latitude": "-2,5628494",
+    "longitude": "-44,3466333",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1323",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603832932",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP ELETROMECANICA ELEVADOR EL-314K-02",
-    "status": ""
+    "numero": "202603884515",
+    "frente": "TR-313K-23",
+    "latitude": "-2,5628494",
+    "longitude":"-44,3466333",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1323",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603933481",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP LUB TALHA ELÉTRICA TE-3140KP-03",
-    "status": ""
+    "numero": "202603592904",
+    "frente": "TR-315k-17",
+    "latitude": "-2,5608783",
+    "longitude": "-44,3638795",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1517",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603612754",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP MEC TALHA ELÉTRICA TE-3140KP-03",
-    "status": ""
+    "numero": "202603592905",
+    "frente": "TR-315K-18",
+    "latitude": "-2,5638316",
+    "longitude": "-44,3727650",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1518",
+    "status": "Em andamento"
   },
   {
-    "numero": "202603662766",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1401",
-    "status": ""
-  },
-  {
-    "numero": "202603068847",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "DES/MONTAR TB FIXO PARA FAZER ASBUILT",
-    "status": ""
+    "numero": "202603592903",
+    "frente": "TR-314k-19",
+    "latitude": "-2,5644631",
+    "longitude": "-44,3763604",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1419",
+    "status": "Em andamento"
   }
-]
-        }
+]     }
       ]
     }
   ]
