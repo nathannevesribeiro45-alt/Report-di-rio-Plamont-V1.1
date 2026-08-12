@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "11/08/2026",
-  "turno": "Dia A",
+  "data": "12/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,9 +10,9 @@
       "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 10,
-          "Soldador": 5,
+          "Caldeireiro": 5,
+          "Mecanico": 12,
+          "Soldador": 4,
           "Montador": 8,
           "Eletricista": 7,
           "Ajudante de mont.": 2,
@@ -45,12 +45,12 @@
       },
       "ausencias": {
         "Caldeireiro": 0,
-        "Mecanico": 1,
+        "Mecanico": 0,
         "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 1,
+        "justificadas": 0,
         "naoJustificadas": 0
       },
       "mobilizacao": {},
@@ -59,29 +59,29 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Marcio Dolglas",
-          "telefone":"(98) 98805-1819",
+          "operador": "Fernando",
+          "telefone":"(98) 98406-7236",
           "status": "Operante"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Moisés",
-          "telefone":"(94) 99181-8671",
+          "operador": "Cícero",
+          "telefone":"(98) 98121-1895",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFV-7I13",
-          "operador": "Italo",
-          "telefone":"(98) 98184-5269",
+          "placa": "QRI-2G24",
+          "operador": "Alisson",
+          "telefone":"(98) 98876-4732",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Rosivaldo",
-          "telefone":"(98) 99187-8772",
+          "operador": "Kaka",
+          "telefone":"(98) 98480-6556",
           "status": "Manutenção"
         },
         {

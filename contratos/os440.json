@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "11/08/2026",
-  "turno": "Dia A",
+  "data": "12/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -63,9 +63,10 @@
           "operador": "",
           "contato": ""
         },
+
         {
           "tipo": "Munck",
-          "placa": "SGA-3I06",
+          "placa": "QRD-8213",
           "operador": "",
           "contato": ""
         },
@@ -102,28 +103,11 @@
         }
        
       ],
-      "atividades": [
-        {
-          "lider":"Walter Tavares",
-          "telefone":"98 8757-1331",
-          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiro + 1 ajudante de montagem + 1 eletricista",
-        
-        "oms":[
-          {
-              "numero": "202604032281",
-              "frente":"VV-01",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "descricao":"RCFRECUPESTRUPAREDEINTTREMONHA VV01",
-              "status":"Em andamento"
-            }
-          ]
-        }
-      ],
+      "atividades": [],
       
       "nome":"Integridade",
       "observacoes": [
-        "Walter Tavares responsável pela mobilização para o ativo VV-01"
+        " Mobilização para o ativo VV-01"
       ]
      
     },
@@ -413,7 +397,7 @@
               "frente":"CN-325K-03",
               "latitude":"-2,5599429",
               "longitude":"-44,3793490",
-              "descricao":"SUBS CHAPA BASE/GRAMPO CAMINHO ROLAMENTO",
+              "descricao":"SUBS CHAPA BASE/GRAMPO CAMINHO ROLAMENTO (CN-05)",
               "status":"Em andamento"
             }
           ]
