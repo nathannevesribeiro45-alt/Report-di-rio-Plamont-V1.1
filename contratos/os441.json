@@ -65,37 +65,44 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "Gleydson",
-          "contato":"",
+          "operador": "José Carlos",
+          "contato":"98 98814-7068",
           "status": "OPERANTE"
         },
 
           {
           "tipo": "Munck",
           "placa": "RBB-1B72",
-          "operador": "Geovanne",
+          "operador": "José Augusto",
+          "contato":"98 98858-7321",
+          "status": "OPERANTE"
+        },
+         {
+          "tipo": "Munck",
+          "placa": "RQP-8G78",
+          "operador": "",
           "contato":"",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G50",
-          "operador": "Anderson",
-          "contrato":"",
+          "placa": "SFT-9H25",
+          "operador": "Carlos",
+          "contrato":"98 98124-4272",
           "status": "OPERANTE"
         },
           {
           "tipo": "Pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Patrick",
-          "contrato":"",
+          "placa": "SFU-0A35",
+          "operador": "Hilgles",
+          "contrato":"98 98537-4937",
           "status": "OPERANTE"
         },
         {
           "tipo": "Ônibus",
           "placa": "SHX-5E42",
-          "operador": "Joerbete",
-          "contato":"",
+          "operador": "Marcello",
+          "contato":"98 99967-2922",
           "status": "OPERANTE"
         }
       ],
@@ -105,11 +112,22 @@
           "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
+              "frente":"ER-313K-05",
+              "latitude":"-2,5755604",
+              "longitude":"-44,3405926",
               "numero": "202603840702",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO ER05",
+              "descricao": " PREPARAÇÃO PARA ATIVIDADES DESGASTE (ER-313K-05)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202602766590",
+              "frente":"TR-313K-80",
+              "latitude":"-2,5754983",
+              "longitude":"-44,3439033",
+              "descricao": "AJUSTAR CAVALETES A.A ASGO DE CARGA (TR-313K-80)",
               "status": "Em andamento"
             }
           ]
@@ -118,14 +136,22 @@
           "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603657905",
-              "frente":"CN-05",
-              "latitude":"-2,5594112",
-              "longitude":"-44,3792181",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S CN05",
+              "numero": "202600540254",
+              "frente":"TR-325K-17",
+              "latitude":"-2,5627950",
+              "longitude":"-44,3789498",
+              "descricao": "TROCAR 15 ROLOS DE CARGA/FERRO (TR-325K-17)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202504785637",
+              "frente":"TR-325K-17",
+              "latitude":"-2,5627950",
+              "longitude":"-44,3789498",
+              "descricao": "TROCAR 05 CAVALETES DE CARGA (TR-325K-17)",
               "status": "Em andamento"
             }
           ]
@@ -137,11 +163,11 @@
           "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603657905",
-              "frente":"CN-05",
-              "latitude":"-2,5594500",
-              "longitude":"-44,3791798",
-              "descricao": "- PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S (CN05)(APOIO AO EMBARQUE)",
+              "numero": "202600492634",
+              "frente":"TR-325K-17",
+              "latitude":"-2,5626603",
+              "longitude":"-44,3789546",
+              "descricao": "ROLO_TROCAR 15 ROLOS DE CARGA (TR-325K-17)",
               "status": "Em andamento"
             }
         
@@ -206,39 +232,81 @@
           "lider": "Julio / Erickson",
           "telefone": "98 8506-6125",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 2 Caldeireiros + 2 Soldadores + 2 Montadores",
+          "equipe": "6 Mecânicos + 2 Caldeireiros + 2 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
-            {
-              "numero": "202600599824",
-              "frente":"TR-313K-18",
-              "latitude":"-2,5628957",
-              "longitude":"-44,3585214",
-              "descricao": "SEG_D_PS_TROC 01 TEL PROX TB11 LE CAUD (TR-313K-18)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202506584018",
-              "descricao": "SEG_D_GC_REP GUARD-CORP PROX M01 CAR-TEN (TR-313K-18)",
-              "status": "Em andamento"
-            },
-
-            {
-              "numero": "202505596250",
-              "descricao": "SEG_D_GC_REP ESC MAR PROX ROL 90° LE CAU (TR-313K-18)",
-              "status": "Em andamento"
-            },
-
-             {
-              "numero": "202603202896",
-              "frente":"TR-311K-10",
-              "latitude":"-2,5690416",
-              "longitude":"-44,3448926",
-              "descricao": "SEG_PS_GRADE PSO DEF.PROX.PAINELPNEUM.11 (TR-311K-10)",
-              "status": "Em andamento"
-            }
-
-             
-          ]
+  {
+    "numero": "202502979639",
+    "frente": "TR-325K-17",
+    "latitude": "-2,5627950",
+    "longitude": "-44,3789498",
+    "descricao": "TROCAR TB SUP DA PASS",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202500350032",
+    "frente": "TR-314K-12",
+    "latitude": "-2,5644957",
+    "longitude": "-44,3757369",
+    "descricao": "SEG_CDI_TROCAR CHAPAS PISO OXIDAÇÃO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202500336399",
+    "frente": "TR-314K-12",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SEG_CDI_TROC TELAS PISO PASSARE L/E",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202505876647",
+    "frente": "TR-314K-12",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SEG_PS_TROC CHAPA PISO PISO ACIONAMENTO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202403474218",
+    "frente": "TR-314K-12",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SEG_CDI_TROC CHAP PISO OXI ACENT",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202403474214",
+    "frente": "TR-314K-12",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SEG_CDI_TROC CHAP PISO OXI ACENT",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202504258620",
+    "frente": "TR-325K-16",
+    "latitude": "-2,5641373",
+    "longitude": "-44,3775298",
+    "descricao": "SEG_PS_TROC CHA DE PISO OXID NO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202502707099",
+    "frente": "TR-325K-16",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SEG_PS_TROC TELA PISO L/E LADO CARRO TEN",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202505743031",
+    "frente": "TR-325K-16",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SEG_PS_TROC T.P. PASSAR LE BL-50",
+    "status": "Em andamento"
+  }
+]
         }
       ]
     }
