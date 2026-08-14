@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "12/08/2026",
-  "turno": "Dia B",
+  "data": "14/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,10 +10,10 @@
       "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
-          "Mecanico": 12,
-          "Soldador": 4,
-          "Montador": 8,
+          "Caldeireiro": 4,
+          "Mecanico": 9,
+          "Soldador": 5,
+          "Montador": 7,
           "Eletricista": 7,
           "Ajudante de mont.": 2,
           "Pintor": 0
@@ -59,29 +59,28 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
+          "operador": "Moisés",
+          "telefone":"(94) 99181-8671"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "QRI-8D21",
           "operador": "Fernando",
           "telefone":"(98) 98406-7236",
           "status": "Operante"
         },
         {
-          "tipo": "Munck",
-          "placa": "QRI-8D21",
-          "operador": "Cícero",
-          "telefone":"(98) 98121-1895",
-          "status": "Operante"
-        },
-        {
           "tipo": "Pick-up",
           "placa": "QRI-2G24",
-          "operador": "Alisson",
-          "telefone":"(98) 98876-4732",
+          "operador": "Italo",
+          "telefone":"(98) 98184-5269",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Kaka",
-          "telefone":"(98) 98480-6556",
+          "operador": "Rosivaldo",
+          "telefone":"(98) 99187-8772",
           "status": "Manutenção"
         },
         {
@@ -93,30 +92,30 @@
         },
         {
           "tipo": "Veículo leve",
+          "placa": "SMX-6G78",
+          "operador": "Bruno",
+          "telefone":"(98) 98850-8993",
+          "status": "Operante"
+        },
+        {
+          "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": "Alciomar",
-          "telefone":"98 98802-8232",
+          "operador": "Jobert",
+          "telefone":"(98) 98802-8232",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Oliveira",
-          "telefone":"98 97010-4041",
+          "operador": "Jesus",
+          "telefone":"(98) 97010-4041",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Gilmar",
-          "telefone":"98 98474-3782",
-          "status": "Operante"
-        },
-        {
-          "tipo": "Veículo leve",
-          "placa": "SMX-6G78",
-          "operador": "Geilson",
-          "telefone":"98 98850-8993",
+          "operador": "Estevan",
+          "telefone":"(98) 98474-3782",
           "status": "Operante"
         }
       ],

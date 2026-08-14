@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "12/08/2026",
-  "turno": "Dia B",
+  "data": "14/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,18 +10,18 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
-          "Mecanico": 4,
-          "Soldador": 2,
+          "Caldeireiro": 3,
+          "Mecanico": 10,
+          "Soldador": 3,
           "Ajudante de mont.": 1, 
           "Montador": 0,
-          "Eletricista": 1
+          "Eletricista": 4
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 1,
-          "Mestre Andaime": 0
+          "Mestre Montagem": 2,
+          "Mestre Andaime": 1
         }
       },
       "histograma": {
@@ -41,15 +41,7 @@
         }
       },
       "ausencias": {},
-      "mobilizacao": {
-
-      "Caldeireiro": 2,
-        "Mecanico": 4,
-        "Soldador": 2,
-        "Eletricista": 2,
-        "Ajudante de mont.":1
-
-      },
+      "mobilizacao": {},
       "recursos": [
         {
           "tipo": "Munck",
@@ -97,13 +89,66 @@
         },
          {
           "tipo": "Guindaste",
-          "placa": "QRI-5I29",
+          "placa": "NXK-0961",
+          "operador": "",
+          "contato": ""
+        },
+         {
+          "tipo": "Guindaste",
+          "placa": "QRE-5I29",
           "operador": "",
           "contato": ""
         }
+
        
       ],
-      "atividades": [],
+      "atividades": [
+
+      {
+        "lider":"Rogério",
+        "telefone":"98 9965-3798",
+        "equipe":"5 mecânicos + 1 soldador + 1 caldereiro + 1 ajudante de mont. + 2 eletrcista",
+
+        "oms":[
+          {
+              "numero": "202503667302",
+              "frente":"ER03-ST1",
+              "latitude":"-2,5629104",
+              "longitude":"-44,3535788",
+              "descricao":"AE2.2_FABRICAR LONGARINA/CONJUNTO DA GU",
+              "status":"Em andamento"
+          
+        },
+        {
+              "numero": "202603963280",
+              "frente":"ER03-ST1",
+              "latitude":"-2,5629104",
+              "longitude":"-44,3535788",
+              "descricao":"REC.BAS.ROD.01INST.REF.01A04",
+              "status":"Em andamento"
+          
+        }
+      ]
+      },
+      {
+        "lider":"Fagner",
+        "telefone":"98 8542-9199",
+        "equipe":"5 mecânicos + 2 soldadores + 2 caldereiro + 2 eletrcista",
+
+        "oms":[
+          {
+              "numero": "202502094301",
+              "frente":" TR-313K18",
+              "latitude":"-2,5628957",
+              "longitude":"-44,3585214",
+              "descricao":"PE2._FABR.TROC.COL.SUST.EIXO.08.09TR",
+              "status":"Em andamento"
+          
+        }
+      ]
+      }
+      ]
+      ,
       
       "nome":"Integridade",
       "observacoes": [
@@ -118,8 +163,8 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 7,
-          "Mecanico": 23,
-          "Soldador": 10,
+          "Mecanico": 9,
+          "Soldador": 5,
           "Montador": 12,
           "Eletricista": 1,
           "Pintor": 1
@@ -127,24 +172,24 @@
         "indireto": {
           "Supervisor Montagem": 0,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 5,
+          "Mestre Montagem": 2,
           "Mestre Andaime": 1
         }
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 9,
-          "Mecanico": 28,
-          "Soldador": 11,
-          "Montador": 24,
+          "Caldeireiro": 4,
+          "Mecanico": 12,
+          "Soldador": 3,
+          "Montador": 12,
           "Eletricista": 0,
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 2,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 6,
-          "Mestre Andaime": 2
+          "Supervisor Montagem": 1,
+          "Encarregado Montagem": 1,
+          "Mestre Montagem": 3,
+          "Mestre Andaime": 1
         }
       },
       "ausencias": {
@@ -170,7 +215,7 @@
     {
 
 
-      "lider":"Alonso Costa",
+      "lider":"Cleiton",
       "telefone":"(31) 8495-2503",
       "equipe":"4 mecânicos + 2 soldadores + 1 caldereiro",
 
@@ -245,10 +290,7 @@
         },
 
          {
-          "lider":"Rogério",
-          "telefone":"98 9965-3798",
-          "equipe":"5 mecânicos + 2 soldadores + 1 caldereiro",
-        
+          "lider":"--",
         "oms":[
           {
               "numero": "202304371175",
@@ -256,7 +298,8 @@
               "latitude":"-2,5586479",
               "longitude":"-44,3790518",
               "descricao":"SUBS.PARAF.CTV.EX.02.FIL.C E D EL (CT-07)",
-              "status":"Em andamento"
+              "status":"Em andamento",
+              "observacoes":"Finalizar a montagem do andaime"
           
             }
           ]
@@ -291,25 +334,6 @@
         },
 
         {
-          "lider":"Fagner",
-          "telefone":"98 8542-9199",
-          "equipe":" 5 mecânicos + 1 soldador + 2 caldereiros ",
-
-
-        
-        "oms":[
-          {
-              "numero": "202505246435",
-              "frente":"TR-313K-12",
-              "latitude":"-2,5668174",
-              "longitude":"-44,3581106",
-              "descricao":"PE1.0_SUBST. APOIOS DECK TR-313K-12",
-              "status":"Em andamento"
-            }
-          ]
-        },
-
-        {
           
         "lider":"--",
         "oms":[
@@ -326,9 +350,7 @@
         },
 
         {
-          "lider":"João Batista",
-          "telefone":"(98) 8887-8415",
-          "equipe":"4 Mecânicos + 2 Soldador + 2 Caldeireiros",
+          
         
         "oms":[
 
@@ -338,7 +360,7 @@
               "latitude":"-2,5640370",
               "longitude":"-44,3782065",
               "descricao":"AE0._FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ BALIZA 37 ATÉ BALIZA 55, GALERIA DO EIXO 09 AO EIXO 11( AGAR)",
-              "status":"Em andamento"
+              "status":"Planejada"
             }
           ]
         },
@@ -417,7 +439,11 @@
           ]
         }
       ],
-      "nome": "Pier 3"
+      "nome": "Pier 3",
+      "observacoes":[
+        "Finalizar montagem de andaime na CT-07"
+      ]
+     
     },
     {
       "id": "telhado",
@@ -468,7 +494,7 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Ronielisson",
+          "lider": "Edeilson",
           "telefone": "98 9963-7084",
           "tecnicoSeguranca": "",
           "equipe": "7 mecânicos + 02 eletricista",
