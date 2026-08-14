@@ -13,8 +13,8 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
-          "Soldador": 2,
+          "Mecanico": 12,
+          "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
           "Pintor": 0
@@ -193,8 +193,8 @@
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
-          "Mestre Andaime": 1,
+          "Mestre Montagem": 2,
+          "Mestre Andaime": 0,
           "Mestre Eletrica": 0
         }
       },
