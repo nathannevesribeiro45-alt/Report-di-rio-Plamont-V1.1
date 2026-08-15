@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "14/08/2026",
+  "data": "15/08/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -20,15 +20,15 @@
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 2,
+          "Mestre Montagem": 1,
           "Mestre Andaime": 1
         }
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 13,
-          "Soldador": 5,
+          "Caldeireiro": 1,
+          "Mecanico": 5,
+          "Soldador": 1,
           "Montador": 10,
           "Eletricista": 2,
           "Pintor": 0
@@ -36,8 +36,8 @@
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 2
+          "Mestre Montagem": 1,
+          "Mestre Andaime": 1
         }
       },
       "ausencias": {},
@@ -115,7 +115,7 @@
               "frente":"ER03-ST1",
               "latitude":"-2,5629104",
               "longitude":"-44,3535788",
-              "descricao":"AE2.2_FABRICAR LONGARINA/CONJUNTO DA GU",
+              "descricao":"AE2.2_FABRICAR LONGARINA/CONJUNTO DA GU (ER03-ST1)",
               "status":"Em andamento"
           
         },
@@ -124,36 +124,18 @@
               "frente":"ER03-ST1",
               "latitude":"-2,5629104",
               "longitude":"-44,3535788",
-              "descricao":"REC.BAS.ROD.01INST.REF.01A04",
-              "status":"Em andamento"
-          
-        }
-      ]
-      },
-      {
-        "lider":"Fagner",
-        "telefone":"98 8542-9199",
-        "equipe":"5 mecânicos + 2 soldadores + 2 caldereiro + 2 eletrcista",
-
-        "oms":[
-          {
-              "numero": "202502094301",
-              "frente":" TR-313K18",
-              "latitude":"-2,5628957",
-              "longitude":"-44,3585214",
-              "descricao":"PE2._FABR.TROC.COL.SUST.EIXO.08.09TR",
+              "descricao":"REC.BAS.ROD.01INST.REF.01A04 (ER03-ST1)",
               "status":"Em andamento"
           
         }
       ]
       }
+      
       ]
       ,
       
       "nome":"Integridade",
-      "observacoes": [
-        " Mobilização para o ativo VV-01"
-      ]
+      "observacoes": []
      
     },
     
@@ -162,17 +144,17 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
-          "Mecanico": 9,
-          "Soldador": 5,
+          "Caldeireiro": 4,
+          "Mecanico": 14,
+          "Soldador": 7,
           "Montador": 12,
-          "Eletricista": 1,
+          "Eletricista": 3,
           "Pintor": 1
         },
         "indireto": {
-          "Supervisor Montagem": 0,
+          "Supervisor Montagem": 1,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 2,
+          "Mestre Montagem": 4,
           "Mestre Andaime": 1
         }
       },
@@ -234,6 +216,24 @@
         },
 
         {
+        "lider":"Fagner",
+        "telefone":"98 8542-9199",
+        "equipe":"5 mecânicos + 2 soldadores + 2 caldereiro + 2 eletricista",
+
+        "oms":[
+          {
+              "numero": "202505246435",
+              "frente":" TR-313K12",
+              "latitude":"-2,5668174",
+              "longitude":"-44,3581106",
+              "descricao":"PE1.0_SUBST. APOIOS DECK TR-313K-12",
+              "status":"Em andamento"
+          
+        }
+      ]
+      },
+
+        {
         
         "oms":[
           {
@@ -290,7 +290,9 @@
         },
 
          {
-          "lider":"--",
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"5 mecânicos + 1 soldador + 1 caldereiro + 1 ajudante de mont. + 2 eletricista",
         "oms":[
           {
               "numero": "202304371175",
@@ -298,8 +300,7 @@
               "latitude":"-2,5586479",
               "longitude":"-44,3790518",
               "descricao":"SUBS.PARAF.CTV.EX.02.FIL.C E D EL (CT-07)",
-              "status":"Em andamento",
-              "observacoes":"Finalizar a montagem do andaime"
+              "status":"Em andamento"
           
             }
           ]
@@ -440,9 +441,7 @@
         }
       ],
       "nome": "Pier 3",
-      "observacoes":[
-        "Finalizar montagem de andaime na CT-07"
-      ]
+      "observacoes":[]
      
     },
     {
