@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "15/08/2026",
-  "turno": "Dia A",
+  "data": "17/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,9 +11,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 9,
-          "Soldador": 5,
-          "Montador": 7,
+          "Mecanico": 11,
+          "Soldador": 4,
+          "Montador": 8,
           "Eletricista": 7,
           "Ajudante de mont.": 2,
           "Pintor": 0

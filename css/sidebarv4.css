@@ -254,11 +254,17 @@
    RESPONSIVO
    ========================================================== */
 
-@media (max-width:768px){
+@media (max-width:900px){
 
     .sidebar{
 
         transform:translateX(-100%);
+
+    }
+
+    .sidebar.aberta{
+
+        transform:translateX(0);
 
     }
 

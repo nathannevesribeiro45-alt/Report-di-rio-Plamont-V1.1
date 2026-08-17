@@ -256,42 +256,40 @@ if (this.mobileToggle) {
 
 },
     // ==========================
-    // Alterna Sidebar
-    // ==========================
+// Alterna Sidebar
+// ==========================
 
-    alternar() {
+alternar() {
 
-        if (this.mobile) {
+    if (this.aberta) {
 
-            this.alternarMobile();
+        this.fecharSidebar();
 
-        } else {
+    } else {
 
-            this.alternarDesktop();
+        this.abrirSidebar();
 
-        }
+    }
 
-    },
+},
 
-    // ==========================
-    // Desktop
-    // ==========================
+// ==========================
+// Desktop
+// ==========================
 
-    alternarDesktop() {
+alternarDesktop() {
 
-        if (this.sidebar.classList.contains("recolhida")) {
+    this.alternar();
 
-            this.abrirSidebar();
+},
 
-        } else {
+// ==========================
+// Abre Sidebar
+// ==========================
 
-            this.fecharSidebar();
+abrirSidebar() {
 
-        }
-
-    },
-
-    abrirSidebar() {
+    this.aberta = true;
 
     if (this.mobile) {
 
@@ -311,7 +309,13 @@ if (this.mobileToggle) {
 
 },
 
-    fecharSidebar() {
+// ==========================
+// Fecha Sidebar
+// ==========================
+
+fecharSidebar() {
+
+    this.aberta = false;
 
     // Mobile
     if (this.mobile) {
@@ -333,56 +337,75 @@ if (this.mobileToggle) {
 
 },
 
+// ==========================
+// Mobile
+// ==========================
+
+alternarMobile() {
+
+    this.alternar();
+
+},
+
+// ==========================
+// Atualiza Estado
+// ==========================
+
+atualizarEstado() {
+
+    const estadoAnterior = this.aberta;
+
+    this.mobile = window.innerWidth <= 900;
+
     // ==========================
     // Mobile
     // ==========================
 
-    alternarMobile() {
-
-    if (this.sidebar.classList.contains("aberta")) {
-
-        this.fecharSidebar();
-
-    } else {
-
-        this.abrirSidebar();
-
-    }
-
-},
-
-    // ==========================
-    // Atualiza Estado
-    // ==========================
-
-    atualizarEstado() {
-
-    this.mobile = window.innerWidth <= 900;
-
     if (this.mobile) {
 
+        // Remove o estado visual de desktop
+        this.sidebar.classList.remove("recolhida");
         document.body.classList.remove("sidebar-recolhida");
 
-        this.sidebar.classList.remove("recolhida");
+        // Mantém o estado anterior
+        if (estadoAnterior) {
 
-        // Garante que inicia fechada
-        this.sidebar.classList.remove("aberta");
-        this.overlay.classList.remove("ativo");
+            this.sidebar.classList.add("aberta");
+
+        } else {
+
+            this.sidebar.classList.remove("aberta");
+            this.overlay.classList.remove("ativo");
+
+        }
+
+        return;
+    }
+
+    // ==========================
+    // Desktop
+    // ==========================
+
+    this.sidebar.classList.remove("aberta");
+
+    if (estadoAnterior) {
+
+        // Sidebar estava aberta → continua aberta
+        this.sidebar.classList.remove("recolhida");
+        document.body.classList.remove("sidebar-recolhida");
+        this.overlay.classList.add("ativo");
 
     } else {
 
-        document.body.classList.remove("sidebar-aberta");
-
-        this.sidebar.classList.remove("aberta");
-
+        // Sidebar estava fechada → continua fechada
         this.sidebar.classList.add("recolhida");
+        document.body.classList.add("sidebar-recolhida");
+        this.overlay.classList.remove("ativo");
 
     }
 
 },
-
-
-        // ==========================
+    // ==========================
     // Fecha todos os submenus
     // ==========================
 

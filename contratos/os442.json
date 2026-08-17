@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "15/08/2026",
-  "turno": "Dia A",
+  "data": "17/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -51,20 +51,11 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
-          "equipe": "04 Eletricistas + 01 Soldador",
-          "oms": [
-            {
-              "numero": "202603210101",
-              "frente":"ER-03",
-              "latitude":"-2,5629104",
-              "longitude":"-44,3535788",
-              "descricao": "APOIO RETROFIT ENRL CABO TRANSL ER03 (ER-03)",
-              "status": "Em andamento"
-            }
-          ]
+          "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
+          "oms": []
         }
       ]
     },
@@ -129,81 +120,97 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-        "operador": "Romário",
+        "operador": "Fernando",
           "status": "OPERANTE"
         },
         {
           "tipo": "pick-up",
           "placa": "SFT-9H25",
-          "operador": "Domingos",
+          "operador": "Rafael",
           "telefone":"98 98518-9687",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
-          "operador": "Andréia",
-          "telefone":"98 98868-4821",
+          "operador": "Marcello",
+          "telefone":"98 9967-2922",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "José Maria",
-          "telefone": "(98) 981850-6567",
+          "lider": "Dionatan",
+          "telefone": "98 8299-8136",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
-         "oms": [
+          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
+        "oms": [
   {
-    "numero": "202603217652",
-    "frente": "TR-313K-12",
+    "numero": "202603698303",
+    "frente": "TR-1385",
     "latitude": null,
     "longitude": null,
-    "descricao": "MCM-MPV ELE 16S EXTRATOR SUCATAS",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO",
     "status": "Em andamento"
   },
   {
-    "numero": "202603217653",
-    "frente": "TR-313K-12",
+    "numero": "202603698253",
+    "frente": "TR-1385",
     "latitude": null,
     "longitude": null,
-    "descricao": "MCM-MPV MEC 16S EXTRATOR SUCATAS",
+    "descricao": "MCM-INP UTL MEC 08S GUINCHO ATS",
     "status": "Em andamento"
   },
   {
-    "numero": "202602809684",
-    "frente": "TR-313K-12",
+    "numero": "202603698593",
+    "frente": "TR-1385",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603693917",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP SENSOR FIM DE CURSO CAMES",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202404878991",
+    "frente": "EX-1412",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "TROCAR 2 ESTICADOR COM OXIDAÇÃO",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603968631",
+    "frente": "EX-1412",
     "latitude": null,
     "longitude": null,
     "descricao": "INSTALAR MANGOTES DE LUB.",
     "status": "Em andamento"
   },
   {
-    "numero": "202603217655",
-    "frente": "TR-313K-12",
-    "latitude": "-2,5659464",
-    "longitude": "-44,3590292",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR SUCATAS",
+    "numero": "202601645732",
+    "frente": "Portico 01",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "SUBSTITUIR CHAVES LIMITES TRANSLAÇÃO",
     "status": "Em andamento"
   },
   {
-    "numero": "202603217656",
-    "frente": "TR-315K-07",
-    "latitude": "-2,5637659",
-    "longitude": "-44,3603730",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR SUCATAS",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603968625",
-    "frente": "EX-315K-07",
-    "latitude": "-2,5622953",
-    "longitude": "-44,3600319",
-    "descricao": "INSTALAR MANGOTES DE LUB.",
+    "numero": "202603477356",
+    "frente": "Portico 01",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "TROCAR PANTOGRAFOS",
     "status": "Em andamento"
   }
-]   
+]
 }
       ]
     }
