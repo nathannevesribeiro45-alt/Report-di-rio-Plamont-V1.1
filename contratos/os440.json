@@ -10,18 +10,18 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 10,
-          "Soldador": 3,
-          "Ajudante de mont.": 1, 
+          "Caldeireiro": 0,
+          "Mecanico": 0,
+          "Soldador": 0,
+          "Ajudante de mont.": 0, 
           "Montador": 0,
-          "Eletricista": 4
+          "Eletricista": 0
         },
         "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 1,
-          "Mestre Montagem": 1,
-          "Mestre Andaime": 1
+          "Supervisor Montagem": 0,
+          "Encarregado Montagem": 0,
+          "Mestre Montagem": 0,
+          "Mestre Andaime": 0
         }
       },
       "histograma": {
