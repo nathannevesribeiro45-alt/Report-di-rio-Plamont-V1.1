@@ -149,24 +149,24 @@
   {
     "numero": "202603698303",
     "frente": "TR-1385",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5720241",
+    "longitude": "-44,3438784",
     "descricao": "MCM-MPV ELE 08S ESTICAMENTO",
     "status": "Em andamento"
   },
   {
     "numero": "202603698253",
     "frente": "TR-1385",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5720241",
+    "longitude": "-44,3438784",
     "descricao": "MCM-INP UTL MEC 08S GUINCHO ATS",
     "status": "Em andamento"
   },
   {
     "numero": "202603698593",
     "frente": "TR-1385",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5720241",
+    "longitude": "-44,3438784",
     "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS",
     "status": "Em andamento"
   },
@@ -181,32 +181,32 @@
   {
     "numero": "202404878991",
     "frente": "EX-1412",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5644957",
+    "longitude": "-44,3757369",
     "descricao": "TROCAR 2 ESTICADOR COM OXIDAÇÃO",
     "status": "Em andamento"
   },
   {
     "numero": "202603968631",
     "frente": "EX-1412",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5644957",
+    "longitude": "-44,3757369",
     "descricao": "INSTALAR MANGOTES DE LUB.",
     "status": "Em andamento"
   },
   {
     "numero": "202601645732",
     "frente": "Portico 01",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5693599",
+    "longitude": "-44,3441539",
     "descricao": "SUBSTITUIR CHAVES LIMITES TRANSLAÇÃO",
     "status": "Em andamento"
   },
   {
     "numero": "202603477356",
     "frente": "Portico 01",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5693599",
+    "longitude": "-44,3441539",
     "descricao": "TROCAR PANTOGRAFOS",
     "status": "Em andamento"
   }

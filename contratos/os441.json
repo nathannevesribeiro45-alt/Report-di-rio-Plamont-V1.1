@@ -116,26 +116,26 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
+              "frente":"TR-313K-85",
+              "latitude":"-2,5720241",
+              "longitude":"-44,3438784",
               "numero": "202603718302",
-              "descricao": " TROCAR 4 ROLOS RETORNO EM V BAL43 CV 02/BAL142 CV02()",
+              "descricao": " TROCAR 4 ROLOS RETORNO EM V BAL43 CV 02/BAL142 CV02(TR-313K-85)",
               "status": "Em andamento"
             },
             {
               "numero": "202600522776",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
+              "frente":"TR-313K-85",
+              "latitude":"-2,5720241",
+              "longitude":"-44,3438784",
               "descricao": " MONTAR ANDAIME PARA TROCAR CHAPA CERÂMICA POR CHAPA COMÉIA DO CHUTE DE DESCARGA",
               "status": "Em andamento"
             },
              {
               "numero": "202602830177",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
+              "frente":"RP-07",
+              "latitude":"-2,5720545",
+              "longitude":"-44,3424470",
               "descricao": " DES_MONTAR E DESMONTAR AND_CAV. A.A. RET",
               "status": "Em andamento"
             }
@@ -149,17 +149,17 @@
           "oms": [
             {
               "numero": " 202505413818",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
+              "frente":"TR-314K-12",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
               "descricao": "CALHA_TROC CHAPA CALHA REJEITO RASP SECU",
               "status": "Em andamento"
             },
             {
               "numero": "202505414041",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
+              "frente":"TR-314K-12",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
               "descricao": "DESMONT NDAIME -CALHA_TROC CHAPA CALHA REJEITO RASP SECUNDARIO.",
               "status": "Em andamento"
             }
@@ -173,9 +173,9 @@
           "oms": [
             {
               "numero": "202601766855",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
+              "frente":"VV-08",
+              "latitude":"-2,5693397",
+              "longitude":"-44,3447098",
               "descricao": "PREPARAÇÃO DE FERRAMENTAS E 5S – PLAMONT",
               "status": "Em andamento"
             }
