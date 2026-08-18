@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "17/08/2026",
-  "turno": "Dia B",
+  "data": "18/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,12 +10,12 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 0,
-          "Mecanico": 0,
-          "Soldador": 0,
-          "Ajudante de mont.": 0, 
+          "Caldeireiro": 4,
+          "Mecanico": 11,
+          "Soldador": 5,
+          "Ajudante de mont.": 1, 
           "Montador": 0,
-          "Eletricista": 0
+          "Eletricista": 1
         },
         "indireto": {
           "Supervisor Montagem": 0,
@@ -41,7 +41,12 @@
         }
       },
       "ausencias": {},
-      "mobilizacao": {},
+      "mobilizacao": {
+        "Mecanico":"6",
+        "caldeireiro":"3",
+        "Soldador":"2",
+        "Ajudante de mont.":"1"
+      },
       "recursos": [
         {
           "tipo": "Munck",
@@ -52,6 +57,12 @@
           {
           "tipo": "Munck",
           "placa": "SGA-3I06(Apoio á PPL)",
+          "operador": "",
+          "contato": ""
+        },
+        {
+          "tipo": "Munck",
+          "placa": "SGA-3I14",
           "operador": "",
           "contato": ""
         },
@@ -92,7 +103,22 @@
        
       ],
       "atividades": [
-        
+      {
+        "lider":"Augusto/Douglas",
+        "telefone":"98 9965-3798",
+        "equipe":"11 mecânicos + 5 soldadores + 4 caldereiros + 1 eletricista + 1 ajudante de mont.",
+        "oms":[
+          {
+            "frente":"RP-02",
+            "latitude":"-2,5664223",
+            "longitude":"-44,3522400",
+            "numero":"--",
+            "descricao":"FABRICAÇÃO E MOBILIZAÇÃO PARA RP-02",
+            "status":"Em andamento"
+
+        }
+      ]
+      }
       ]
       ,
       
@@ -106,18 +132,18 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 9,
-          "Mecanico": 28,
-          "Soldador": 9,
-          "Montador": 12,
-          "Eletricista": 5,
+          "Caldeireiro": 10,
+          "Mecanico": 22,
+          "Soldador": 8,
+          "Montador": 24,
+          "Eletricista": 7,
           "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 4,
-          "Mestre Andaime": 1
+          "Mestre Montagem": 5,
+          "Mestre Andaime": 2
         }
       },
       "histograma": {
@@ -233,9 +259,9 @@
         },
 
          {
-          "lider":"Douglas",
-          "telefone":"",
-          "equipe":"6 mecânicos + 2 soldador + 3 caldereiro + 1 ajudante de mont.",
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"4 mecânicos + 1 soldador + 1 caldereiro + 1 ajudante de mont. + 2 eletricistas",
         "oms":[
           {
               "numero": "202304371175",
@@ -294,9 +320,9 @@
         },
 
         {
-          "lider":"João Batista",
-          "telefone":"98 8887-8415",
-          "equipe":"4 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
+          "lider":"João Batista/Cleyton",
+          "telefone":"98 8887-8415/98 93300-5461",
+          "equipe":"7 mecânicos + 4 soldadores + 4 caldereiros + 2 eletricista",
           
         
         "oms":[
@@ -356,9 +382,9 @@
 
     
         {
-          "lider":"Augusto Campos",
-          "telefone":"(98) 8508-9007",
-          "equipe":"5 mecânicos + 3 soldadores + 1 caldeireiro + 1 eletricista",
+          "lider":"Fagner",
+          "telefone":"(98) 9 8542-9199",
+          "equipe":"5 mecânicos + 1 soldadores + 2 caldeireiro + 2 eletricista",
         
         "oms":[
           {
@@ -439,24 +465,23 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Edeilson",
+          "lider": "Ronielisson",
           "telefone": "98 9963-7084",
           "tecnicoSeguranca": "",
           "equipe": "7 mecânicos + 02 eletricista",
           "oms": [
             {
-              "numero": "202602221206",
-              "frente":"Oficina de Subconjunto",
-              "descricao": "TME-SUBST.TLD-TR1516",
-              "latitude":"-2,5598826",
-              "longitude":"-44,3493919",
-              "status": "Em andamento"
-            }
+              "status":"Planejada"
+          }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": []
+      "observacoes": [
+      
+        "Equipe disponível realizando treinamento de CRM pela manhã."
+      
+    ]
     }
   ]
 }
