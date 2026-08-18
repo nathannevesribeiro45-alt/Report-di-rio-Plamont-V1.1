@@ -13,7 +13,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
+          "Mecanico": 14,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -64,7 +64,7 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "SGC-7H66",
+          "placa": "SGC-7H66 (Manutenção)",
           "operador": "Jhonatan",
           "contato":"",
           "status": "OPERANTE"
@@ -73,44 +73,44 @@
           {
           "tipo": "Munck",
           "placa": "RBB-1B72(PREVENTIVA)",
-          "operador": "",
-          "contato":"",
+          "operador": "José Augusto",
+          "contato":"98 98858-7321",
           "status": "OPERANTE"
         },
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador":"Gleydson",
+          "operador":"",
           "contato":"",
           "status": "OPERANTE"
         },
        
           {
           "tipo": "Pick-up",
-          "placa": "SFU-0A35",
-          "operador": "Anderson",
-          "contrato":"",
+          "placa": "SFT-9H25",
+          "operador": "Carlos",
+          "contrato":"98 98124-4272",
           "status": "OPERANTE"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Patrick",
-          "contrato":"",
+          "placa": " SFU-0A35",
+          "operador": "Hilgles",
+          "contrato":"98 98537-4937",
           "status": "OPERANTE"
         },
         {
           "tipo": "Ônibus",
-          "placa": "SHX-5E42",
-          "operador": "Joerbete",
-          "contato":"",
+          "placa": "SIB-9H77",
+          "operador": "Marcello",
+          "contato":"98 99967-2922",
           "status": "OPERANTE"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Adilson",
+          "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
@@ -119,8 +119,8 @@
               "frente":"TR-313K-85",
               "latitude":"-2,5720241",
               "longitude":"-44,3438784",
-              "numero": "202603718302",
-              "descricao": " TROCAR 4 ROLOS RETORNO EM V BAL43 CV 02/BAL142 CV02(TR-313K-85)",
+              "numero": "202600521640",
+              "descricao": "TROCAR CHAPA CERÂMICA POR CHAPA COMÉIA DO CHUTE DE DESCARGA(TR-313K-85)",
               "status": "Em andamento"
             },
             {
@@ -132,51 +132,59 @@
               "status": "Em andamento"
             },
              {
-              "numero": "202602830177",
+              "numero": " 202603718141",
               "frente":"RP-07",
               "latitude":"-2,5720545",
               "longitude":"-44,3424470",
-              "descricao": " DES_MONTAR E DESMONTAR AND_CAV. A.A. RET",
+              "descricao": "DESMONTAR ANDAIME PARA TROCAR 10 ROLOS IMPACTO MESA CATENARIA(RP-07)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Fernando Maranhão",
+          "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": " 202505413818",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao": "CALHA_TROC CHAPA CALHA REJEITO RASP SECU",
+              "numero": "202300078849",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "descricao": "CAVALETE_TROCAR CAVALETES RETORNO T(TR-325K-16)",
               "status": "Em andamento"
             },
             {
-              "numero": "202505414041",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao": "DESMONT NDAIME -CALHA_TROC CHAPA CALHA REJEITO RASP SECUNDARIO.",
+              "numero": "202405122180",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "descricao": " ANDAIME - A17- TURNOVER_TROCAR ROLOS VIRADOR 90° T(TR-325K-16)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Alexandre",
+          "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202601766855",
-              "frente":"VV-08",
-              "latitude":"-2,5693397",
-              "longitude":"-44,3447098",
-              "descricao": "PREPARAÇÃO DE FERRAMENTAS E 5S – PLAMONT",
+              "numero": "202503663215",
+              "frente":"TR-314K-12",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
+              "descricao": " ROLO_TROCAR 12 ROLOS DE IMPACTO DA MESA(TR-314K-12)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202505413818",
+              "frente":"TR-314K-12",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
+              "descricao": "CALHA_TROC CHAPA CALHA REJEITO RASP SECU(TR-314K-12)",
               "status": "Em andamento"
             }
         
@@ -192,9 +200,9 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 3,
-          "Soldador": 3,
+          "Caldeireiro": 2,
+          "Mecanico": 6,
+          "Soldador": 1,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -227,10 +235,10 @@
         "Caldeireiro": 0,
         "Mecanico": 0,
         "Soldador": 0,
-        "Montador": 1,
+        "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 1,
+        "justificadas": 0,
         "naoJustificadas": 0
       },
       "mobilizacao": {},
@@ -238,11 +246,37 @@
 
       "atividades": [
         {
-          "lider": "Wnaderson/Adeilton",
-          "telefone": "98 98508-8348",
+          "lider": "Julio/Erickson",
+          "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
-          "oms": []
+          "equipe": "6 Mecânicos + 2 Caldeireiros + 1 Soldadores + 2 Montadores + 1 pintor",
+          "oms": [
+            {
+              "numero": "202602930063",
+              "frente":"TR-325K-17",
+              "latitude":"-2,5627950",
+              "longitude":"-44,3789498",
+              "descricao": " SEG_PS_TROC CH PISO REGIÃO VIR CORREIA(TR-325K-17)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202506355213",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5642594",
+              "longitude":"-44,3770363",
+              "descricao": "SEG_PS_TROCAR TELA PISO UNIDADES 16/17 (TR-325K-16)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202602759428",
+              "frente":"CN05",
+              "latitude":"-2,5594005",
+              "longitude":"-44,3790212",
+              "descricao": "SEG_GC_REVITALIZ G. CORPO ESCADA L/D TRIP (CN05)",
+              "status": "Em andamento"
+            }
+
+          ]
         }
       ]
     }
