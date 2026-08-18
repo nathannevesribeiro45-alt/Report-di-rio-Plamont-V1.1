@@ -12,7 +12,7 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 0,
+          "Caldeireiro": 1,
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
@@ -83,7 +83,7 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 0,
+          "Caldeireiro": 1,
           "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
@@ -157,10 +157,10 @@
 
       "atividades": [
         {
-          "lider": "Dionatan",
-          "telefone": "98 8299-8136",
+          "lider": "José Maria",
+          "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
         "oms": [
   {
     "numero": "202603907885",
@@ -168,7 +168,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MCM-MPV ELE 16S EXTRATOR",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202603907887",
@@ -176,7 +176,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MCM-MPV MEC 16S EXTRATOR",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202603560473",
@@ -184,7 +184,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MCM-MPV LUB 16S TROCA ÓLEO",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202603276441",
@@ -192,7 +192,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "TROCAR CHAVE FIM DE CURSO ELEVAÇÃO",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202500354834",
@@ -200,7 +200,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "INSTALAR PROTEÇÃO DAS TOMADAS DE CONEXÃO",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202604069693",
@@ -208,7 +208,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MP ELE ENROLADOR DE CABO PD",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202604069694",
@@ -216,7 +216,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MP ELE TRANSLAÇÃO PORTICO 50/15T PD",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202604069695",
@@ -224,7 +224,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MP ELE SENSORIAMENTO E SINALIZAÇÃO",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202604069696",
@@ -232,7 +232,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MP ELE TRANSLAÇÃO CARRO PONTE 50/15T PD",
-    "status": ""
+    "status": "Em andamento"
   },
   {
     "numero": "202604069697",
@@ -240,7 +240,7 @@
     "latitude": null,
     "longitude": null,
     "descricao": "MP ELE ELEVAÇÃO PRINCIPAL E AUXILIAR",
-    "status": ""
+    "status": "Em andamento"
   }
 ]
 }
