@@ -154,31 +154,7 @@
           "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
-        "oms": [
-  {
-    "numero": "202603907885",
-    "frente": "EX-313K-214",
-    "latitude": "-2,5720521",
-    "longitude": "-44,3453267",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603907887",
-    "frente": "EX-313K-214",
-   "latitude": "-2,5720521",
-    "longitude": "-44,3453267",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603560473",
-    "frente": "EX-313K-214",
-    "latitude": "-2,5720521",
-    "longitude": "-44,3453267",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO",
-    "status": "Em andamento"
-  },
+       "oms": [
   {
     "numero": "202603276441",
     "frente": null,
@@ -196,43 +172,43 @@
     "status": "Em andamento"
   },
   {
-    "numero": "202604069693",
-    "frente": null,
+    "numero": "202604261703",
+    "frente": "EX-216",
     "latitude": null,
     "longitude": null,
-    "descricao": "MP ELE ENROLADOR DE CABO PD",
+    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT(EX-216)",
     "status": "Em andamento"
   },
   {
-    "numero": "202604069694",
+    "numero": "202602363473",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "MP ELE TRANSLAÇÃO PORTICO 50/15T PD",
+    "descricao": "SUBSTITUIR LIMITES DA DIREÇÃO",
     "status": "Em andamento"
   },
   {
-    "numero": "202604069695",
-    "frente": null,
+    "numero": "202603146128",
+    "frente": "EX 11-216",
     "latitude": null,
     "longitude": null,
-    "descricao": "MP ELE SENSORIAMENTO E SINALIZAÇÃO",
+    "descricao": "ESPELHO DO TAMBOR AVARIADO(EX 11-216)",
     "status": "Em andamento"
   },
   {
-    "numero": "202604069696",
+    "numero": "202603094766",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "MP ELE TRANSLAÇÃO CARRO PONTE 50/15T PD",
+    "descricao": "AÇÃO DE SEGURANÇA RAC 05",
     "status": "Em andamento"
   },
   {
-    "numero": "202604069697",
-    "frente": null,
+    "numero": "202603612423",
+    "frente": "PR-361K-202",
     "latitude": null,
     "longitude": null,
-    "descricao": "MP ELE ELEVAÇÃO PRINCIPAL E AUXILIAR",
+    "descricao": "MP ELME PONTE ROLANTE(PR-361K-202)",
     "status": "Em andamento"
   }
 ]
