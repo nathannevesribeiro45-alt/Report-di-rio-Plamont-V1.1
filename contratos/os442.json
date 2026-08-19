@@ -129,21 +129,21 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-        "operador": "Fernando",
+        "operador": "Romário",
           "status": "OPERANTE"
         },
         {
           "tipo": "pick-up",
-          "placa": "SFT-9H25",
-          "operador": "Rafael",
+          "placa": "SFT-9J87",
+          "operador": "Domingos",
           "telefone":"98 98518-9687",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
-          "operador": "Marcello",
-          "telefone":"98 9967-2922",
+          "operador": "Andreía",
+          "telefone":"98 98868-4821",
           "status": "OPERANTE"
         }
       ],
