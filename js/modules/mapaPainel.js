@@ -84,15 +84,21 @@ const MapaPainel = {
 
                             const statusOm = normalizarStatusOM(om.status);
                             const cfgOm = statusConfig[statusOm];
+                            const arquivoPdf = om.arquivoPdf || om.pdf;
+                            const tag = arquivoPdf ? "a" : "div";
+                            const atributosArquivo = arquivoPdf
+                                ? ` href="${arquivoPdf}" target="_blank" rel="noopener" title="Abrir PDF da OM ${om.numero || ""}"`
+                                : "";
 
                             return `
-                                <div class="mapa-painel-atividade">
+                                <${tag} class="mapa-painel-atividade${arquivoPdf ? " mapa-painel-atividade-com-anexo" : ""}"${atributosArquivo}>
                                     <span class="mapa-painel-atividade-dot ${cfgOm.classe}"></span>
                                     <div class="mapa-painel-atividade-texto">
                                         <div class="mapa-painel-atividade-numero">OM ${om.numero || "—"}</div>
                                         <div class="mapa-painel-atividade-descricao">${om.descricao || ""}</div>
+                                        ${arquivoPdf ? '<div class="mapa-painel-atividade-anexo">📎 Abrir PDF</div>' : ""}
                                     </div>
-                                </div>
+                                </${tag}>
                             `;
 
                         }).join("")}

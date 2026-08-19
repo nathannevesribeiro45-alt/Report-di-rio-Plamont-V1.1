@@ -256,6 +256,25 @@ ${lider.tecnicoSeguranca ? `
 
         card.dataset.busca = (om.numero || "").toString();
 
+        const arquivoPdf = om.arquivoPdf || om.pdf;
+
+        if (arquivoPdf) {
+            card.classList.add("atividade-om-com-anexo");
+            card.tabIndex = 0;
+            card.setAttribute("role", "link");
+            card.setAttribute("aria-label", `Abrir PDF da OM ${om.numero || ""}`.trim());
+
+            const abrirArquivo = () => window.open(arquivoPdf, "_blank", "noopener");
+
+            card.addEventListener("click", abrirArquivo);
+            card.addEventListener("keydown", evento => {
+                if (evento.key === "Enter" || evento.key === " ") {
+                    evento.preventDefault();
+                    abrirArquivo();
+                }
+            });
+        }
+
         card.innerHTML = `
 
             <div class="om-topo">
@@ -279,6 +298,12 @@ ${lider.tecnicoSeguranca ? `
                 ${om.descricao || "--"}
 
             </div>
+
+            ${arquivoPdf ? `
+                <div class="om-anexo" aria-hidden="true">
+                    <span>📎</span> Abrir arquivo PDF
+                </div>
+            ` : ""}
 
         `;
 
