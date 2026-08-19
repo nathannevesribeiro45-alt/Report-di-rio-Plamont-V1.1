@@ -1898,3 +1898,95 @@ background-repeat:no-repeat;
     70%  { background: #FFE066; }
     100% { background: transparent; }
 }
+
+/* Recursos: identificação, status e responsável */
+.card-recursos .recurso-linha{
+    gap:12px;
+    padding:16px 20px;
+}
+
+.card-recursos .recurso-identificacao{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    min-width:0;
+}
+
+.card-recursos .recurso-linha-icone{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:34px;
+    height:34px;
+    flex:0 0 34px;
+    border-radius:9px;
+    background:#edf5ff;
+    color:#0b57b7;
+    font-size:18px;
+}
+
+.card-recursos .recurso-placa-texto{
+    min-width:0;
+    color:#1f2937;
+    font-size:16px;
+    font-weight:750;
+    line-height:1.3;
+    overflow-wrap:anywhere;
+}
+
+.card-recursos .recurso-status{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    margin-left:auto;
+    padding:6px 9px;
+    border-radius:999px;
+    font-size:11px;
+    font-weight:750;
+    letter-spacing:.35px;
+    line-height:1;
+    text-transform:uppercase;
+    white-space:nowrap;
+}
+
+.card-recursos .recurso-status-ponto{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:currentColor;
+}
+
+.card-recursos .recurso-status-disponivel{ background:#e8f1ff; color:#1769d1; }
+.card-recursos .recurso-status-atendendo{ background:#e7f7ec; color:#16843f; }
+.card-recursos .recurso-status-preventiva{ background:#fff6d9; color:#9a6900; }
+.card-recursos .recurso-status-manutencao{ background:#fff0df; color:#d46b08; }
+
+.card-recursos .recurso-operador{
+    gap:8px;
+    color:#465466;
+}
+
+.card-recursos .recurso-operador-icone{
+    display:inline-flex;
+    align-self:flex-start;
+    font-size:17px;
+}
+
+.card-recursos .recurso-operador-dados{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    min-width:0;
+}
+
+.card-recursos .recurso-operador-nome{
+    color:#344256;
+    font-size:14px;
+    font-weight:650;
+    overflow-wrap:anywhere;
+}
+
+.card-recursos .recurso-operador-contato{
+    color:#6b7280;
+    font-size:13px;
+}

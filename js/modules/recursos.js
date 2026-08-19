@@ -35,7 +35,7 @@ const painelTotal = secao.querySelector(".painel-total");
 painelTotal.innerHTML = `
     ${total}
     recurso${total !== 1 ? "s" : ""}
-    ${total !== 1 ? "disponíveis" : "disponível"}
+    ${total !== 1 ? "listados" : "listado"}
 `;
 
 const header = secao.querySelector(".bloco-header");
@@ -73,7 +73,7 @@ container.appendChild(secao);
 
                 ${Icons.carro}
 
-                Recursos Disponíveis
+                Recursos listados
 
             </h2>
 
@@ -164,19 +164,22 @@ criarItem(tipo, recursos) {
 
     recursos.forEach(recurso => {
 
+        const identificacao = this.obterIdentificacao(recurso);
+        const status = this.obterStatus(recurso);
+
         linhas += `
 
             <div class="recurso-linha">
 
-                <span class="recurso-placa">
+                <div class="recurso-identificacao">
                     <span class="recurso-linha-icone" aria-hidden="true">&#128663;</span>
-                    <span class="recurso-ponto" aria-hidden="true"></span>
-                    <span class="recurso-placa-texto">${recurso.placa || "--"}</span>
-                </span>
+                    <span class="recurso-placa-texto">${identificacao}</span>
+                    ${this.criarStatus(status)}
+                </div>
 
-                <span class="recurso-operador">
+                <div class="recurso-operador">
                     ${this.formatarOperador(recurso)}
-                </span>
+                </div>
 
             </div>
 
@@ -271,6 +274,52 @@ formatarOperador(recurso) {
     `;
 
 },
+
+    obterIdentificacao(recurso) {
+
+        return (recurso.placa || "--")
+            .replace(/\s*\((?:preventiva|manuten[çc][ãa]o|problema[^)]*|quebrad[oa]|inoperante)\)\s*/gi, " ")
+            .trim();
+
+    },
+
+    obterStatus(recurso) {
+
+        const valorInformado = (recurso.status || "").trim().toLowerCase();
+        const textoLegado = `${recurso.placa || ""} ${valorInformado}`.toLowerCase();
+
+        if (valorInformado.includes("atend")) return "atendendo";
+        if (valorInformado.includes("prevent")) return "preventiva";
+        if (
+           valorInformado.includes("manuten") ||
+           valorInformado.includes("quebrad") ||
+           valorInformado.includes("inoperante") ||
+           textoLegado.includes("problema")
+             ) return "manutencao";
+
+          return "disponivel";
+
+    },
+
+    criarStatus(status) {
+
+        const configuracoes = {
+         disponivel: { rotulo: "Disponível", classe: "disponivel" },
+         atendendo: { rotulo: "Atendendo", classe: "atendendo" },
+         preventiva: { rotulo: "Preventiva", classe: "preventiva" },
+         manutencao: { rotulo: "Manutenção", classe: "manutencao" }
+};
+
+        const configuracao = configuracoes[status] || configuracoes.disponivel;
+
+        return `
+            <span class="recurso-status recurso-status-${configuracao.classe}">
+                <span class="recurso-status-ponto" aria-hidden="true"></span>
+                ${configuracao.rotulo}
+            </span>
+        `;
+
+    },
     // ======================================
     // Retorna o ícone
     // ======================================

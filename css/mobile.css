@@ -1511,3 +1511,71 @@
 }
 
 }
+
+/* Sobrescreve a grade compacta acima: cada recurso vira um cartão vertical. */
+@media (max-width: 768px) {
+    .card-recursos .recurso-linha{
+        display:flex;
+        flex-direction:column;
+        align-items:stretch;
+        gap:14px;
+        padding:15px;
+        border:1px solid #d8e2ee;
+        border-radius:12px;
+    }
+
+    .card-recursos .recurso-identificacao{
+        display:grid;
+        grid-template-columns:38px minmax(0, 1fr);
+        align-items:center;
+        gap:10px;
+        width:100%;
+    }
+
+    .card-recursos .recurso-linha-icone{
+        width:38px;
+        height:38px;
+        flex-basis:38px;
+        border-radius:50%;
+        font-size:18px;
+    }
+
+    .card-recursos .recurso-placa-texto{
+        font-size:15px;
+        line-height:1.3;
+    }
+
+    .card-recursos .recurso-status{
+        grid-column:2;
+        grid-row:2;
+        justify-self:start;
+        margin:0;
+        padding:5px 8px;
+        font-size:10px;
+    }
+
+    .card-recursos .recurso-status-ponto{
+        width:8px;
+        height:8px;
+    }
+
+    .card-recursos .recurso-operador{
+        display:flex;
+        align-items:flex-start;
+        min-width:0;
+        padding:11px 0 0;
+        border-top:1px solid #e4eaf1;
+        border-left:0;
+        font-size:14px;
+    }
+
+    .card-recursos .recurso-operador-nome{
+        font-size:14px;
+        line-height:1.35;
+    }
+
+    .card-recursos .recurso-operador-contato{
+        font-size:13px;
+        line-height:1.35;
+    }
+}

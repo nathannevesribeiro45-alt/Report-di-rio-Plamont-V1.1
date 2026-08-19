@@ -64,18 +64,18 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "SGC-7H66 (Manutenção)",
+          "placa": "SGC-7H66",
           "operador": "Jhonatan",
           "contato":"",
-          "status": "OPERANTE"
+          "status": "Manutencao"
         },
 
           {
           "tipo": "Munck",
-          "placa": "RBB-1B72(PREVENTIVA)",
+          "placa": "RBB-1B72",
           "operador": "José Augusto",
           "contato":"98 98858-7321",
-          "status": "OPERANTE"
+          "status": "Preventiva"
         },
          {
           "tipo": "Munck",
@@ -87,16 +87,16 @@
        
           {
           "tipo": "Pick-up",
-          "placa": "SFT-9H25 (PREVENTIVA)",
+          "placa": "SFT-9H25",
           "operador": "Carlos",
-          "contrato":"98 98124-4272",
-          "status": "OPERANTE"
+          "contato":"98 98124-4272",
+          "status": "Preventiva"
         },
         {
           "tipo": "Pick-up",
           "placa": " SFU-0A35",
           "operador": "Hilgles",
-          "contrato":"98 98537-4937",
+          "contato":"98 98537-4937",
           "status": "OPERANTE"
         },
         {

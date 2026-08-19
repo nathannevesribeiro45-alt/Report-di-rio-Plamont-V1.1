@@ -74,15 +74,17 @@
         },
          {
           "tipo": "Munck",
-          "placa": "QRD-8213 (Manutenção)",
+          "placa": "QRD-8213",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Manutencao"
         },
         {
           "tipo": "Munck",
-          "placa": "SGA-3I26 (Bóia do arla queimada)",
+          "placa": "SGA-3I26",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Manutencao"
         },
         
 
@@ -120,9 +122,10 @@
         },
         {
           "tipo": "Guindaste",
-          "placa": "OCW-3196 (Manutenção)",
+          "placa": "OCW-3196",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Manutencao"
         }
 
        

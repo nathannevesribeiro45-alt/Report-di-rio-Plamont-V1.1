@@ -58,64 +58,65 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "QRI-7I40 (Problema no ar condicionado)",
+          "placa": "QRI-7I40",
           "operador": "Moisés",
-          "telefone":"(94) 99181-8671"
+          "contato":"(94) 99181-8671",
+          "status":"Manutenção"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
           "operador": "Euclides",
-          "telefone":"98 8791-09126",
+          "contato":"(98) 8791-09126",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G24",
           "operador": "Italo",
-          "telefone":"(98) 98184-5269",
+          "contato":"(98) 98184-5269",
           "status": "Operante"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
           "operador": "Rosivaldo",
-          "telefone":"(98) 99187-8772",
+          "contato":"(98) 99187-8772",
           "status": "Manutenção"
         },
         {
           "tipo": "Caminhao comboio",
           "placa": "PTG3093",
           "operador": "Maxuel",
-          "telefone":"98 98113-3561",
+          "contato":"(98) 98113-3561",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
           "operador": "Bruno",
-          "telefone":"(98) 98850-8993",
+          "contato":"(98) 98850-8993",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
           "operador": "Jobert",
-          "telefone":"(98) 98802-8232",
+          "contato":"(98) 98802-8232",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
           "operador": "Jesus",
-          "telefone":"(98) 97010-4041",
+          "contato":"(98) 97010-4041",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
           "operador": "Estevan",
-          "telefone":"(98) 98474-3782",
+          "contato":"(98) 98474-3782",
           "status": "Operante"
         }
       ],

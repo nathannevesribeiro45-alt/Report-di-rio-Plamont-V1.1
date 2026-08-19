@@ -136,14 +136,14 @@
           "tipo": "pick-up",
           "placa": "SFT-9J87",
           "operador": "Domingos",
-          "telefone":"98 98518-9687",
+          "contato":"98 98518-9687",
           "status": "OPERANTE"
         },
         {
           "tipo": "ônibus",
           "placa": "ROR-4B49",
           "operador": "Andreía",
-          "telefone":"98 98868-4821",
+          "contato":"98 98868-4821",
           "status": "OPERANTE"
         }
       ],
