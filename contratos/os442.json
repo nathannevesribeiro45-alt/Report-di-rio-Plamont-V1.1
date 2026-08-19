@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "17/08/2026",
-  "turno": "Dia B",
+  "data": "19/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -57,18 +57,11 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202506684483",
+    "numero": "202600559806",
     "frente": "TR-315K-04",
-    "latitude": "-2,5607953",
-    "longitude": "-44,3641131",
-    "descricao": "NORMALIZAR ATERRAMENTO (TR-315K-04)",
-    "status": "Em andamento"
-  },
-  {"numero": "202601275677",
-    "frente": "TR-313K-12",
-    "latitude": "-2,5659464",
-    "longitude": "-44,3590292",
-    "descricao": "NORMA. FIXAÇÃO DA RASGO BANDEJA (TR-313K-12)",
+    "latitude": "-2,5640726",
+    "longitude": "-44,3779936",
+    "descricao": "SUBST. INFRA E SUPORTES SENSORES (TR-325K-16)",
     "status": "Em andamento"
   }
           ]
