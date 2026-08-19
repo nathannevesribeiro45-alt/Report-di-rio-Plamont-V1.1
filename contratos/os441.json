@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "17/08/2026",
-  "turno": "Dia B",
+  "data": "19/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -87,7 +87,7 @@
        
           {
           "tipo": "Pick-up",
-          "placa": "SFT-9H25",
+          "placa": "SFT-9H25 (PREVENTIVA)",
           "operador": "Carlos",
           "contrato":"98 98124-4272",
           "status": "OPERANTE"
@@ -116,27 +116,11 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"TR-313K-85",
-              "latitude":"-2,5720241",
-              "longitude":"-44,3438784",
-              "numero": "202600521640",
-              "descricao": "TROCAR CHAPA CERÂMICA POR CHAPA COMÉIA DO CHUTE DE DESCARGA(TR-313K-85)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202600522776",
-              "frente":"TR-313K-85",
-              "latitude":"-2,5720241",
-              "longitude":"-44,3438784",
-              "descricao": " MONTAR ANDAIME PARA TROCAR CHAPA CERÂMICA POR CHAPA COMÉIA DO CHUTE DE DESCARGA",
-              "status": "Em andamento"
-            },
-             {
-              "numero": " 202603718141",
-              "frente":"RP-07",
+              "frente":"RP-313K-07",
               "latitude":"-2,5720545",
               "longitude":"-44,3424470",
-              "descricao": "DESMONTAR ANDAIME PARA TROCAR 10 ROLOS IMPACTO MESA CATENARIA(RP-07)",
+              "numero": "202603847233",
+              "descricao": "TROCAR CHAPAS/CHOCK BAR NO CHUTE CENTRAL (RP-313K-07)",
               "status": "Em andamento"
             }
           ]
@@ -156,11 +140,27 @@
               "status": "Em andamento"
             },
             {
-              "numero": "202405122180",
+              "numero": "202401280096",
               "frente":"TR-325K-16",
               "latitude":"-2,5640963",
               "longitude":"-44,3777951",
-              "descricao": " ANDAIME - A17- TURNOVER_TROCAR ROLOS VIRADOR 90° T(TR-325K-16)",
+              "descricao": "  ROLO_TROCAR 04 ROLOS RETORNO TR2516 (TR-325K-16)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": " 202405234874",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "descricao": "ROLO_TROCAR 02 ROLOS RETORNO TR2516 (TR-325K-16)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202505414041",
+              "frente":"TR-314K-12",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
+              "descricao": " DESMONT ANDAIME -CALHA_TROC CHAPA CALHA REJEITO RASP SECUNDARIO (TR-314K-12)",
               "status": "Em andamento"
             }
           ]
@@ -172,19 +172,11 @@
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202503663215",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao": " ROLO_TROCAR 12 ROLOS DE IMPACTO DA MESA(TR-314K-12)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202505413818",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao": "CALHA_TROC CHAPA CALHA REJEITO RASP SECU(TR-314K-12)",
+              "numero": "202600521640",
+              "frente":"TR-313K-85",
+              "latitude":"-2,5720241",
+              "longitude":"-44,3438784",
+              "descricao": "TROCAR CHAPA CERÂMICA POR CHAPA COMÉIA DO CHUTE DE DESCARGA (TR-313K-85)",
               "status": "Em andamento"
             }
         
@@ -200,9 +192,9 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
+          "Caldeireiro": 4,
           "Mecanico": 6,
-          "Soldador": 1,
+          "Soldador": 4,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -249,30 +241,30 @@
           "lider": "Julio/Erickson",
           "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 2 Caldeireiros + 1 Soldadores + 2 Montadores + 1 pintor",
+          "equipe": "6 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-              "numero": "202602930063",
-              "frente":"TR-325K-17",
-              "latitude":"-2,5627950",
-              "longitude":"-44,3789498",
-              "descricao": " SEG_PS_TROC CH PISO REGIÃO VIR CORREIA(TR-325K-17)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202506355213",
+              "numero": "202602277180",
               "frente":"TR-325K-16",
-              "latitude":"-2,5642594",
-              "longitude":"-44,3770363",
-              "descricao": "SEG_PS_TROCAR TELA PISO UNIDADES 16/17 (TR-325K-16)",
+              "latitude":"-2,5642064",
+              "longitude":"-44,3772626",
+              "descricao": "SEG_PS_TROC CH PISO PASS LD CHUTE MÓVEL (TR-325K-16)",
               "status": "Em andamento"
             },
             {
-              "numero": "202602759428",
-              "frente":"CN05",
-              "latitude":"-2,5594005",
-              "longitude":"-44,3790212",
-              "descricao": "SEG_GC_REVITALIZ G. CORPO ESCADA L/D TRIP (CN05)",
+              "numero": "202505919953",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5642064",
+              "longitude":"-44,3772626",
+              "descricao": " SEG_GC_TROCAR TUBO GC PASSA LA BL43 A 47 (TR-325K-16)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603965704",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5642064",
+              "longitude":"-44,3772626",
+              "descricao": " SEG_GC_TROC TUB G.C PASS L/D BL-51 A 54 (TR-325K-16)",
               "status": "Em andamento"
             }
 

@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "18/08/2026",
+  "data": "19/08/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -56,7 +56,7 @@
         },
           {
           "tipo": "Munck",
-          "placa": "SGA-3I06(Apoio á PPL)",
+          "placa": "SGA-3I06 (Cobre)",
           "operador": "",
           "contato": ""
         },
@@ -66,6 +66,25 @@
           "operador": "",
           "contato": ""
         },
+        {
+          "tipo": "Munck",
+          "placa": "SMW-1J85 (Apoio á PPL)",
+          "operador": "",
+          "contato": ""
+        },
+         {
+          "tipo": "Munck",
+          "placa": "QRD-8213 (Manutenção)",
+          "operador": "",
+          "contato": ""
+        },
+        {
+          "tipo": "Munck",
+          "placa": "SGA-3I26 (Bóia do arla queimada)",
+          "operador": "",
+          "contato": ""
+        },
+        
 
          {
           "tipo": "Pick-up",
@@ -98,6 +117,12 @@
           "placa": "QRE-5I29",
           "operador": "",
           "contato": ""
+        },
+        {
+          "tipo": "Guindaste",
+          "placa": "OCW-3196 (Manutenção)",
+          "operador": "",
+          "contato": ""
         }
 
        
@@ -114,7 +139,7 @@
             "longitude":"-44,3522400",
             "numero":"--",
             "descricao":"FABRICAÇÃO E MOBILIZAÇÃO PARA RP-02",
-            "status":"Planejada"
+            "status":"Em andamento"
 
         }
       ]
@@ -133,10 +158,10 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 10,
-          "Mecanico": 22,
+          "Mecanico": 18,
           "Soldador": 8,
           "Montador": 24,
-          "Eletricista": 7,
+          "Eletricista": 6,
           "Pintor": 1
         },
         "indireto": {
@@ -187,7 +212,7 @@
         {
           "lider":"Alonso Costa",
           "telefone":"(31) 98495-2503",
-          "equipe":"6 mecânicos + 3 caldereiros + 2 soldadores + 1 eletricista",
+          "equipe":"3 mecânicos + 2 caldereiros + 1 soldadores + 1 eletricista",
 
         "oms":[
           {
@@ -261,7 +286,7 @@
          {
           "lider":"Rogério",
           "telefone":"98 9965-3798",
-          "equipe":"4 mecânicos + 1 soldador + 1 caldereiro + 1 ajudante de mont. + 2 eletricistas",
+          "equipe":"3 mecânicos + 1 soldador + 1 caldereiro + 1 ajudante de mont. + 1 eletricista",
         "oms":[
           {
               "numero": "202304371175",
@@ -322,7 +347,7 @@
         {
           "lider":"João Batista/Cleyton",
           "telefone":"98 8887-8415/98 93300-5461",
-          "equipe":"7 mecânicos + 4 soldadores + 4 caldereiros + 2 eletricista",
+          "equipe":"7 mecânicos + 5 soldadores + 3 caldereiros + 2 eletricista",
           
         
         "oms":[
@@ -471,17 +496,18 @@
           "equipe": "7 mecânicos + 02 eletricista",
           "oms": [
             {
-              "status":"Planejada"
+              "frente":"TR-315K-04",
+              "numero":"202203852165",
+              "descricao":"TROCAR E REPOR TELHAS CHAPA TR 315K-04",
+              "latitude":"",
+              "longitude":"",
+              "status":"Em andamento"
           }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": [
-      
-        "Equipe disponível realizando treinamento de CRM pela manhã."
-      
-    ]
+      "observacoes": []
     }
   ]
 }

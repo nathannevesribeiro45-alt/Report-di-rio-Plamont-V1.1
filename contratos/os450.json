@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "18/08/2026",
+  "data": "19/08/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -11,9 +11,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 11,
+          "Mecanico": 9,
           "Soldador": 5,
-          "Montador": 8,
+          "Montador": 7,
           "Eletricista": 7,
           "Ajudante de mont.": 2,
           "Pintor": 0
@@ -44,10 +44,10 @@
         }
       },
       "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 0,
+        "Caldeireiro": 1,
+        "Mecanico": 3,
         "Soldador": 0,
-        "Montador": 0,
+        "Montador": 1,
         "Eletricista": 0,
         "Pintor": 0,
         "justificadas": 0,
@@ -65,8 +65,8 @@
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Fernando",
-          "telefone":"(98) 98406-7236",
+          "operador": "Euclides",
+          "telefone":"98 8791-09126",
           "status": "Operante"
         },
         {
