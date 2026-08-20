@@ -1616,6 +1616,80 @@ background-repeat:no-repeat;
 }
 
 /* ==========================================================
+   ÁREA DE DOCUMENTOS DA OM
+========================================================== */
+
+.om-documentos{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:16px;
+
+    margin-top:16px;
+
+    padding-top:14px;
+
+    border-top:1px dashed #e4e8ec;
+
+}
+
+.om-documento{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    white-space:nowrap;
+
+}
+
+.om-documento-icone{
+
+    font-size:15px;
+
+    line-height:1;
+
+}
+
+.om-documento-disponivel{
+
+    color:#0B3B63;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.om-documento-disponivel:hover{
+
+    color:#13558B;
+
+    text-decoration:underline;
+
+}
+
+.om-documento-indisponivel{
+
+    color:#B0B8C1;
+
+    cursor:default;
+
+}
+
+/* ==========================================================
    BLOCO RECOLHÍVEL
 ========================================================== */
 

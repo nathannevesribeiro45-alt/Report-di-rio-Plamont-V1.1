@@ -256,24 +256,11 @@ ${lider.tecnicoSeguranca ? `
 
         card.dataset.busca = (om.numero || "").toString();
 
-        const arquivoPdf = om.arquivoPdf || om.pdf;
+        const arquivoOM = om.arquivoPdf || om.pdf;
+        const arquivoLaudo = om.laudo || om.arquivoLaudo;
 
-        if (arquivoPdf) {
-            card.classList.add("atividade-om-com-anexo");
-            card.tabIndex = 0;
-            card.setAttribute("role", "link");
-            card.setAttribute("aria-label", `Abrir PDF da OM ${om.numero || ""}`.trim());
-
-            const abrirArquivo = () => window.open(arquivoPdf, "_blank", "noopener");
-
-            card.addEventListener("click", abrirArquivo);
-            card.addEventListener("keydown", evento => {
-                if (evento.key === "Enter" || evento.key === " ") {
-                    evento.preventDefault();
-                    abrirArquivo();
-                }
-            });
-        }
+        const ariaOM = `Abrir documento da OM ${om.numero || ""}`.trim();
+        const ariaLaudo = `Abrir laudo da OM ${om.numero || ""}`.trim();
 
         card.innerHTML = `
 
@@ -299,11 +286,27 @@ ${lider.tecnicoSeguranca ? `
 
             </div>
 
-            ${arquivoPdf ? `
-                <div class="om-anexo" aria-hidden="true">
-                    <span>📎</span> Abrir arquivo PDF
-                </div>
-            ` : ""}
+            <div class="om-documentos">
+
+                ${arquivoOM ? `
+                    <a class="om-documento om-documento-disponivel" href="${arquivoOM}" target="_blank" rel="noopener" aria-label="${ariaOM}">
+                        <span class="om-documento-icone">📄</span> OM
+                    </a>
+                ` : `
+                    <span class="om-documento om-documento-indisponivel" aria-hidden="true">
+                        <span class="om-documento-icone">📄</span> OM
+                    </span>
+                `}
+
+                ${arquivoLaudo ? `
+                    <a class="om-documento om-documento-disponivel" href="${arquivoLaudo}" target="_blank" rel="noopener" aria-label="${ariaLaudo}">
+                        <span class="om-documento-icone">📑</span> Laudo
+                    </a>
+                ` : `
+                    <span class="om-documento om-documento-indisponivel">--</span>
+                `}
+
+            </div>
 
         `;
 
