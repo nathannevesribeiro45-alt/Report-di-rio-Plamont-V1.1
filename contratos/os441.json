@@ -8,6 +8,7 @@
     {
       "id": "desgaste",
       "nome": "Desgaste",
+      "obsevaçoes":[],
       "icone": "assets/icons/desgaste.svg",
 
       "qlp": {
@@ -104,42 +105,44 @@
 
       "atividades": [
         {
-          "lider": "Elias",
+          "lider": "Adilson",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"RP-313K-07",
+              "frente":"RP-02",
               "latitude":"-2,5720545",
               "longitude":"-44,3424470",
-              "numero": "202603847233",
-              "descricao": "TROCAR CHAPAS/CHOCK BAR NO CHUTE CENTRAL (RP-313K-07)",
+              "numero": "202604326601",
+              "descricao": "FAZER PREPARAÇÃO PARARP02 E TR1303 (RP02)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604326601 - FAZER PREPARAÇÃO PARA RP02 E TR1303.pdf",
+              "status": "Em andamento"
+            },
+            {
+              "frente":"RP-02",
+              "latitude":"-2,5720545",
+              "longitude":"-44,3424470",
+              "numero": "202604305127",
+              "descricao": "MONT/DESMONT AND TROC ROL MESA RODA RP02 (RP02)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604305127 - MONT DESMONT AND TROC ROL MESA RODA RP02.pdf",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Iego",
+          "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
-            {
-              "numero": "202300078849",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
-              "arquivoPdf":"om's/contrato 441 oms/TR2516 OM 202300078849 -  A17- CAVALETE_TROCAR CAVALETES RETORNO T.pdf",
-              "descricao": "CAVALETE_TROCAR CAVALETES RETORNO T(TR-325K-16)",
-              "status": "Em andamento"
-            },
+            
             {
               "numero": "202401280096",
               "frente":"TR-325K-16",
               "latitude":"-2,5640963",
               "longitude":"-44,3777951",
-              "arquivoPdf":"om's/contrato 441 oms/OM 202401280096 - ROLO_TROCAR 04 ROLOS RETORNO TR2516.pdf",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202401280096 - ROLO_TROCAR 04 ROLOS RETORNO TR2516.pdf",
               "descricao": "  ROLO_TROCAR 04 ROLOS RETORNO TR2516 (TR-325K-16)",
               "status": "Em andamento"
             },
@@ -149,38 +152,38 @@
               "latitude":"-2,5640963",
               "longitude":"-44,3777951",
               "descricao": "ROLO_TROCAR 02 ROLOS RETORNO TR2516 (TR-325K-16)",
-              "arquivoPdf":"om's/contrato 441 oms/OM 202405234874 - ROLO_TROCAR 02 ROLOS RETORNO TR2516.pdf",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202405234874 - ROLO_TROCAR 02 ROLOS RETORNO TR2516.pdf",
               "status": "Em andamento"
             },
             {
-              "numero": "202505414041",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao": " DESMONT ANDAIME -CALHA_TROC CHAPA CALHA REJEITO RASP SECUNDARIO (TR-314K-12)",
+              "numero": "202405122180",
+              "frente":"TR-325K-16",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "descricao": "A17- TURNOVER_TROCAR ROLOS VIRADOR 90° T (TR-325K-16)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR2516 OM -202405122180 - A17- TURNOVER_TROCAR ROLOS VIRADOR 90° T.pdf",
               "status": "Em andamento"
             }
+           
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202600521640",
-              "frente":"TR-313K-85",
-              "latitude":"-2,5720241",
-              "longitude":"-44,3438784",
-              "descricao": "TROCAR CHAPA CERÂMICA POR CHAPA COMÉIA DO CHUTE DE DESCARGA (TR-313K-85)",
-              "status": "Em andamento"
-            }
-        
+              "numero":"--",
+              "descricao":"Apoio nas atividades do Embarque",
+              "status":"Em andamento"
+          }
           ]
         }
       ]
+     
     },
+   
 
     {
       "id": "cond.seguras",
@@ -235,8 +238,8 @@
 
       "atividades": [
         {
-          "lider": "Julio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wandersson/Adeilton",
+          "telefone": "98 98508-8348/98 9609-7660",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
