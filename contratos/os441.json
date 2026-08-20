@@ -65,7 +65,7 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "Jhonatan",
+          "operador": "",
           "contato":"",
           "status": "Manutencao"
         },
@@ -75,37 +75,31 @@
           "placa": "RBB-1B72",
           "operador": "José Augusto",
           "contato":"98 98858-7321",
-          "status": "Preventiva"
+          "status": "Disponivel"
         },
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador":"",
+          "operador":"Gleydson",
           "contato":"",
-          "status": "OPERANTE"
+          "status": "Disponivel"
         },
        
           {
           "tipo": "Pick-up",
           "placa": "SFT-9H25",
-          "operador": "Carlos",
-          "contato":"98 98124-4272",
-          "status": "Preventiva"
+          "operador": "",
+          "contato":"",
+          "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": " SFU-0A35",
-          "operador": "Hilgles",
-          "contato":"98 98537-4937",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "Ônibus",
-          "placa": "SIB-9H77",
-          "operador": "Marcello",
-          "contato":"98 99967-2922",
+          "operador": "Anderson",
+          "contato":"",
           "status": "OPERANTE"
         }
+      
       ],
 
       "atividades": [

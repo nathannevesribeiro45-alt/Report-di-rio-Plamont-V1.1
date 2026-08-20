@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "19/08/2026",
-  "turno": "Dia A",
+  "data": "20/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -51,17 +51,17 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202600559806",
-    "frente": "TR-315K-04",
-    "latitude": "-2,5640726",
-    "longitude": "-44,3779936",
-    "descricao": "SUBST. INFRA E SUPORTES SENSORES (TR-325K-16)",
+    "numero": "202601257797",
+    "frente": "CN-05",
+    "latitude": "-2,5594112",
+    "longitude": "-44,3792181",
+    "descricao": "SUBST. INFRA SUBVELO. INTERMED. - CN05",
     "status": "Em andamento"
   }
           ]
@@ -138,23 +138,73 @@
           "operador": "Domingos",
           "contato":"98 98518-9687",
           "status": "OPERANTE"
-        },
-        {
-          "tipo": "ônibus",
-          "placa": "ROR-4B49",
-          "operador": "Andreía",
-          "contato":"98 98868-4821",
-          "status": "OPERANTE"
         }
+        
       ],
 
       "atividades": [
         {
-          "lider": "José Maria",
-          "telefone": "98 981850-6567",
+          "lider": "Sueliton",
+          "telefone": "98 8888-0636",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
        "oms": [
+  {
+    "numero": "202603958465",
+    "frente": "TR-315K-10",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1414",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603958467",
+    "frente": "TR-315K-39",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1510",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603973974",
+    "frente": "TR-326K-01",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELMEС GUINCHO CONTRAPESO TR1539",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603973975",
+    "frente": "TR-326K-03",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MP ELMEС GUINCHO CONTRAPESO TR2601",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603943348",
+    "frente": "TR-314K-12",
+    "latitude": "-2,5644957",
+    "longitude": "-44,3757369",
+    "descricao": "MP ELMEС GUINCHO CONTRAPESO TR2603",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202604322405",
+    "frente": null,
+    "latitude": null,
+    "longitude": null,
+    "descricao": "AJUSTAR ALTURA DO EXTRATOR_CORRENTES",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "2026027622594",
+    "frente": "PÓRTICO 01",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "UTI _ MONTAGEM E DESMONTAGEM DE ANDAIME",
+    "status": "Em andamento"
+  },
   {
     "numero": "202603276441",
     "frente": null,
@@ -165,50 +215,18 @@
   },
   {
     "numero": "202500354834",
-    "frente": null,
+    "frente": "TR-311K-11",
     "latitude": null,
     "longitude": null,
     "descricao": "INSTALAR PROTEÇÃO DAS TOMADAS DE CONEXÃO",
     "status": "Em andamento"
   },
   {
-    "numero": "202604261703",
-    "frente": "EX-216",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMONT(EX-216)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602363473",
+    "numero": "202603276441",
     "frente": null,
     "latitude": null,
     "longitude": null,
-    "descricao": "SUBSTITUIR LIMITES DA DIREÇÃO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603146128",
-    "frente": "EX 11-216",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "ESPELHO DO TAMBOR AVARIADO(EX 11-216)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603094766",
-    "frente": null,
-    "latitude": null,
-    "longitude": null,
-    "descricao": "AÇÃO DE SEGURANÇA RAC 05",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603612423",
-    "frente": "PR-361K-202",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP ELME PONTE ROLANTE(PR-361K-202)",
+    "descricao": "ALINHAR CORREIA DO EXTRATOR EX 215",
     "status": "Em andamento"
   }
 ]
