@@ -215,20 +215,6 @@
         
         "oms":[
           {
-              "numero": "202304536805",
-              "frente":"TR-325k-19",
-              "latitude":"-2,5636916",
-              "longitude":"-44,3790864",
-              "descricao":"SUBSTITUI PERFIL U PERFIL U DE LIGAÇÃO  NA BASE DE FIXAÇÃO DE TAMBOR DE ACIONAMNETO REGIÃO INTERNA",
-              "status":"Planejada"
-            }
-          ]
-        },
-
-        {
-        
-        "oms":[
-          {
               "numero": "202300985625",
               "frente":"CN-325K-03",
               "latitude":"-2,5595317",
@@ -279,7 +265,7 @@
               "longitude":"-44,3790518",
               "descricao":"SUBS ELM FIX CTV/TRAV EIX01 (CT-07)",
               "arquivoPdf":"om's/contrato 440 oms/Pier 3/CT07 OM 202304143749 AE1.2_CT-SUBS ELM FIX CTV TRAV EIX01.pdf",
-              "arquivoLaudo":"laudos/OS 440/Pier 3/202301417369_#202301417369_CT07-ST1_RISCO MÉDIO.pdf",
+              "arquivoLaudo":"laudos/OS 440/Pier 3/202301417369_202301417369_CT07-ST1_RISCO MÉDIO.pdf",
               "status":"Em andamento"
           
             }
@@ -327,7 +313,7 @@
               "longitude":"-44,3788878",
               "descricao":"AE1.4_SUBSTITUI PERFIL U DE LIGAÇÃO CH (TR-325K-19)",
               "arquivoPdf":"",
-              "arquivoLaudo":"",
+              "arquivoLaudo":"laudos/OS 440/Pier 3/LAUDO 202301512139_TR2519_RISCOMÉDIO_20260603135328.324_X.pdf",
               "status":"Em andamento"
             }
           ]
