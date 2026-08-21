@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "20/08/2026",
+  "data": "21/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -57,11 +57,11 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202601257797",
-    "frente": "CN-05",
-    "latitude": "-2,5594112",
-    "longitude": "-44,3792181",
-    "descricao": "SUBST. INFRA SUBVELO. INTERMED. - CN05",
+    "numero": "202600606683",
+    "frente": "TR-1507",
+    "latitude": "-2,5637659",
+    "longitude": "-44,3603730",
+    "descricao": "SUBST. INFRA SDN 3/4 (TR-1507)",
     "status": "Em andamento"
   }
           ]
@@ -102,7 +102,7 @@
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 0,
+          "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 0,
           "Mestre Andaime": 0
@@ -110,14 +110,7 @@
       },
 
       "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 0,
-        "Soldador": 0,
-        "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0,
-        "justificadas": 0,
-        "naoJustificadas": 0
+        "Soldador": 1
       },
 
       "mobilizacao": {
@@ -128,18 +121,10 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": "RBD-3I45",
-        "operador": "Romário",
-          "status": "OPERANTE"
-        },
-        {
-          "tipo": "pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Domingos",
-          "contato":"98 98518-9687",
+          "placa": "SFT-9H25",
+        "operador": "Rafael",
           "status": "OPERANTE"
         }
-        
       ],
 
       "atividades": [
@@ -147,7 +132,7 @@
           "lider": "Sueliton",
           "telefone": "98 8888-0636",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 Soldador + 3 Montadores",
        "oms": [
   {
     "numero": "202603958465",

@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "20/08/2026",
+  "data": "21/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 13,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -53,7 +53,7 @@
         "Montador": 0,
         "Eletricista": 0,
         "Pintor": 0,
-        "justificadas": 1,
+        "justificadas": 2,
         "naoJustificadas": 0
       },
 
@@ -66,17 +66,17 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "",
+          "operador": "Jhonatan",
           "contato":"",
-          "status": "Manutencao"
+          "status": "Disponivel"
         },
 
           {
           "tipo": "Munck",
           "placa": "RBB-1B72",
-          "operador": "José Augusto",
-          "contato":"98 98858-7321",
-          "status": "Disponivel"
+          "operador": "",
+          "contato":"",
+          "status": "Preventiva"
         },
          {
           "tipo": "Munck",
@@ -88,17 +88,10 @@
        
           {
           "tipo": "Pick-up",
-          "placa": "SFT-9H25",
-          "operador": "",
+          "placa": "SFT-9J87 ",
+          "operador": "Patrick",
           "contato":"",
           "status": "Disponivel"
-        },
-        {
-          "tipo": "Pick-up",
-          "placa": " SFU-0A35",
-          "operador": "Anderson",
-          "contato":"",
-          "status": "OPERANTE"
         }
       
       ],
@@ -111,30 +104,22 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"RP-02",
-              "latitude":"-2,5720545",
-              "longitude":"-44,3424470",
-              "numero": "202604326601",
-              "descricao": "FAZER PREPARAÇÃO PARARP02 E TR1303 (RP02)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604326601 - FAZER PREPARAÇÃO PARA RP02 E TR1303.pdf",
-              "status": "Em andamento"
-            },
-            {
-              "frente":"RP-02",
-              "latitude":"-2,5720545",
-              "longitude":"-44,3424470",
-              "numero": "202604305127",
-              "descricao": "MONT/DESMONT AND TROC ROL MESA RODA RP02 (RP02)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604305127 - MONT DESMONT AND TROC ROL MESA RODA RP02.pdf",
+              "frente":"RP-09",
+              "latitude":"",
+              "longitude":"",
+              "numero": "202604032090",
+              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S (RP09)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604032090 - PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S.pdf",
               "status": "Em andamento"
             }
+           
           ]
         },
         {
           "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             
             {
@@ -146,22 +131,14 @@
               "descricao": "  ROLO_TROCAR 04 ROLOS RETORNO TR2516 (TR-325K-16)",
               "status": "Em andamento"
             },
+           
             {
-              "numero": " 202405234874",
+              "numero": "202603657905",
               "frente":"TR-325K-16",
               "latitude":"-2,5640963",
               "longitude":"-44,3777951",
-              "descricao": "ROLO_TROCAR 02 ROLOS RETORNO TR2516 (TR-325K-16)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202405234874 - ROLO_TROCAR 02 ROLOS RETORNO TR2516.pdf",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202405122180",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
-              "descricao": "A17- TURNOVER_TROCAR ROLOS VIRADOR 90° T (TR-325K-16)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR2516 OM -202405122180 - A17- TURNOVER_TROCAR ROLOS VIRADOR 90° T.pdf",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S",
+              "arquivoPdf":"",
               "status": "Em andamento"
             }
            
@@ -174,8 +151,11 @@
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"--",
-              "descricao":"Apoio nas atividades do Embarque",
+              "numero":"202601766855 ",
+              "frente":"VV-311K-08 / TR-311K-12",
+              "latitude":"-2,5693397",
+              "longitude":"-44,3447098",
+              "descricao":"PREPARAÇÃO DE FERRAMENTAS E 5S",
               "status":"Em andamento"
           }
           ]
@@ -193,11 +173,11 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 6,
-          "Soldador": 4,
+          "Mecanico": 3,
+          "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
-          "Pintor": 1
+          "Pintor": 0
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -225,7 +205,7 @@
       },
       "ausencias": {
         "Caldeireiro": 0,
-        "Mecanico": 0,
+        "Mecanico": 1,
         "Soldador": 0,
         "Montador": 0,
         "Eletricista": 0,
@@ -241,34 +221,8 @@
           "lider": "Wandersson/Adeilton",
           "telefone": "98 98508-8348/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
-          "oms": [
-            {
-              "numero": "202602277180",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5642064",
-              "longitude":"-44,3772626",
-              "descricao": "SEG_PS_TROC CH PISO PASS LD CHUTE MÓVEL (TR-325K-16)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202505919953",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5642064",
-              "longitude":"-44,3772626",
-              "descricao": " SEG_GC_TROCAR TUBO GC PASSA LA BL43 A 47 (TR-325K-16)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202603965704",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5642064",
-              "longitude":"-44,3772626",
-              "descricao": " SEG_GC_TROC TUB G.C PASS L/D BL-51 A 54 (TR-325K-16)",
-              "status": "Em andamento"
-            }
-
-          ]
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
+          "oms": []
         }
       ]
     }
