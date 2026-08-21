@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "20/08/2026",
+  "data": "21/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,11 +10,11 @@
       "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
+          "Caldeireiro": 4,
           "Mecanico": 12,
           "Soldador": 5,
           "Montador": 8,
-          "Eletricista": 7,
+          "Eletricista": 8,
           "Ajudante de mont.": 2,
           "Pintor": 0
         },
@@ -44,8 +44,7 @@
         }
       },
       "ausencias": {
-        "Eletricista":"1",
-        "Montador":"1"
+        "Caldeireiro": 1
       },
       "mobilizacao": {},
 
@@ -53,30 +52,30 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Moisés",
-          "contato":"(94) 99181-8671",
+          "operador": "",
+          "contato":"",
           "status":"Manutenção"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Italo",
-          "contato":"(98) 98203-1746",
-          "status": "Operante"
+          "operador": "",
+          "contato":"",
+          "status": "Manutenção"
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G24",
-          "operador": "Alisson",
-          "contato":"(98) 98876-4732",
-          "status": "Operante"
+          "placa": "QRI-2G50",
+          "operador": "",
+          "contato":"",
+          "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
           "operador": "Kaka",
           "contato":"(98) 98480-6556",
-          "status": "Manutenção"
+          "status": "Disponivel"
         },
         {
           "tipo": "Caminhao comboio",

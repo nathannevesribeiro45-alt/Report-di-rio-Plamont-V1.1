@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "20/08/2026",
+  "data": "21/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -14,7 +14,8 @@
           "Mecanico": 9,
           "Soldador": 5,
           "Ajudante de mont.": 1, 
-          "Ajudante de elétrica":"1",
+          "Ajudante de elétrica": 1,
+          "Eletricista": 1, 
           "Montador": 0
         },
         "indireto": {
@@ -46,9 +47,9 @@
       },
       "mobilizacao": {},
       "recursos": [
-        {
+          {
           "tipo": "Munck",
-          "placa": "QRD-8212",
+          "placa": "SGA-3I26",
           "operador": "",
           "contato": ""
         },
@@ -64,16 +65,9 @@
           "operador": "",
           "contato": ""
         },
-         {
-          "tipo": "Munck",
-          "placa": "QRD-8213",
-          "operador": "",
-          "contato": "",
-          "status":"Manutencao"
-        },
         {
           "tipo": "Munck",
-          "placa": "SGA-3I26",
+          "placa": "ROV 7A11 (Apoio a 450)",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
@@ -88,7 +82,7 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0A01",
+          "placa": "QRI-2G24",
           "operador": "",
           "contato": ""
         },
@@ -126,32 +120,33 @@
       ],
       "atividades": [
       {
-        "lider":"Augusto",
-        "telefone":"98 9965-3798",
+        "lider":"Augusto Campos",
+        "telefone":"98 8508-9007",
         "equipe":"5 mecânicos + 3 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de eletrica",
         "oms":[
           {
             "frente":"RP-02",
             "latitude":"-2,5664223",
             "longitude":"-44,3522400",
-            "numero":"--",
-            "descricao":"FABRICAÇÃO E MOBILIZAÇÃO PARA RP-02",
+            "numero":"202603343916",
+            "descricao":"TRINCA/ROMP. PARAF.MESA GIRO (RP-02)",
+            "arquivoPdf":"om's/contrato 440 oms/Integridade/202603343916 TRINCA_ROMP. PARAF.MESA GIRO RP02.pdf",
             "status":"Em andamento"
 
         }
       ]
       },
       {
-        "lider":"Douglas",
+        "lider":"Almir",
         "telefone":"98 8711-4524",
         "equipe":"4 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
         "oms":[
           {
-            "frente":"Canteiro Central",
-            "latitude":"-2,5561646",
-            "longitude":"-44,3505036",
+            "frente":"VV-01",
+            "latitude":"-2,5681063",
+            "longitude":"-44,3457358",
             "numero":"--",
-            "descricao":"FABRICAÇÃO PARA O TR1303 ",
+            "descricao":"MOBILIZAÇÃO PARA O VV-01 ",
             "status":"Em andamento"
 
         }
@@ -170,17 +165,16 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 8,
-          "Mecanico": 18,
+          "Caldeireiro": 5,
+          "Mecanico": 11,
           "Soldador": 8,
           "Montador": 24,
-          "Eletricista": 6,
-          "Pintor": 1
+          "Eletricista": 4
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 5,
+          "Mestre Montagem": 3,
           "Mestre Andaime": 2
         }
       },
@@ -194,7 +188,7 @@
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 1,
+          "Supervisor Montagem": 2,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 3,
           "Mestre Andaime": 1
@@ -215,27 +209,7 @@
         }
       ],
       "atividades": [
-   
-
-        {
-          "lider":"Alonso Costa",
-          "telefone":"(31) 98495-2503",
-          "equipe":"3 mecânicos + 2 caldereiros + 1 soldadores + 1 eletricista",
-
-        "oms":[
-          {
-              "numero": "202505246435",
-              "frente":" TR-313K12",
-              "latitude":"-2,5668174",
-              "longitude":"-44,3581106",
-              "descricao":"PE1.0_SUBST. APOIOS DECK TR-313K-12(TR-313K-12)",
-              "arquivoPdf":"om's/contrato 440 oms/Pier 3/SUBST DEGRAD. DECK MESA DE CARGA TR-1312.pdf",
-              "arquivoLaudo":"laudos/OS 440/Pier 3/202501722436__202501722436_TR1312_RISCO ALTO.pdf",
-              "status":"Em andamento"
-          
-        }
-      ]
-      },
+  
 
         {
         
@@ -305,6 +279,7 @@
               "longitude":"-44,3790518",
               "descricao":"SUBS ELM FIX CTV/TRAV EIX01 (CT-07)",
               "arquivoPdf":"om's/contrato 440 oms/Pier 3/CT07 OM 202304143749 AE1.2_CT-SUBS ELM FIX CTV TRAV EIX01.pdf",
+              "arquivoLaudo":"laudos/OS 440/Pier 3/202301417369_#202301417369_CT07-ST1_RISCO MÉDIO.pdf",
               "status":"Em andamento"
           
             }
@@ -341,24 +316,27 @@
 
         {
           
-        "lider":"--",
+        "lider":"Cleyton",
+        "equipe":"3 mecânicos + 2 soldadores + 2 caldeireiros + 1 eletricista",
+        "telefone":"98 93300-5461",
         "oms":[
           {  
-              "numero": "202504875194",
-              "frente":"TR-315K-19",
-              "latitude":"",
-              "longitude":"",
-              "descricao":"PC1.0_FAB/SUBST.DUTOS DA CALHA DO REDLAY",
-              "status":"",
-              "observacoes":"Atividade concluida no inicio da parada"
+              "numero": "202304536805",
+              "frente":"TR-325K-19",
+              "latitude":"-2,5641167",
+              "longitude":"-44,3788878",
+              "descricao":"AE1.4_SUBSTITUI PERFIL U DE LIGAÇÃO CH (TR-325K-19)",
+              "arquivoPdf":"",
+              "arquivoLaudo":"laudos/OS 440/Pier 3/LAUDO#202301512139_TR2519_RISCOMÉDIO_20260603135328.324_X.pdf",
+              "status":"Em andamento"
             }
           ]
         },
 
         {
-          "lider":"João Batista/Cleyton",
-          "telefone":"98 8887-8415/98 93300-5461",
-          "equipe":"7 mecânicos + 5 soldadores + 3 caldereiros + 2 eletricista",
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
           
         
         "oms":[
@@ -370,6 +348,7 @@
               "longitude":"-44,3782065",
               "descricao":" FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ BALIZA 37 ATÉ BALIZA 55, GALERIA DO EIXO 09 AO EIXO 11 (TR-2516)",
               "arquivoPdf":"om's/contrato 440 oms/Pier 3/202501965981.pdf",
+              "arquivoLaudo":"laudos/OS 440/Pier 3/202500609113__202500600113_TR2516_RISCOMÉDIO_20250411163616.073_X_20250411164933.257_X_20250411165253.201_X.pdf",
               "status":"Em andamento"
             }
             
@@ -419,24 +398,6 @@
           ]
         },
 
-    
-        {
-          "lider":"Fagner",
-          "telefone":"(98) 9 8542-9199",
-          "equipe":"5 mecânicos + 1 soldadores + 2 caldeireiro + 2 eletricista",
-        
-        "oms":[
-          {
-              "numero": "202301450248",
-              "frente":"CN-325K-03",
-              "latitude":"-2,5599429",
-              "longitude":"-44,3793490",
-              "descricao":"SUBS CHAPA BASE/GRAMPO CAMINHO ROLAMENTO (CN-05)",
-              "arquivoPdf":"om's/contrato 440 oms/Pier 3/CN05 OM 202301450248 AE1.0_SUBS CHAP BASE_GRAMPO CAMI ROL.pdf",
-              "status":"Em andamento"
-            }
-          ]
-        },
 
         {
         
@@ -511,12 +472,13 @@
           "equipe": "7 mecânicos + 02 eletricista",
           "oms": [
             {
-              "frente":"TR-315K-04",
-              "numero":"202203852165",
-              "descricao":"TROCAR E REPOR TELHAS CHAPA TR 315K-04",
-              "latitude":"",
-              "longitude":"",
-              "arquivoPdf":"",
+              "frente":"TR-315K-16",
+              "numero":"202602489880",
+              "descricao":"TME-SUBST.TLD-TR1516",
+              "latitude":"-2,5628536",
+              "longitude":"-44,3603660",
+              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202602489880 TME-SUBST.TLD-TR1516 EIXO 23 A 32.pdf",
+              "arquivoLaudo":"",
               "status":"Em andamento"
           }
           ]
