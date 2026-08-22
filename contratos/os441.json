@@ -86,13 +86,6 @@
           "status": "manutencao"
         },
        
-          {
-          "tipo": "Pick-up",
-          "placa": "SFT-9J87 ",
-          "operador": "Patrick",
-          "contato":"",
-          "status": "disponivel"
-        },
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G50",
