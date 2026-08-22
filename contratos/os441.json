@@ -253,11 +253,52 @@
 
       "atividades": [
         {
-          "lider": "Wandersson/Adeilton",
-          "telefone": "98 98508-8348/98 9609-7660",
+          "lider": "Julio/Erickson",
+          "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
-          "oms": []
+          "oms": [
+            {
+              "numero":"202602456821",
+              "frente":"RP-313K-09",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_PS_TROC.GRAD.PIS.ESC.ACESS,LD (RP-313K-09)",
+              "status":"Em andamento"
+          },
+           {
+              "numero":"202603345127",
+              "frente":"RP-313K-09",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_GC_ FECH.VAO TR LAN.LE M1 (RP-313K-09)",
+              "status":"Em andamento"
+          },
+           {
+              "numero":"202403404446",
+              "frente":"TR-314K-12",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_CDI_TROC CHAP PISO OXI ACENT (TR-314K-12)",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202500350032",
+              "frente":"TR-314K-12",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_CDI_TROCAR CHAPAS PISO OXIDAÇÃO (TR-314K-12)",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202603455665",
+              "frente":"TR-314K-14",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_ES_REPOSICIONAR E SOLDAR ESCADA (TR-314K-14)",
+              "status":"Em andamento"
+          }
+          ]
         }
       ]
     }
