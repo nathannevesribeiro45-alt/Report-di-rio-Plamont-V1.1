@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "21/08/2026",
-  "turno": "Dia B",
+  "data": "22/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -51,17 +51,17 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202600606683",
-    "frente": "TR-1507",
-    "latitude": "-2,5637659",
-    "longitude": "-44,3603730",
-    "descricao": "SUBST. INFRA SDN 3/4 (TR-1507)",
+    "numero": "202600559806",
+    "frente": "TR-325K-16",
+    "latitude": "-2,5641472",
+    "longitude": "-44,3774923",
+    "descricao": "SUBST. INFRA E SUPORTES SENSORES (TR-325K-16)",
     "status": "Em andamento"
   }
           ]
@@ -110,7 +110,7 @@
       },
 
       "ausencias": {
-        "Soldador": 1
+        "Mecânicos": 2
       },
 
       "mobilizacao": {
@@ -121,169 +121,72 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": "SFT-9H25",
-        "operador": "Rafael",
-          "status": "OPERANTE"
+          "placa": "RBD-3I45",
+        "operador": "Romário",
+          "status": "disponivel"
+        },
+          {
+          "tipo": "munck",
+          "placa": "SFT-9J87",
+          "operador": "Domingos",
+          "telefone":" 98 98518-9687",
+          "status": "disponivel"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Sueliton",
-          "telefone": "98 8888-0636",
+          "lider": "José Maria",
+          "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
        "oms": [
   {
-    "numero": "202601325794",
-    "frente": "EX1537",
+    "numero": "202603964946",
+    "frente": "EX-315K-01",
     "latitude": null,
     "longitude": null,
-    "descricao": "SUBSTITUIR PAINEL DO EXTRATOR",
+    "descricao": "EX-1501 TAMBOR SUPER, COM DESGASTE EIXO (EX-315K-01)",
     "status": "Em andamento"
   },
   {
-    "numero": "202602762594",
-    "frente": null,
+    "numero": " 202604119179",
+    "frente": "PÓRTICO 02",
     "latitude": null,
     "longitude": null,
-    "descricao": "UTI _ MONTAGEM E DESMONTAGEM DE ANDAIME",
+    "descricao": "MP ELE ENROLADOR DE CABO PD (PÓRTICO 02)",
     "status": "Em andamento"
   },
   {
-    "numero": "202604390513",
-    "frente": null,
+    "numero": "202604119254 ",
+    "frente": "PÓRTICO 02",
     "latitude": null,
     "longitude": null,
-    "descricao": "ALINHAMENTO DA CORREIA",
+    "descricao": "MP ELE TRANSLAÇÃO PÓRTICO 50/5T PD (PÓRTICO 02)",
     "status": "Em andamento"
   },
   {
-    "numero": "202604322405",
-    "frente": "EX 215",
+    "numero": "202604119258",
+    "frente": "PÓRTICO 02",
     "latitude": null,
     "longitude": null,
-    "descricao": "ALINHAR CORREIA DO EXTRATOR EX 215",
-    "status": ""
-  },
-  {
-    "numero": "202604378764",
-    "frente": "EX215",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "REALIZAR MONTAGEM E DESMONTAGEM DE ANDAIME PARA ALINHAR CORREIA DO EXTRATOR EX215",
-    "status": ""
-  },
-  {
-    "numero": "202603958866",
-    "frente": "TR1321",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1321",
+    "descricao": "MP ELE SENSORIAMENTO E SINALIZAÇÃO (PÓRTICO 02)",
     "status": "Em andamento"
   },
   {
-    "numero": "202603835369",
-    "frente": "TR1321",
+    "numero": "202604119403",
+    "frente": "PÓRTICO 02",
     "latitude": null,
     "longitude": null,
-    "descricao": "MCM-MPV UTL 16S GUINCHO CONT/PESO TR1321",
+    "descricao": " MP ELE TRANSLAÇÃO CARRO PONTE 50/5T PD (PÓRTICO 02)",
     "status": "Em andamento"
   },
   {
-    "numero": "202603958867",
-    "frente": "TR1509",
+    "numero": "202604119407",
+    "frente": "PÓRTICO 02",
     "latitude": null,
     "longitude": null,
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1509",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603835371",
-    "frente": "TR1509",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV UTL 16S GUINCHO CONT/PESO TR1509",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603958468",
-    "frente": "TR1511",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1511",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603856120",
-    "frente": "TR1511",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV UTL 24S CABO AÇO GUINCHO TR1511",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603698304",
-    "frente": "TR1524",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1524",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603778098",
-    "frente": "TR1524",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV UTL 24S CABO AÇO GUINCHO TR1524",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603298156",
-    "frente": "TR1538",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP ELMEС GUINCHO CONTRAPESO TR1538",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603958065",
-    "frente": "TR2507",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR2507",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603834547",
-    "frente": "TR2507",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-LUB UTL 16S CABO CONT/PESO TR2507",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603834546",
-    "frente": "TR2507",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV UTL 16S GUINCHO CONT/PESO TR2507",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603958469",
-    "frente": "TR2508",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR2508",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603855897",
-    "frente": "TR2508",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV UTL 24S CABO AÇO GUINCHO TR2508",
+    "descricao": " MP ELE ELEVAÇÃO PRINCIPAL E AUXILIAR (PÓRTICO 02)",
     "status": "Em andamento"
   }
 ]

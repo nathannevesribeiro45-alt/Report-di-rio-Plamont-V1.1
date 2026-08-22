@@ -98,7 +98,7 @@
 
       "atividades": [
         {
-          "lider": "Adilson",
+          "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
@@ -107,37 +107,17 @@
               "frente":"RP-09",
               "latitude":"-2,5748149",
               "longitude":"-44,3395786",
-              "numero": "202604032090",
-              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S (RP09)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604032090 - PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S.pdf",
-              "status": "Em andamento"
-            }
-           
-          ]
-        },
-        {
-          "lider": "Fernando Maranhão",
-          "telefone": "98 8506-6056",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
-          "oms": [
-            
-            {
-              "numero": "202401280096",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202401280096 - ROLO_TROCAR 04 ROLOS RETORNO TR2516.pdf",
-              "descricao": "  ROLO_TROCAR 04 ROLOS RETORNO TR2516 (TR-325K-16)",
+              "numero": "202603910775",
+              "descricao": " DESG-MONT DESM ANDAIME TROCAR 16 CHAPAS (RP-313K-09)",
+              "arquivoPdf":"",
               "status": "Em andamento"
             },
-           
-            {
-              "numero": "202603657905",
-              "frente":"TR-325K-16",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS e 5S",
+             {
+              "frente":"RP-09",
+              "latitude":"-2,5748149",
+              "longitude":"-44,3395786",
+              "numero": "202602590122",
+              "descricao": "TROCAR 16 CHAPAS NO CHUTE CENTRAL DA (RP-313K-09)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -145,17 +125,72 @@
           ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Iego",
+          "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 soldador + 3 Montadores",
+          "oms": [
+            
+            {
+              "numero": "202505335505",
+              "frente":"TR-325k-17",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "arquivoPdf":"",
+              "descricao": "CAVALETE_TROCAR CAVALETES RETORNO (TR-325k-17)",
+              "status": "Em andamento"
+            },
+           
+            {
+              "numero": "202506822318",
+              "frente":"TR-325k-17",
+              "latitude":"-2,5640963",
+              "longitude":"-44,3777951",
+              "descricao": "CAVALETE_TROCAR CAVALETES RETORNO (TR-325k-17)",
+              "arquivoPdf":"",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202506822734",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
+              "descricao": "MONTAR/DESMONTAR ANDAIME: CAVALETE_TROCAR CAVALETES RETORNO",
+              "arquivoPdf":"",
+              "status": "Em andamento"
+            },
+             {
+              "numero": "202600135053 ",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
+              "descricao": "MONTAR/DESMONTAR ANDAIME: CAVALETE_TROCAR CAVALETES RETORNO",
+              "arquivoPdf":"",
+              "status": "Em andamento"
+            }
+           
+          ]
+        },
+        {
+          "lider": "Alexandre",
+          "telefone": "98 99228‑6538",
+          "tecnicoSeguranca": "",
+          "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202601766855 ",
-              "frente":"VV-311K-08 / TR-311K-12",
-              "latitude":"-2,5693397",
-              "longitude":"-44,3447098",
-              "descricao":"PREPARAÇÃO DE FERRAMENTAS E 5S",
+              "numero":"202601766855",
+              "frente":"EP-313K-05",
+              "latitude":"",
+              "longitude":"",
+              "descricao":" PREPARAÇÃO DE FERRAMENTAS E 5S – PLAMONT (EP-313K-05)",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202603986222 ",
+              "frente":"TR-311K-08",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"PREPARAÇÃO DE FERRAMENTAS E 5S - PLAMONT (TR-311K-08)",
               "status":"Em andamento"
           }
           ]

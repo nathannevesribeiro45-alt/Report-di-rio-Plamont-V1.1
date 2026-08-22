@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "21/08/2026",
-  "turno": "Dia B",
+  "data": "22/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,13 +10,11 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
+          "Caldeireiro": 4,
           "Mecanico": 9,
-          "Soldador": 5,
-          "Ajudante de mont.": 1, 
-          "Ajudante de elétrica": 1,
-          "Eletricista": 1, 
-          "Montador": 0
+          "Soldador": 3,
+          "Eletricista": 3, 
+          "Montador": 12
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -41,38 +39,30 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {
-        "Mecanico":"1",
-        "justificadas":"1"
-      },
+      "ausencias": {},
       "mobilizacao": {},
       "recursos": [
           {
           "tipo": "Munck",
           "placa": "SGA-3I26",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Disponivel"
         },
         {
           "tipo": "Munck",
           "placa": "SGA-3I14",
           "operador": "",
-          "contato": ""
-        },
-        {
-          "tipo": "Munck",
-          "placa": "SMW-1J85 (Apoio á PPL)",
-          "operador": "",
-          "contato": ""
-        },
-        {
-          "tipo": "Munck",
-          "placa": "ROV 7A11 (Apoio a 450)",
-          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
-        
+        {
+          "tipo": "Munck",
+          "placa": "QRD-8212",
+          "operador": "",
+          "contato": "",
+          "status":"Manutencao"
+        },
 
          {
           "tipo": "Pick-up",
@@ -82,9 +72,10 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G24",
+          "placa": "SFU-0A01",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Manutencao"
         },
 
           {
@@ -106,7 +97,7 @@
           "placa": "QRE-5I29",
           "operador": "",
           "contato": "",
-          "status":"Manutencao"
+          "status":"Disponivel"
         },
         {
           "tipo": "Guindaste",
@@ -120,9 +111,9 @@
       ],
       "atividades": [
       {
-        "lider":"Augusto Campos",
-        "telefone":"98 8508-9007",
-        "equipe":"5 mecânicos + 3 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de eletrica",
+        "lider":"Fagner",
+        "telefone":"98 8542-9199",
+        "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
         "oms":[
           {
             "frente":"RP-02",
@@ -132,26 +123,30 @@
             "descricao":"TRINCA/ROMP. PARAF.MESA GIRO (RP-02)",
             "arquivoPdf":"om's/contrato 440 oms/Integridade/202603343916 TRINCA_ROMP. PARAF.MESA GIRO RP02.pdf",
             "status":"Em andamento"
+          }
 
-        }
-      ]
-      },
+          ]
+
+        },
+         
       {
-        "lider":"Almir",
-        "telefone":"98 8711-4524",
-        "equipe":"4 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
-        "oms":[
-          {
-            "frente":"VV-01",
-            "latitude":"-2,5681063",
-            "longitude":"-44,3457358",
-            "numero":"--",
-            "descricao":"MOBILIZAÇÃO PARA O VV-01 ",
+        "lider":"Elivanildo",
+        "telefone":"98 7015-5139",
+        "equipe":" 4 mecânicos + 2 caldeireiros + 1 soldador + 1 eletricista",
+      "oms":[
+      {
+            "frente":"TR-313k-03",
+            "latitude":"-2,5664276",
+            "longitude":"-44,3551435",
+            "numero":"202603970891",
+            "descricao":"ALINHAR NIVELAR MESAS CARGA (TR-1303)",
+            "arquivoPdf":"om's/contrato 440 oms/Integridade/TR1303 OM  202603970891 ALINHARNIVELAR MESAS CARGA.pdf",
             "status":"Em andamento"
 
         }
       ]
       }
+     
       ]
       ,
       
@@ -165,11 +160,12 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
+          "Caldeireiro": 4,
           "Mecanico": 11,
-          "Soldador": 8,
-          "Montador": 24,
-          "Eletricista": 4
+          "Soldador": 6,
+          "Montador": 12,
+          "Eletricista": 2,
+          "Ajudante de elétrica": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -194,11 +190,7 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {
-        "Mecanico": 1,
-        "justificadas": 1,
-        "naoJustificadas": 0
-      },
+      "ausencias": {},
       "mobilizacao": {},
       "recursos": [
         {
@@ -212,15 +204,19 @@
   
 
         {
+          "lider":"Augusto Campos",
+          "telefone":"98 8508-9007",
+          "equipe":"5 mecânicos + 3 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de eletrica",
         
         "oms":[
           {
-              "numero": "202300985625",
+              "numero": "202301450248",
               "frente":"CN-325K-03",
               "latitude":"-2,5595317",
               "longitude":"-44,3793697",
-              "descricao":"SUBSTITUIR  ELEMENTOS DE FIXAÇÃO  BASE CAMINHO DE ROLAMENTO DA  LANÇA MOVEL",
-              "status":"Planejada"
+              "descricao":"AE1.0_SUBS CHAP BASE/GRAMPO CAMI ROL",
+              "arquivoPdf":"om's/contrato 440 oms/Pier 3/CN05 OM 202301450248 AE1.0_SUBS CHAP BASE_GRAMPO CAMI ROL.pdf",
+              "status":"Em andamento"
             }
           ]
         },
@@ -301,28 +297,9 @@
         },
 
         {
-          
-        "lider":"Cleyton",
-        "equipe":"3 mecânicos + 2 soldadores + 2 caldeireiros + 1 eletricista",
-        "telefone":"98 93300-5461",
-        "oms":[
-          {  
-              "numero": "202304536805",
-              "frente":"TR-325K-19",
-              "latitude":"-2,5641167",
-              "longitude":"-44,3788878",
-              "descricao":"AE1.4_SUBSTITUI PERFIL U DE LIGAÇÃO CH (TR-325K-19)",
-              "arquivoPdf":"",
-              "arquivoLaudo":"laudos/OS 440/Pier 3/LAUDO 202301512139_TR2519_RISCOMÉDIO_20260603135328.324_X.pdf",
-              "status":"Em andamento"
-            }
-          ]
-        },
-
-        {
-          "lider":"Fagner",
-          "telefone":"98 8542-9199",
-          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
+          "lider":"Cleyton",
+          "telefone":"98 93300-5461",
+          "equipe":"3 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
           
         
         "oms":[
@@ -409,10 +386,10 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 0,
-          "Mecanico": 7,
+          "Mecanico": 8,
           "Soldador": 0,
           "Montador": 8,
-          "Eletricista": 2,
+          "Eletricista": 1,
           "Pintor": 0
         },
         "indireto": {
@@ -455,7 +432,7 @@
           "lider": "Ronielisson",
           "telefone": "98 9963-7084",
           "tecnicoSeguranca": "",
-          "equipe": "7 mecânicos + 02 eletricista",
+          "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
               "frente":"TR-315K-16",
@@ -465,13 +442,15 @@
               "longitude":"-44,3603660",
               "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202602489880 TME-SUBST.TLD-TR1516 EIXO 23 A 32.pdf",
               "arquivoLaudo":"",
-              "status":"Em andamento"
+              "status":"Concluída"
           }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": []
+      "observacoes": [
+        "Desmobilização do tr-1504 e tr-1516"
+      ]
     }
   ]
 }

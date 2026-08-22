@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "21/08/2026",
-  "turno": "Dia B",
+  "data": "22/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,9 +11,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 12,
+          "Mecanico": 10,
           "Soldador": 5,
-          "Montador": 8,
+          "Montador": 7,
           "Eletricista": 8,
           "Ajudante de mont.": 2,
           "Pintor": 0
@@ -44,24 +44,26 @@
         }
       },
       "ausencias": {
-        "Caldeireiro": 1
+        "Caldeireiro": 1,
+        "Mecânicos": 2,
+        "Montador": 1
       },
       "mobilizacao": {},
 
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "QRI-7I40",
-          "operador": "",
-          "contato":"",
-          "status":"Manutenção"
+          "placa": "R0V-7A11 (Apoio da 440)",
+          "operador": "Moisés",
+          "contato":"94 99181-8671",
+          "status":"Disponivel"
         },
         {
           "tipo": "Munck",
-          "placa": "QRI-8D21",
-          "operador": "",
-          "contato":"",
-          "status": "Manutenção"
+          "placa": "SNW-1J85 (Apoio da 440)",
+          "operador": "Euclides",
+          "contato":"98 8791-0912",
+          "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
@@ -72,17 +74,17 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFR-3B97",
-          "operador": "Kaka",
-          "contato":"(98) 98480-6556",
+          "placa": "QRI-2G24",
+          "operador": "Italo",
+          "contato":"98 98184-5269",
           "status": "Disponivel"
         },
         {
           "tipo": "Caminhao comboio",
-          "placa": "PTG3093",
-          "operador": "Maxuel",
-          "contato":"(98) 98113-3561",
-          "status": "Operante"
+          "placa": "SFR-3B97",
+          "operador": "Rosivaldo",
+          "contato":"98 99187-8772",
+          "status": "Disponivel"
         },
         {
           "tipo": "Veículo leve",
@@ -94,26 +96,63 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": "Alciomar",
-          "contato":"(98) 98802-8232",
+          "operador": "Jobert",
+          "contato":"98 98802-8232",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Oliveira",
-          "contato":"(98) 97010-4041",
-          "status": "Operante"
+          "operador": "Jesus",
+          "contato":"98 97010-4041",
+          "status": "Disponivel"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Gilmar",
-          "contato":"(98) 98474-3782",
-          "status": "Operante"
+          "operador": "Bruno",
+          "contato":"98 98850-8993",
+          "status": "Disponivel"
         }
       ],
-      "atividades": [],
+      "atividades": [
+        {
+          "lider":"Jadilson",
+          "telefone":"98 8505-6539",
+          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro",
+          "oms":[
+            {
+              "frente":"TR-325k-16",
+              "numero":"202506533492 ",
+              "descricao":" CAVALETE_TROCAR 5 CAVALETES CARGA TR2516",
+              "latitude":"-2,5642064",
+              "longitude":"-44,3772626",
+              "arquivoPdf":"om's/contrato 450 oms/202506533492 - TROCAR 5 CAVALETES CARGA TR2516.pdf",
+              "status":"Em andamento"
+            }
+          ]
+
+        },
+        {
+          "lider":"Cosmo",
+          "telefone":"98 8863-1678",
+          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro",
+          "oms":[
+            {
+              "frente":"TR-1504",
+              "numero":"",
+              "descricao":"Preparação de materiais para entrar no chute do TR-315k-04",
+              "latitude":"-2,5607764",
+              "longitude":"-44,3632393",
+              "status":"Em andamento",
+              "arquivoPdf":""
+            }
+          ]
+
+        }
+
+
+      ],
        "observacoes": [],
       "nome": "Manutenção de ativos"
     }
