@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "21/08/2026",
-  "turno": "Dia B",
+  "data": "22/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -105,8 +105,8 @@
           "oms": [
             {
               "frente":"RP-09",
-              "latitude":"-2,5748149",
-              "longitude":"-44,3395786",
+              "latitude":"-2,5748036",
+              "longitude":"-44,3392085",
               "numero": "202603910775",
               "descricao": " DESG-MONT DESM ANDAIME TROCAR 16 CHAPAS (RP-313K-09)",
               "arquivoPdf":"",
@@ -114,8 +114,8 @@
             },
              {
               "frente":"RP-09",
-              "latitude":"-2,5748149",
-              "longitude":"-44,3395786",
+               "latitude":"-2,5748036",
+              "longitude":"-44,3392085",
               "numero": "202602590122",
               "descricao": "TROCAR 16 CHAPAS NO CHUTE CENTRAL DA (RP-313K-09)",
               "arquivoPdf":"",
@@ -134,8 +134,8 @@
             {
               "numero": "202505335505",
               "frente":"TR-325k-17",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
+              "latitude":"-2,5627950",
+              "longitude":"-44,3789498",
               "arquivoPdf":"",
               "descricao": "CAVALETE_TROCAR CAVALETES RETORNO (TR-325k-17)",
               "status": "Em andamento"
@@ -144,8 +144,8 @@
             {
               "numero": "202506822318",
               "frente":"TR-325k-17",
-              "latitude":"-2,5640963",
-              "longitude":"-44,3777951",
+               "latitude":"-2,5627950",
+              "longitude":"-44,3789498",
               "descricao": "CAVALETE_TROCAR CAVALETES RETORNO (TR-325k-17)",
               "arquivoPdf":"",
               "status": "Em andamento"
@@ -180,16 +180,16 @@
             {
               "numero":"202601766855",
               "frente":"EP-313K-05",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5741432",
+              "longitude":"-44,3395978",
               "descricao":" PREPARAÇÃO DE FERRAMENTAS E 5S – PLAMONT (EP-313K-05)",
               "status":"Em andamento"
           },
           {
               "numero":"202603986222 ",
               "frente":"TR-311K-08",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5660033",
+              "longitude":"-44,3457672",
               "descricao":"PREPARAÇÃO DE FERRAMENTAS E 5S - PLAMONT (TR-311K-08)",
               "status":"Em andamento"
           }
@@ -261,40 +261,40 @@
             {
               "numero":"202602456821",
               "frente":"RP-313K-09",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5748149",
+              "longitude":"-44,3395786",
               "descricao":"SEG_PS_TROC.GRAD.PIS.ESC.ACESS,LD (RP-313K-09)",
               "status":"Em andamento"
           },
            {
               "numero":"202603345127",
               "frente":"RP-313K-09",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5748149",
+              "longitude":"-44,3395786",
               "descricao":"SEG_GC_ FECH.VAO TR LAN.LE M1 (RP-313K-09)",
               "status":"Em andamento"
           },
            {
               "numero":"202403404446",
               "frente":"TR-314K-12",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
               "descricao":"SEG_CDI_TROC CHAP PISO OXI ACENT (TR-314K-12)",
               "status":"Em andamento"
           },
           {
               "numero":"202500350032",
               "frente":"TR-314K-12",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
               "descricao":"SEG_CDI_TROCAR CHAPAS PISO OXIDAÇÃO (TR-314K-12)",
               "status":"Em andamento"
           },
           {
               "numero":"202603455665",
               "frente":"TR-314K-14",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5645688",
+              "longitude":"-44,3758235",
               "descricao":"SEG_ES_REPOSICIONAR E SOLDAR ESCADA (TR-314K-14)",
               "status":"Em andamento"
           }
