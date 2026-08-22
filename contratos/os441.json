@@ -68,7 +68,7 @@
           "placa": "SGC-7H66",
           "operador": "Jhonatan",
           "contato":"",
-          "status": "Disponivel"
+          "status": "manutencao"
         },
 
           {
@@ -83,7 +83,7 @@
           "placa": "RQP-8G78",
           "operador":"Gleydson",
           "contato":"",
-          "status": "Disponivel"
+          "status": "manutencao"
         },
        
           {
@@ -91,7 +91,21 @@
           "placa": "SFT-9J87 ",
           "operador": "Patrick",
           "contato":"",
+          "status": "disponivel"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "QRI-2G50",
+          "operador": "Patrick",
+          "contato":"",
           "status": "Disponivel"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "SFU-0A35",
+          "operador": "Patrick",
+          "contato":"",
+          "status": "manutencao"
         }
       
       ],
