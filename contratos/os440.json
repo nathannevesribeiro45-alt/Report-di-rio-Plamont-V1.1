@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "22/08/2026",
-  "turno": "Dia A",
+  "data": "24/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,11 +10,12 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
+          "Caldeireiro": 3,
           "Mecanico": 9,
           "Soldador": 3,
-          "Eletricista": 3, 
-          "Montador": 12
+          "Eletricista": 2, 
+          "Montador": 12,
+          "Ajudante de mont.":"1"
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -39,7 +40,9 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Caldeireiro":"1"
+      },
       "mobilizacao": {},
       "recursos": [
           {
@@ -51,10 +54,24 @@
         },
         {
           "tipo": "Munck",
-          "placa": "SGA-3I14",
+          "placa": "ROV-7A11",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "SMW-1J85 (APOIO Á PPL)",
+          "operador": "",
+          "contato": "",
+          "status":"Disponivel"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "SGA-3I14",
+          "operador": "",
+          "contato": "",
+          "status":"Preventiva"
         },
         {
           "tipo": "Munck",
@@ -111,9 +128,9 @@
       ],
       "atividades": [
       {
-        "lider":"Fagner",
+        "lider":"Douglas",
         "telefone":"98 8542-9199",
-        "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
+        "equipe":"5 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
         "oms":[
           {
             "frente":"RP-02",
@@ -130,9 +147,9 @@
         },
          
       {
-        "lider":"Elivanildo",
+        "lider":"Raimundo",
         "telefone":"98 7015-5139",
-        "equipe":" 4 mecânicos + 2 caldeireiros + 1 soldador + 1 eletricista",
+        "equipe":" 4 mecânicos + 2 caldeireiros + 1 soldador + 2 eletricista",
       "oms":[
       {
             "frente":"TR-313k-03",
@@ -160,12 +177,13 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 11,
+          "Caldeireiro": 5,
+          "Mecanico": 12,
           "Soldador": 6,
           "Montador": 12,
-          "Eletricista": 2,
-          "Ajudante de elétrica": 1
+          "Eletricista": 3,
+          "Ajudante de elétrica": 1,
+          "Ajudante de mont.":1
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -204,9 +222,9 @@
   
 
         {
-          "lider":"Augusto Campos",
-          "telefone":"98 8508-9007",
-          "equipe":"5 mecânicos + 3 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de eletrica",
+          "lider":"Alonso Costa",
+          "telefone":"31 8495-2503",
+          "equipe":"3 mecânicos + 1 soldadores + 2 caldereiros + 1 eletricista + 1 ajudante de mont.",
         
         "oms":[
           {
@@ -250,9 +268,9 @@
         },
 
          {
-          "lider":"Rogério",
-          "telefone":"98 9965-3798",
-          "equipe":"3 mecânicos + 1 soldador + 1 caldereiro + 1 ajudante de mont. + 1 eletricista",
+          "lider":"Augusto Campos",
+          "telefone":"98 8508-9007",
+          "equipe":"5 mecânicos + 3 soldador + 1 caldereiro + 1 ajudante de elétrica + 1 eletricista",
         "oms":[
           {
               "numero": "202304143749",
@@ -297,9 +315,9 @@
         },
 
         {
-          "lider":"Cleyton",
-          "telefone":"98 93300-5461",
-          "equipe":"3 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
+          "lider":"João Batista",
+          "telefone":"98 8887-8415",
+          "equipe":"4 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
           
         
         "oms":[
@@ -312,6 +330,16 @@
               "descricao":" FABR.E.SUBS.SUPORT DA CALH.D.LIMPEZ BALIZA 37 ATÉ BALIZA 55, GALERIA DO EIXO 09 AO EIXO 11 (TR-2516)",
               "arquivoPdf":"om's/contrato 440 oms/Pier 3/202501965981.pdf",
               "arquivoLaudo":"laudos/OS 440/Pier 3/202500609113__202500600113_TR2516_RISCOMÉDIO_20250411163616.073_X_20250411164933.257_X_20250411165253.201_X.pdf",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202304536805",
+              "frente":"TR-325K-19",
+              "latitude":"-2,5641167",
+              "longitude":"-44,3788878",
+              "descricao":"AE1.4_SUBSTITUI PERFIL U DE LIGAÇÃO CH",
+              "arquivoPdf":"",
+              "arquivoLaudo":"",
               "status":"Em andamento"
             }
             
@@ -435,22 +463,20 @@
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
-              "frente":"TR-315K-16",
-              "numero":"202602489880",
-              "descricao":"TME-SUBST.TLD-TR1516",
-              "latitude":"-2,5628536",
-              "longitude":"-44,3603660",
-              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202602489880 TME-SUBST.TLD-TR1516 EIXO 23 A 32.pdf",
+              "frente":"TR-315K-05",
+              "numero":"202203852166",
+              "descricao":"TROCARREPOR TELHA DA CT DO TR 315K-05 (TR-315K-05)",
+              "latitude":"-2,5646256",
+              "longitude":"-44,3744126",
+              "arquivoPdf":"",
               "arquivoLaudo":"",
-              "status":"Concluída"
+              "status":"Em andamento"
           }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": [
-        "Desmobilização do tr-1504 e tr-1516"
-      ]
+      "observacoes": []
     }
   ]
 }
