@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "22/08/2026",
-  "turno": "Dia A",
+  "data": "24/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -105,8 +105,8 @@
 
       "atividades": [
         {
-          "lider": "Elias",
-          "telefone": "98 98210-6618",
+          "lider": "Adilson",
+          "telefone": "98 8898-1856",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
@@ -132,10 +132,10 @@
           ]
         },
         {
-          "lider": "Iego",
+          "lider": "Fernando Maranhão",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
           "oms": [
             
             {
@@ -179,10 +179,10 @@
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
               "numero":"202601766855",
@@ -260,8 +260,8 @@
 
       "atividades": [
         {
-          "lider": "Julio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wanderson/Adeilton",
+          "telefone": "/98 8882-2306",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
           "oms": [
