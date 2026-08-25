@@ -312,17 +312,8 @@
               "arquivoPdf":"om's/contrato 440 oms/Pier 3/202501965981.pdf",
               "arquivoLaudo":"laudos/OS 440/Pier 3/202500609113__202500600113_TR2516_RISCOMÉDIO_20250411163616.073_X_20250411164933.257_X_20250411165253.201_X.pdf",
               "status":"Em andamento"
-            },
-            {
-              "numero": "202304536805",
-              "frente":"TR-325K-19",
-              "latitude":"-2,5641167",
-              "longitude":"-44,3788878",
-              "descricao":"AE1.4_SUBSTITUI PERFIL U DE LIGAÇÃO CH (TR-325K-19)",
-              "arquivoPdf":"",
-              "arquivoLaudo":"",
-              "status":"Em andamento"
             }
+            
             
             
           ]
