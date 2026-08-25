@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "24/08/2026",
+  "data": "25/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,27 +10,26 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 9,
-          "Soldador": 3,
-          "Eletricista": 2, 
-          "Montador": 12,
-          "Ajudante de mont.":"1"
+          "Caldeireiro": 2,
+          "Mecanico": 4,
+          "Soldador": 2,
+          "Eletricista": 1, 
+          "Montador": 10   
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 2,
+          "Mestre Montagem": 1,
           "Mestre Andaime": 0
         }
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 1,
-          "Mecanico": 5,
-          "Soldador": 1,
+          "Caldeireiro": 2,
+          "Mecanico": 4,
+          "Soldador": 2,
           "Montador": 10,
-          "Eletricista": 2,
+          "Eletricista": 1,
           "Pintor": 0
         },
         "indireto": {
@@ -40,9 +39,7 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {
-        "Caldeireiro":"1"
-      },
+      "ausencias": {},
       "mobilizacao": {},
       "recursos": [
           {
@@ -85,7 +82,8 @@
           "tipo": "Pick-up",
           "placa": "SFU-0A29",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
@@ -99,7 +97,8 @@
           "tipo": "Pick-up",
           "placa": "SFU-0A47",
           "operador": "",
-          "contato": ""
+          "contato": "",
+          "status":"Disponivel"
         },
        
          {
@@ -128,41 +127,23 @@
       ],
       "atividades": [
       {
-        "lider":"Douglas",
-        "telefone":"98 8542-9199",
-        "equipe":"5 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
+        "lider":"Cleyton",
+        "telefone":"98 93300-5461",
+        "equipe":"4 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
         "oms":[
           {
-            "frente":"RP-02",
-            "latitude":"-2,5664223",
-            "longitude":"-44,3522400",
-            "numero":"202603343916",
-            "descricao":"TRINCA/ROMP. PARAF.MESA GIRO (RP-02)",
-            "arquivoPdf":"om's/contrato 440 oms/Integridade/202603343916 TRINCA_ROMP. PARAF.MESA GIRO RP02.pdf",
+            "frente":"VV-01",
+            "latitude":"-2,5681063",
+            "longitude":"-44,3457358",
+            "numero":"202604032281",
+            "descricao":"RECUP ESTRU PAREDE INT TREMONHA",
+            "arquivoPdf":"",
             "status":"Em andamento"
           }
 
           ]
 
-        },
-         
-      {
-        "lider":"Raimundo",
-        "telefone":"98 7015-5139",
-        "equipe":" 4 mecânicos + 2 caldeireiros + 1 soldador + 2 eletricista",
-      "oms":[
-      {
-            "frente":"TR-313k-03",
-            "latitude":"-2,5664276",
-            "longitude":"-44,3551435",
-            "numero":"202603970891",
-            "descricao":"ALINHAR NIVELAR MESAS CARGA (TR-1303)",
-            "arquivoPdf":"om's/contrato 440 oms/Integridade/TR1303 OM  202603970891 ALINHARNIVELAR MESAS CARGA.pdf",
-            "status":"Em andamento"
-
         }
-      ]
-      }
      
       ]
       ,
@@ -177,13 +158,13 @@
       "icone":"assets/icons/pier3.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
-          "Mecanico": 12,
-          "Soldador": 6,
-          "Montador": 12,
-          "Eletricista": 3,
+          "Caldeireiro": 7,
+          "Mecanico": 20,
+          "Soldador": 9,
+          "Montador": 24,
+          "Eletricista": 5,
           "Ajudante de elétrica": 1,
-          "Ajudante de mont.":1
+          "Ajudante de mont.":2
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -268,9 +249,9 @@
         },
 
          {
-          "lider":"Augusto Campos",
-          "telefone":"98 8508-9007",
-          "equipe":"5 mecânicos + 3 soldador + 1 caldereiro + 1 ajudante de elétrica + 1 eletricista",
+          "lider":"Augusto Campos/Rogério",
+          "telefone":"98 8508-9007/98 9965-3798",
+          "equipe":"8 mecânicos + 4 soldador + 1 caldereiro + 1 ajudante de elétrica + 2 eletricista + 1 ajudante mont.",
         "oms":[
           {
               "numero": "202304143749",
@@ -376,6 +357,9 @@
         },
 
         {
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
         
         "oms":[
           {
@@ -384,7 +368,7 @@
               "latitude":"-2,5642594",
               "longitude":"-44,3770363",
               "descricao":"PE1.2_SUBST. DOIS DUTOS COM CORROSÃO",
-              "status":"Planejada"
+              "status":"Em andamento"
             }
           ]
         },
@@ -468,6 +452,16 @@
               "descricao":"TROCARREPOR TELHA DA CT DO TR 315K-05 (TR-315K-05)",
               "latitude":"-2,5646256",
               "longitude":"-44,3744126",
+              "arquivoPdf":"",
+              "arquivoLaudo":"",
+              "status":"Em andamento"
+          },
+          {
+              "frente":"TR-315K-05",
+              "numero":"202204196257",
+              "descricao":"RETIRAR TELHA COM RISCO DE QUEDA TR15-05 (TR-315K-05)",
+              "latitude":"-2,5646077",
+              "longitude":"-44,3744537",
               "arquivoPdf":"",
               "arquivoLaudo":"",
               "status":"Em andamento"

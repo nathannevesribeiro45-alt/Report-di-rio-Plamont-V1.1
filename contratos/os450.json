@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "24/08/2026",
+  "data": "25/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -45,7 +45,7 @@
       },
       "ausencias": {
         "Caldeireiro": 1,
-        "Mecânico": 1
+        "Mecânico":1
       },
       "mobilizacao": {},
 
@@ -55,11 +55,18 @@
           "placa": "QRD-8213",
           "operador": "Italo",
           "contato":"98 98203-1746",
-          "status":"Disponivel"
+          "status":"disponivel"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
+          "operador": "",
+          "contato":"",
+          "status": "disponivel"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "QRI-7I40",
           "operador": "",
           "contato":"",
           "status": "manutencao"
@@ -71,19 +78,27 @@
           "contato":"98 98876-4732",
           "status": "Disponivel"
         },
+
+        {
+          "tipo": "Pick-up",
+          "placa": "SFU-0A01",
+          "operador": "Alisson",
+          "contato":"98 98876-4732",
+          "status": "Disponivel"
+        },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Kaka",
-          "contato":"98 98480-6556",
-          "status": "Disponivel"
+          "operador": "",
+          "contato":"",
+          "status": "manutencao"
         },
         {
           "tipo": "Caminhao comboio",
           "placa": "PTG-3093",
-          "operador": "",
-          "contato":"",
-          "status": "manutencao"
+          "operador": "Maxuel",
+          "contato":"98 98113-3561",
+          "status": "disponivel"
         },
         {
           "tipo": "Veículo leve",
@@ -116,9 +131,9 @@
       ],
       "atividades": [
         {
-          "lider":"Fabricio Araújo",
+          "lider":"Cosmo",
           "telefone":"98 9112-7960",
-          "equipe":"2 mecânicos + 2 soldador",
+          "equipe":"4 mecânicos + 2 soldador + 2 caldeireiros",
           "oms":[
             {
               "frente":"VV-01",
@@ -135,7 +150,7 @@
         {
           "lider":"Ricardo",
           "telefone":"98 8863-1678",
-          "equipe":"4 mecânicos + 1 soldador + 2 caldeireiro",
+          "equipe":"3 mecânicos + 1 soldador + 2 caldeireiro",
           "oms":[
             {
               "frente":"VV-01",
