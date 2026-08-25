@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "24/08/2026",
+  "data": "25/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -57,11 +57,11 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202602951635",
-    "frente": "CN-05",
-    "latitude": "-2,5594112",
-    "longitude": "-44,3792181",
-    "descricao": "ATCR_REPOR ATUADOR DE PARADA SUL DO CN05",
+    "numero": "202604052766",
+    "frente": "RP-313K-02",
+    "latitude": "-2,5664223",
+    "longitude": "-44,3522400",
+    "descricao": "REFAZER INFRA ELÉTRICA CHAVE DO GIRO (RP-313K-02)",
     "status": "Em andamento"
   }
           ]
@@ -80,7 +80,7 @@
           "Mecanico": 6,
           "Soldador": 0,
           "Montador": 3,
-          "Eletricista": 5,
+          "Eletricista": 6,
           "Pintor": 0
         },
         "indireto": {
@@ -122,13 +122,13 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "",
+          "operador": "Fernando",
           "status": "disponivel"
         },
           {
           "tipo": "Pick-up",
           "placa": "SFT-9J87",
-          "operador": "",
+          "operador": "Rafael",
           "telefone":"",
           "status": "disponivel"
         }
@@ -139,70 +139,46 @@
           "lider": "Sueliton",
           "telefone": "98 8888-0636",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 5 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
        "oms": [
   {
-    "numero": "202603017055",
-    "frente": "TE-10-01",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MCM-MPV ELE 16S TALHA TE-10-01 VV1",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603017058",
-    "frente": "TE-10-04",
-    "latitude": "-2,5681063",
-    "longitude": "-44,3457358",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-10-04 VV1",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202601976996",
-    "frente": "TE-3110KP-01",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "MP ELETROMECANICA TALHA TE-3110KP-01",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202403849166",
-    "frente": "EX1-391",
-    "latitude": null,
-    "longitude": null,
-    "descricao": "EX 1391 / SUBSTITUIR CORREIA COM RASGO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602784905",
+    "numero": "202403849166 ",
     "frente": "EX-313K-91",
-    "latitude": "-2,5748322",
-    "longitude": "-44,3437828",
-    "descricao": "MCM-MPV LUB 16S TRC DE ÓLEO EX-313K-91",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602628057",
-    "frente": "EX-313K-91",
-    "latitude": "-2,5748322",
-    "longitude": "-44,3437828",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-91",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602628059",
-    "frente": "EX-313K-91",
-    "latitude": "-2,5748322",
-    "longitude": "-44,3437828",
-    "descricao": "MCM-MPV MEC 16S EX-313K-91",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202504893435",
-    "frente": "TE-3130KP-38",
     "latitude": null,
     "longitude": null,
-    "descricao": "EPO-MPV 11M TROCA DE OLEO TE-3130KP-38",
+    "descricao": " SUBSTITUIR CORREIA COM RASGO (EX-313K-91)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202604441968",
+    "frente": "EX-313K-57",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "RETIRAR MOTOREDUTOR. (EX-313K-57)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202601257668",
+    "frente": "EX-313K-57",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "TROCAR CABO DE AÇO (EX-313K-57)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202602517151",
+    "frente": "TR-313K-59",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MCM-MPV ELE 16S TALHA TE-3003 TR1359 (TR-313K-59)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202600352508",
+    "frente": "TR-313K-59",
+    "latitude": null,
+    "longitude": null,
+    "descricao": "MCM-MPV MEC 16S TALHA TE-3003 TR1359 (TR-313K-59)",
     "status": "Em andamento"
   }
 ]

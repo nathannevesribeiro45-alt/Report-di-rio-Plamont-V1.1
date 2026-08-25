@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "24/08/2026",
+  "data": "25/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,8 +13,8 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
-          "Mecanico": 10,
+          "Caldeireiro": 3,
+          "Mecanico": 14,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -68,13 +68,13 @@
           "placa": "SGC-7H66",
           "operador": "Jhonatan",
           "contato":"",
-          "status": "manutencao"
+          "status": "disponivel"
         },
 
           {
           "tipo": "Munck",
           "placa": "RBB-1B72",
-          "operador": "",
+          "operador": "Gleydson",
           "contato":"",
           "status": "disponivel"
         },
@@ -88,7 +88,7 @@
        
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G50",
+          "placa": "SFT-9J87",
           "operador": "Patrick",
           "contato":"",
           "status": "Disponivel"
@@ -96,9 +96,9 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Patrick",
+          "operador": "Anderson",
           "contato":"",
-          "status": "manutencao"
+          "status": "disponivel"
         }
       
       ],
@@ -114,17 +114,17 @@
               "frente":"RP-313K-09",
               "latitude":"-2,5748036",
               "longitude":"-44,3392085",
-              "numero": "202603910775",
-              "descricao": " DESG-MONT DESM ANDAIME TROCAR 16 CHAPAS (RP-313K-09)",
+              "numero": "202604032090",
+              "descricao": "PREPARAÇÃO PARA ATIVIDADES DESGASTE (RP-313K-09)",
               "arquivoPdf":"",
               "status": "Em andamento"
             },
              {
               "frente":"RP-313K-09",
-               "latitude":"-2,5748036",
-              "longitude":"-44,3392085",
-              "numero": "202602590122",
-              "descricao": "TROCAR 16 CHAPAS NO CHUTE CENTRAL DA (RP-313K-09)",
+               "latitude":"-2,5664223",
+              "longitude":"-44,3522400",
+              "numero": "202604326601",
+              "descricao": "PREPARAÇÃO PARA ATIVIDADES DESGASTE (RP-313K-02)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -144,35 +144,7 @@
               "latitude":"-2,5627950",
               "longitude":"-44,3789498",
               "arquivoPdf":"",
-              "descricao": "CAVALETE_TROCAR CAVALETES RETORNO (TR-325k-17)",
-              "status": "Em andamento"
-            },
-           
-            {
-              "numero": "202506822318",
-              "frente":"TR-325k-17",
-               "latitude":"-2,5627950",
-              "longitude":"-44,3789498",
-              "descricao": "CAVALETE_TROCAR CAVALETES RETORNO (TR-325k-17)",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202506822734",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
-              "descricao": "MONTAR/DESMONTAR ANDAIME: CAVALETE_TROCAR CAVALETES RETORNO",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-             {
-              "numero": "202600135053 ",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
-              "descricao": "MONTAR/DESMONTAR ANDAIME: CAVALETE_TROCAR CAVALETES RETORNO",
-              "arquivoPdf":"",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS (TR-325K-17/TR-315K-07)",
               "status": "Em andamento"
             }
            
@@ -185,19 +157,11 @@
           "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202601766855",
-              "frente":"EP-313K-05",
-              "latitude":"-2,5741432",
-              "longitude":"-44,3395978",
-              "descricao":" PREPARAÇÃO DE FERRAMENTAS E 5S – PLAMONT (EP-313K-05)",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202603986222 ",
+              "numero":"202602695796 ",
               "frente":"TR-311K-08",
               "latitude":"-2,5660033",
               "longitude":"-44,3457672",
-              "descricao":"PREPARAÇÃO DE FERRAMENTAS E 5S - PLAMONT (TR-311K-08)",
+              "descricao":"REALIZAR MP CHUTE RECEB (TR-311K-08)",
               "status":"Em andamento"
           }
           ]
@@ -261,48 +225,32 @@
       "atividades": [
         {
           "lider": "Wanderson/Adeilton",
-          "telefone": "/98 8882-2306",
+          "telefone": "98 98508-8348/98 8882-2306",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
           "oms": [
             {
-              "numero":"202602456821",
-              "frente":"RP-313K-09",
-              "latitude":"-2,5748149",
-              "longitude":"-44,3395786",
-              "descricao":"SEG_PS_TROC.GRAD.PIS.ESC.ACESS,LD (RP-313K-09)",
+              "numero":"202601763887",
+              "frente":"TR-313K-57",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_CDI_TROC.CH.2°PISO DO CHT.REC.1357 (TR-313K-57)",
               "status":"Em andamento"
           },
            {
-              "numero":"202603345127",
-              "frente":"RP-313K-09",
-              "latitude":"-2,5748149",
-              "longitude":"-44,3395786",
-              "descricao":"SEG_GC_ FECH.VAO TR LAN.LE M1 (RP-313K-09)",
-              "status":"Em andamento"
-          },
-           {
-              "numero":"202403404446",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao":"SEG_CDI_TROC CHAP PISO OXI ACENT (TR-314K-12)",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202500350032",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
-              "descricao":"SEG_CDI_TROCAR CHAPAS PISO OXIDAÇÃO (TR-314K-12)",
+              "numero":"202604260707",
+              "frente":"TR-313K-57",
+               "latitude":"",
+              "longitude":"",
+              "descricao":"INSTALAR BLOQUEI FÍSICO PERMANENTE AS ESCADAS (TR-313K-57)",
               "status":"Em andamento"
           },
           {
               "numero":"202603455665",
               "frente":"TR-314K-14",
-              "latitude":"-2,5645688",
-              "longitude":"-44,3758235",
-              "descricao":"SEG_ES_REPOSICIONAR E SOLDAR ESCADA (TR-314K-14)",
+               "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_ES_REPOSIONAR E SOLDAR ESCADA (TR-314K-14)",
               "status":"Em andamento"
           }
           ]
