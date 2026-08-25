@@ -144,40 +144,40 @@
   {
     "numero": "202403849166 ",
     "frente": "EX-313K-91",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5748322",
+    "longitude": "-44,3437828",
     "descricao": " SUBSTITUIR CORREIA COM RASGO (EX-313K-91)",
     "status": "Em andamento"
   },
   {
     "numero": "202604441968",
     "frente": "EX-313K-57",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5643087",
+    "longitude": "-44,3457025",
     "descricao": "RETIRAR MOTOREDUTOR. (EX-313K-57)",
     "status": "Em andamento"
   },
   {
     "numero": "202601257668",
     "frente": "EX-313K-57",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5643087",
+    "longitude": "-44,3457025",
     "descricao": "TROCAR CABO DE AÇO (EX-313K-57)",
     "status": "Em andamento"
   },
   {
     "numero": "202602517151",
     "frente": "TR-313K-59",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5634191",
+    "longitude": "-44,3457215",
     "descricao": "MCM-MPV ELE 16S TALHA TE-3003 TR1359 (TR-313K-59)",
     "status": "Em andamento"
   },
   {
     "numero": "202600352508",
     "frente": "TR-313K-59",
-    "latitude": null,
-    "longitude": null,
+    "latitude": "-2,5634191",
+    "longitude": "-44,3457215",
     "descricao": "MCM-MPV MEC 16S TALHA TE-3003 TR1359 (TR-313K-59)",
     "status": "Em andamento"
   }
