@@ -232,24 +232,24 @@
             {
               "numero":"202601763887",
               "frente":"TR-313K-57",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5647359",
+              "longitude":"-44,3456040",
               "descricao":"SEG_CDI_TROC.CH.2°PISO DO CHT.REC.1357 (TR-313K-57)",
               "status":"Em andamento"
           },
            {
               "numero":"202604260707",
               "frente":"TR-313K-57",
-               "latitude":"",
-              "longitude":"",
+               "latitude":"-2,5647359",
+              "longitude":"-44,3456040",
               "descricao":"INSTALAR BLOQUEI FÍSICO PERMANENTE AS ESCADAS (TR-313K-57)",
               "status":"Em andamento"
           },
           {
               "numero":"202603455665",
               "frente":"TR-314K-14",
-               "latitude":"",
-              "longitude":"",
+               "latitude":"-2,5645688",
+              "longitude":"-44,3758235",
               "descricao":"SEG_ES_REPOSIONAR E SOLDAR ESCADA (TR-314K-14)",
               "status":"Em andamento"
           }
