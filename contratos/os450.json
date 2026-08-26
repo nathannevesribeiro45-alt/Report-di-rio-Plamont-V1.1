@@ -79,14 +79,6 @@
           "contato":"98 98184-5269",
           "status": "Disponivel"
         },
-
-        {
-          "tipo": "Pick-up",
-          "placa": "SFU-0A21",
-          "operador": "Rosivaldo",
-          "contato":"98 99187-8772",
-          "status": "Disponivel"
-        },
         {
           "tipo": "Caminhao comboio",
           "placa": "PTG-3093",
