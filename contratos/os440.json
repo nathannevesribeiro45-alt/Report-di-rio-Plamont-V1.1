@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "25/08/2026",
-  "turno": "Dia B",
+  "data": "26/08/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,16 +10,16 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
-          "Mecanico": 4,
-          "Soldador": 2,
-          "Eletricista": 1, 
+          "Caldeireiro": 5,
+          "Mecanico": 13,
+          "Soldador": 4,
+          "Eletricista": 3, 
           "Montador": 10   
         },
         "indireto": {
           "Supervisor Montagem": 1,
-          "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
+          "Encarregado Montagem": 1,
+          "Mestre Montagem": 3,
           "Mestre Andaime": 0
         }
       },
@@ -39,19 +39,14 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Soldador": 1
+      },
       "mobilizacao": {},
       "recursos": [
           {
           "tipo": "Munck",
           "placa": "SGA-3I26",
-          "operador": "",
-          "contato": "",
-          "status":"Disponivel"
-        },
-        {
-          "tipo": "Munck",
-          "placa": "ROV-7A11",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
@@ -68,7 +63,14 @@
           "placa": "SGA-3I14",
           "operador": "",
           "contato": "",
-          "status":"Preventiva"
+          "status":"Disponivel"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "ROV-7A11",
+          "operador": "",
+          "contato": "",
+          "status":"Manutencao"
         },
         {
           "tipo": "Munck",
@@ -143,6 +145,42 @@
 
           ]
 
+        },
+        {
+        "lider":"Raimundo Nonato (Cobre/Extra)",
+        "telefone":"98 8498-9295",
+        "equipe":"4 mecânicos + 1 soldadores + 2 caldereiros + 2 eletricista",
+        "oms":[
+          {
+            "frente":"TR-313K-03",
+            "latitude":"-2,5664276",
+            "longitude":"-44,3551435",
+            "numero":"202603970891",
+            "descricao":"ALINHAR/NIVELAR MESAS CARGA",
+            "arquivoPdf":"om's/contrato 440 oms/Integridade/TR1303 OM  202603970891 ALINHARNIVELAR MESAS CARGA.pdf",
+            "status":"Em andamento"
+          }
+
+          ]
+
+        },
+        {
+        "lider":"Douglas",
+        "telefone":"98 8711-4524",
+        "equipe":"5 mecânicos + 1 soldadores + 1 caldereiros",
+        "oms":[
+          {
+            "frente":"RP-02",
+            "latitude":"-2,5664223",
+            "longitude":"-44,3522400",
+            "numero":"202603343916",
+            "descricao":"TRINCA_ROMP. PARAF.MESA GIRO RP02",
+            "arquivoPdf":"om's/contrato 440 oms/Integridade/202603343916 TRINCA_ROMP. PARAF.MESA GIRO RP02.pdf",
+            "status":"Em andamento"
+          }
+
+          ]
+
         }
      
       ]
@@ -159,17 +197,17 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 7,
-          "Mecanico": 19,
+          "Mecanico": 20,
           "Soldador": 9,
           "Montador": 24,
-          "Eletricista": 5,
-          "Ajudante de elétrica": 1,
-          "Ajudante de mont.":2
+          "Eletricista": 4,
+          "Ajudante de mont.":2,
+          "Ajudante de elétrica":1
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 3,
+          "Mestre Montagem": 5,
           "Mestre Andaime": 2
         }
       },
@@ -189,7 +227,9 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Eletricista": 1
+      },
       "mobilizacao": {},
       "recursos": [
         {
@@ -205,7 +245,7 @@
         {
           "lider":"Alonso Costa",
           "telefone":"31 8495-2503",
-          "equipe":"3 mecânicos + 1 soldadores + 2 caldereiros + 1 eletricista + 1 ajudante de mont.",
+          "equipe":"3 mecânicos + 1 soldadores + 2 caldereiros + 1 ajudante de mont.",
         
         "oms":[
           {
@@ -219,6 +259,35 @@
             }
           ]
         },
+        {
+          "lider":"Rogério",
+          "telefone":" 98 9965-3798",
+          "equipe":"4 mecânicos + 1 soldadores + 1 caldereiros + 1 eletricista",
+        
+        "oms":[
+          {
+              "numero": "202402440983",
+              "frente":"TR-315K-06",
+              "latitude":"-2,5650286",
+              "longitude":"-44,3754024",
+              "descricao":"SUBS.PERF. TRANS. PASSA. TR (TR-315K-06)",
+              "arquivoPdf":"om's/contrato 440 oms/Pier 3/AC1.4_SUBS.ELEMEN.FIXA.PERF.PASS.TR1506 202402440983.pdf",
+              "arquivoLaudo":"",
+              "status":"Em andamento"
+            },
+            {
+              "numero": "202402441360",
+              "frente":"TR-315K-06",
+              "latitude":"-2,5650286",
+              "longitude":"-44,3754024",
+              "descricao":"SUBS.ELEMEN.FIXA.PERF.PASS.TR1506Z - (TR-315K-06)",
+              "arquivoPdf":"om's/contrato 440 oms/Pier 3/AE1.4_SUBS.PERF. TRANS. PASSA. TR 15-06.pdf",
+              "arquivoLaudo":"",
+              "status":"Em andamento"
+            }
+          ]
+        },
+
 
         {
         
@@ -249,18 +318,18 @@
         },
 
          {
-          "lider":"Augusto Campos/Rogério",
-          "telefone":"98 8508-9007/98 9965-3798",
-          "equipe":"8 mecânicos + 4 soldador + 1 caldereiro + 1 ajudante de elétrica + 2 eletricista + 1 ajudante mont.",
+          "lider":"Augusto Campos",
+          "telefone":"98 8508-9007",
+          "equipe":"5 mecânicos + 3 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de eletri.",
         "oms":[
           {
-              "numero": "202304143749",
+              "numero": "202604439371",
               "frente":"CT-07",
               "latitude":"-2,5586479",
               "longitude":"-44,3790518",
-              "descricao":"SUBS ELM FIX CTV/TRAV EIX01 (CT-07)",
-              "arquivoPdf":"om's/contrato 440 oms/Pier 3/CT07 OM 202304143749 AE1.2_CT-SUBS ELM FIX CTV TRAV EIX01.pdf",
-              "arquivoLaudo":"laudos/OS 440/Pier 3/202301417369_202301417369_CT07-ST1_RISCO MÉDIO.pdf",
+              "descricao":"REAL. REFORÇO LIGAÇÕES EL16750 EIXO 1 - TR-325K-07 ( CT07) ",
+              "arquivoPdf":"",
+              "arquivoLaudo":"",
               "status":"Em andamento"
           
             }
@@ -432,8 +501,8 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Ronielisson",
-          "telefone": "98 9963-7084",
+          "lider": "Edeilson",
+          "telefone": "98 8498-4952",
           "tecnicoSeguranca": "",
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
