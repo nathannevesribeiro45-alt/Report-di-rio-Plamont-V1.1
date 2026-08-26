@@ -61,9 +61,9 @@
         {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "",
+          "operador": "Euclides",
           "contato":"",
-          "status": "manutencao"
+          "status": "disponivel"
         },
         {
           "tipo": "Munck",
