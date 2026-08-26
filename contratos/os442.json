@@ -51,8 +51,8 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
@@ -78,13 +78,13 @@
         "direto": {
           "Caldeireiro": 1,
           "Mecanico": 6,
-          "Soldador": 0,
+          "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
           "Pintor": 0
         },
         "indireto": {
-          "Supervisor Montagem": 0,
+          "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 0,
           "Mestre Andaime": 0,
@@ -122,64 +122,72 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "Fernando",
+          "operador": "Romário",
           "status": "disponivel"
         },
           {
           "tipo": "Pick-up",
           "placa": "SFT-9J87",
-          "operador": "Rafael",
-          "telefone":"",
+          "operador": "Domingos",
+          "telefone":"98 98518-9687",
           "status": "disponivel"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Sueliton",
-          "telefone": "98 8888-0636",
+          "lider": "josé Maria",
+          "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
        "oms": [
   {
-    "numero": "202403849166 ",
-    "frente": "EX-313K-91",
-    "latitude": "-2,5748322",
-    "longitude": "-44,3437828",
-    "descricao": " SUBSTITUIR CORREIA COM RASGO (EX-313K-91)",
-    "status": "Em andamento"
+    "numero": "OM 202601257668",
+    "frente": "",
+    "descricao": "CG1357 TROCA CABO DE AÇO",
+    "status": "Em andamento",
+    "latitude": null,
+    "longitude": null
   },
   {
-    "numero": "202604441968",
+    "numero": "OM 202604241300",
+    "frente": "EX-313K-03",
+    "descricao": "EXTRATOR EX-313K-03",
+    "status": "Em andamento",
+   "latitude": "-2,5664518",
+    "longitude": "-44,3586399"
+  },
+  {
+    "numero": "OM 202604241302",
+    "frente": "EX-313K-03",
+    "descricao": "EXTRATOR EX-313K-03",
+    "status": "Em andamento",
+    "latitude": "-2,5664518",
+    "longitude": "-44,3586399"
+  },
+  {
+    "numero": "OM 202604241912",
+    "frente": "EX-313K-03",
+    "descricao": "TROCA ÓLEO EX-313K-03",
+    "status": "Em andamento",
+    "latitude": "-2,5664518",
+    "longitude": "-44,3586399"
+  },
+  {
+    "numero": "OM 202401507340",
+    "frente": "CG 1304",
+    "descricao": "PROTEÇÃO AVARIADA DO GUINCHO",
+    "status": "Em andamento",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "numero": "OM 202604441968",
     "frente": "EX-313K-57",
-    "latitude": "-2,5643087",
-    "longitude": "-44,3457025",
-    "descricao": "RETIRAR MOTOREDUTOR. (EX-313K-57)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202601257668",
-    "frente": "EX-313K-57",
-    "latitude": "-2,5643087",
-    "longitude": "-44,3457025",
-    "descricao": "TROCAR CABO DE AÇO (EX-313K-57)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602517151",
-    "frente": "TR-313K-59",
-    "latitude": "-2,5634191",
-    "longitude": "-44,3457215",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-3003 TR1359 (TR-313K-59)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202600352508",
-    "frente": "TR-313K-59",
-    "latitude": "-2,5634191",
-    "longitude": "-44,3457215",
-    "descricao": "MCM-MPV MEC 16S TALHA TE-3003 TR1359 (TR-313K-59)",
-    "status": "Em andamento"
+    "descricao": "RETIRAR MOTOREDUTOR",
+    "status": "Em andamento",
+    "latitude": null,
+    "longitude": null
   }
 ]
 }

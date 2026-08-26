@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 12,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -47,14 +47,7 @@
       },
 
       "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 1,
-        "Soldador": 0,
-        "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0,
-        "justificadas": 2,
-        "naoJustificadas": 0
+     "Mecânico":2
       },
 
       "mobilizacao": {
@@ -81,23 +74,23 @@
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador":"Gleydson",
+          "operador":"",
           "contato":"",
           "status": "manutencao"
         },
        
         {
           "tipo": "Pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Patrick",
-          "contato":"",
+          "placa": "SFU-0A35",
+          "operador": "Hilgles",
+          "contato":"98 98537-4937",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFU-0A35",
-          "operador": "Anderson",
-          "contato":"",
+          "placa": " SFT-9H25",
+          "operador": "Carlos",
+          "contato":"98 98124-4272",
           "status": "disponivel"
         }
       
@@ -105,26 +98,44 @@
 
       "atividades": [
         {
-          "lider": "Adilson",
-          "telefone": "98 8898-1856",
+          "lider": "Elias",
+          "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"RP-313K-09",
-              "latitude":"-2,5748036",
-              "longitude":"-44,3392085",
-              "numero": "202604032090",
-              "descricao": "PREPARAÇÃO PARA ATIVIDADES DESGASTE (RP-313K-09)",
+              "frente":"TR-313K-03",
+              "latitude":"-2,5664276",
+              "longitude":"-44,3551435",
+              "numero": "202604395718",
+              "descricao": "APOIO-MONTDESMON AND TROC ROL CATE (TR-313K-03)",
               "arquivoPdf":"",
               "status": "Em andamento"
             },
              {
-              "frente":"RP-313K-02",
-               "latitude":"-2,5664223",
-              "longitude":"-44,3522400",
-              "numero": "202604326601",
-              "descricao": "PREPARAÇÃO PARA ATIVIDADES DESGASTE (RP-313K-02)",
+              "frente":"TR-313K-03",
+               "latitude":"-2,5664276",
+              "longitude":"-44,3551435",
+              "numero": "202604395497 ",
+              "descricao": "TROCAR 04 ROLOS MESA CATENARIA (TR-313K-03)",
+              "arquivoPdf":"",
+              "status": "Em andamento"
+            },
+            {
+              "frente":"TR-313K-03",
+               "latitude":"-2,5664276",
+              "longitude":"-44,3551435",
+              "numero": "202601043170",
+              "descricao": "TROCAR ROLO PLANO ACIMA CARRO TENSOR (TR-313K-03)",
+              "arquivoPdf":"",
+              "status": "Em andamento"
+            },
+            {
+              "frente":"TR-313K-03",
+               "latitude":"-2,5664276",
+              "longitude":"-44,3551435",
+              "numero": "202604035384",
+              "descricao": "CALÇAR CAVALETES DE RETORNO DO TR1303 (TR-313K-03)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -132,36 +143,45 @@
           ]
         },
         {
-          "lider": "Fernando Maranhão",
+          "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
           "oms": [
             
             {
-              "numero": "202505335505",
-              "frente":"TR-325k-17",
-              "latitude":"-2,5627950",
-              "longitude":"-44,3789498",
+              "numero": "202503663215 ",
+              "frente":"TR-314K-12",
+              "latitude":"-2,5644957",
+              "longitude":"-44,3757369",
               "arquivoPdf":"",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS (TR-325K-17/TR-315K-07)",
+              "descricao": "ROLO_TROCAR 12 ROLOS DE IMPACTO DA MESA (TR-314K-12)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202504065662 ",
+              "frente":"TR-315K-05",
+              "latitude":"-2,5646077",
+              "longitude":"-44,3744537",
+              "arquivoPdf":"",
+              "descricao": "ROLO_TROCAR 6 ROLOS DE RETORNO V FERRO (TR-315K-05)",
               "status": "Em andamento"
             }
            
           ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Alexandre",
+          "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202602695796 ",
-              "frente":"TR-311K-08",
-              "latitude":"-2,5660033",
-              "longitude":"-44,3457672",
-              "descricao":"REALIZAR MP CHUTE RECEB (TR-311K-08)",
+              "numero":"202603846197",
+              "frente":"TR-313K-04",
+              "latitude":"-2,5657118",
+              "longitude":"-44,3577896",
+              "descricao":"TROCAR ROLOS 82 DE CARGA DO 1304 (TR-313K-04)",
               "status":"Em andamento"
           }
           ]
@@ -210,13 +230,8 @@
         }
       },
       "ausencias": {
-        "Caldeireiro": 0,
-        "Mecanico": 1,
-        "Soldador": 0,
-        "Montador": 0,
-        "Eletricista": 0,
-        "Pintor": 0,
-        "justificadas": 0,
+        "Caldeireiro": 1,
+        "justificadas": 1,
         "naoJustificadas": 0
       },
       "mobilizacao": {},
@@ -224,36 +239,61 @@
 
       "atividades": [
         {
-          "lider": "Wanderson/Adeilton",
-          "telefone": "98 98508-8348/98 8882-2306",
+          "lider": "Júlio/Erickson",
+          "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
           "oms": [
             {
-              "numero":"202601763887",
-              "frente":"TR-313K-57",
-              "latitude":"-2,5647359",
-              "longitude":"-44,3456040",
-              "descricao":"SEG_CDI_TROC.CH.2°PISO DO CHT.REC.1357 (TR-313K-57)",
+              "numero":"202604380108",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
+              "descricao":" INSTALAÇÃO DOS GUARDA CORPOS NO DH13 - P4",
               "status":"Em andamento"
           },
            {
-              "numero":"202604260707",
-              "frente":"TR-313K-57",
-               "latitude":"-2,5647359",
-              "longitude":"-44,3456040",
-              "descricao":"INSTALAR BLOQUEI FÍSICO PERMANENTE AS ESCADAS (TR-313K-57)",
+              "numero":"202502707099 ",
+              "frente":"TR-325K-16",
+               "latitude":"-2,5641472",
+              "longitude":"-44,3774923",
+              "descricao":"TROCA DE TELA NO 2516 (TR-325K-16)",
               "status":"Em andamento"
           },
           {
-              "numero":"202603455665",
-              "frente":"TR-314K-14",
-               "latitude":"-2,5645688",
-              "longitude":"-44,3758235",
-              "descricao":"SEG_ES_REPOSIONAR E SOLDAR ESCADA (TR-314K-14)",
+              "numero":"202506715882",
+              "frente":"TR-325K-17",
+               "latitude":"-2,5627950",
+              "longitude":"-44,3789498",
+              "descricao":"TROCA DE TELA NO 2517 (TR-325K-17)",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202300162106",
+              "frente":"",
+               "latitude":"",
+              "longitude":"",
+              "descricao":"RECUPERAR GUARDA CORPO DA ESCADA DE ACESSO DH13",
+              "status":"Em andamento"
+          },
+           {
+              "numero":"202402990383",
+              "frente":"",
+               "latitude":"",
+              "longitude":"",
+              "descricao":"17 DEGRAUS DA ESCADA DE ACESSO DA ELEVAÇÃO",
+              "status":"Em andamento"
+          },
+           {
+              "numero":"202402769198",
+              "frente":"",
+               "latitude":"",
+              "longitude":"",
+              "descricao":"8 DEGRAUS DA ESCADA DE ACESSO AO TR INTERMEDIÁRIO",
               "status":"Em andamento"
           }
           ]
+
         }
       ]
     }
