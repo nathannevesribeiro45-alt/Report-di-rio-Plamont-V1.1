@@ -122,8 +122,8 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "Romário",
-          "status": "disponivel"
+          "operador": "",
+          "status": "manutencao"
         },
           {
           "tipo": "Pick-up",
