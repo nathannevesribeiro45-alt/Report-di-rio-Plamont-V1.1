@@ -140,25 +140,6 @@
           ]
 
         },
-        {
-          "lider":"Ricardo",
-          "telefone":"98 8863-1678",
-          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro",
-          "oms":[
-            {
-              "frente":"VV-01",
-              "numero":"202604032281",
-              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "status":"Em andamento",
-              "arquivoPdf":""
-            }
-
-            
-          ]
-
-        },
      
         {
           "lider":"Jadilson",
@@ -178,7 +159,46 @@
             
           ]
 
+        },
+         {
+          "lider":"Fabrício",
+          "telefone":"98 8896-7117",
+          "equipe":"3 mecânicos + 2 soldador + 1 caldeireiro",
+          "oms":[
+           {
+              "frente":"VV-01",
+              "numero":"202604032281",
+              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
+              "latitude":"-2,5681063",
+              "longitude":"-44,3457358",
+              "status":"Em andamento",
+              "arquivoPdf":""
+            }
+
+            
+          ]
+
+        },
+         {
+          "lider":"Jessé",
+          "telefone":"98 8817-1971",
+          "equipe":"5 mecânicos + 2 soldador + 1 caldeireiro",
+          "oms":[
+           {
+              "frente":"VV-01",
+              "numero":"202604032281",
+              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
+              "latitude":"-2,5681063",
+              "longitude":"-44,3457358",
+              "status":"Em andamento",
+              "arquivoPdf":""
+            }
+
+            
+          ]
+
         }
+
 
 
 
