@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "26/08/2026",
+  "data": "27/08/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -11,7 +11,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 10,
+          "Mecanico": 8,
           "Soldador": 5,
           "Montador": 7,
           "Eletricista": 8,
@@ -45,7 +45,7 @@
       },
       "ausencias": {
         "Montador andaime": 1,
-        "Mecânico": 2,
+        "Mecânico": 4,
         "Caldeireiro": 1
       },
       "mobilizacao": {},
@@ -63,7 +63,7 @@
           "placa": "QRI-8D21",
           "operador": "Euclides",
           "contato":"",
-          "status": "disponivel"
+          "status": "manutencao"
         },
         {
           "tipo": "Munck",
@@ -74,9 +74,16 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G24",
+          "placa": "QRI-2G50",
           "operador": "Italo",
           "contato":"98 98184-5269",
+          "status": "Disponivel"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "SFR-3B97",
+          "operador": "Rosivaldo",
+          "contato":"98 99187-8772",
           "status": "Disponivel"
         },
         {
@@ -153,36 +160,17 @@
 
         },
      
-         {
-          "lider":"Fabricio Silva",
-          "telefone":"98 8896-7117",
-          "equipe":"4 mecânicos + 1 soldador + 1 caldeireiro",
-          "oms":[
-            {
-              "frente":"VV-01",
-              "numero":"202604032281",
-              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "status":"Em andamento",
-              "arquivoPdf":""
-            }
-
-            
-          ]
-
-        },
         {
           "lider":"Jadilson",
           "telefone":"98 8505-6539",
           "equipe":"3 mecânicos + 1 soldador + 2 caldeireiro",
           "oms":[
             {
-              "frente":"TR-325K-17",
-              "numero":"202305636674",
-              "descricao":"TURNOVER_ROLOS VIRADOR 90° ACION. TR2517 (TR-325K-17)",
-              "latitude":"-2,5627950",
-              "longitude":"-44,3789498",
+              "frente":"TR-325K-19",
+              "numero":"202505012730",
+              "descricao":"CAVALETE_TROCAR 3 CAVALETES CARGA 2519 (TR-325K-19)",
+              "latitude":"-2,5640110",
+              "longitude":"-44,3788822",
               "status":"Em andamento",
               "arquivoPdf":""
             }

@@ -17,7 +17,7 @@ const dashboardStatus = {
 
     horario: "07:00 às 19:00",
 
-    atualizacao: "26/08/2026 às 07:00"
+    atualizacao: "27/08/2026 às 07:00"
 
 };
 
