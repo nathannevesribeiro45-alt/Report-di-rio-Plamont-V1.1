@@ -58,10 +58,10 @@
           "oms": [
             {
     "numero": "202604052766",
-    "frente": "RP-313K-02",
-    "latitude": "-2,5664223",
-    "longitude": "-44,3522400",
-    "descricao": "REFAZER INFRA ELÉTRICA CHAVE DO GIRO (RP-313K-02)",
+    "frente": "TR-325K-19",
+    "latitude": "-2,5641167",
+    "longitude": "-44,3788878",
+    "descricao": "SUBSTITUIR SUPORTE DO SUBVELOCIDADE 2509 (TR-325K-19)",
     "status": "Em andamento"
   }
           ]
@@ -142,52 +142,100 @@
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
        "oms": [
   {
-    "numero": "OM 202601257668",
+    "numero": "202603943423",
     "frente": "",
-    "descricao": "CG1357 TROCA CABO DE AÇO",
     "status": "Em andamento",
-    "latitude": null,
-    "longitude": null
+    "latitude": "",
+    "longitude": "",
+    "descricao": "MP ELETROMECANICA ELEVADOR EL 3000KP 02"
   },
   {
-    "numero": "OM 202604241300",
+    "numero": "202603943422",
+    "frente": "",
+    "status": "Em andamento",
+     "latitude": "",
+    "longitude": "",
+    "descricao": "MP ELETROMECANICA ELEVADOR TE-314K_206"
+  },
+  {
+    "numero": "202604224508",
+    "frente": "TR-313K-05",
+    "status": "Em andamento",
+     "latitude": "-2,5650333",
+    "longitude": "-44,3547966",
+    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1305"
+  },
+  {
+    "numero": "202603943349",
+    "frente": "TR-326K-04",
+    "status": "Em andamento",
+     "latitude": "-2,5546130",
+    "longitude": "-44,3791279",
+    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR2604"
+  },
+  {
+    "numero": "202604250102",
+    "frente": "TR-313K-17",
+    "status": "Em andamento",
+     "latitude": "-2,5631251",
+    "longitude": "-44,3459168",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1317"
+  },
+  {
+    "numero": "202604251877",
+    "frente": "TR-313K-17",
+    "status": "Em andamento",
+     "latitude": "-2,5631251",
+    "longitude": "-44,3459168",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1317"
+  },
+  {
+    "numero": "202604249912",
+    "frente": "TR-311K-03",
+    "status": "Em andamento",
+     "latitude": "-2,5658889",
+    "longitude": "-44,3459062",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1103"
+  },
+  {
+    "numero": "202604251872",
+    "frente": "TR-311K-03",
+    "status": "Em andamento",
+     "latitude": "-2,5658889",
+    "longitude": "-44,3459062",
+    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1103"
+  },
+  {
+    "numero": "202401507340",
+    "frente": "",
+    "status": "Em andamento",
+     "latitude": "",
+    "longitude": "",
+    "descricao": "GC 1304: PROTEÇÃO AVARIADA DO GUINCHO"
+  },
+  {
+    "numero": "202604246300",
+    "frente": "TR-325K-17",
+    "status": "Em andamento",
+     "latitude": "-2,5627950",
+    "longitude": "-44,3789498",
+    "descricao": "MCM-MPV UTL 16S GUINCHO CONTRAPESO TR2517"
+  },
+  {
+    "numero": "202604246313",
+    "frente": "TR-325K-17",
+    "status": "Em andamento",
+    "latitude": "-2,5627950",
+    "longitude": "-44,3789498",
+    "descricao": "MCM-TST ELE 16S MEC GUINCHO ESTINCR 2517"
+  },
+  {
+    "numero": "202604488147",
     "frente": "EX-313K-03",
-    "descricao": "EXTRATOR EX-313K-03",
     "status": "Em andamento",
-   "latitude": "-2,5664518",
-    "longitude": "-44,3586399"
-  },
-  {
-    "numero": "OM 202604241302",
-    "frente": "EX-313K-03",
-    "descricao": "EXTRATOR EX-313K-03",
-    "status": "Em andamento",
-    "latitude": "-2,5664518",
-    "longitude": "-44,3586399"
-  },
-  {
-    "numero": "OM 202604241912",
-    "frente": "EX-313K-03",
-    "descricao": "TROCA ÓLEO EX-313K-03",
-    "status": "Em andamento",
-    "latitude": "-2,5664518",
-    "longitude": "-44,3586399"
-  },
-  {
-    "numero": "OM 202401507340",
-    "frente": "CG 1304",
-    "descricao": "PROTEÇÃO AVARIADA DO GUINCHO",
-    "status": "Em andamento",
-    "latitude": null,
-    "longitude": null
-  },
-  {
-    "numero": "OM 202604441968",
-    "frente": "EX-313K-57",
-    "descricao": "RETIRAR MOTOREDUTOR",
-    "status": "Em andamento",
-    "latitude": null,
-    "longitude": null
+     "latitude": "-2,5664518",
+    "longitude": "-44,3586399",
+    "descricao": "EX1303- INSTALAR MANGOTES DE LUB."
   }
 ]
 }
