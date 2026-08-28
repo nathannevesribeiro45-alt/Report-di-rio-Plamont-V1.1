@@ -11,11 +11,11 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 8,
+          "Mecanico": 12,
           "Soldador": 5,
-          "Montador": 7,
+          "Montador": 8,
           "Eletricista": 8,
-          "Ajudante de mont.": 2,
+          "Ajudante de mont.": 1,
           "Pintor": 0
         },
         "indireto": {
@@ -44,9 +44,8 @@
         }
       },
       "ausencias": {
-        "Montador andaime": 1,
-        "Mecânico": 4,
-        "Caldeireiro": 1
+        "Caldeireiro": 1,
+        "Ajudante de mont.": 1
       },
       "mobilizacao": {},
 
@@ -54,8 +53,8 @@
         {
           "tipo": "Munck",
           "placa": "QRD-8213",
-          "operador": "Moisés",
-          "contato":"94 99181-8671",
+          "operador": "Italo",
+          "contato":"98 98203-1746",
           "status":"disponivel"
         },
         {
@@ -74,16 +73,16 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G50",
-          "operador": "Italo",
-          "contato":"98 98184-5269",
+          "placa": "QRI-2G24",
+          "operador": "Alisson",
+          "contato":"98 98876-4732",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFR-3B97",
-          "operador": "Rosivaldo",
-          "contato":"98 99187-8772",
+          "placa": "SFV-7L97",
+          "operador": "Kaka",
+          "contato":"98 98480-6556",
           "status": "Disponivel"
         },
         {
@@ -96,8 +95,8 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Bruno",
-          "contato":"(98) 98850-8993",
+          "operador": "Geilson",
+          "contato":"98 98850-8993",
           "status": "Operante"
         },
         {
@@ -110,14 +109,14 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Jesus",
+          "operador": "Oliveira",
           "contato":"98 97010-4041",
           "status": "Disponivel"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Estevan",
+          "operador": "Gilmar",
           "contato":"98 98474-3782",
           "status": "Disponivel"
         }
