@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "27/08/2026",
-  "turno": "Dia A",
+  "data": "28/08/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 12,
+          "Mecanico": 14,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -67,30 +67,30 @@
           {
           "tipo": "Munck",
           "placa": "RBB-1B72",
-          "operador": "Gleydson",
+          "operador": "José Carlos",
           "contato":"",
           "status": "disponivel"
         },
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador":"",
+          "operador":"Gleydson",
           "contato":"",
-          "status": "manutencao"
+          "status": "disponivel"
         },
        
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Hilgles",
-          "contato":"98 98537-4937",
+          "operador": "Anderson",
+          "contato":"",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": " SFT-9H25",
-          "operador": "Carlos",
-          "contato":"98 98124-4272",
+          "operador": "Rafael",
+          "contato":"",
           "status": "disponivel"
         }
       
@@ -98,44 +98,17 @@
 
       "atividades": [
         {
-          "lider": "Elias",
+          "lider": "Adilson",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"TR-313K-03",
-              "latitude":"-2,5664276",
-              "longitude":"-44,3551435",
-              "numero": "202604395718",
-              "descricao": "APOIO-MONTDESMON AND TROC ROL CATE (TR-313K-03)",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-             {
-              "frente":"TR-313K-03",
-               "latitude":"-2,5664276",
-              "longitude":"-44,3551435",
-              "numero": "202604395497 ",
-              "descricao": "TROCAR 04 ROLOS MESA CATENARIA (TR-313K-03)",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-            {
-              "frente":"TR-313K-03",
-               "latitude":"-2,5664276",
-              "longitude":"-44,3551435",
-              "numero": "202601043170",
-              "descricao": "TROCAR ROLO PLANO ACIMA CARRO TENSOR (TR-313K-03)",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-            {
-              "frente":"TR-313K-03",
-               "latitude":"-2,5664276",
-              "longitude":"-44,3551435",
-              "numero": "202604035384",
-              "descricao": "CALÇAR CAVALETES DE RETORNO DO TR1303 (TR-313K-03)",
+              "frente":"RP-03",
+              "latitude":"-2,5650352",
+              "longitude":"-44,3487367",
+              "numero": " 202604302167",
+              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS RP-03",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -143,45 +116,54 @@
           ]
         },
         {
-          "lider": "Iego",
-          "telefone": "98 8506-6056",
+          "lider": "Fernando Maranhão",
+          "telefone": "",
           "tecnicoSeguranca": "",
           "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
           "oms": [
             
             {
-              "numero": "202503663215 ",
-              "frente":"TR-314K-12",
-              "latitude":"-2,5644957",
-              "longitude":"-44,3757369",
+              "numero": "202603657905",
+              "frente":"TR-325K-17/TR-315K-07",
+              "latitude":"-2,5630375",
+              "longitude":"-44,3791164",
               "arquivoPdf":"",
-              "descricao": "ROLO_TROCAR 12 ROLOS DE IMPACTO DA MESA (TR-314K-12)",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS (TR-325K-17/TR-315K-07)",
               "status": "Em andamento"
             },
             {
-              "numero": "202504065662 ",
-              "frente":"TR-315K-05",
-              "latitude":"-2,5646077",
-              "longitude":"-44,3744537",
+              "numero": "202500520299 ",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
               "arquivoPdf":"",
-              "descricao": "ROLO_TROCAR 6 ROLOS DE RETORNO V FERRO (TR-315K-05)",
+              "descricao": "MONTAR/DESMONTAR ANDAIME ",
+              "status": "Em andamento"
+            },
+             {
+              "numero": "202500520285 ",
+              "frente":"TR-315K-04",
+              "latitude":"-2,5607764",
+              "longitude":"-44,3632393",
+              "arquivoPdf":"",
+              "descricao": "CHUTE_MP TR 1505 REC 1504 LADO DIR",
               "status": "Em andamento"
             }
            
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202603846197",
-              "frente":"TR-313K-04",
-              "latitude":"-2,5657118",
-              "longitude":"-44,3577896",
-              "descricao":"TROCAR ROLOS 82 DE CARGA DO 1304 (TR-313K-04)",
+              "numero":"202604122604",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"PREPARAÇÃO DE MATERIAIS E FERRAMENTA E 5S",
               "status":"Em andamento"
           }
           ]
@@ -216,82 +198,120 @@
       "histograma": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 7,
+          "Mecanico": 3,
           "Soldador": 3,
-          "Montador": 4,
-          "Eletricista": 1,
-          "Pintor": 0
+          "Montador": 2
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 0,
-          "Mestre Montagem": 1,
+          "Mestre Montagem": 2,
           "Mestre Andaime": 0
         }
       },
       "ausencias": {
-        "Caldeireiro": 1,
-        "justificadas": 1,
-        "naoJustificadas": 0
+        "Soldador":1 
       },
       "mobilizacao": {},
       "recursos": [],
 
       "atividades": [
         {
-          "lider": "Júlio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wanderson/Adeilton",
+          "telefone": "98 98508-8348/98 8882-2306",
           "tecnicoSeguranca": "",
           "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
           "oms": [
-            {
-              "numero":"202604380108",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
-              "descricao":" INSTALAÇÃO DOS GUARDA CORPOS NO DH13 - P4",
-              "status":"Em andamento"
-          },
-           {
-              "numero":"202502707099 ",
-              "frente":"TR-325K-16",
-               "latitude":"-2,5641472",
-              "longitude":"-44,3774923",
-              "descricao":"TROCA DE TELA NO 2516 (TR-325K-16)",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202506715882",
-              "frente":"TR-325K-17",
-               "latitude":"-2,5627950",
-              "longitude":"-44,3789498",
-              "descricao":"TROCA DE TELA NO 2517 (TR-325K-17)",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202300162106",
-              "frente":"",
-               "latitude":"",
-              "longitude":"",
-              "descricao":"RECUPERAR GUARDA CORPO DA ESCADA DE ACESSO DH13",
-              "status":"Em andamento"
-          },
-           {
-              "numero":"202402990383",
-              "frente":"",
-               "latitude":"",
-              "longitude":"",
-              "descricao":"17 DEGRAUS DA ESCADA DE ACESSO DA ELEVAÇÃO",
-              "status":"Em andamento"
-          },
-           {
-              "numero":"202402769198",
-              "frente":"",
-               "latitude":"",
-              "longitude":"",
-              "descricao":"8 DEGRAUS DA ESCADA DE ACESSO AO TR INTERMEDIÁRIO",
-              "status":"Em andamento"
-          }
+      {
+        "frente":"CN-05",
+        "latitude":"-2,5594112",
+        "longitude":"-44,3792181",
+        "om": "202505036548",
+        "descricao": "SEG_GC_TROC. TUBOS G.CORPOS ELEVAÇÃO CN5",
+        "status":"Em andamento"
+      },
+      {
+        "frente":"",
+        "latitude":"",
+        "longitude":"",
+        "om": "202506421632",
+        "descricao": "SEG_PS_TROCAR TELA PISO LADO DROMO",
+        "status":"Em andamento"
+      },
+      {
+       
+        "frente":"",
+        "latitude":"",
+        "longitude":"", 
+        "om": "202602759523",
+        "descricao": "SEG_PS_TROC T PISO PASS L/D CV-18",
+        "status":"Em andamento"
+      },
+      {
+         "frente":"",
+        "latitude":"",
+        "longitude":"",
+        "om": "202603377581",
+        "descricao": "SEG_GC_TROC VIG DE SUSTENTAÇÃO DAS TELAS",
+        "status":"Em andamento"
+      },
+      {
+         "frente":"CN-05",
+        "latitude":"-2,5594112",
+        "longitude":"-44,3792181",
+        "om": "202402769198",
+        "descricao": "SEG_CDI_TROC. DEGRAUS E. AC. INTERM CN05",
+        "status":"Em andamento"
+      },
+      {
+         "frente":"",
+        "latitude":"",
+        "longitude":"",
+        "om": "202402990383",
+        "descricao": "SEG_CDI:TROCAR 17 DEGRAUS ESCA ACESS ELE",
+        "status":"Em andamento"
+      },
+       {
+         "frente":"TR-315K-04",
+        "latitude":"-2,5641373",
+        "longitude":"-44,3775298",
+        "om": "202500984407",
+        "descricao": "SEG_PS:TROCAR CHAPA P. L/E CHUTE DESCARG",
+        "status":"Em andamento"
+      },
+      {
+        "frente":"TR-325K-16",
+        "latitude":"-2,5641373",
+        "longitude":"-44,3775298",
+        "om": "202504258620",
+        "descricao": "SEG_PS_TROC CHA DE PISO OXID NO TR-2516",
+        "status":"Em andamento"
+      },
+      {
+        "frente":"TR-325K-16",
+        "latitude":"-2,5641373",
+        "longitude":"-44,3775298",
+        "om": "202500225589",
+        "descricao": "SEG_CDI_TROCAR CHAPAS PISO NO TR-2516",
+        "status":"Em andamento"
+      },
+      {
+        "frente":"TR-325K-17",
+        "latitude":"-2,5627950",
+        "longitude":"-44,3789498",
+        "om": "202602930063",
+        "descricao": "SEG_PS_TROC CH PISO REGIÃO VIR CORREIA",
+        "status":"Em andamento"
+      },
+      {
+        "frente":"TR-325K-20",
+        "latitude":"-2,5646544",
+        "longitude":"-44,3765742",
+        "om": "202506376248",
+        "descricao": "SEG_PS_TROCAR CHAPA PRÓX CHUTE DESCARGA",
+        "status":"Em andamento"
+      }
+
           ]
 
         }

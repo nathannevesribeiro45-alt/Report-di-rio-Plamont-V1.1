@@ -51,17 +51,17 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202604052766",
-    "frente": "TR-325K-19",
-    "latitude": "-2,5641167",
-    "longitude": "-44,3788878",
-    "descricao": "SUBSTITUIR SUPORTE DO SUBVELOCIDADE 2509 (TR-325K-19)",
+    "numero": "202604441472 ",
+    "frente": "TR-325K-17",
+    "latitude": "-2,5627950",
+    "longitude": "-44,3789498",
+    "descricao": "ORGANIZAR CABOS, TAMPAS E BANDEJAMENTO 2517",
     "status": "Em andamento"
   }
           ]
@@ -119,123 +119,100 @@
       "recursos": [
         {
           "tipo": "munck",
-          "placa": "RBD-3I45",
-          "operador": "",
-          "status": "manutencao"
+          "placa": "RBB-1B72",
+          "operador": "José Carlos",
+          "status": "disponivel"
         },
           {
           "tipo": "Pick-up",
           "placa": "SFT-9J87",
-          "operador": "Domingos",
-          "telefone":"98 98518-9687",
+          "operador": "Rilgles",
+          "telefone":"",
           "status": "disponivel"
         }
       ],
 
       "atividades": [
         {
-          "lider": "josé Maria",
+          "lider": "José Maria",
           "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
-       "oms": [
-  {
-    "numero": "202603943423",
-    "frente": "",
-    "status": "Em andamento",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "MP ELETROMECANICA ELEVADOR EL 3000KP 02"
+          "oms": [
+
+             {
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202601461070",
+    "descricao": "BO-38 ESTRUTURA/ DUTO APRESENTA CORROSÃO",
+    "status":"Em andamento"
   },
   {
-    "numero": "202603943422",
-    "frente": "",
-    "status": "Em andamento",
-     "latitude": "",
-    "longitude": "",
-    "descricao": "MP ELETROMECANICA ELEVADOR TE-314K_206"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202602427953",
+    "descricao": "BO-39 Desmontar insuflador p/ as biltar",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604224508",
-    "frente": "TR-313K-05",
-    "status": "Em andamento",
-     "latitude": "-2,5650333",
-    "longitude": "-44,3547966",
-    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1305"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202603592306",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR2506",
+    "status":"Em andamento"
   },
   {
-    "numero": "202603943349",
-    "frente": "TR-326K-04",
-    "status": "Em andamento",
-     "latitude": "-2,5546130",
-    "longitude": "-44,3791279",
-    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR2604"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202603592344",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR2509",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604250102",
-    "frente": "TR-313K-17",
-    "status": "Em andamento",
-     "latitude": "-2,5631251",
-    "longitude": "-44,3459168",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1317"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202604246313",
+    "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC TR2517",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604251877",
-    "frente": "TR-313K-17",
-    "status": "Em andamento",
-     "latitude": "-2,5631251",
-    "longitude": "-44,3459168",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1317"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202604246300",
+    "descricao": "MCM-MPV UTL 16S GUINCHO CONT/PESO TR2517",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604249912",
-    "frente": "TR-311K-03",
-    "status": "Em andamento",
-     "latitude": "-2,5658889",
-    "longitude": "-44,3459062",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1103"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202603320935",
+    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1319",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604251872",
-    "frente": "TR-311K-03",
-    "status": "Em andamento",
-     "latitude": "-2,5658889",
-    "longitude": "-44,3459062",
-    "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1103"
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202603698708",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1359",
+    "status":"Em andamento"
   },
   {
-    "numero": "202401507340",
-    "frente": "",
-    "status": "Em andamento",
-     "latitude": "",
-    "longitude": "",
-    "descricao": "GC 1304: PROTEÇÃO AVARIADA DO GUINCHO"
-  },
-  {
-    "numero": "202604246300",
-    "frente": "TR-325K-17",
-    "status": "Em andamento",
-     "latitude": "-2,5627950",
-    "longitude": "-44,3789498",
-    "descricao": "MCM-MPV UTL 16S GUINCHO CONTRAPESO TR2517"
-  },
-  {
-    "numero": "202604246313",
-    "frente": "TR-325K-17",
-    "status": "Em andamento",
-    "latitude": "-2,5627950",
-    "longitude": "-44,3789498",
-    "descricao": "MCM-TST ELE 16S MEC GUINCHO ESTINCR 2517"
-  },
-  {
-    "numero": "202604488147",
-    "frente": "EX-313K-03",
-    "status": "Em andamento",
-     "latitude": "-2,5664518",
-    "longitude": "-44,3586399",
-    "descricao": "EX1303- INSTALAR MANGOTES DE LUB."
+    "frente":"",
+    "latitude":"",
+    "longitude":"",
+    "om": "202603094766",
+    "descricao": "AÇÃO DE SEGURANÇA RAC 05",
+    "status":"Em andamento"
   }
-]
+          ]
 }
       ]
     }
