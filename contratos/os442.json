@@ -157,49 +157,49 @@
     "status":"Em andamento"
   },
   {
-    "frente":"",
-    "latitude":"",
-    "longitude":"",
+    "frente":"TR-325K-06",
+    "latitude":"-2,5643222",
+    "longitude":"-44,3773955",
     "om": "202603592306",
     "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR2506",
     "status":"Em andamento"
   },
   {
-    "frente":"",
-    "latitude":"",
-    "longitude":"",
+    "frente":"TR-325K-09",
+    "latitude":"-2,5633007",
+    "longitude":"-44,3790054",
     "om": "202603592344",
     "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR2509",
     "status":"Em andamento"
   },
   {
-    "frente":"",
-    "latitude":"",
-    "longitude":"",
+    "frente":"TR-325K-17",
+    "latitude":"-2,5627950",
+    "longitude":"-44,3789498",
     "om": "202604246313",
     "descricao": "MCM-TST ELE 16S MEG GUINCHO ESTIC TR2517",
     "status":"Em andamento"
   },
   {
-    "frente":"",
-    "latitude":"",
-    "longitude":"",
+    "frente":"TR-325K-17",
+    "latitude":"-2,5627950",
+    "longitude":"-44,3789498",
     "om": "202604246300",
     "descricao": "MCM-MPV UTL 16S GUINCHO CONT/PESO TR2517",
     "status":"Em andamento"
   },
   {
-    "frente":"",
-    "latitude":"",
-    "longitude":"",
+    "frente":"TR-313K-19",
+    "latitude":"-2,5628856",
+    "longitude":"-44,3465991",
     "om": "202603320935",
     "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1319",
     "status":"Em andamento"
   },
   {
-    "frente":"",
-    "latitude":"",
-    "longitude":"",
+    "frente":"TR-313K-59",
+    "latitude":"-2,5634191",
+    "longitude":"-44,3457215",
     "om": "202603698708",
     "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1359",
     "status":"Em andamento"
