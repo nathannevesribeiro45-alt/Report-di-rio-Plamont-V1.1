@@ -63,20 +63,12 @@
           "contato":"",
           "status": "disponivel"
         },
-
-          {
-          "tipo": "Munck",
-          "placa": "RBB-1B72",
-          "operador": "José Carlos",
-          "contato":"",
-          "status": "disponivel"
-        },
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
           "operador":"Gleydson",
           "contato":"",
-          "status": "disponivel"
+          "status": "preventiva"
         },
        
         {
