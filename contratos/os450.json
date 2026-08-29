@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "28/08/2026",
+  "data": "29/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -59,10 +59,10 @@
         },
         {
           "tipo": "Munck",
-          "placa": "QRI-8D21",
-          "operador": "Euclides",
-          "contato":"",
-          "status": "manutencao"
+          "placa": "ROV-7A11",
+          "operador": "Fernando",
+          "contato":"98 98406-7236",
+          "status": "disponivel"
         },
         {
           "tipo": "Munck",
