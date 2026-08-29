@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "27/08/2026",
+  "data": "29/08/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,17 +10,17 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 7,
+          "Caldeireiro": 3,
+          "Mecanico": 6,
           "Soldador": 3,
-          "Eletricista": 3,
+          "Eletricista": 2,
           "Montador": 10   
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
           "Mestre Montagem": 2,
-          "Mestre Andaime": 0
+          "Mestre Andaime": 1
         }
       },
       "histograma": {
@@ -81,14 +81,14 @@
          {
           "tipo": "Pick-up",
           "placa": "QRJ-2G50",
-          "operador": "Paulo",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A29",
-          "operador": "Janice",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
@@ -96,7 +96,7 @@
           {
           "tipo": "Pick-up",
           "placa": "SFU-0A01",
-          "operador": "Genillon",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
@@ -104,14 +104,14 @@
          {
           "tipo": "Guindaste",
           "placa": "NXK-0961",
-          "operador": "Alyson",
+          "operador": "Jardson",
           "contato": "",
           "status":"Disponivel"
         },
          {
           "tipo": "Guindaste",
           "placa": "QRE-5I29",
-          "operador": "Samuel",
+          "operador": "Francisco",
           "contato": "",
           "status":"Disponivel"
         },
@@ -126,24 +126,6 @@
        
       ],
       "atividades": [
-        {
-        "lider":"Raimundo Nonato (Cobre/Extra)",
-        "telefone":"98 8498-9295",
-        "equipe":"4 mecânicos + 1 soldadores + 2 caldereiros + 2 eletricista",
-        "oms":[
-          {
-            "frente":"TR-313K-03",
-            "latitude":"-2,5664276",
-            "longitude":"-44,3551435",
-            "numero":"202603970891",
-            "descricao":"ALINHAR/NIVELAR MESAS CARGA (TR-313K-03)",
-            "arquivoPdf":"om's/contrato 440 oms/Integridade/TR1303 OM  202603970891 ALINHARNIVELAR MESAS CARGA.pdf",
-            "status":"Em andamento"
-          }
-
-          ]
-
-        },
            {  
         "lider":"Cleyton",
         "telefone":"98 93300-5461",
@@ -163,13 +145,33 @@
 
           ]
 
+        },
+
+        {
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"3 mecânicos + 1 caldeireiro + 1 soldador + 1 eletricista",
+        
+        "oms":[
+          {
+              "numero": "202604530078",
+              "frente":"RP-04",
+              "latitude":"-2,5614274",
+              "longitude":"-44,3549536",
+              "descricao":"RECUPERAR ESTRUTURAL DA LONGARINA DA LAN (RP-04)",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/longarina rp04.pdf",
+              "status":"Em andamento"
+            }
+          ]
         }
      
       ]
       ,
       
       "nome":"Integridade",
-      "observacoes": []
+      "observacoes": [
+        "A atividade da RP-04 está prevista para começar ainda neste turno."
+      ]
      
     },
     
@@ -179,18 +181,17 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 12,
-          "Soldador": 6,
-          "Montador": 20,
-          "Eletricista": 3,
-          "Ajudante de mont.":2,
+          "Mecanico": 9,
+          "Soldador": 5,
+          "Montador": 0,
+          "Eletricista": 1,
           "Ajudante de elétrica":1
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 2
+          "Mestre Montagem": 2,
+          "Mestre Andaime": 0
         }
       },
       "histograma": {
@@ -209,11 +210,7 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {
-        "Caldeireiro": 1,
-        "Ajudante de mont": 1,
-        "justificadas":2
-      },
+      "ausencias": {},
       "mobilizacao": {},
       "recursos": [
         {
@@ -227,9 +224,9 @@
   
 
         {
-          "lider":"Rogério",
+          "lider":"Augusto Campos",
           "telefone":"98 9965-3798",
-          "equipe":"3 mecânicos + 1 caldeireiro + 1 soldador + 1 eletricista",
+          "equipe":"5 mecânicos + 2 caldeireiro + 3 soldador + 1 ajudante de eletricista",
         
         "oms":[
           {
@@ -268,25 +265,6 @@
               "longitude":"",
               "descricao":"SUBS.PAR.EIX03.FILA B E C EL.9300",
               "status":"Planejada"
-            }
-          ]
-        },
-
-         {
-          "lider":"Augusto Campos",
-          "telefone":"98 8508-9007",
-          "equipe":"5 mecânicos + 3 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de eletri.",
-        "oms":[
-          {
-              "numero": "202604439371",
-              "frente":"CT-07",
-              "latitude":"-2,5586479",
-              "longitude":"-44,3790518",
-              "descricao":"REAL. REFORÇO LIGAÇÕES EL16750 EIXO 1 - TR-325K-07 ( CT07) ",
-              "arquivoPdf":"",
-              "arquivoLaudo":"",
-              "status":"Em andamento"
-          
             }
           ]
         },
@@ -433,7 +411,7 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Edeilson",
+          "lider": "Ronielisson",
           "telefone": "98 8498-4952",
           "tecnicoSeguranca": "",
           "equipe": "08 mecânicos + 01 eletricista",
@@ -444,16 +422,6 @@
               "descricao":"TROCARREPOR TELHA DA CT DO TR 315K-05 (TR-315K-05)",
               "latitude":"-2,5646256",
               "longitude":"-44,3744126",
-              "arquivoPdf":"",
-              "arquivoLaudo":"",
-              "status":"Em andamento"
-          },
-          {
-              "frente":"TR-315K-05",
-              "numero":"202204196257",
-              "descricao":"RETIRAR TELHA COM RISCO DE QUEDA TR15-05 (TR-315K-05)",
-              "latitude":"-2,5646077",
-              "longitude":"-44,3744537",
               "arquivoPdf":"",
               "arquivoLaudo":"",
               "status":"Em andamento"
