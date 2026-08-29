@@ -10,12 +10,12 @@
       "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
+          "Caldeireiro": 5,
           "Mecanico": 12,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 8,
-          "Ajudante de mont.": 1,
+          "Ajudante de mont.": 2,
           "Pintor": 0
         },
         "indireto": {
@@ -43,10 +43,7 @@
           "Mestre Andaime": 2
         }
       },
-      "ausencias": {
-        "Caldeireiro": 1,
-        "Ajudante de mont.": 1
-      },
+      "ausencias": {},
       "mobilizacao": {},
 
       "recursos": [
