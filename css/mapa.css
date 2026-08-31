@@ -480,6 +480,148 @@
 
 }
 
+/* ==========================================================
+   LÍDERES DA FRENTE — CARROSSEL/SLIDER
+   Um marcador = uma frente = N líderes.
+   Cada líder ocupa um slide próprio; nome, telefone,
+   equipe e OMs nunca se misturam entre líderes.
+   ========================================================== */
+
+.mapa-painel-secao-lideres{
+    padding-bottom:6px;
+}
+
+.mapa-painel-lideres-titulo{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+}
+
+.mapa-painel-lideres-contador{
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:0;
+    text-transform:none;
+    color:var(--text-light);
+    background:var(--background);
+    border-radius:20px;
+    padding:2px 9px;
+    flex-shrink:0;
+}
+
+.mapa-painel-carrossel-wrap{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.mapa-painel-carrossel-wrap.unico{
+    gap:0;
+}
+
+/* Área que rola — cada slide ocupa 100% da largura
+   do card, então nunca fica comprimido nem mostra
+   dois líderes lado a lado. */
+.mapa-painel-carrossel{
+    flex:1;
+    min-width:0;
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling:touch;
+
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+}
+
+.mapa-painel-carrossel::-webkit-scrollbar{
+    display:none;
+}
+
+.mapa-painel-carrossel-track{
+    display:flex;
+}
+
+.mapa-painel-lider-slide{
+    flex:0 0 100%;
+    width:100%;
+    min-width:0;
+    box-sizing:border-box;
+
+    scroll-snap-align:start;
+    scroll-snap-stop:always;
+}
+
+/* Espaçamento entre os blocos (equipe / OMs)
+   dentro do slide de um mesmo líder. */
+.mapa-painel-lider-bloco{
+    margin-top:14px;
+    padding-top:14px;
+    border-top:1px dashed #E3E8EE;
+}
+
+/* Setas de navegação (desktop) */
+.mapa-painel-seta{
+
+    flex-shrink:0;
+
+    width:28px;
+    height:28px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+    border-radius:50%;
+
+    background:var(--background);
+    color:var(--text);
+
+    font-size:18px;
+    line-height:1;
+    cursor:pointer;
+
+    transition:background var(--transition), color var(--transition);
+
+}
+
+.mapa-painel-seta:hover{
+    background:var(--primary);
+    color:#fff;
+}
+
+/* Indicadores discretos (● ○) */
+.mapa-painel-dots{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+
+    margin-top:10px;
+}
+
+.mapa-painel-dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+
+    background:#D6DEE7;
+    cursor:pointer;
+
+    transition:background var(--transition), width var(--transition);
+}
+
+.mapa-painel-dot.ativo{
+    width:16px;
+    border-radius:4px;
+    background:var(--primary);
+}
+
 /* Líder responsável */
 
 .mapa-painel-lider-nome{

@@ -361,10 +361,13 @@ const Mapa = {
     // Constrói a lista de marcadores a partir do JSON
     // do contrato.
     //
-    // A entidade espacial do mapa passou a ser a FRENTE
-    // (propriedade "frente" da OM), não mais a OM isolada.
-    // Todas as OMs de um mesmo líder que compartilham a
-    // mesma frente são agrupadas em um único marcador.
+    // A entidade espacial do mapa é a FRENTE (propriedade
+    // "frente" da OM) dentro de cada aba — não mais a
+    // combinação líder+frente. Uma frente com vários líderes
+    // trabalhando nela gera um ÚNICO marcador, que carrega a
+    // lista de todos os líderes daquela frente (dado.lideres).
+    // Cada líder mantém, dentro do marcador, apenas as suas
+    // próprias OMs — elas nunca são misturadas entre líderes.
     //
     // A localização do marcador ainda vem exclusivamente
     // de uma OM real (a primeira do grupo que tiver
@@ -385,7 +388,7 @@ const Mapa = {
                 (lider.oms || []).forEach(om => {
 
                     const frente = om.frente || "Sem frente";
-                    const chave = `${aba.id}::${lider.lider}::${frente}`;
+                    const chave = `${aba.id}::${frente}`;
 
                     if (!grupos.has(chave)) {
 
@@ -393,9 +396,9 @@ const Mapa = {
                             id: chave,
                             contrato,
                             aba,
-                            lider,
                             frente,
                             oms: [],
+                            lideresMap: new Map(),
                             lat: null,
                             lng: null
                         });
@@ -404,6 +407,21 @@ const Mapa = {
 
                     const grupo = grupos.get(chave);
                     grupo.oms.push(om);
+
+                    // Cada líder aparece uma única vez dentro da
+                    // frente, com a lista das OMs que são dele.
+                    if (!grupo.lideresMap.has(lider.lider)) {
+
+                        grupo.lideresMap.set(lider.lider, {
+                            lider: lider.lider,
+                            telefone: lider.telefone,
+                            equipe: lider.equipe,
+                            oms: []
+                        });
+
+                    }
+
+                    grupo.lideresMap.get(lider.lider).oms.push(om);
 
                     // A primeira OM do grupo com coordenada válida
                     // define a posição do marcador da frente.
@@ -432,6 +450,8 @@ const Mapa = {
             // Frente sem nenhuma coordenada conhecida: não renderiza.
             if (grupo.lat === null || grupo.lng === null) return;
 
+            // O status do marcador considera as OMs de TODOS os
+            // líderes da frente — continua sendo único por frente.
             const statusDasOms = grupo.oms.map(om => normalizarStatusOM(om.status));
 
             marcadores.push({
@@ -447,8 +467,8 @@ const Mapa = {
                 // o que o painel precisa para se renderizar.
                 contrato: grupo.contrato,
                 aba: grupo.aba,
-                lider: grupo.lider,
                 frente: grupo.frente,
+                lideres: Array.from(grupo.lideresMap.values()),
                 oms: grupo.oms
 
             });
