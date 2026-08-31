@@ -520,11 +520,16 @@ const Mapa = {
         this.marcadorSelecionado = dado.id;
 
         conteudo.innerHTML = MapaPainel.render(
-    dado,
-    this.statusConfig
-);
+            dado,
+            this.statusConfig
+        );
 
         painel.classList.add("aberto");
+
+        // As fotos são persistidas no IndexedDB. A renderização do painel
+        // continua síncrona, e a galeria é hidratada assim que os blobs
+        // persistidos terminam de ser carregados.
+        MapaPainel.hidratarFotos(conteudo);
 
     },
 

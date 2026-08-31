@@ -13,10 +13,13 @@
 
 const MapaPainel = {
 
-    // Fotos capturadas durante a sessão atual.
-    // Nesta primeira validação elas ficam somente em memória do navegador;
-    // o armazenamento permanente será definido posteriormente.
+    // Fotos carregadas para a sessão atual.
+    // Os arquivos são persistidos no IndexedDB do próprio navegador,
+    // permitindo que continuem disponíveis depois de fechar/reabrir o site
+    // no mesmo dispositivo/origem.
     fotosCapturadas: new Map(),
+    bancoFotos: null,
+    LIMITE_FOTOS_POR_OM: 5,
 
     render(dado, statusConfig) {
 
@@ -165,7 +168,7 @@ const MapaPainel = {
                                 const statusOm = normalizarStatusOM(om.status);
                                 const cfgOm = statusConfig[statusOm];
                                 return `
-                                    <div class="mapa-painel-atividade" data-fotos-om="${this.chaveFoto(om)}">
+                                    <div class="mapa-painel-atividade" data-fotos-om="${this.chaveFoto(om, lider)}">
                                         <span class="mapa-painel-atividade-dot ${cfgOm.classe}"></span>
                                         <div class="mapa-painel-atividade-texto">
                                             <div class="mapa-painel-atividade-numero">OM ${om.numero || "—"}</div>
@@ -175,11 +178,11 @@ const MapaPainel = {
                                                 <button type="button" class="mapa-painel-btn-foto" onclick="MapaPainel.abrirCamera(this)" title="Tirar foto desta atividade">
                                                     <span aria-hidden="true">📷</span> Tirar foto
                                                 </button>
-                                                <input class="mapa-painel-input-foto" type="file" accept="image/*" capture="environment" data-chave-foto="${this.chaveFoto(om)}" onchange="MapaPainel.receberFoto(this)" aria-label="Tirar foto da OM ${om.numero || ""}">
+                                                <input class="mapa-painel-input-foto" type="file" accept="image/*" capture="environment" data-chave-foto="${this.chaveFoto(om, lider)}" onchange="MapaPainel.receberFoto(this)" aria-label="Tirar foto da OM ${om.numero || ""}">
                                             </div>
 
-                                            <div class="mapa-painel-fotos" data-galeria-fotos="${this.chaveFoto(om)}">
-                                                ${this.renderFotos(om)}
+                                            <div class="mapa-painel-fotos" data-galeria-fotos="${this.chaveFoto(om, lider)}">
+                                                ${this.renderFotos(om, lider)}
                                             </div>
                                         </div>
                                     </div>
@@ -336,15 +339,163 @@ const MapaPainel = {
     // ======================================
     // Câmera / fotos das atividades
     //
-    // A primeira versão usa o seletor de arquivos nativo do navegador
-    // com capture="environment". Em celulares compatíveis, isso abre
-    // diretamente a câmera traseira. A foto fica em memória apenas para
-    // validar a experiência; nenhum upload/armazenamento permanente é feito.
+    // As fotos são persistidas no IndexedDB do navegador. Isso mantém as
+    // imagens disponíveis após recarregar/fechar o site no mesmo dispositivo.
+    // O limite atual é de 5 fotos por OM/líder.
     // ======================================
-    chaveFoto(om) {
+    async abrirBancoFotos() {
+
+        if (this.bancoFotos) return this.bancoFotos;
+
+        if (!window.indexedDB) {
+            throw new Error("O navegador não oferece IndexedDB.");
+        }
+
+        this.bancoFotos = new Promise((resolve, reject) => {
+
+            const request = indexedDB.open("ReportDiarioPlamont", 1);
+
+            request.onupgradeneeded = () => {
+
+                const db = request.result;
+
+                if (!db.objectStoreNames.contains("fotos")) {
+                    const store = db.createObjectStore("fotos", { keyPath: "id", autoIncrement: true });
+                    store.createIndex("chave", "chave", { unique: false });
+                }
+
+            };
+
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error || new Error("Não foi possível abrir o armazenamento das fotos."));
+
+        });
+
+        return this.bancoFotos;
+
+    },
+
+    chaveFoto(om, lider = null) {
 
         const numero = String(om?.numero || "sem-om");
-        return numero;
+        const nomeLider = String(lider?.lider || "sem-lider");
+
+        // O líder faz parte da chave para evitar misturar fotos quando dois
+        // líderes possuem a mesma OM na mesma frente.
+        return `${nomeLider}::${numero}`;
+
+    },
+
+    async hidratarFotos(container) {
+
+        try {
+
+            const atividades = container?.querySelectorAll("[data-fotos-om]") || [];
+            const chaves = [...new Set([...atividades].map(item => item.dataset.fotosOm).filter(Boolean))];
+
+            if (!chaves.length) return;
+
+            const db = await this.abrirBancoFotos();
+
+            await Promise.all(chaves.map(async chave => {
+
+                const registros = await this.buscarFotosBanco(db, chave);
+                const fotos = registros.map(registro => ({
+                    id: registro.id,
+                    arquivo: registro.blob,
+                    url: URL.createObjectURL(registro.blob),
+                    nome: registro.nome || `foto-${registro.id}.jpg`,
+                    criadaEm: registro.criadaEm
+                }));
+
+                this.liberarUrlsDaChave(chave);
+                this.fotosCapturadas.set(chave, fotos);
+
+            }));
+
+            atividades.forEach(atividade => {
+                const chave = atividade.dataset.fotosOm;
+                const galeria = atividade.querySelector("[data-galeria-fotos]");
+                const botao = atividade.querySelector(".mapa-painel-btn-foto");
+
+                if (galeria) galeria.innerHTML = this.renderFotosPorChave(chave);
+                this.atualizarBotaoFoto(botao, chave);
+            });
+
+        } catch (erro) {
+            console.error("Erro ao carregar fotos persistidas:", erro);
+        }
+
+    },
+
+    buscarFotosBanco(db, chave) {
+
+        return new Promise((resolve, reject) => {
+
+            const transacao = db.transaction("fotos", "readonly");
+            const index = transacao.objectStore("fotos").index("chave");
+            const request = index.getAll(IDBKeyRange.only(chave));
+
+            request.onsuccess = () => resolve(request.result.sort((a, b) => a.criadaEm - b.criadaEm));
+            request.onerror = () => reject(request.error);
+
+        });
+
+    },
+
+    salvarFotoBanco(db, registro) {
+
+        return new Promise((resolve, reject) => {
+
+            const transacao = db.transaction("fotos", "readwrite");
+            const request = transacao.objectStore("fotos").add(registro);
+
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error);
+
+        });
+
+    },
+
+    apagarFotoBanco(db, id) {
+
+        return new Promise((resolve, reject) => {
+
+            const transacao = db.transaction("fotos", "readwrite");
+            const request = transacao.objectStore("fotos").delete(id);
+
+            request.onsuccess = () => resolve();
+            request.onerror = () => reject(request.error);
+
+        });
+
+    },
+
+    liberarUrlsDaChave(chave) {
+
+        const fotos = this.fotosCapturadas.get(chave) || [];
+        fotos.forEach(foto => {
+            if (foto.url) URL.revokeObjectURL(foto.url);
+        });
+
+    },
+
+    atualizarBotaoFoto(botao, chave) {
+
+        if (!botao) return;
+
+        const quantidade = (this.fotosCapturadas.get(chave) || []).length;
+        const limite = this.LIMITE_FOTOS_POR_OM;
+        const atingiuLimite = quantidade >= limite;
+
+        botao.disabled = atingiuLimite;
+        botao.classList.toggle("limite", atingiuLimite);
+        botao.innerHTML = atingiuLimite
+            ? `<span aria-hidden="true">✓</span> Limite atingido (${limite}/${limite})`
+            : `<span aria-hidden="true">📷</span> Tirar foto (${quantidade}/${limite})`;
+        botao.title = atingiuLimite
+            ? `Limite de ${limite} fotos atingido para esta atividade`
+            : "Tirar foto desta atividade";
 
     },
 
@@ -355,12 +506,20 @@ const MapaPainel = {
 
         if (!input) return;
 
+        const chave = input.dataset.chaveFoto;
+        const quantidade = (this.fotosCapturadas.get(chave) || []).length;
+
+        if (quantidade >= this.LIMITE_FOTOS_POR_OM) {
+            alert(`Esta atividade já possui o limite de ${this.LIMITE_FOTOS_POR_OM} fotos.`);
+            return;
+        }
+
         input.value = "";
         input.click();
 
     },
 
-    receberFoto(input) {
+    async receberFoto(input) {
 
         const arquivo = input?.files?.[0];
         const chave = input?.dataset?.chaveFoto;
@@ -374,28 +533,97 @@ const MapaPainel = {
         }
 
         const fotos = this.fotosCapturadas.get(chave) || [];
-        const url = URL.createObjectURL(arquivo);
 
-        fotos.push({
-            arquivo,
-            url,
-            nome: arquivo.name || `foto-${Date.now()}.jpg`
-        });
-
-        this.fotosCapturadas.set(chave, fotos);
-
-        const galeria = input.closest(".mapa-painel-atividade")?.querySelector("[data-galeria-fotos]");
-        if (galeria) {
-            galeria.innerHTML = this.renderFotosPorChave(chave);
+        if (fotos.length >= this.LIMITE_FOTOS_POR_OM) {
+            alert(`Esta atividade já possui o limite de ${this.LIMITE_FOTOS_POR_OM} fotos.`);
+            input.value = "";
+            return;
         }
 
-        input.value = "";
+        try {
+
+            const imagem = await this.prepararImagem(arquivo);
+            const db = await this.abrirBancoFotos();
+            const registro = {
+                chave,
+                blob: imagem,
+                nome: arquivo.name || `foto-${Date.now()}.jpg`,
+                criadaEm: Date.now()
+            };
+
+            const id = await this.salvarFotoBanco(db, registro);
+            const foto = {
+                id,
+                arquivo: imagem,
+                url: URL.createObjectURL(imagem),
+                nome: registro.nome,
+                criadaEm: registro.criadaEm
+            };
+
+            fotos.push(foto);
+            this.fotosCapturadas.set(chave, fotos);
+
+            const galeria = input.closest(".mapa-painel-atividade")?.querySelector("[data-galeria-fotos]");
+            const botao = input.closest(".mapa-painel-atividade")?.querySelector(".mapa-painel-btn-foto");
+
+            if (galeria) galeria.innerHTML = this.renderFotosPorChave(chave);
+            this.atualizarBotaoFoto(botao, chave);
+
+        } catch (erro) {
+            console.error("Erro ao salvar foto:", erro);
+            alert("Não foi possível salvar a foto. Tente novamente.");
+        } finally {
+            input.value = "";
+        }
 
     },
 
-    renderFotos(om) {
+    prepararImagem(arquivo) {
 
-        return this.renderFotosPorChave(this.chaveFoto(om));
+        return new Promise((resolve, reject) => {
+
+            const leitor = new FileReader();
+
+            leitor.onload = () => {
+
+                const imagem = new Image();
+
+                imagem.onload = () => {
+
+                    const maximo = 1600;
+                    const escala = Math.min(1, maximo / Math.max(imagem.width, imagem.height));
+                    const largura = Math.max(1, Math.round(imagem.width * escala));
+                    const altura = Math.max(1, Math.round(imagem.height * escala));
+                    const canvas = document.createElement("canvas");
+
+                    canvas.width = largura;
+                    canvas.height = altura;
+
+                    const contexto = canvas.getContext("2d");
+                    contexto.drawImage(imagem, 0, 0, largura, altura);
+
+                    canvas.toBlob(blob => {
+                        if (blob) resolve(blob);
+                        else reject(new Error("Não foi possível preparar a imagem."));
+                    }, "image/jpeg", 0.82);
+
+                };
+
+                imagem.onerror = () => reject(new Error("Não foi possível ler a imagem."));
+                imagem.src = leitor.result;
+
+            };
+
+            leitor.onerror = () => reject(leitor.error || new Error("Falha ao ler a foto."));
+            leitor.readAsDataURL(arquivo);
+
+        });
+
+    },
+
+    renderFotos(om, lider = null) {
+
+        return this.renderFotosPorChave(this.chaveFoto(om, lider));
 
     },
 
@@ -406,8 +634,9 @@ const MapaPainel = {
         if (!fotos.length) return "";
 
         return fotos.map((foto, indice) => `
-            <button type="button" class="mapa-painel-foto-thumb" onclick="MapaPainel.visualizarFoto('${chave}', ${indice})" title="Visualizar foto ${indice + 1}">
+            <button type="button" class="mapa-painel-foto-thumb" onclick="MapaPainel.visualizarFoto('${chave.replace(/'/g, "\\'")}', ${indice})" title="Visualizar foto ${indice + 1}">
                 <img src="${foto.url}" alt="Foto ${indice + 1} da atividade">
+                <span class="mapa-painel-foto-thumb-numero">${indice + 1}</span>
             </button>
         `).join("");
 
@@ -424,13 +653,52 @@ const MapaPainel = {
         overlay.className = "mapa-painel-foto-overlay";
         overlay.innerHTML = `
             <button type="button" class="mapa-painel-foto-fechar" aria-label="Fechar foto">✕</button>
-            <img src="${foto.url}" alt="Foto da atividade">
+            <div class="mapa-painel-foto-modal">
+                <img src="${foto.url}" alt="Foto da atividade">
+                <div class="mapa-painel-foto-modal-acoes">
+                    <span>Foto ${indice + 1} de ${fotos.length}</span>
+                    <button type="button" class="mapa-painel-foto-apagar">🗑️ Apagar foto</button>
+                </div>
+            </div>
         `;
 
         const fechar = () => overlay.remove();
         overlay.querySelector(".mapa-painel-foto-fechar").addEventListener("click", fechar);
-        overlay.addEventListener("click", (evento) => {
+        overlay.addEventListener("click", evento => {
             if (evento.target === overlay) fechar();
+        });
+
+        overlay.querySelector(".mapa-painel-foto-apagar").addEventListener("click", async () => {
+
+            if (!confirm("Apagar esta foto? Essa ação não poderá ser desfeita.")) return;
+
+            try {
+
+                const db = await this.abrirBancoFotos();
+
+                if (foto.id !== undefined) {
+                    await this.apagarFotoBanco(db, foto.id);
+                }
+
+                if (foto.url) URL.revokeObjectURL(foto.url);
+
+                fotos.splice(indice, 1);
+                this.fotosCapturadas.set(chave, fotos);
+
+                document.querySelectorAll(`[data-fotos-om="${CSS.escape(chave)}"]`).forEach(atividade => {
+                    const galeria = atividade.querySelector("[data-galeria-fotos]");
+                    const botao = atividade.querySelector(".mapa-painel-btn-foto");
+                    if (galeria) galeria.innerHTML = this.renderFotosPorChave(chave);
+                    this.atualizarBotaoFoto(botao, chave);
+                });
+
+                fechar();
+
+            } catch (erro) {
+                console.error("Erro ao apagar foto:", erro);
+                alert("Não foi possível apagar a foto. Tente novamente.");
+            }
+
         });
 
         document.body.appendChild(overlay);
