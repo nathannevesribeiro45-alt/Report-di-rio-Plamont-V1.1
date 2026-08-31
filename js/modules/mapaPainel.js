@@ -13,6 +13,11 @@
 
 const MapaPainel = {
 
+    // Fotos capturadas durante a sessão atual.
+    // Nesta primeira validação elas ficam somente em memória do navegador;
+    // o armazenamento permanente será definido posteriormente.
+    fotosCapturadas: new Map(),
+
     render(dado, statusConfig) {
 
         const cfg = statusConfig[dado.status];
@@ -160,11 +165,22 @@ const MapaPainel = {
                                 const statusOm = normalizarStatusOM(om.status);
                                 const cfgOm = statusConfig[statusOm];
                                 return `
-                                    <div class="mapa-painel-atividade">
+                                    <div class="mapa-painel-atividade" data-fotos-om="${this.chaveFoto(om)}">
                                         <span class="mapa-painel-atividade-dot ${cfgOm.classe}"></span>
                                         <div class="mapa-painel-atividade-texto">
                                             <div class="mapa-painel-atividade-numero">OM ${om.numero || "—"}</div>
                                             <div class="mapa-painel-atividade-descricao">${om.descricao || ""}</div>
+
+                                            <div class="mapa-painel-foto-acoes">
+                                                <button type="button" class="mapa-painel-btn-foto" onclick="MapaPainel.abrirCamera(this)" title="Tirar foto desta atividade">
+                                                    <span aria-hidden="true">📷</span> Tirar foto
+                                                </button>
+                                                <input class="mapa-painel-input-foto" type="file" accept="image/*" capture="environment" data-chave-foto="${this.chaveFoto(om)}" onchange="MapaPainel.receberFoto(this)" aria-label="Tirar foto da OM ${om.numero || ""}">
+                                            </div>
+
+                                            <div class="mapa-painel-fotos" data-galeria-fotos="${this.chaveFoto(om)}">
+                                                ${this.renderFotos(om)}
+                                            </div>
                                         </div>
                                     </div>
                                 `;
@@ -314,6 +330,110 @@ const MapaPainel = {
                 `}
             </div>
         `;
+
+    },
+
+    // ======================================
+    // Câmera / fotos das atividades
+    //
+    // A primeira versão usa o seletor de arquivos nativo do navegador
+    // com capture="environment". Em celulares compatíveis, isso abre
+    // diretamente a câmera traseira. A foto fica em memória apenas para
+    // validar a experiência; nenhum upload/armazenamento permanente é feito.
+    // ======================================
+    chaveFoto(om) {
+
+        const numero = String(om?.numero || "sem-om");
+        return numero;
+
+    },
+
+    abrirCamera(botao) {
+
+        const atividade = botao.closest(".mapa-painel-atividade");
+        const input = atividade?.querySelector(".mapa-painel-input-foto");
+
+        if (!input) return;
+
+        input.value = "";
+        input.click();
+
+    },
+
+    receberFoto(input) {
+
+        const arquivo = input?.files?.[0];
+        const chave = input?.dataset?.chaveFoto;
+
+        if (!arquivo || !chave) return;
+
+        if (!arquivo.type.startsWith("image/")) {
+            alert("Selecione uma imagem para anexar à atividade.");
+            input.value = "";
+            return;
+        }
+
+        const fotos = this.fotosCapturadas.get(chave) || [];
+        const url = URL.createObjectURL(arquivo);
+
+        fotos.push({
+            arquivo,
+            url,
+            nome: arquivo.name || `foto-${Date.now()}.jpg`
+        });
+
+        this.fotosCapturadas.set(chave, fotos);
+
+        const galeria = input.closest(".mapa-painel-atividade")?.querySelector("[data-galeria-fotos]");
+        if (galeria) {
+            galeria.innerHTML = this.renderFotosPorChave(chave);
+        }
+
+        input.value = "";
+
+    },
+
+    renderFotos(om) {
+
+        return this.renderFotosPorChave(this.chaveFoto(om));
+
+    },
+
+    renderFotosPorChave(chave) {
+
+        const fotos = this.fotosCapturadas.get(chave) || [];
+
+        if (!fotos.length) return "";
+
+        return fotos.map((foto, indice) => `
+            <button type="button" class="mapa-painel-foto-thumb" onclick="MapaPainel.visualizarFoto('${chave}', ${indice})" title="Visualizar foto ${indice + 1}">
+                <img src="${foto.url}" alt="Foto ${indice + 1} da atividade">
+            </button>
+        `).join("");
+
+    },
+
+    visualizarFoto(chave, indice) {
+
+        const fotos = this.fotosCapturadas.get(chave) || [];
+        const foto = fotos[indice];
+
+        if (!foto) return;
+
+        const overlay = document.createElement("div");
+        overlay.className = "mapa-painel-foto-overlay";
+        overlay.innerHTML = `
+            <button type="button" class="mapa-painel-foto-fechar" aria-label="Fechar foto">✕</button>
+            <img src="${foto.url}" alt="Foto da atividade">
+        `;
+
+        const fechar = () => overlay.remove();
+        overlay.querySelector(".mapa-painel-foto-fechar").addEventListener("click", fechar);
+        overlay.addEventListener("click", (evento) => {
+            if (evento.target === overlay) fechar();
+        });
+
+        document.body.appendChild(overlay);
 
     },
 
