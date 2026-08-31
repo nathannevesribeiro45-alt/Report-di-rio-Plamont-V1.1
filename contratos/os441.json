@@ -14,9 +14,9 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 11,
           "Soldador": 3,
-          "Montador": 9,
+          "Montador": 8,
           "Eletricista": 0,
           "Pintor": 0
         },
@@ -47,7 +47,8 @@
       },
 
       "ausencias": {
-     "Mecânico":2
+     "Mecânico":3,
+     "Montador de andaime":1
       },
 
       "mobilizacao": {
@@ -59,7 +60,7 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "Jhonatan",
+          "operador": "",
           "contato":"",
           "status": "disponivel"
         },
@@ -68,21 +69,21 @@
           "placa": "RQP-8G78",
           "operador":"",
           "contato":"",
-          "status": "preventiva"
+          "status": "Disponivel"
         },
        
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Anderson",
-          "contato":"",
+          "operador": "Hilgles",
+          "contato":"98 98537-4937",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": " SFT-9H25",
-          "operador": "Rafael",
-          "contato":"",
+          "operador": "Carlos",
+          "contato":"98 98124-4272",
           "status": "disponivel"
         }
       
@@ -90,17 +91,17 @@
 
       "atividades": [
         {
-          "lider": "Adilson",
-          "telefone": "98 98210-6618",
+        "lider": "Iego",
+          "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"RP-03",
-              "latitude":"-2,5650352",
-              "longitude":"-44,3487367",
-              "numero": " 202604302167",
-              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS RP-03",
+              "frente":"TR-314K-08",
+              "latitude":"-2,5656125",
+              "longitude":"-44,3757638",
+              "numero": " 202406210678",
+              "descricao": "TROCAR CHUTE DESC (TR-314K-08)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -108,54 +109,37 @@
           ]
         },
         {
-          "lider": "Fernando Maranhão",
-          "telefone": "",
+          "lider": "Alexandre",
+          "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 soldador + 1 caldeireiro + 2 Montadores",
           "oms": [
             
             {
-              "numero": "202603657905",
-              "frente":"TR-325K-17/TR-315K-07",
-              "latitude":"-2,5630375",
-              "longitude":"-44,3791164",
+              "numero": "202604533635",
+              "frente":"TR-313K-14",
+              "latitude":"-2,5656863",
+              "longitude":"-44,3455210",
               "arquivoPdf":"",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS (TR-325K-17/TR-315K-07)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202500520299 ",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
-              "arquivoPdf":"",
-              "descricao": "MONTAR/DESMONTAR ANDAIME ",
-              "status": "Em andamento"
-            },
-             {
-              "numero": "202500520285 ",
-              "frente":"TR-315K-04",
-              "latitude":"-2,5607764",
-              "longitude":"-44,3632393",
-              "arquivoPdf":"",
-              "descricao": "CHUTE_MP TR 1505 REC 1504 LADO DIR",
+              "descricao": "MP NA BANCADA/CHUTE TR-31106P/1314 (TR-313K-14)",
               "status": "Em andamento"
             }
+           
            
           ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Elias",
+          "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202604122604",
-              "frente":"",
-              "latitude":"",
-              "longitude":"",
-              "descricao":"PREPARAÇÃO DE MATERIAIS E FERRAMENTA E 5S",
+              "numero":"202502919106",
+              "frente":"TR-313K-65",
+              "latitude":"-2,5614936",
+              "longitude":"-44,3578603",
+              "descricao":"TROCAR 150 ROLOS DE CARGA NO TR-1365 (TR-313K-65) ",
               "status":"Em andamento"
           }
           ]
@@ -173,7 +157,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 3,
+          "Mecanico": 2,
           "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
@@ -202,109 +186,18 @@
         }
       },
       "ausencias": {
-        "Soldador":1 
+        "Mecânico":1 
       },
       "mobilizacao": {},
       "recursos": [],
 
       "atividades": [
         {
-          "lider": "Wanderson/Adeilton",
-          "telefone": "98 98508-8348/98 8882-2306",
+          "lider": "Julio/Erickson",
+          "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores",
-          "oms": [
-      {
-        "frente":"CN-05",
-        "latitude":"-2,5594112",
-        "longitude":"-44,3792181",
-        "om": "202505036548",
-        "descricao": "SEG_GC_TROC. TUBOS G.CORPOS ELEVAÇÃO CN5",
-        "status":"Em andamento"
-      },
-      {
-        "frente":"",
-        "latitude":"",
-        "longitude":"",
-        "om": "202506421632",
-        "descricao": "SEG_PS_TROCAR TELA PISO LADO DROMO",
-        "status":"Em andamento"
-      },
-      {
-       
-        "frente":"",
-        "latitude":"",
-        "longitude":"", 
-        "om": "202602759523",
-        "descricao": "SEG_PS_TROC T PISO PASS L/D CV-18",
-        "status":"Em andamento"
-      },
-      {
-         "frente":"",
-        "latitude":"",
-        "longitude":"",
-        "om": "202603377581",
-        "descricao": "SEG_GC_TROC VIG DE SUSTENTAÇÃO DAS TELAS",
-        "status":"Em andamento"
-      },
-      {
-         "frente":"CN-05",
-        "latitude":"-2,5594112",
-        "longitude":"-44,3792181",
-        "om": "202402769198",
-        "descricao": "SEG_CDI_TROC. DEGRAUS E. AC. INTERM CN05",
-        "status":"Em andamento"
-      },
-      {
-         "frente":"",
-        "latitude":"",
-        "longitude":"",
-        "om": "202402990383",
-        "descricao": "SEG_CDI:TROCAR 17 DEGRAUS ESCA ACESS ELE",
-        "status":"Em andamento"
-      },
-       {
-         "frente":"TR-315K-04",
-        "latitude":"-2,5641373",
-        "longitude":"-44,3775298",
-        "om": "202500984407",
-        "descricao": "SEG_PS:TROCAR CHAPA P. L/E CHUTE DESCARG",
-        "status":"Em andamento"
-      },
-      {
-        "frente":"TR-325K-16",
-        "latitude":"-2,5641373",
-        "longitude":"-44,3775298",
-        "om": "202504258620",
-        "descricao": "SEG_PS_TROC CHA DE PISO OXID NO TR-2516",
-        "status":"Em andamento"
-      },
-      {
-        "frente":"TR-325K-16",
-        "latitude":"-2,5641373",
-        "longitude":"-44,3775298",
-        "om": "202500225589",
-        "descricao": "SEG_CDI_TROCAR CHAPAS PISO NO TR-2516",
-        "status":"Em andamento"
-      },
-      {
-        "frente":"TR-325K-17",
-        "latitude":"-2,5627950",
-        "longitude":"-44,3789498",
-        "om": "202602930063",
-        "descricao": "SEG_PS_TROC CH PISO REGIÃO VIR CORREIA",
-        "status":"Em andamento"
-      },
-      {
-        "frente":"TR-325K-20",
-        "latitude":"-2,5646544",
-        "longitude":"-44,3765742",
-        "om": "202506376248",
-        "descricao": "SEG_PS_TROCAR CHAPA PRÓX CHUTE DESCARGA",
-        "status":"Em andamento"
-      }
-
-          ]
+          "equipe": "2 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "oms": []
 
         }
       ]
