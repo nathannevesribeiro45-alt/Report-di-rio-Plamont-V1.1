@@ -419,6 +419,9 @@ const Mapa = {
                             equipe: lider.equipe,
                             observacoes: lider.observacoes,
                             anexos: lider.anexos,
+                            contratoId: contrato.id,
+                            abaId: aba.id,
+                            frente,
                             oms: []
                         });
 

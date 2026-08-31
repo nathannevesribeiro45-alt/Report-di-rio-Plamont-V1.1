@@ -13,13 +13,16 @@
 
 const MapaPainel = {
 
-    // Fotos carregadas para a sessão atual.
-    // Os arquivos são persistidos no IndexedDB do próprio navegador,
-    // permitindo que continuem disponíveis depois de fechar/reabrir o site
-    // no mesmo dispositivo/origem.
+    // Fotos carregadas para a tela atual.
+    // O armazenamento compartilhado usa Supabase Storage quando configurado.
+    // IndexedDB permanece como fallback local até a configuração do projeto.
     fotosCapturadas: new Map(),
     bancoFotos: null,
     LIMITE_FOTOS_POR_OM: 5,
+
+    armazenamentoCompartilhadoAtivo() {
+        return typeof FotosStorage !== "undefined" && FotosStorage.configurado();
+    },
 
     render(dado, statusConfig) {
 
@@ -53,7 +56,7 @@ const MapaPainel = {
 
             <p class="mapa-painel-local">📍 ${contrato?.nome || ""}</p>
 
-            ${this.renderLideres(lideres, statusConfig)}
+            ${this.renderLideres(lideres, statusConfig, dado)}
     `;
 
     },
@@ -64,7 +67,7 @@ const MapaPainel = {
     // - 2+ líderes → carrossel com setas/indicadores
     //   (desktop) e swipe nativo (mobile).
     // ======================================
-    renderLideres(lideres, statusConfig) {
+    renderLideres(lideres, statusConfig, contexto = null) {
 
         if (!lideres.length) {
 
@@ -94,7 +97,7 @@ const MapaPainel = {
 
                     <div class="mapa-painel-carrossel" onscroll="MapaPainel.aoRolar(this)">
                         <div class="mapa-painel-carrossel-track">
-                            ${lideres.map((lider) => this.renderLiderSlide(lider, statusConfig)).join("")}
+                            ${lideres.map((lider) => this.renderLiderSlide(lider, statusConfig, contexto)).join("")}
                         </div>
                     </div>
 
@@ -122,7 +125,7 @@ const MapaPainel = {
     // nome, telefone, equipe e OMs — todos
     // exclusivos deste líder.
     // ======================================
-    renderLiderSlide(lider, statusConfig) {
+    renderLiderSlide(lider, statusConfig, contexto = null) {
 
         const equipe = this.parseEquipe(lider.equipe);
         const totalEquipe = equipe.reduce((soma, item) => soma + item.qtd, 0);
@@ -168,7 +171,7 @@ const MapaPainel = {
                                 const statusOm = normalizarStatusOM(om.status);
                                 const cfgOm = statusConfig[statusOm];
                                 return `
-                                    <div class="mapa-painel-atividade" data-fotos-om="${this.chaveFoto(om, lider)}">
+                                    <div class="mapa-painel-atividade" data-fotos-om="${this.chaveFoto(om, lider, contexto)}">
                                         <span class="mapa-painel-atividade-dot ${cfgOm.classe}"></span>
                                         <div class="mapa-painel-atividade-texto">
                                             <div class="mapa-painel-atividade-numero">OM ${om.numero || "—"}</div>
@@ -178,11 +181,11 @@ const MapaPainel = {
                                                 <button type="button" class="mapa-painel-btn-foto" onclick="MapaPainel.abrirCamera(this)" title="Tirar foto desta atividade">
                                                     <span aria-hidden="true">📷</span> Tirar foto
                                                 </button>
-                                                <input class="mapa-painel-input-foto" type="file" accept="image/*" capture="environment" data-chave-foto="${this.chaveFoto(om, lider)}" onchange="MapaPainel.receberFoto(this)" aria-label="Tirar foto da OM ${om.numero || ""}">
+                                                <input class="mapa-painel-input-foto" type="file" accept="image/*" capture="environment" data-chave-foto="${this.chaveFoto(om, lider, contexto)}" onchange="MapaPainel.receberFoto(this)" aria-label="Tirar foto da OM ${om.numero || ""}">
                                             </div>
 
-                                            <div class="mapa-painel-fotos" data-galeria-fotos="${this.chaveFoto(om, lider)}">
-                                                ${this.renderFotos(om, lider)}
+                                            <div class="mapa-painel-fotos" data-galeria-fotos="${this.chaveFoto(om, lider, contexto)}">
+                                                ${this.renderFotos(om, lider, contexto)}
                                             </div>
                                         </div>
                                     </div>
@@ -375,14 +378,33 @@ const MapaPainel = {
 
     },
 
-    chaveFoto(om, lider = null) {
+    chaveFoto(om, lider = null, contexto = null) {
 
-        const numero = String(om?.numero || "sem-om");
+        const contratoId = String(
+            contexto?.contrato?.id ||
+            contexto?.contratoId ||
+            "sem-contrato"
+        );
+        const abaId = String(
+            contexto?.aba?.id ||
+            contexto?.abaId ||
+            "sem-aba"
+        );
+        const frente = String(
+            contexto?.frente ||
+            om?.frente ||
+            "sem-frente"
+        );
         const nomeLider = String(lider?.lider || "sem-lider");
+        const numero = String(om?.numero || "sem-om");
 
-        // O líder faz parte da chave para evitar misturar fotos quando dois
-        // líderes possuem a mesma OM na mesma frente.
-        return `${nomeLider}::${numero}`;
+        // A foto pertence à atividade exata.
+        // Contrato + aba + frente + líder + OM impedem colisões mesmo quando:
+        // - dois líderes trabalham na mesma frente;
+        // - dois líderes possuem a mesma OM;
+        // - um líder possui várias OMs;
+        // - a mesma OM aparece em contratos/abas diferentes.
+        return [contratoId, abaId, frente, nomeLider, numero].join("::");
 
     },
 
@@ -395,18 +417,27 @@ const MapaPainel = {
 
             if (!chaves.length) return;
 
-            const db = await this.abrirBancoFotos();
-
             await Promise.all(chaves.map(async chave => {
 
-                const registros = await this.buscarFotosBanco(db, chave);
-                const fotos = registros.map(registro => ({
-                    id: registro.id,
-                    arquivo: registro.blob,
-                    url: URL.createObjectURL(registro.blob),
-                    nome: registro.nome || `foto-${registro.id}.jpg`,
-                    criadaEm: registro.criadaEm
-                }));
+                let fotos;
+
+                if (this.armazenamentoCompartilhadoAtivo()) {
+                    const registros = await FotosStorage.listar(chave);
+                    fotos = (registros || []).map(registro => ({
+                        ...registro,
+                        arquivo: null
+                    }));
+                } else {
+                    const db = await this.abrirBancoFotos();
+                    const registros = await this.buscarFotosBanco(db, chave);
+                    fotos = registros.map(registro => ({
+                        id: registro.id,
+                        arquivo: registro.blob,
+                        url: URL.createObjectURL(registro.blob),
+                        nome: registro.nome || `foto-${registro.id}.jpg`,
+                        criadaEm: registro.criadaEm
+                    }));
+                }
 
                 this.liberarUrlsDaChave(chave);
                 this.fotosCapturadas.set(chave, fotos);
@@ -543,22 +574,30 @@ const MapaPainel = {
         try {
 
             const imagem = await this.prepararImagem(arquivo);
-            const db = await this.abrirBancoFotos();
-            const registro = {
-                chave,
-                blob: imagem,
-                nome: arquivo.name || `foto-${Date.now()}.jpg`,
-                criadaEm: Date.now()
-            };
+            const nome = arquivo.name || `foto-${Date.now()}.jpg`;
+            let foto;
 
-            const id = await this.salvarFotoBanco(db, registro);
-            const foto = {
-                id,
-                arquivo: imagem,
-                url: URL.createObjectURL(imagem),
-                nome: registro.nome,
-                criadaEm: registro.criadaEm
-            };
+            if (this.armazenamentoCompartilhadoAtivo()) {
+                foto = await FotosStorage.salvar(chave, imagem, nome);
+                if (!foto) throw new Error("O armazenamento compartilhado não retornou a foto salva.");
+            } else {
+                const db = await this.abrirBancoFotos();
+                const registro = {
+                    chave,
+                    blob: imagem,
+                    nome,
+                    criadaEm: Date.now()
+                };
+
+                const id = await this.salvarFotoBanco(db, registro);
+                foto = {
+                    id,
+                    arquivo: imagem,
+                    url: URL.createObjectURL(imagem),
+                    nome: registro.nome,
+                    criadaEm: registro.criadaEm
+                };
+            }
 
             fotos.push(foto);
             this.fotosCapturadas.set(chave, fotos);
@@ -621,9 +660,9 @@ const MapaPainel = {
 
     },
 
-    renderFotos(om, lider = null) {
+    renderFotos(om, lider = null, contexto = null) {
 
-        return this.renderFotosPorChave(this.chaveFoto(om, lider));
+        return this.renderFotosPorChave(this.chaveFoto(om, lider, contexto));
 
     },
 
@@ -674,10 +713,13 @@ const MapaPainel = {
 
             try {
 
-                const db = await this.abrirBancoFotos();
-
-                if (foto.id !== undefined) {
-                    await this.apagarFotoBanco(db, foto.id);
+                if (this.armazenamentoCompartilhadoAtivo()) {
+                    await FotosStorage.apagar(foto);
+                } else {
+                    const db = await this.abrirBancoFotos();
+                    if (foto.id !== undefined) {
+                        await this.apagarFotoBanco(db, foto.id);
+                    }
                 }
 
                 if (foto.url) URL.revokeObjectURL(foto.url);
