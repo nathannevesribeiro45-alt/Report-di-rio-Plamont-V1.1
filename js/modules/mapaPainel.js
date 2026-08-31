@@ -46,25 +46,6 @@ const MapaPainel = {
             <p class="mapa-painel-local">📍 ${contrato?.nome || ""}</p>
 
             ${this.renderLideres(lideres, statusConfig)}
-
-            <div class="mapa-painel-secao">
-                <div class="mapa-painel-secao-titulo">📝 Observações</div>
-                <p class="mapa-painel-obs vazio">Nenhuma observação registrada para esta frente.</p>
-            </div>
-
-            <div class="mapa-painel-secao">
-                <div class="mapa-painel-secao-titulo">📎 Anexos</div>
-                <div class="mapa-painel-anexos">
-                    <span class="mapa-painel-anexo pdf" title="Disponível em breve">
-                        <svg fill="none" viewbox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><path d="M14 2v6h6" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg>
-                        PDF da TR
-                    </span>
-                    <span class="mapa-painel-anexo fotos" title="Disponível em breve">
-                        <svg fill="none" viewbox="0 0 24 24"><rect height="16" rx="2" stroke="currentColor" stroke-width="2" width="18" x="3" y="4"></rect><circle cx="8.5" cy="10" r="1.5" stroke="currentColor" stroke-width="2"></circle><path d="m21 15-5-5-9 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                        Ver fotos
-                    </span>
-                </div>
-            </div>
     `;
 
     },
@@ -178,21 +159,14 @@ const MapaPainel = {
 
                                 const statusOm = normalizarStatusOM(om.status);
                                 const cfgOm = statusConfig[statusOm];
-                                const arquivoPdf = om.arquivoPdf || om.pdf;
-                                const tag = arquivoPdf ? "a" : "div";
-                                const atributosArquivo = arquivoPdf
-                                    ? ` href="${arquivoPdf}" target="_blank" rel="noopener" title="Abrir PDF da OM ${om.numero || ""}"`
-                                    : "";
-
                                 return `
-                                    <${tag} class="mapa-painel-atividade${arquivoPdf ? " mapa-painel-atividade-com-anexo" : ""}"${atributosArquivo}>
+                                    <div class="mapa-painel-atividade">
                                         <span class="mapa-painel-atividade-dot ${cfgOm.classe}"></span>
                                         <div class="mapa-painel-atividade-texto">
                                             <div class="mapa-painel-atividade-numero">OM ${om.numero || "—"}</div>
                                             <div class="mapa-painel-atividade-descricao">${om.descricao || ""}</div>
-                                            ${arquivoPdf ? '<div class="mapa-painel-atividade-anexo">📎 Abrir PDF</div>' : ""}
                                         </div>
-                                    </${tag}>
+                                    </div>
                                 `;
 
                             }).join("")}
@@ -204,6 +178,140 @@ const MapaPainel = {
                     </div>
                 `}
 
+                ${this.renderObservacoes(lider, oms)}
+
+                ${this.renderAnexos(lider, oms)}
+
+            </div>
+        `;
+
+    },
+
+    // ======================================
+    // Observações do líder
+    //
+    // Fonte prioritária: lider.observacoes.
+    // Também aceita observação/observacoes dentro da OM,
+    // permitindo reaproveitar a mesma estrutura dos dados
+    // sem criar uma segunda regra para o mapa.
+    // ======================================
+    renderObservacoes(lider, oms) {
+
+        const observacoesLider = Array.isArray(lider.observacoes)
+            ? lider.observacoes
+            : (lider.observacoes ? [lider.observacoes] : []);
+
+        const observacoesOms = (oms || []).flatMap(om => {
+            if (Array.isArray(om.observacoes)) return om.observacoes;
+            if (om.observacoes) return [om.observacoes];
+            if (om.observacao) return [om.observacao];
+            return [];
+        });
+
+        const observacoes = [...observacoesLider, ...observacoesOms]
+            .map(obs => typeof obs === "string" ? obs.trim() : "")
+            .filter(Boolean)
+            .filter((obs, indice, lista) => lista.indexOf(obs) === indice);
+
+        return `
+            <div class="mapa-painel-lider-bloco">
+                <div class="mapa-painel-secao-titulo">📝 Observações</div>
+                ${observacoes.length ? `
+                    <div class="mapa-painel-observacoes-lista">
+                        ${observacoes.map(obs => `
+                            <p class="mapa-painel-obs">${obs}</p>
+                        `).join("")}
+                    </div>
+                ` : `
+                    <p class="mapa-painel-obs vazio">Nenhuma observação registrada para este líder.</p>
+                `}
+            </div>
+        `;
+
+    },
+
+    // ======================================
+    // Anexos do líder
+    //
+    // Reaproveita os PDFs já usados pelas atividades:
+    // om.arquivoPdf / om.pdf / om.laudo / om.arquivoLaudo.
+    // Também aceita lider.anexos para documentos próprios
+    // do líder, caso sejam adicionados ao JSON futuramente.
+    // ======================================
+    renderAnexos(lider, oms) {
+
+        const anexos = [];
+
+        (oms || []).forEach(om => {
+
+            const arquivoPdf = om.arquivoPdf || om.pdf;
+            const arquivoLaudo = om.laudo || om.arquivoLaudo;
+
+            if (arquivoPdf) {
+                anexos.push({
+                    arquivo: arquivoPdf,
+                    titulo: `PDF da OM ${om.numero || ""}`.trim(),
+                    tipo: "pdf"
+                });
+            }
+
+            if (arquivoLaudo) {
+                anexos.push({
+                    arquivo: arquivoLaudo,
+                    titulo: `Laudo da OM ${om.numero || ""}`.trim(),
+                    tipo: "pdf"
+                });
+            }
+
+        });
+
+        if (Array.isArray(lider.anexos)) {
+
+            lider.anexos.forEach(anexo => {
+
+                if (!anexo) return;
+
+                if (typeof anexo === "string") {
+                    anexos.push({
+                        arquivo: anexo,
+                        titulo: "Documento PDF",
+                        tipo: "pdf"
+                    });
+                    return;
+                }
+
+                const arquivo = anexo.arquivo || anexo.url || anexo.pdf || anexo.arquivoPdf;
+                if (!arquivo) return;
+
+                anexos.push({
+                    arquivo,
+                    titulo: anexo.titulo || anexo.nome || "Documento PDF",
+                    tipo: "pdf"
+                });
+
+            });
+
+        }
+
+        const unicos = anexos.filter((anexo, indice, lista) =>
+            lista.findIndex(item => item.arquivo === anexo.arquivo) === indice
+        );
+
+        return `
+            <div class="mapa-painel-lider-bloco">
+                <div class="mapa-painel-secao-titulo">📎 Anexos</div>
+                ${unicos.length ? `
+                    <div class="mapa-painel-anexos">
+                        ${unicos.map(anexo => `
+                            <a class="mapa-painel-anexo pdf disponivel" href="${anexo.arquivo}" target="_blank" rel="noopener" title="Abrir ${anexo.titulo}">
+                                <svg fill="none" viewbox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path><path d="M14 2v6h6" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                ${anexo.titulo}
+                            </a>
+                        `).join("")}
+                    </div>
+                ` : `
+                    <p class="mapa-painel-obs vazio">Nenhum documento anexado para este líder.</p>
+                `}
             </div>
         `;
 

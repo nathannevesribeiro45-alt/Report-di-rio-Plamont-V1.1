@@ -415,7 +415,10 @@ const Mapa = {
                         grupo.lideresMap.set(lider.lider, {
                             lider: lider.lider,
                             telefone: lider.telefone,
+                            tecnicoSeguranca: lider.tecnicoSeguranca,
                             equipe: lider.equipe,
+                            observacoes: lider.observacoes,
+                            anexos: lider.anexos,
                             oms: []
                         });
 

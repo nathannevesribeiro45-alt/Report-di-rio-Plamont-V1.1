@@ -835,7 +835,20 @@
 
     cursor:default;
     opacity:.65;
+    text-decoration:none;
 
+}
+
+.mapa-painel-anexo.disponivel{
+    cursor:pointer;
+    opacity:1;
+    transition:background var(--transition), border-color var(--transition), transform var(--transition);
+}
+
+.mapa-painel-anexo.disponivel:hover{
+    background:var(--surface);
+    border-color:#CBD5E1;
+    transform:translateY(-1px);
 }
 
 .mapa-painel-anexo svg{
