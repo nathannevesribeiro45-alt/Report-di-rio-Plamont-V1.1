@@ -142,7 +142,9 @@
         }
       },
 
-      "ausencias": {},
+      "ausencias": {
+        "Mecanico":1
+      },
 
       "mobilizacao": {
         "Mecanico": 0,
@@ -171,7 +173,7 @@
           "lider": "Sueliton",
           "telefone": "98 8888-0636",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
 
              {
