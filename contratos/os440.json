@@ -201,7 +201,7 @@
           "Mecanico": 5,
           "Soldador": 3,
           "Montador": 24,
-          "Eletricista": 2,
+          "Eletricista": 1,
           "Ajudante de elétrica":1
         },
         "indireto": {
@@ -227,7 +227,9 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Eletricista": 1
+      },
       "mobilizacao": {},
       "recursos": [
         {
@@ -243,7 +245,7 @@
         {
           "lider":"Alonso Costa",
           "telefone":"31 8495-2503",
-          "equipe":"3 mecânicos + 2 caldeireiro + 1 soldador + 1 ajudante de mont. + 1 eletricista",
+          "equipe":"3 mecânicos + 2 caldeireiro + 1 soldador + 1 ajudante de mont.",
         
         "oms":[
           {

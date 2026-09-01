@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "31/08/2026",
-  "turno": "Dia A",
+  "data": "01/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -138,7 +138,7 @@
         },
      
         {
-          "lider":"Cosmo",
+          "lider":"Ricardo",
           "telefone":"98 8497-6410",
           "equipe":"7 mecânicos + 3 soldador + 3 caldeireiro",
           "oms":[
