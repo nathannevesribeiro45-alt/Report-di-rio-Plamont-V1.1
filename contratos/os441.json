@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "28/08/2026",
+  "data": "01/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 11,
+          "Mecanico": 13,
           "Soldador": 3,
           "Montador": 8,
           "Eletricista": 0,
@@ -47,7 +47,6 @@
       },
 
       "ausencias": {
-     "Mecânico":3,
      "Montador de andaime":1
       },
 
@@ -60,14 +59,14 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "",
+          "operador": "Jhonatan",
           "contato":"",
           "status": "disponivel"
         },
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador":"",
+          "operador":"Ramilson",
           "contato":"",
           "status": "Disponivel"
         },
@@ -75,15 +74,15 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Hilgles",
-          "contato":"98 98537-4937",
+          "operador": "Anderson",
+          "contato":"",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": " SFT-9H25",
-          "operador": "Carlos",
-          "contato":"98 98124-4272",
+          "operador": "Hilgles",
+          "contato":"",
           "status": "disponivel"
         }
       
@@ -91,17 +90,44 @@
 
       "atividades": [
         {
-        "lider": "Iego",
-          "telefone": "98 8506-6056",
+        "lider": "Adilson",
+          "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"TR-314K-08",
-              "latitude":"-2,5656125",
-              "longitude":"-44,3757638",
-              "numero": " 202406210678",
-              "descricao": "TROCAR CHUTE DESC (TR-314K-08)",
+              "frente":"RP-04",
+              "latitude":"-2,5614274",
+              "longitude":"-44,3549536",
+              "numero": "202604542184",
+              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/RP-04 OM - 202604542184 - PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S.pdf",
+              "status": "Em andamento"
+            },
+            {
+              "frente":"TR-315K-25",
+              "latitude":"-2,5618992",
+              "longitude":"-44,3599385",
+              "numero": "202603720039",
+              "descricao": "TROC 16 ROLOS RETORNO DESGAST TR1525(PENDENTE MATERIAL)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR-1525 OM - 202603720039 - TROC 16 ROLOS RETORNO DESGAST TR1525.pdf",
+              "status": "Em andamento"
+            },
+            {
+              "frente":"RP-04",
+              "latitude":"-2,5614274",
+              "longitude":"-44,3549536",
+              "numero": "202602479721",
+              "descricao": "TROCA CHAPA DE DESGASTE DO CHUTE RC RP04 ( INTERFERÊNCIA INTEGRIDADE )",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/RP-04 OM 202602479721 - TROCA CHAPA DE DESGASTE DO CHUTE RC RP04.pdf",
+              "status": "Em andamento"
+            },
+              {
+              "frente":"RP-04",
+              "latitude":"-2,5614274",
+              "longitude":"-44,3549536",
+              "numero": "202604532887",
+              "descricao": "NIVELAR CAVALETES DA MESA DE TRANSIÇÃO (INTERFERÊNCIA INTEGRIDADE )",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -109,19 +135,37 @@
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Fernando Maranhão",
+          "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 soldador + 1 caldeireiro + 2 Montadores",
+          "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 2 Montadores",
           "oms": [
             
             {
-              "numero": "202604533635",
-              "frente":"TR-313K-14",
-              "latitude":"-2,5656863",
-              "longitude":"-44,3455210",
+              "numero": "202501032886",
+              "frente":"TR-314K-08",
+              "latitude":"-2,5656125",
+              "longitude":"-44,3757638",
               "arquivoPdf":"",
-              "descricao": "MP NA BANCADA/CHUTE TR-31106P/1314 (TR-313K-14)",
+              "descricao": "MONTAGEM E DESMONTAGEM DE ANDAIME TR 1408",
+              "status": "Em andamento"
+            },
+              {
+              "numero": "202406210678",
+              "frente":"TR-314K-08",
+              "latitude":"-2,5656125",
+              "longitude":"-44,3757638",
+              "arquivoPdf":"",
+              "descricao": "TROCAR CHUTE DE DESCARGA TR 314K-08",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202603657905",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
+              "arquivoPdf":"",
+              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS  ",
               "status": "Em andamento"
             }
            
@@ -129,19 +173,29 @@
           ]
         },
         {
-          "lider": "Elias",
-          "telefone": "98 98210-6618",
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202502919106",
-              "frente":"TR-313K-65",
-              "latitude":"-2,5614936",
-              "longitude":"-44,3578603",
-              "descricao":"TROCAR 150 ROLOS DE CARGA NO TR-1365 (TR-313K-65) ",
+              "numero":"202603670730",
+              "frente":"TR-313K-64",
+              "latitude":"-2,5621608",
+              "longitude":"-44,3576652",
+              "descricao":"Trocar 92 rolos de carga do 313K-64",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202604459627",
+              "frente":"",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"PLAMONT- PREPARAÇÃO DE MATERIAS E FERRAM",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604459627 - PLAMONT- PREPARAÇÃO DE MATERIAS E FERRAM.pdf",
               "status":"Em andamento"
           }
+          
           ]
         }
       ]
@@ -161,7 +215,7 @@
           "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
-          "Pintor": 0
+          "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -193,11 +247,100 @@
 
       "atividades": [
         {
-          "lider": "Julio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wanderson/Adeilton",
+          "telefone": "98 98508-8348/98 8882-2306",
           "tecnicoSeguranca": "",
-          "equipe": "2 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
-          "oms": []
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "oms": [
+            {
+      "numero": "202401981419",
+      "frente": "DOLFIN 17",
+      "latitude": "-2,5596162",
+      "longitude": "-44,3793585",
+      "descricao": "SEG_CDI_TROC. 5 D. ESC.UNID ATRAC 17/18",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603582154",
+      "frente": "CN01",
+      "latitude": "-2,5669823",
+      "longitude": "-44,3793001",
+      "descricao": "SEG_PS: TROCAR PEÇAS DA PASSARELA AO M1",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603202895",
+      "frente": "TR-311K-10",
+      "latitude": "-2,5690416",
+      "longitude": "-44,3448926",
+      "descricao": "SEG_PS GRADE PSO DEF PROX.PAINELPEUM.1",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202505919336",
+      "frente": "tr-325k-16",
+      "latitude": "-2,5641373",
+      "longitude": "-44,3775298",
+      "descricao": "SEG_GC_TROCAR TUBO GC PASSA L/D BL40 A 43",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603208841",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-69-70",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603208894",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-70-71",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603208933",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-71-72",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603209161",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-72-73",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603209295",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-73-74",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603209469",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-74-75",
+      "status": "Em andamento"
+    },
+    {
+      "numero": "202603209702",
+      "frente": "TR-325k-17",
+      "latitude": "-2,5627950",
+      "longitude": "-44,3789498",
+      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-75-76",
+      "status": "Em andamento"
+    }
+          ]
 
         }
       ]
