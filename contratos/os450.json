@@ -43,22 +43,24 @@
           "Mestre Andaime": 2
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Caldeireiro": 1
+      },
       "mobilizacao": {},
 
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "QRI-8D21",
-          "operador": "Gerson",
-          "contato":"98 9906-6073",
+          "placa": "ROV-7A11",
+          "operador": "Euclides",
+          "contato":"98791-0912",
           "status":"disponivel"
         },
         {
           "tipo": "Munck",
           "placa": "QRD-8213",
-          "operador": "Moisés",
-          "contato":"94 99181-8671",
+          "operador": "Italo",
+          "contato":"98 98203-1746",
           "status": "disponivel"
         },
         {
@@ -71,15 +73,15 @@
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G24",
-          "operador": "Italo",
-          "contato":"98 98184-5269",
+          "operador": "Alisson",
+          "contato":" 98876-4732",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Rosivaldo",
-          "contato":"98 99187-8772",
+          "operador": "Kaka",
+          "contato":"98 98480-6556",
           "status": "Disponivel"
         },
         {
@@ -122,7 +124,7 @@
         {
           "lider":"Jesse",
           "telefone":"98 9112-7960",
-          "equipe":"1 mecânicos + 2 soldador + 2 caldeireiros",
+          "equipe":"2 mecânicos + 2 soldador + 2 caldeireiros",
           "oms":[
             {
               "frente":"VV-01",
