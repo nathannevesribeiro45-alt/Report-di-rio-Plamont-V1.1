@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "25/08/2026",
+  "data": "02/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -59,44 +59,12 @@
             {
     "numero": "202503024074",
     "frente": "RP-04",
-     "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
+    "latitude":"-2,5614274",
+    "longitude":"-44,3549536",
     "descricao": " SUBSTITUIR PANTOGRAFO DO GIRO RP04",
     "status": "Em andamento"
-  },
-      {
-    "numero": "202604036399",
-    "frente": "RP-04",
-     "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-    "descricao": "TRC INFRA SONDA PENDULO TR LANÇA LD/LE",
-    "status": "Em andamento"
-  },
-    {
-    "numero": "202604359649",
-    "frente": "RP-04",
-    "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-    "descricao": "SOLDAR SUPORTE DA SONDA PENDULO DA LANÇA",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604035412",
-    "frente": "RP-04",
-     "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-    "descricao": "TRC SUPORT LIM BERMA TRANSLAÇÃO FRENTE",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604570588 ",
-    "frente": "RP-04",
-     "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-    "descricao": "FIXAR SUPORTE DA SIRENE 01 PROXIMO AO M1",
-    "status": "Em andamento"
   }
-  
+            
           ]
         }
       ]
@@ -177,11 +145,43 @@
           "oms": [
 
              {
-    "numero": "202603835906",
-    "frente": "EX-311K-04",
-    "latitude": "-2,5657468",
-    "longitude": "-44,3458998",
-    "descricao": "MONTAR/DESMONTAR ANDAIME",
+    "numero": "202604461079",
+    "frente": "EX-313K-65",
+    "latitude": "-2,5614885",
+    "longitude": "-44,3589145",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-313K-65)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202603560472",
+    "frente": "EX-313K-65",
+    "latitude": "-2,5614885",
+    "longitude": "-44,3589145",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-313K-65)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202604461161",
+    "frente": "EX-313K-65",
+    "latitude": "-2,5614885",
+    "longitude": "-44,3589145",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-313K-65)",
+    "status": "Em andamento"
+  },
+   {
+    "numero": "202604461165",
+    "frente": "EX-313K-25",
+    "latitude": "-2,5617310",
+    "longitude": "-44,3603043",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-313K-25)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202604461163",
+    "frente": "EX-313K-25",
+    "latitude": "-2,5617310",
+    "longitude": "-44,3603043",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-313K-25)",
     "status": "Em andamento"
   },
   {
@@ -192,110 +192,39 @@
     "descricao": "GC-1525 Empeno Suporte guias do moitão",
     "status": "Em andamento"
   },
-  {
-    "numero": "202604044021",
-    "frente": "TR-315K-36",
-    "latitude": "-2,5682370",
-    "longitude": "-44,3552913",
-    "descricao": "MP ELMEC GUINCHO CONTRA PESO",
+    {
+    "numero": "202603835906",
+    "frente": "EX-311K-04",
+    "latitude": "-2,5657468",
+    "longitude": "-44,3458998",
+    "descricao": "MONTAR/DESMONTAR ANDAIME (EX-311K-04)",
     "status": "Em andamento"
   },
-  {
-    "numero": "202604404222",
-    "frente": "TR-315K-37",
-    "latitude": "-2,5654485",
-    "longitude": "-44,3591822",
-    "descricao": "MP ELMEC GUINCHO CONTRA PESO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604355911",
-    "frente": "TR-311K-06",
-    "latitude": "-2,5660194",
-    "longitude": "-44,3455725",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604357023",
-    "frente": "TR-311K-06",
-    "latitude": "-2,5660194",
-    "longitude": "-44,3455725",
-    "descricao": "MCM-MPV MEC UTIL 08S GUINCHO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202505097178",
-    "frente": "EE-05",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "EE-05 Trocar elementos de fixação trilho",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202302593049",
-    "frente": "",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "A17 - SUBS CABO AÇO E MOITÃO AUX COM DESG",
-    "status": "Em andamento"
-  },
-  {
+      {
     "numero": "202603834483",
     "frente": "EX-311K-04",
     "latitude": "-2,5657468",
     "longitude": "-44,3458998",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR SUC",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR SUC (EX-311K-04)",
     "status": "Em andamento"
   },
-  {
+       {
     "numero": "202603834485",
     "frente": "EX-311K-04",
     "latitude": "-2,5657468",
     "longitude": "-44,3458998",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-311K-04)",
     "status": "Em andamento"
   },
-  {
+      {
     "numero": "202603834609",
     "frente": "EX-311K-04",
     "latitude": "-2,5657468",
     "longitude": "-44,3458998",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604461161",
-    "frente": "EX-313K-65",
-    "latitude": "-2,5614885",
-    "longitude": "-44,3589145",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604461079",
-    "frente": "EX-313K-65",
-    "latitude": "-2,5614885",
-    "longitude": "-44,3589145",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202601325794",
-    "frente": "",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "EX 1537 SUBSTITUIR PAINEL DO EXTRATOR.",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604461163",
-    "frente": "EX-315K-25",
-    "latitude": "-2,5617310",
-    "longitude": "-44,3603043",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-311K-04)",
     "status": "Em andamento"
   }
+
           ]
 }
       ]
