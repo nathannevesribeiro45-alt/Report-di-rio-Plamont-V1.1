@@ -52,24 +52,24 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "ROV-7A11",
-          "operador": "Euclides",
-          "contato":"98791-0912",
-          "status":"disponivel"
-        },
-        {
-          "tipo": "Munck",
           "placa": "QRD-8213",
-          "operador": "Italo",
-          "contato":"98 98203-1746",
-          "status": "disponivel"
+          "operador": "",
+          "contato":"",
+          "status": "manutencao"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "",
-          "contato":"",
-          "status": "manutencao"
+          "operador": "Italo",
+          "contato":"98 98203-1746",
+          "status": "disponivel"
+        },
+         {
+          "tipo": "Munck",
+          "placa": "QRI-8D21",
+          "operador": "Euclides",
+          "contato":"98 98791-0912",
+          "status": "disponivel"
         },
         {
           "tipo": "Pick-up",
