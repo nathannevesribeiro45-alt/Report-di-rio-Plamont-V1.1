@@ -47,7 +47,10 @@
       },
 
       "ausencias": {
-     "Montador de andaime":1
+     "Montador de andaime":1,
+     "Mecânico": 1,
+     "justificadas": 1,
+     "naoJustificadas":1
       },
 
       "mobilizacao": {
@@ -99,18 +102,9 @@
               "frente":"RP-04",
               "latitude":"-2,5614274",
               "longitude":"-44,3549536",
-              "numero": "202604542184",
-              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO/DESMOBILIZAR_5S",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/RP-04 OM - 202604542184 - PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S.pdf",
-              "status": "Em andamento"
-            },
-            {
-              "frente":"TR-315K-25",
-              "latitude":"-2,5618992",
-              "longitude":"-44,3599385",
-              "numero": "202603720039",
-              "descricao": "TROC 16 ROLOS RETORNO DESGAST TR1525(PENDENTE MATERIAL)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR-1525 OM - 202603720039 - TROC 16 ROLOS RETORNO DESGAST TR1525.pdf",
+              "numero": "202603071700",
+              "descricao": "TROCAR ROLO PLANO TR LANÇA BL 02 CV 01 (RP-04)",
+              "arquivoPdf":"",
               "status": "Em andamento"
             },
             {
@@ -118,19 +112,11 @@
               "latitude":"-2,5614274",
               "longitude":"-44,3549536",
               "numero": "202602479721",
-              "descricao": "TROCA CHAPA DE DESGASTE DO CHUTE RC RP04 ( INTERFERÊNCIA INTEGRIDADE )",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/RP-04 OM 202602479721 - TROCA CHAPA DE DESGASTE DO CHUTE RC RP04.pdf",
-              "status": "Em andamento"
-            },
-              {
-              "frente":"RP-04",
-              "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-              "numero": "202604532887",
-              "descricao": "NIVELAR CAVALETES DA MESA DE TRANSIÇÃO (INTERFERÊNCIA INTEGRIDADE )",
+              "descricao": "TROCA CHAPA DE DESGASTE DO CHUTE RC RP04 (RP-04)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
+           
            
           ]
         },
@@ -160,12 +146,21 @@
               "status": "Em andamento"
             },
             {
-              "numero": "202603657905",
-              "frente":"",
+              "numero": "202505334074",
+              "frente":"TR-314K-02",
               "latitude":"",
               "longitude":"",
               "arquivoPdf":"",
-              "descricao": "PREPARAÇÃO DE MATERIAIS E FERRAMENTAS  ",
+              "descricao": "CHUTE_TROC CHAPA GUIA EMP CHUT REC 1505 (TR-314K-02)",
+              "status": "Em andamento"
+            },
+            {
+              "numero": "202505335034",
+              "frente":"TR-314K-02",
+              "latitude":"",
+              "longitude":"",
+              "arquivoPdf":"",
+              "descricao": "DESMONTAGEM DE ANDAIME TR314K-02 (TR-314K-02)",
               "status": "Em andamento"
             }
            
@@ -187,12 +182,12 @@
               "status":"Em andamento"
           },
           {
-              "numero":"202604459627",
-              "frente":"",
+              "numero":"202405731956",
+              "frente":"EP-04",
               "latitude":"",
               "longitude":"",
-              "descricao":"PLAMONT- PREPARAÇÃO DE MATERIAS E FERRAM",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604459627 - PLAMONT- PREPARAÇÃO DE MATERIAS E FERRAM.pdf",
+              "descricao":"TROCAR 02 CAV AA DE RETORNO EM V LANÇA BAL 04 CAV 03 E 08",
+              "arquivoPdf":"",
               "status":"Em andamento"
           }
           
@@ -253,91 +248,35 @@
           "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-      "numero": "202401981419",
-      "frente": "DOLFIN 17",
-      "latitude": "-2,5596162",
-      "longitude": "-44,3793585",
-      "descricao": "SEG_CDI_TROC. 5 D. ESC.UNID ATRAC 17/18",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603582154",
-      "frente": "CN01",
-      "latitude": "-2,5669823",
-      "longitude": "-44,3793001",
-      "descricao": "SEG_PS: TROCAR PEÇAS DA PASSARELA AO M1",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603202895",
-      "frente": "TR-311K-10",
-      "latitude": "-2,5690416",
-      "longitude": "-44,3448926",
-      "descricao": "SEG_PS GRADE PSO DEF PROX.PAINELPEUM.1",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202505919336",
-      "frente": "tr-325k-16",
-      "latitude": "-2,5641373",
-      "longitude": "-44,3775298",
-      "descricao": "SEG_GC_TROCAR TUBO GC PASSA L/D BL40 A 43",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603208841",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-69-70",
+      "numero": "202603208641",
+      "frente": "TR-325K-17",
+      "latitude": "",
+      "longitude": "",
+      "descricao": " SEG_GC_TROC G.C PASSARELA L/D BL-69-70",
       "status": "Em andamento"
     },
     {
       "numero": "202603208894",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
+      "frente": "TR-325K-17",
+      "latitude": "",
+      "longitude": "",
       "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-70-71",
       "status": "Em andamento"
     },
     {
       "numero": "202603208933",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
+      "frente": "TR-325K-17",
+      "latitude": "",
+      "longitude": "",
       "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-71-72",
       "status": "Em andamento"
     },
-    {
+      {
       "numero": "202603209161",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
+      "frente": "TR-325K-17",
+      "latitude": "",
+      "longitude": "",
       "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-72-73",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603209295",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-73-74",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603209469",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-74-75",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603209702",
-      "frente": "TR-325k-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-75-76",
       "status": "Em andamento"
     }
           ]
