@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "02/09/2026",
-  "turno": "Dia B",
+  "data": "03/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -45,7 +45,9 @@
         }
       },
       "ausencias": {
-        "Mecânicos": 2
+        "Mecânicos": 2,
+        "Caldeireiro":1,
+        "Montador de andaime":1
         },
       "mobilizacao": {},
 
@@ -60,8 +62,8 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Italo",
-          "contato":"98 98203-1746",
+          "operador": "Moisés",
+          "contato":"94 99181-8671",
           "status": "disponivel"
         },
          {
@@ -74,15 +76,15 @@
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G24",
-          "operador": "Alisson",
-          "contato":" 98876-4732",
+          "operador": "Italo",
+          "contato":"98184-5269",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFR-3B97",
-          "operador": "Kaka",
-          "contato":"98 98480-6556",
+          "placa": "SFV-7L97",
+          "operador": "Rosivaldo",
+          "contato":"99 99187-8772",
           "status": "Disponivel"
         },
         {
@@ -95,28 +97,28 @@
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6G78",
-          "operador": "Bruno",
+          "operador": "Geilson",
           "contato":"98 98850-8993",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-4110",
-          "operador": "Jobert",
+          "operador": "Alciomar",
           "contato":"98 98802-8232",
           "status": "Operante"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-3C99",
-          "operador": "Jesus",
+          "operador": "Oliveira",
           "contato":"98 97010-4041",
           "status": "Disponivel"
         },
         {
           "tipo": "Veículo leve",
           "placa": "SMX-6I53",
-          "operador": "Estevan",
+          "operador": "Gilmar",
           "contato":"98 98474-3782",
           "status": "Disponivel"
         }

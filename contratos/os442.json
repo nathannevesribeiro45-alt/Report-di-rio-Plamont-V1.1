@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "02/09/2026",
-  "turno": "Dia B",
+  "data": "03/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -51,17 +51,17 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Jonilson",
+          "telefone": "98 98864-4567",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202503024074",
+    "numero": "202604570588",
     "frente": "RP-04",
-    "latitude":"-2,5614274",
-    "longitude":"-44,3549536",
-    "descricao": " SUBSTITUIR PANTOGRAFO DO GIRO RP04",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "FIXAR SUPORTE DA SIRENE 01 PROXIMO AO M1",
     "status": "Em andamento"
   }
             
@@ -78,7 +78,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 5,
+          "Mecanico": 4,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -111,7 +111,7 @@
       },
 
       "ausencias": {
-        "Mecanico":1
+        "Mecanico":2
       },
 
       "mobilizacao": {
@@ -138,90 +138,58 @@
 
       "atividades": [
         {
-          "lider": "Sueliton",
-          "telefone": "98 8888-0636",
+          "lider": "Jefferson",
+          "telefone": "98 98162-8039",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
 
              {
-    "numero": "202604461079",
-    "frente": "EX-313K-65",
-    "latitude": "-2,5614885",
-    "longitude": "-44,3589145",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-313K-65)",
+    "numero": "202604619202",
+    "frente": "Oficina Subconjunto",
+    "latitude": "-2,5594727",
+    "longitude": "-44,3622277",
+    "descricao": "UTI _ MONTAGEM E DESMONTAGEM DE ANDAIME",
     "status": "Em andamento"
   },
-  {
-    "numero": "202603560472",
-    "frente": "EX-313K-65",
-    "latitude": "-2,5614885",
-    "longitude": "-44,3589145",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-313K-65)",
+        {
+    "numero": "202604612674",
+    "frente": "Oficina Subconjunto",
+    "latitude": "-2,5594727",
+    "longitude": "-44,3622277",
+    "descricao": "RETIRAR E REALIZAR REPARO DO TRUCK/RODA",
     "status": "Em andamento"
   },
-  {
-    "numero": "202604461161",
-    "frente": "EX-313K-65",
-    "latitude": "-2,5614885",
-    "longitude": "-44,3589145",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-313K-65)",
-    "status": "Em andamento"
-  },
-   {
-    "numero": "202604461165",
-    "frente": "EX-313K-25",
-    "latitude": "-2,5617310",
-    "longitude": "-44,3603043",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-313K-25)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604461163",
-    "frente": "EX-313K-25",
-    "latitude": "-2,5617310",
-    "longitude": "-44,3603043",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR (EX-313K-25)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603914051",
-    "frente": "",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "GC-1525 Empeno Suporte guias do moitão",
-    "status": "Em andamento"
-  },
-    {
+        {
     "numero": "202603835906",
     "frente": "EX-311K-04",
     "latitude": "-2,5657468",
     "longitude": "-44,3458998",
-    "descricao": "MONTAR/DESMONTAR ANDAIME (EX-311K-04)",
+    "descricao": "MONTAR/DESMONTAR ANDAIME EX-311K-04",
     "status": "Em andamento"
   },
-      {
-    "numero": "202603834483",
-    "frente": "EX-311K-04",
-    "latitude": "-2,5657468",
-    "longitude": "-44,3458998",
-    "descricao": "MCM-MPV ELE 16S EXTRATOR SUC (EX-311K-04)",
+  {
+    "numero": "202604617167",
+    "frente": "TR-313K-61",
+    "latitude": "-2,5621947",
+    "longitude": "-44,3465427",
+    "descricao": "SUBSTITUIR PAINEL NO GC 1361",
     "status": "Em andamento"
   },
-       {
-    "numero": "202603834485",
-    "frente": "EX-311K-04",
-    "latitude": "-2,5657468",
-    "longitude": "-44,3458998",
-    "descricao": "MCM-MPV MEC 16S EXTRATOR (EX-311K-04)",
+   {
+    "numero": "202302593049",
+    "frente": "Pórtico 2",
+    "latitude": "-2,5686316",
+    "longitude": "-44,3452532",
+    "descricao": "A17- SUBS CABO AÇO E MOITÃO AUX COM DESG",
     "status": "Em andamento"
   },
-      {
-    "numero": "202603834609",
-    "frente": "EX-311K-04",
-    "latitude": "-2,5657468",
-    "longitude": "-44,3458998",
-    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO (EX-311K-04)",
+  {
+    "numero": "202603588627",
+    "frente": "Ponte 206",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "MP ELMEC PONTE ROLANTE PR-311K-206",
     "status": "Em andamento"
   }
 

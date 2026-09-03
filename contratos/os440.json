@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "02/09/2026",
-  "turno": "Dia B",
+  "data": "03/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -15,7 +15,7 @@
           "Soldador": 7,
           "Eletricista": 2, 
           "Ajudante de elétrica": 1,
-          "Ajudante de montagem": 3,
+          "Ajudante de montagem": 1,
           "Montador": 10   
         },
         "indireto": {
@@ -41,7 +41,10 @@
           "Mestre Andaime": 1
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Mecanico":1,
+        "Ajudante de montagem":1
+      },
       "mobilizacao": {},
       "recursos": [
           {
@@ -49,7 +52,7 @@
           "placa": "SGA-3I26",
           "operador": "",
           "contato": "",
-          "status":"Disponivel"
+          "status":"[Preventiva]"
         },
         {
           "tipo": "Munck",
@@ -63,7 +66,7 @@
           "placa": "SGA-3I14",
           "operador": "",
           "contato": "",
-          "status":"Disponivel"
+          "status":"Manutencao"
         },
         {
           "tipo": "Munck",
@@ -83,14 +86,14 @@
          {
           "tipo": "Pick-up",
           "placa": "QRJ-2G50",
-          "operador": "Paulo",
+          "operador": "Antonio",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A29",
-          "operador": "Janice",
+          "operador": "Paulo",
           "contato": "",
           "status":"Disponivel"
         },
@@ -134,13 +137,13 @@
         "equipe":"5 mecânicos + 3 soldadores + 2 caldereiros + 1 ajudante eletr.",
         "oms":[
           {
-              "frente":"TR-313k-61",
-              "numero":"202304350727",
-              "descricao":"AE1.6_SBST.FIXAÇÃO CORROSÃO REG. SUPERI (TR-313k-61)",
-              "latitude":"-2,5621947",
-              "longitude":"-44,3465427",
+              "numero": "202604621461",
+              "frente":"TR-315K-04",
+              "latitude":"-2,5607764",
+              "longitude":"-44,3632393",
+              "descricao":"RECUPERAR CHADAVIGA DEAPOIODA BASES (TR-315K-04)",
               "status":"Em andamento",
-              "arquivoPdf":"om's/contrato 440 oms/Pier 3/TR1361 OM 202405915627 AE1.4_SUBST.ELEM.FIX.CHUTE.RECEB.DO TR1.pdf"
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/RECUPERAR CHA DA VIGA DE APOIO DA  BASES TR1504.pdf"
             }
           ]
 
@@ -149,7 +152,7 @@
         {
           "lider":"Cleyton",
           "telefone":"98 93300-5461",
-          "equipe":"3 mecânicos + 3 caldeireiro + 2 soldador + 1 eletricista + 1 ajudante de mont.",
+          "equipe":"3 mecânicos + 3 caldeireiro + 2 soldador + 1 eletricista",
         
         "oms":[
           {
@@ -176,24 +179,25 @@
               "longitude":"-44,3549536",
               "descricao":"RECUPERAR ESTRUTURAL DA LONGARINA DA LAN.(RP-04)",
               "arquivoPdf":"om's/contrato 440 oms/Integridade/longarina rp04.pdf",
-              "status":"Em andamento"
+              "status":"Em andamento",
+              "observacoes":"Equipe atuando na remoção de sucata e desmobilização."
             }
           ]
         },
          {
-          "lider":"Rogério",
-          "telefone":"98 9965-3798",
-          "equipe":"3 mecânicos + 1 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de mont.",
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
         
         "oms":[
             {
-              "numero": "202405915622",
-              "frente":"TR-313k-61",
-              "latitude":"-2,5621947",
-              "longitude":"-44,3465427",
-              "descricao":"AE1.4_SUBST.ELEM.FIX.PERFIS.REGIÃO.CAUD (TR-313K-61)",
+              "numero": "202604621461",
+              "frente":"TR-315K-04",
+              "latitude":"-2,5607764",
+              "longitude":"-44,3632393",
+              "descricao":"RECUPERAR CHADAVIGA DEAPOIODA BASES (TR-315K-04)",
               "status":"Em andamento",
-              "arquivoPdf":"om's/contrato 440 oms/Pier 3/TR1361 OM 202405915622 AE1.4_SUBST.ELEM.FIX.PERFIS.REGIÃO.CAUD.pdf"
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/RECUPERAR CHA DA VIGA DE APOIO DA  BASES TR1504.pdf"
             }
           ]
         }
@@ -202,7 +206,9 @@
       ,
       
       "nome":"Integridade",
-      "observacoes": []
+      "observacoes": [
+        "Equipe do Gutemberg atuará somente no sucateamento e desmobilização."
+      ]
      
     },
     
@@ -215,7 +221,8 @@
           "Mecanico": 11,
           "Soldador": 5,
           "Montador": 24,
-          "Eletricista": 4
+          "Eletricista": 4,
+          "Ajudante de montagem":2
         },
         "indireto": {
           "Supervisor Montagem": 1,
@@ -292,9 +299,9 @@
           ]
         },
         {
-          "lider":"Fagner",
-          "telefone":"98 8542-9199",
-          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"3 mecânicos + 1 soldadores + 1 caldereiros + 1 eletricista + 1 ajudante de mont.",
         
         "oms":[
             {
