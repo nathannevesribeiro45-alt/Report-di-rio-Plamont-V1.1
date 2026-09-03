@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "02/09/2026",
-  "turno": "Dia B",
+  "data": "03/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
+          "Mecanico": 14,
           "Soldador": 3,
           "Montador": 8,
           "Eletricista": 0,
@@ -48,28 +48,31 @@
 
       "ausencias": {
      "Montador de andaime":1,
-     "Mecânico": 1,
      "justificadas": 1,
      "naoJustificadas":1
       },
 
-      "mobilizacao": {
-        "Mecanico": 0,
-        "Eletricista": 0
-      },
+      "mobilizacao": {},
 
       "recursos": [
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "Jhonatan",
+          "operador": "",
           "contato":"",
           "status": "disponivel"
+        },
+        {
+          "tipo": "Munck",
+          "placa": "RBB-1B72",
+          "operador": "",
+          "contato":"",
+          "status": "preventiva"
         },
          {
           "tipo": "Munck",
           "placa": "RQP-8G78",
-          "operador":"Ramilson",
+          "operador":"",
           "contato":"",
           "status": "Disponivel"
         },
@@ -77,120 +80,70 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Anderson",
-          "contato":"",
+          "operador": "Hilgles",
+          "contato":"98 98537-4937",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": " SFT-9H25",
-          "operador": "Hilgles",
-          "contato":"",
-          "status": "disponivel"
+          "operador": "Paulo",
+          "contato":"98 98124-4272",
+          "status": "preventiva"
         }
       
       ],
 
       "atividades": [
         {
-        "lider": "Adilson",
-          "telefone": "98 98210-6618",
+        "lider": "Iego",
+          "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 2 Montadores",
           "oms": [
             {
-              "frente":"RP-04",
-              "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-              "numero": "202603071700",
-              "descricao": "TROCAR ROLO PLANO TR LANÇA BL 02 CV 01 (RP-04)",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-            {
-              "frente":"RP-04",
-              "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-              "numero": "202602479721",
-              "descricao": "TROCA CHAPA DE DESGASTE DO CHUTE RC RP04 (RP-04)",
+              "frente":"TR-314K-02",
+              "latitude":"-2,5650965",
+              "longitude":"-44,3757921",
+              "numero": "202505334074",
+              "descricao": "CHUTE_TROCCHAPAGUIAEMPCHUTREC1505 (TR-314K-02)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
-           
-           
           ]
         },
         {
-          "lider": "Fernando Maranhão",
-          "telefone": "98 8506-6056",
+          "lider": "Alexandre",
+          "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 2 Montadores",
+          "equipe": "4 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
           "oms": [
             
             {
-              "numero": "202501032886",
-              "frente":"TR-314K-08",
-              "latitude":"-2,5656125",
-              "longitude":"-44,3757638",
+              "numero": "202405731956",
+              "frente":"EP-313K-04",
+              "latitude":"-2,5621946",
+              "longitude":"-44,3519514",
               "arquivoPdf":"",
-              "descricao": "MONTAGEM E DESMONTAGEM DE ANDAIME TR 1408",
-              "status": "Em andamento"
-            },
-              {
-              "numero": "202406210678",
-              "frente":"TR-314K-08",
-              "latitude":"-2,5656125",
-              "longitude":"-44,3757638",
-              "arquivoPdf":"",
-              "descricao": "TROCAR CHUTE DE DESCARGA TR 314K-08",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202505334074",
-              "frente":"TR-314K-02",
-              "latitude":"",
-              "longitude":"",
-              "arquivoPdf":"",
-              "descricao": "CHUTE_TROC CHAPA GUIA EMP CHUT REC 1505 (TR-314K-02)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202505335034",
-              "frente":"TR-314K-02",
-              "latitude":"",
-              "longitude":"",
-              "arquivoPdf":"",
-              "descricao": "DESMONTAGEM DE ANDAIME TR314K-02 (TR-314K-02)",
+              "descricao": "TROCAR 02 CAV AA DE RETORNO EM V LANÇA BAL 04 CAV 03 E 08 (EP-313K-04/ TR-313K-64)",
               "status": "Em andamento"
             }
-           
-           
           ]
         },
         {
-          "lider": "Ederson",
-          "telefone": "98 8242-1348",
+          "lider": "Elias",
+          "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202603670730",
-              "frente":"TR-313K-64",
-              "latitude":"-2,5621608",
-              "longitude":"-44,3576652",
-              "descricao":"Trocar 92 rolos de carga do 313K-64",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202405731956",
-              "frente":"EP-04",
-              "latitude":"",
-              "longitude":"",
-              "descricao":"TROCAR 02 CAV AA DE RETORNO EM V LANÇA BAL 04 CAV 03 E 08",
-              "arquivoPdf":"",
+              "numero":"202604532887 ",
+              "frente":"RP-313K-04",
+              "latitude":"-2,5614274",
+              "longitude":"-44,3549536",
+              "descricao":"NIVELAR CAVALETES DA MESA DE TRANSIÇÃO (RP-313K-04) ",
               "status":"Em andamento"
           }
-          
           ]
         }
       ]
@@ -206,7 +159,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 3,
+          "Mecanico": 2,
           "Soldador": 4,
           "Montador": 2,
           "Eletricista": 0,
@@ -242,44 +195,11 @@
 
       "atividades": [
         {
-          "lider": "Wanderson/Adeilton",
-          "telefone": "98 98508-8348/98 8882-2306",
+          "lider": "Julio/Eickson",
+          "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
-          "oms": [
-            {
-      "numero": "202603208641",
-      "frente": "TR-325K-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": " SEG_GC_TROC G.C PASSARELA L/D BL-69-70",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603208894",
-      "frente": "TR-325K-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-70-71",
-      "status": "Em andamento"
-    },
-    {
-      "numero": "202603208933",
-      "frente": "TR-325K-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-71-72",
-      "status": "Em andamento"
-    },
-      {
-      "numero": "202603209161",
-      "frente": "TR-325K-17",
-      "latitude": "-2,5627950",
-      "longitude": "-44,3789498",
-      "descricao": "SEG_GC_TROC G.C PASSARELA L/D BL-72-73",
-      "status": "Em andamento"
-    }
-          ]
+          "equipe": "2 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "oms": []
 
         }
       ]
