@@ -143,8 +143,8 @@
         },
      
         {
-          "lider":"Ricardo",
-          "telefone":"98 8497-6410",
+          "lider":"Cosmo",
+          "telefone":"98 8863-1678",
           "equipe":"7 mecânicos + 3 soldador + 3 caldeireiro",
           "oms":[
             {
@@ -160,27 +160,9 @@
             
           ]
 
-        },
-         
-         {
-          "lider":"Jadilson",
-          "telefone":"98 8817-1971",
-          "equipe":"5 mecânicos + 1 soldador + 1 caldeireiro",
-          "oms":[
-           {
-              "frente":" TR-315k-07 / TR-315k-04",
-              "numero":"202504630062",
-              "descricao":"TROCA  CHUTE COMPLETO RECEB. TR1507 / TR1504",
-              "latitude":"-2,5637659",
-              "longitude":"-44,3603730",
-              "status":"Em andamento",
-              "arquivoPdf":"om's/contrato 450 oms/OM 202504630062 - CHUTE_TROC CHUTE COMPLETO RECEB. TR1507.pdf"
-            }
-
-            
-          ]
-
         }
+         
+         
 
 
 
