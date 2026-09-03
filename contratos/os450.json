@@ -161,6 +161,26 @@
           ]
 
         },
+
+        {
+          "lider":"Ricardo",
+          "telefone":"98 8497-6410",
+          "equipe":"5 mecânicos + 1 soldador + 2 caldeireiro",
+          "oms":[
+            {
+              "frente":"TR-315K-07/TR315K-04",
+              "numero":"202504630062",
+              "descricao":"CHUTE_TROC CHUTE COMPLETO RECEB. TR1507 / TR1504",
+              "latitude":"-2,5607764",
+              "longitude":"-44,3632393",
+              "arquivoPdf":"", 
+              "status":"Em andamento"
+            }
+
+            
+          ]
+
+        },
          
          {
           "lider":"Jadilson",
