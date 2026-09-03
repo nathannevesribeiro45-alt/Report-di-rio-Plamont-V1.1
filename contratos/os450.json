@@ -160,9 +160,27 @@
             
           ]
 
+        },
+         
+         {
+          "lider":"Jadilson",
+          "telefone":"98 8817-1971",
+          "equipe":"5 mecânicos + 1 soldador + 1 caldeireiro",
+          "oms":[
+           {
+              "frente":"Canteiro Central/Garagem",
+              "numero":"202504630062",
+              "descricao":"Apoio para garagem",
+              "latitude":"",
+              "longitude":"",
+              "status":"Em andamento",
+              "arquivoPdf":""
+            }
+
+            
+          ]
+
         }
-         
-         
 
 
 
