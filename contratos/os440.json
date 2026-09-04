@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "03/09/2026",
+  "data": "04/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,18 +10,17 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 7,
-          "Mecanico": 16,
-          "Soldador": 7,
+          "Caldeireiro": 4,
+          "Mecanico": 10,
+          "Soldador": 5,
           "Eletricista": 2, 
           "Ajudante de elétrica": 1,
-          "Ajudante de montagem": 1,
           "Montador": 10   
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 4,
+          "Mestre Montagem": 2,
           "Mestre Andaime": 1
         }
       },
@@ -101,7 +100,7 @@
           {
           "tipo": "Pick-up",
           "placa": "SFU-0A01",
-          "operador": "Genilon",
+          "operador": "Beneval",
           "contato": "",
           "status":"Disponivel"
         },
@@ -149,41 +148,6 @@
 
         },
 
-        {
-          "lider":"Cleyton",
-          "telefone":"98 93300-5461",
-          "equipe":"3 mecânicos + 3 caldeireiro + 2 soldador + 1 eletricista",
-        
-        "oms":[
-          {
-              "numero": "202604032281",
-              "frente":"VV-01",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
-              "arquivoPdf":"",
-              "status":"Em andamento"
-            }
-          ]
-        },
-        {
-          "lider":"Gutemberg",
-          "telefone":"98 8177-7618",
-          "equipe":"5 mecânicos + 1 caldeireiro + 2 soldador + 1 ajudante de mont.",
-        
-        "oms":[
-          {
-              "numero": "202604530078",
-              "frente":"RP-313K-04",
-              "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-              "descricao":"RECUPERAR ESTRUTURAL DA LONGARINA DA LAN.(RP-04)",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/longarina rp04.pdf",
-              "status":"Em andamento",
-              "observacoes":"Equipe atuando na remoção de sucata e desmobilização."
-            }
-          ]
-        },
          {
           "lider":"Fagner",
           "telefone":"98 8542-9199",
@@ -206,9 +170,7 @@
       ,
       
       "nome":"Integridade",
-      "observacoes": [
-        "Equipe do Gutemberg atuará somente no sucateamento e desmobilização."
-      ]
+      "observacoes": []
      
     },
     
@@ -216,19 +178,20 @@
       "id": "ferrovia",
       "icone":"assets/icons/pier3.svg",
       "qlp": {
+
         "direto": {
-          "Caldeireiro": 6,
-          "Mecanico": 11,
-          "Soldador": 5,
-          "Montador": 24,
-          "Eletricista": 4,
-          "Ajudante de montagem":2
+          "Caldeireiro": 4,
+          "Mecanico": 6,
+          "Soldador": 3,
+          "Montador": 12,
+          "Eletricista": 2,
+          "Ajudante de montagem":1
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 2
+          "Mestre Montagem": 2,
+          "Mestre Andaime": 1
         }
       },
       "histograma": {
@@ -263,29 +226,9 @@
       ],
       "atividades": [
   
-
-        {
-          "lider":"Alonso Costa",
-          "telefone":"31 8495-2503",
-          "equipe":"3 mecânicos + 2 caldeireiro + 1 soldador + 1 ajudante de mont. + 1 eletricista",
-        
-        "oms":[
-          {
-              "numero": "202301450248",
-              "frente":"CN-325K-03",
-              "latitude":"-2,5595317",
-              "longitude":"-44,3793697",
-              "descricao":"AE1.0_SUBS CHAP BASE/GRAMPO CAMI ROL (CN-05)",
-              "arquivoPdf":"om's/contrato 440 oms/Pier 3/CN05 OM 202301450248 AE1.0_SUBS CHAP BASE_GRAMPO CAMI ROL.pdf",
-              "status":"Em andamento"
-            }
-          ]
-        },
-  
-        {
-          "lider":"João Batista",
-          "telefone":"98 8887-8415",
-          "equipe":"3 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
+        {"lider":"Cleyton",
+          "telefone":"98 93300-5461",
+          "equipe":"3 mecânicos + 3 caldeireiro + 2 soldador + 1 eletricista",
         
         "oms":[
             {
@@ -311,7 +254,16 @@
               "longitude":"-44,3794031",
               "descricao":"SUBS ELM FIX BAS CAMI ROL LAN MOV (CN-325K-03)",
               "status":"Em andamento"
-            }
+            },
+             {
+              "numero": "202301450248",
+              "frente":"CN-325K-03",
+              "latitude":"-2,5595317",
+              "longitude":"-44,3793697",
+              "descricao":"AE1.0_SUBS CHAP BASE/GRAMPO CAMI ROL (CN-05)",
+              "arquivoPdf":"om's/contrato 440 oms/Pier 3/CN05 OM 202301450248 AE1.0_SUBS CHAP BASE_GRAMPO CAMI ROL.pdf",
+              "status":"Em andamento"
+             }
           ]
         }
 
