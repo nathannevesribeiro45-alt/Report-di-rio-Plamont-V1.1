@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "03/09/2026",
+  "data": "04/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -57,11 +57,19 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202604570588",
-    "frente": "RP-04",
+    "numero": "202604563894",
+    "frente": "CN-05",
     "latitude":"",
     "longitude":"",
-    "descricao": "FIXAR SUPORTE DA SIRENE 01 PROXIMO AO M1",
+    "descricao": "REPOR INFRAN E SUPORTE DA BOTOEIRA DE TRANSLAÇÃO DO (CN05)",
+    "status": "Em andamento"
+  },
+  {
+    "numero": "202604532631",
+    "frente": "CN-05",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "APOIO PARA TROCA DE BANDEJAMENTO E SUPORTES INTERNOS (CN05)",
     "status": "Em andamento"
   }
             
@@ -78,7 +86,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 4,
+          "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -110,9 +118,7 @@
         }
       },
 
-      "ausencias": {
-        "Mecanico":2
-      },
+      "ausencias": {},
 
       "mobilizacao": {
         "Mecanico": 0,
@@ -123,15 +129,15 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "Fernando",
-          "telefone":"98 8406-7236",
+          "operador": "",
+          "telefone":"",
           "status": "disponivel"
         },
           {
           "tipo": "Pick-up",
           "placa": "SFT-9J87",
-          "operador": "Patrick",
-          "telefone":"",
+          "operador": "Domingos",
+          "telefone":"98 98518-9687",
           "status": "disponivel"
         }
       ],
@@ -141,15 +147,15 @@
           "lider": "Jefferson",
           "telefone": "98 98162-8039",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
 
              {
-    "numero": "202604619202",
-    "frente": "Oficina Subconjunto",
-    "latitude": "-2,5594727",
-    "longitude": "-44,3622277",
-    "descricao": "UTI _ MONTAGEM E DESMONTAGEM DE ANDAIME",
+    "numero": "202604541103",
+    "frente": "VV-01",
+    "latitude": "-2,5686231",
+    "longitude": "-44,3458035",
+    "descricao": "NORMALIZAR FALHA NA TALHA ELÉTRICA TE311KP04 - VV01",
     "status": "Em andamento"
   },
         {
