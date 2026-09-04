@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "03/09/2026",
+  "data": "04/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -16,7 +16,7 @@
           "Caldeireiro": 3,
           "Mecanico": 14,
           "Soldador": 3,
-          "Montador": 8,
+          "Montador": 9,
           "Eletricista": 0,
           "Pintor": 0
         },
@@ -34,7 +34,7 @@
           "Caldeireiro": 3,
           "Mecanico": 14,
           "Soldador": 3,
-          "Montador": 8,
+          "Montador": 9,
           "Eletricista": 1,
           "Pintor": 0
         },
@@ -87,8 +87,8 @@
         {
           "tipo": "Pick-up",
           "placa": " SFT-9H25",
-          "operador": "Paulo",
-          "contato":"98 98124-4272",
+          "operador": "Janice",
+          "contato":"98 98880-3110",
           "status": "preventiva"
         }
       
@@ -99,14 +99,14 @@
         "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 2 Montadores",
+          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
           "oms": [
             {
-              "frente":"TR-314K-02",
-              "latitude":"-2,5650965",
-              "longitude":"-44,3757921",
+              "frente":"TR-315K-15",
+              "latitude":"-2,5628641",
+              "longitude":"-44,3602026",
               "numero": "202505334074",
-              "descricao": "CHUTE_TROCCHAPAGUIAEMPCHUTREC1505 (TR-314K-02)",
+              "descricao": "CHUTE_TROCAR GUIA MATERIAL CHUT REC.1515 (TR-315K-15)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -120,12 +120,12 @@
           "oms": [
             
             {
-              "numero": "202405731956",
+              "numero": "202604459627",
               "frente":"EP-313K-04",
               "latitude":"-2,5621946",
               "longitude":"-44,3519514",
               "arquivoPdf":"",
-              "descricao": "TROCAR 02 CAV AA DE RETORNO EM V LANÇA BAL 04 CAV 03 E 08 (EP-313K-04/ TR-313K-64)",
+              "descricao": " PLAMONT- PREPARAÇÃO DE MATERIAS E FERRAMENTA (EP-313K-04)",
               "status": "Em andamento"
             }
           ]
@@ -137,11 +137,11 @@
           "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202604532887 ",
-              "frente":"RP-313K-04",
-              "latitude":"-2,5614274",
-              "longitude":"-44,3549536",
-              "descricao":"NIVELAR CAVALETES DA MESA DE TRANSIÇÃO (RP-313K-04) ",
+              "numero":"202604516297",
+              "frente":"RP-313K-06",
+              "latitude":"-2,5734482",
+              "longitude":"-44,3344952",
+              "descricao":"PREPARAÇÃO E MOBILIZAÇÃO (RP-313K-06)",
               "status":"Em andamento"
           }
           ]
@@ -159,7 +159,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 2,
+          "Mecanico": 3,
           "Soldador": 4,
           "Montador": 2,
           "Eletricista": 0,
@@ -187,22 +187,27 @@
           "Mestre Andaime": 0
         }
       },
-      "ausencias": {
-        "Mecânico":1 
-      },
+      "ausencias": {},
       "mobilizacao": {},
       "recursos": [],
 
       "atividades": [
         {
-          "lider": "Julio/Eickson",
+          "lider": "Julio/Erickson",
           "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "2 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
-          "oms": []
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "oms": [
+            {
+              "numero":"",
+              "descricao":"Sem atividades no momento",
+              "status":"Em andamento"
+            }
+          ]
 
         }
       ]
+
     }
   ]
 }
