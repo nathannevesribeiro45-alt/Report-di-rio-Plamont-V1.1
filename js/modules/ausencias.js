@@ -28,8 +28,6 @@ if (total === 0) {
     listaContainer.innerHTML = `
         <div class="lista-vazia">
             <div class="lista-vazia-icone"></div>
-            <h3>✅Nenhuma ausência registrada</h3>
-            <p>Todos os colaboradores compareceram ao trabalho neste turno.</p>
         </div>
     `;
 
