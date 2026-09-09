@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 10,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -60,7 +60,7 @@
           "placa": "SGC-7H66",
           "operador": "",
           "contato":"",
-          "status": "disponivel"
+          "status": "manutencao"
         },
         {
           "tipo": "Munck",
@@ -80,8 +80,8 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Hilgles",
-          "contato":"98 98537-4937",
+          "operador": "Anderson",
+          "contato":"",
           "status": "Disponivel"
         },
         {
@@ -96,52 +96,69 @@
 
       "atividades": [
         {
-        "lider": "Iego",
-          "telefone": "98 8506-6056",
+        "lider": "Adilson",
+          "telefone": "98 8898-1856",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 Soldador + 3 Montadores",
+          "equipe": "04 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
             {
-              "frente":"TR-315K-15",
-              "latitude":"-2,5628641",
-              "longitude":"-44,3602026",
-              "numero": "202505334074",
-              "descricao": "CHUTE_TROCAR GUIA MATERIAL CHUT REC.1515 (TR-315K-15)",
+              "frente":"RP-03",
+              "latitude":"",
+              "longitude":"",
+              "numero": "202501209424",
+              "descricao": "TROCAR 30 ROLOS DE IMPACTO POLIURETANO C RP03 (RP-03)",
+              "arquivoPdf":"",
+              "status": "Em andamento"
+            },
+            {
+              "frente":"RP-06",
+              "latitude":"",
+              "longitude":"",
+              "numero": "202604516297",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO RP06 (RP-06)",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Fernando Maranhão",
+          "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
           "equipe": "4 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
           "oms": [
             
             {
-              "numero": "202604459627",
-              "frente":"EP-313K-04",
-              "latitude":"-2,5621946",
-              "longitude":"-44,3519514",
+              "numero": "202604641726",
+              "frente":"CN-05",
+              "latitude":"",
+              "longitude":"",
               "arquivoPdf":"",
-              "descricao": " PLAMONT- PREPARAÇÃO DE MATERIAS E FERRAMENTA (EP-313K-04)",
+              "descricao": "APOIO_ORGANIZAÇÃO 5S",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Elias",
-          "telefone": "98 98210-6618",
+          "lider": "Ederson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202604516297",
-              "frente":"RP-313K-06",
-              "latitude":"-2,5734482",
-              "longitude":"-44,3344952",
-              "descricao":"PREPARAÇÃO E MOBILIZAÇÃO (RP-313K-06)",
+              "numero":"202504813929",
+              "frente":"TR-311K-01",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"MONTAR ANDAIME PARA TROCAR CAVALETE CARGA POR CAVAL AA (TR-311K-01)",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202504813533",
+              "frente":"TR-311K-01",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"DG-TROCAR CAVALETE CARGA POR CAVAL AA (TR-311K-01)",
               "status":"Em andamento"
           }
           ]
@@ -160,7 +177,7 @@
         "direto": {
           "Caldeireiro": 4,
           "Mecanico": 3,
-          "Soldador": 4,
+          "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -193,16 +210,35 @@
 
       "atividades": [
         {
-          "lider": "Julio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wandersson/Adeilton",
+          "telefone": "98 98508-8348/98 8882-2306",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 3 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-              "numero":"",
-              "descricao":"Sem atividades no momento",
+              "numero":"202603543771",
+              "frente":"ER-06",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_GC_SOLD.G.CORP.INT.PASS.TR.LANÇ.ER06 - POMA-PPR-EMP-EMPRC-ER06-ST1-EA01 (ER-06)",
               "status":"Em andamento"
-            }
+          },
+          {
+              "numero":" 202603531465",
+              "frente":"ER-06",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_PS_TROC.GRAD.PIS. TR LANÇA LD ER 06 - POMA-PPR-EMP-EMPRC-ER06-ST1-EA01 (ER-06)",
+              "status":"Em andamento"
+          },
+           {
+              "numero":" 202603531466",
+              "frente":"ER-06",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_PS_TROC.GRAD.PIS. ESC,ACES.CONTP ER6 - POMA-PPR-EMP-EMPRC-ER06-ST1-EA01 (ER-06)",
+              "status":"Em andamento"
+          }
           ]
 
         }

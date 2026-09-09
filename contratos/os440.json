@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "04/09/2026",
-  "turno": "Dia A",
+  "data": "09/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,18 +10,19 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 6,
-          "Soldador": 3,
-          "Eletricista": 2, 
-          "Ajudante de montagem": 2,
-          "Montador": 10   
+          "Caldeireiro": 13,
+          "Mecanico": 28,
+          "Soldador": 13,
+          "Eletricista": 4, 
+          "Ajudante de montagem": 5,
+          "Pintor": 1,
+          "Montador": 24   
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 2,
-          "Mestre Andaime": 1
+          "Mestre Montagem": 7,
+          "Mestre Andaime": 2
         }
       },
       "histograma": {
@@ -41,7 +42,8 @@
         }
       },
       "ausencias": {
-          "justificadas":0,
+        "Eletricistas":2,
+        "justificadas":2,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -51,7 +53,7 @@
           "placa": "SGA-3I26",
           "operador": "",
           "contato": "",
-          "status":"[Preventiva]"
+          "status":"Preventiva"
         },
         {
           "tipo": "Munck",
@@ -62,15 +64,22 @@
         },
         {
           "tipo": "Munck",
+          "placa": "QRD-8213",
+          "operador": "",
+          "contato": "",
+          "status":"Disponivel"
+        },
+        {
+          "tipo": "Munck",
           "placa": "SGA-3I14",
-          "operador": "Milkenio",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Munck",
           "placa": "QRD-8213",
-          "operador": "Ronaldo",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
@@ -78,14 +87,21 @@
          {
           "tipo": "Pick-up",
           "placa": "SFU-0A47",
-          "operador": "Janice",
+          "operador": "",
+          "contato": "",
+          "status":"Disponivel"
+        },
+        {
+          "tipo": "Pick-up",
+          "placa": "SFU-0A01",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A29",
-          "operador": "Janilon",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
@@ -135,9 +151,9 @@
           ]
         },
          {
-          "lider":"Cleyton",
-          "telefone":"98 93300-5461",
-          "equipe":"3 mecânicos + 2 soldadores + 3 caldereiros + 1 eletricista + 1 ajudante de mont.",
+          "lider":"João Batista",
+          "telefone":"98 8887-8415",
+          "equipe":"3 mecânicos + 2 soldadores + 2 caldereiros",
         
         "oms":[
             {
@@ -146,6 +162,91 @@
               "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
               "latitude":"-2,5681063",
               "longitude":"-44,3457358",
+              "arquivoPdf":"", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Mailson Cordeiro",
+          "telefone":"98 9614-6804",
+          "equipe":"4 mecânicos + 1 soldador + 2 caldereiro + 1 pintor + 1 ajudante de mont.",
+        
+        "oms":[
+            {
+             "frente":"VV-01",
+              "numero":"202604032281",
+              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
+              "latitude":"-2,5681063",
+              "longitude":"-44,3457358",
+              "arquivoPdf":"", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Gutemberg Feitosa",
+          "telefone":"98 8177-7618",
+          "equipe":"5 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
+        
+        "oms":[
+            {
+             "frente":"RP-03",
+              "numero":"202500228759",
+              "descricao":"AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO (RP-03)",
+              "latitude":"-2,5650352",
+              "longitude":"-44,3487367",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03 OM  202500228759 AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO.pdf", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricistas",
+        
+        "oms":[
+            {
+             "frente":"RP-03",
+              "numero":"202603982841",
+              "descricao":"NIVELAR MESA DE CARGA (RP-03)",
+              "latitude":"-2,5650352",
+              "longitude":"-44,3487367",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03-202603982841_NIVELAR MESA DE CARGA-EXTRA.pdf", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Cleiton",
+          "telefone":"98 93300-5461",
+          "equipe":"03 mecânicos + 02 soldadores + 03 caldeireiros + 01 eletricista + 01 ajudante de mont.",
+        
+        "oms":[
+            {
+             "frente":"Canteiro Pelicano",
+              "numero":"",
+              "descricao":"Organização do canteiro Pelicano",
+              "latitude":"",
+              "longitude":"",
+              "arquivoPdf":"", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Augusto Campos",
+          "telefone":"98 8508-9007",
+          "equipe":"05 mecânicos + 03 soldadores + 02 caldeireiros + 01 ajudante de mont",
+        
+        "oms":[
+            {
+             "frente":"Canteiro Central/Pipe Shop",
+              "numero":"",
+              "descricao":"Fabricação",
+              "latitude":"",
+              "longitude":"",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
@@ -160,98 +261,7 @@
      
     },
     
-    {
-      "id": "ferrovia",
-      "icone":"assets/icons/pier3.svg",
-      "qlp": {
 
-        "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 10,
-          "Soldador": 5,
-          "Montador": 12,
-          "Eletricista": 2,
-          "Ajudante de eletricista":1
-        },
-        "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 1,
-          "Mestre Montagem": 2,
-          "Mestre Andaime": 1
-        }
-      },
-      "histograma": {
-        "direto": {
-          "Caldeireiro": 4,
-          "Mecanico": 12,
-          "Soldador": 3,
-          "Montador": 12,
-          "Eletricista": 0,
-          "Pintor": 0
-        },
-        "indireto": {
-          "Supervisor Montagem": 2,
-          "Encarregado Montagem": 1,
-          "Mestre Montagem": 3,
-          "Mestre Andaime": 1
-        }
-      },
-      "ausencias": {
-         "justificadas":0,
-        "naoJustificadas":0
-      },
-      "mobilizacao": {},
-      "recursos": [
-        {
-          "tipo": "",
-          "identificador": "",
-          "operador": "",
-          "status": ""
-        }
-      ],
-      "atividades": [
-  
-        {  
-        "lider":"Augusto Campos",
-        "telefone":"98 8508-9007",
-        "equipe":"5 mecânicos + 3 soldadores + 2 caldereiros + 1 ajudante eletr.",
-        "oms":[
-          {
-              "numero": "Desmobilização e 5S",
-              "frente":"Desmobilização e 5S PIER III",
-              "latitude":"-2,5629051",
-              "longitude":"-44,3790267",
-              "descricao":"",
-              "status":"Em andamento",
-              "arquivoPdf":""
-            }
-          ]
-
-        },
-
-         {
-          "lider":"Fagner",
-          "telefone":"98 8542-9199",
-          "equipe":"5 mecânicos + 2 soldadores + 2 caldereiros + 2 eletricista",
-        
-        "oms":[
-            {
-              "numero": "202604621461",
-              "frente":"TR-315K-04",
-              "latitude":"-2,5607764",
-              "longitude":"-44,3632393",
-              "descricao":"RECUPERAR CHADAVIGA DEAPOIODA BASES (TR-315K-04)",
-              "status":"Em andamento",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/RECUPERAR CHA DA VIGA DE APOIO DA  BASES TR1504.pdf"
-            }
-          ]
-        }
-
-      ],
-      "nome": "Pier 3",
-      "observacoes":[]
-     
-    },
     {
       "id": "telhado",
       "icone":"assets/icons/telhado.svg",

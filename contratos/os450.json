@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "04/09/2026",
-  "turno": "Dia A",
+  "data": "09/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,7 +11,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 5,
-          "Mecanico": 12,
+          "Mecanico": 10,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 8,
@@ -45,10 +45,8 @@
         }
       },
       "ausencias": {
-        "Mecânicos": 2,
-        "Caldeireiro":1,
-        "Montador de andaime":1
-        },
+        "Mecânicos": 2
+       },
       "mobilizacao": {},
 
       "recursos": [
@@ -62,29 +60,29 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Moisés",
-          "contato":"94 99181-8671",
+          "operador": "Italo",
+          "contato":"98 98203-1746",
           "status": "disponivel"
         },
          {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Euclides",
-          "contato":"98 98791-0912",
+          "operador": "Geovane",
+          "contato":"98 9159-3813",
           "status": "disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G24",
-          "operador": "Italo",
-          "contato":"98184-5269",
+          "placa": "QRI-2G50",
+          "operador": "Alisson",
+          "contato":" 98 8876-4732",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFV-7L97",
-          "operador": "Rosivaldo",
-          "contato":"99 99187-8772",
+          "operador": "Kaka",
+          "contato":"98 8480-6556",
           "status": "Disponivel"
         },
         {

@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "04/09/2026",
-  "turno": "Dia A",
+  "data": "09/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -51,27 +51,20 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Jonilson",
-          "telefone": "98 98864-4567",
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202604563894",
-    "frente": "CN-05",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "REPOR INFRAN E SUPORTE DA BOTOEIRA DE TRANSLAÇÃO DO (CN05)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604532631",
-    "frente": "CN-05",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "APOIO PARA TROCA DE BANDEJAMENTO E SUPORTES INTERNOS (CN05)",
+    "numero": "--",
+    "frente": "ER-06",
+    "latitude":"-2,5713731",
+    "longitude":"-44,3426074",
+    "descricao": "PREPARAÇÃODE MATERIAIS E FERRAMENTAS DA ER-06",
     "status": "Em andamento"
   }
+
             
           ]
         }
@@ -86,7 +79,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 6,
+          "Mecanico": 5,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -118,7 +111,9 @@
         }
       },
 
-      "ausencias": {},
+      "ausencias": {
+        "Mecânico":1
+      },
 
       "mobilizacao": {
         "Mecanico": 0,
@@ -129,15 +124,15 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "",
+          "operador": "Fernando",
           "telefone":"",
           "status": "disponivel"
         },
           {
           "tipo": "Pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Domingos",
-          "telefone":"98 98518-9687",
+          "placa": "SFT-9H25",
+          "operador": "Rafael",
+          "telefone":"",
           "status": "disponivel"
         }
       ],
@@ -147,58 +142,33 @@
           "lider": "Jefferson",
           "telefone": "98 98162-8039",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
 
              {
-    "numero": "202604541103",
-    "frente": "VV-01",
-    "latitude": "-2,5686231",
-    "longitude": "-44,3458035",
-    "descricao": "NORMALIZAR FALHA NA TALHA ELÉTRICA TE311KP04 - VV01",
-    "status": "Em andamento"
-  },
-        {
-    "numero": "202604612674",
-    "frente": "Oficina Subconjunto",
-    "latitude": "-2,5594727",
-    "longitude": "-44,3622277",
-    "descricao": "RETIRAR E REALIZAR REPARO DO TRUCK/RODA",
-    "status": "Em andamento"
-  },
-        {
-    "numero": "202603835906",
-    "frente": "EX-311K-04",
-    "latitude": "-2,5657468",
-    "longitude": "-44,3458998",
-    "descricao": "MONTAR/DESMONTAR ANDAIME EX-311K-04",
+    "numero": "202604072105",
+    "frente": "RP-03",
+    "latitude": "-2,5650352",
+    "longitude": "-44,3487367",
+    "descricao": "MP Eletromecânica Pórtico PR_3110KP_03 (RP-03)",
     "status": "Em andamento"
   },
   {
-    "numero": "202604617167",
-    "frente": "TR-313K-61",
-    "latitude": "-2,5621947",
-    "longitude": "-44,3465427",
-    "descricao": "SUBSTITUIR PAINEL NO GC 1361",
-    "status": "Em andamento"
-  },
-   {
-    "numero": "202302593049",
-    "frente": "Pórtico 2",
-    "latitude": "-2,5686316",
-    "longitude": "-44,3452532",
-    "descricao": "A17- SUBS CABO AÇO E MOITÃO AUX COM DESG",
+    "numero": "202604741643",
+    "frente": "RP-03",
+    "latitude": "-2,5650352",
+    "longitude": "-44,3487367",
+    "descricao": "EMERGENCIAL PONTE DE SUBCONJUNTOS",
     "status": "Em andamento"
   },
   {
-    "numero": "202603588627",
-    "frente": "Ponte 206",
+    "numero": "202604340847",
+    "frente": "",
     "latitude": "",
     "longitude": "",
-    "descricao": "MP ELMEC PONTE ROLANTE PR-311K-206",
+    "descricao": "MP ELMEC PONTE ROLANTE PR-363K-01",
     "status": "Em andamento"
   }
-
           ]
 }
       ]
