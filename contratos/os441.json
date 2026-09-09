@@ -103,8 +103,8 @@
           "oms": [
             {
               "frente":"RP-03",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5650352",
+              "longitude":"-44,3487367",
               "numero": "202501209424",
               "descricao": "TROCAR 30 ROLOS DE IMPACTO POLIURETANO C RP03 (RP-03)",
               "arquivoPdf":"",
@@ -112,8 +112,8 @@
             },
             {
               "frente":"RP-06",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5734482",
+              "longitude":"-44,3344952",
               "numero": "202604516297",
               "descricao": "PREPARAÇÃO E MOBILIZAÇÃO RP06 (RP-06)",
               "arquivoPdf":"",
@@ -131,8 +131,8 @@
             {
               "numero": "202604641726",
               "frente":"CN-05",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5594112",
+              "longitude":"-44,3792181",
               "arquivoPdf":"",
               "descricao": "APOIO_ORGANIZAÇÃO 5S",
               "status": "Em andamento"
@@ -148,16 +148,16 @@
             {
               "numero":"202504813929",
               "frente":"TR-311K-01",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5681048",
+              "longitude":"-44,3462046",
               "descricao":"MONTAR ANDAIME PARA TROCAR CAVALETE CARGA POR CAVAL AA (TR-311K-01)",
               "status":"Em andamento"
           },
           {
               "numero":"202504813533",
               "frente":"TR-311K-01",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5681048",
+              "longitude":"-44,3462046",
               "descricao":"DG-TROCAR CAVALETE CARGA POR CAVAL AA (TR-311K-01)",
               "status":"Em andamento"
           }
