@@ -19,8 +19,8 @@
           "Montador": 24   
         },
         "indireto": {
-          "Supervisor Montagem": 1,
-          "Encarregado Montagem": 1,
+          "Supervisor Montagem": 2,
+          "Encarregado Montagem": 2,
           "Mestre Montagem": 7,
           "Mestre Andaime": 2
         }
