@@ -228,8 +228,8 @@
              "frente":"Canteiro Pelicano",
               "numero":"",
               "descricao":"Organização do canteiro Pelicano",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5594588",
+              "longitude":"-44,3485215",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
@@ -245,8 +245,8 @@
              "frente":"Canteiro Central/Pipe Shop",
               "numero":"",
               "descricao":"Fabricação",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5561646",
+              "longitude":"-44,3505036",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
