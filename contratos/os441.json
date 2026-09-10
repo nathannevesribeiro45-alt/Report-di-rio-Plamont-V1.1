@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "04/09/2026",
-  "turno": "Dia A",
+  "data": "10/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -48,8 +48,9 @@
 
       "ausencias": {
      "Montador de andaime":1,
-     "justificadas": 1,
-     "naoJustificadas":1
+     "Mecânico":1,
+     "justificadas": 2,
+     "naoJustificadas":0
       },
 
       "mobilizacao": {},
@@ -58,9 +59,9 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "",
+          "operador": "Jhonatan",
           "contato":"",
-          "status": "manutencao"
+          "status": "Disponivel"
         },
         {
           "tipo": "Munck",
@@ -69,14 +70,7 @@
           "contato":"",
           "status": "preventiva"
         },
-         {
-          "tipo": "Munck",
-          "placa": "RQP-8G78",
-          "operador":"",
-          "contato":"",
-          "status": "Disponivel"
-        },
-       
+      
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
@@ -86,10 +80,10 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": " SFT-9H25",
-          "operador": "Janice",
-          "contato":"98 98880-3110",
-          "status": "preventiva"
+          "placa": "RQP-8G78",
+          "operador": "Patrick",
+          "contato":"",
+          "status": "Disponivel"
         }
       
       ],
@@ -102,21 +96,21 @@
           "equipe": "04 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
             {
-              "frente":"RP-03",
-              "latitude":"-2,5650352",
-              "longitude":"-44,3487367",
-              "numero": "202501209424",
-              "descricao": "TROCAR 30 ROLOS DE IMPACTO POLIURETANO C RP03 (RP-03)",
-              "arquivoPdf":"",
+              "frente":"ER-06",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
+              "numero": "202604527079",
+              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO (ER-06)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM - 202604527079 - PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S.pdf",
               "status": "Em andamento"
             },
             {
-              "frente":"RP-06",
-              "latitude":"-2,5734482",
-              "longitude":"-44,3344952",
-              "numero": "202604516297",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO RP06 (RP-06)",
-              "arquivoPdf":"",
+              "frente":"ER-06",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
+              "numero": "202603785721",
+              "descricao": "TROCAR 31 ROLOS DE CARGA TRE 313K-83",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR-313K-86 OM - 202603785721 - TROCAR 31 ROLOS DE CARGA NO TR1386.pdf",
               "status": "Em andamento"
             }
           ]
@@ -133,7 +127,7 @@
               "frente":"CN-05",
               "latitude":"-2,5594112",
               "longitude":"-44,3792181",
-              "arquivoPdf":"",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM NOVA - 202604641726_APOIO_ORGANIZAÇÃO 5S.pdf",
               "descricao": "APOIO_ORGANIZAÇÃO 5S",
               "status": "Em andamento"
             }
@@ -146,11 +140,12 @@
           "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202504813929",
+              "numero":"202604122604",
               "frente":"TR-311K-01",
               "latitude":"-2,5681048",
               "longitude":"-44,3462046",
-              "descricao":"MONTAR ANDAIME PARA TROCAR CAVALETE CARGA POR CAVAL AA (TR-311K-01)",
+              "descricao":"PREPARAÇÃO MATERIAIS, FERRAMENTAS E 5S",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/202604122604 – TR1101 – PREPARAÇÃO MATERIAIS, FERRAMENTAS E 5S OK.pdf",
               "status":"Em andamento"
           },
           {
@@ -159,6 +154,7 @@
               "latitude":"-2,5681048",
               "longitude":"-44,3462046",
               "descricao":"DG-TROCAR CAVALETE CARGA POR CAVAL AA (TR-311K-01)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/202504813533 – TR1101 – DG-TROCAR CAVALETE CARGA POR CAVAL AA.pdf",
               "status":"Em andamento"
           }
           ]
@@ -218,24 +214,24 @@
             {
               "numero":"202603543771",
               "frente":"ER-06",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
               "descricao":"SEG_GC_SOLD.G.CORP.INT.PASS.TR.LANÇ.ER06 - POMA-PPR-EMP-EMPRC-ER06-ST1-EA01 (ER-06)",
               "status":"Em andamento"
           },
           {
               "numero":" 202603531465",
               "frente":"ER-06",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
               "descricao":"SEG_PS_TROC.GRAD.PIS. TR LANÇA LD ER 06 - POMA-PPR-EMP-EMPRC-ER06-ST1-EA01 (ER-06)",
               "status":"Em andamento"
           },
            {
               "numero":" 202603531466",
               "frente":"ER-06",
-              "latitude":"",
-              "longitude":"",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
               "descricao":"SEG_PS_TROC.GRAD.PIS. ESC,ACES.CONTP ER6 - POMA-PPR-EMP-EMPRC-ER06-ST1-EA01 (ER-06)",
               "status":"Em andamento"
           }
