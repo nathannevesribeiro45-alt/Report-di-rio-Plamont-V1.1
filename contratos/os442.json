@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "09/09/2026",
+  "data": "10/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -57,11 +57,11 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "--",
+    "numero": "202503517823",
     "frente": "ER-06",
     "latitude":"-2,5713731",
     "longitude":"-44,3426074",
-    "descricao": "PREPARAÇÃODE MATERIAIS E FERRAMENTAS DA ER-06",
+    "descricao": "APOIO À MONTAGEM DA INFRAESTRUTURA DO PROJETO CAVALETE AUTO",
     "status": "Em andamento"
   }
 
@@ -79,7 +79,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 5,
+          "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -111,9 +111,7 @@
         }
       },
 
-      "ausencias": {
-        "Mecânico":1
-      },
+      "ausencias": {},
 
       "mobilizacao": {
         "Mecanico": 0,
@@ -130,7 +128,7 @@
         },
           {
           "tipo": "Pick-up",
-          "placa": "SFT-9H25",
+          "placa": "QRI-2G24",
           "operador": "Rafael",
           "telefone":"",
           "status": "disponivel"
@@ -142,32 +140,96 @@
           "lider": "Jefferson",
           "telefone": "98 98162-8039",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
 
              {
-    "numero": "202604072105",
+    "om": "202604072105",
     "frente": "RP-03",
-    "latitude": "-2,5650352",
-    "longitude": "-44,3487367",
-    "descricao": "MP Eletromecânica Pórtico PR_3110KP_03 (RP-03)",
-    "status": "Em andamento"
+    "latitude":"",
+    "longitude":"",
+    "descricao": "MP Eletromecânica Pórtico PR_3110KP_03",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604741643",
-    "frente": "RP-03",
-    "latitude": "-2,5650352",
-    "longitude": "-44,3487367",
-    "descricao": "EMERGENCIAL PONTE DE SUBCONJUNTOS",
-    "status": "Em andamento"
+    "om": "202402249260",
+    "frente": "PÓRTICO 3",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "PÓRTICO 3 DISP. ANTI DESCAR. TRAVADO",
+    "status":"Em andamento"
   },
   {
-    "numero": "202604340847",
+    "om": "202604741643",
     "frente": "",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "MP ELMEC PONTE ROLANTE PR-363K-01",
-    "status": "Em andamento"
+    "latitude":"",
+    "longitude":"",
+    "descricao": "REPOR ACIONAMENTOS DA PONTE DE SUBCONJUNTOS - EXTRA",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202604340847",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "MP EL MEC PONTE ROLANTE PR-36K-01",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202604224125",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "MP ELETROMECANICA EXTRATOR DE SUCATAS",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202600690216",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "GC 1538 SUBSTITUIR INVERSOR DE FREQUENCI",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202604084695",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "EPO MPV 16S TROCA DE OLEO TE-3150KP-05 (TALHA 05)",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202602802361",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "TE-3150KP05 TALHA INOPERANTE (TALHA 05)",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202604759977",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "NORMALIZAR ELETRICA (TALHA 05) - EXTRA",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202504733775",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "EPO MPV 16S TROCA DE OLEO TE-3150KP-13 (TALHA 13)",
+    "status":"Em andamento"
+  },
+  {
+    "om": "202604638974",
+    "frente": "",
+    "latitude":"",
+    "longitude":"",
+    "descricao": "APOIO PARA MONTAR E DESMONTAR ANDAIMES NA TE-3150KP-13 (TALHA 13)",
+    "status":"Em andamento"
   }
           ]
 }
