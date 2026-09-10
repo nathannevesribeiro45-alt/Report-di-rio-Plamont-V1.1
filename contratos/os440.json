@@ -260,12 +260,12 @@
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
-              "frente":"TR-315K-05",
-              "numero":"202203852166",
-              "descricao":"TROCARREPOR TELHA DA CT DO TR 315K-05 (TR-315K-05)",
-              "latitude":"-2,5646256",
-              "longitude":"-44,3744126",
-              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202203852166 TROCARREPOR TELHA DA CT DO TR 315K-05 - ATUALIZADA.pdf",
+              "frente":"TR-326k-02",
+              "numero":"202502848942",
+              "descricao":" TME-TROCAR-TELHAS-TAPMENT-TR2602(TR-326k-02)",
+              "latitude":"-2,5563207",
+              "longitude":"-44,3715381",
+              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202502848942  TME-TROCAR-TELHAS-TAPMENT-TR2602.pdf",
               "arquivoLaudo":"",
               "status":"Em andamento"
           }
