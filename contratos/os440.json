@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "09/09/2026",
+  "data": "10/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -10,19 +10,19 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 13,
-          "Mecanico": 28,
-          "Soldador": 13,
+          "Caldeireiro": 8,
+          "Mecanico": 16,
+          "Soldador": 8,
           "Eletricista": 4, 
-          "Ajudante de montagem": 5,
+          "Ajudante de montagem": 3,
           "Pintor": 1,
-          "Montador": 24   
+          "Montador": 12   
         },
         "indireto": {
           "Supervisor Montagem": 2,
           "Encarregado Montagem": 2,
-          "Mestre Montagem": 7,
-          "Mestre Andaime": 2
+          "Mestre Montagem": 4,
+          "Mestre Andaime": 1
         }
       },
       "histograma": {
@@ -42,8 +42,7 @@
         }
       },
       "ausencias": {
-        "Eletricistas":2,
-        "justificadas":2,
+        "justificadas":0,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -64,7 +63,7 @@
         },
         {
           "tipo": "Munck",
-          "placa": "QRD-8213",
+          "placa": "ROV-7A11",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
@@ -87,21 +86,21 @@
          {
           "tipo": "Pick-up",
           "placa": "SFU-0A47",
-          "operador": "",
+          "operador": "Janice",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A01",
-          "operador": "",
+          "operador": "Genillon",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A29",
-          "operador": "",
+          "operador": "Paulo",
           "contato": "",
           "status":"Disponivel"
         },
@@ -150,57 +149,7 @@
             }
           ]
         },
-         {
-          "lider":"João Batista",
-          "telefone":"98 8887-8415",
-          "equipe":"3 mecânicos + 2 soldadores + 2 caldereiros",
-        
-        "oms":[
-            {
-             "frente":"VV-01",
-              "numero":"202604032281",
-              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "arquivoPdf":"", 
-              "status":"Em andamento"
-            }
-          ]
-        },
-        {
-          "lider":"Mailson Cordeiro",
-          "telefone":"98 9614-6804",
-          "equipe":"4 mecânicos + 1 soldador + 2 caldereiro + 1 pintor + 1 ajudante de mont.",
-        
-        "oms":[
-            {
-             "frente":"VV-01",
-              "numero":"202604032281",
-              "descricao":"RECUP ESTRU PAREDE INT TREMONHA (VV-01)",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "arquivoPdf":"", 
-              "status":"Em andamento"
-            }
-          ]
-        },
-        {
-          "lider":"Gutemberg Feitosa",
-          "telefone":"98 8177-7618",
-          "equipe":"5 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
-        
-        "oms":[
-            {
-             "frente":"RP-03",
-              "numero":"202500228759",
-              "descricao":"AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO (RP-03)",
-              "latitude":"-2,5650352",
-              "longitude":"-44,3487367",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03 OM  202500228759 AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO.pdf", 
-              "status":"Em andamento"
-            }
-          ]
-        },
+         
         {
           "lider":"Fagner",
           "telefone":"98 8542-9199",
@@ -225,12 +174,12 @@
         
         "oms":[
             {
-             "frente":"Canteiro Pelicano",
-              "numero":"",
-              "descricao":"Organização do canteiro Pelicano",
-              "latitude":"-2,5594588",
-              "longitude":"-44,3485215",
-              "arquivoPdf":"", 
+             "frente":"RP-03",
+              "numero":"202500228759",
+              "descricao":"AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO (RP-03)",
+              "latitude":"-2,5650352",
+              "longitude":"-44,3487367",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03 OM  202500228759 AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO.pdf", 
               "status":"Em andamento"
             }
           ]
@@ -305,8 +254,8 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Edeilson",
-          "telefone": "98 8498-4952",
+          "lider": "Alonso Costa",
+          "telefone": "31 8495-2503",
           "tecnicoSeguranca": "",
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
