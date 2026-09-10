@@ -27,17 +27,18 @@
       },
       "histograma": {
         "direto": {
-          "Caldeireiro": 2,
-          "Mecanico": 4,
-          "Soldador": 2,
-          "Montador": 10,
-          "Eletricista": 1,
-          "Pintor": 0
+          "Caldeireiro": 4,
+          "Mecanico": 13,
+          "Soldador": 5,
+          "Montador": 12,
+          "Eletricista": 2,
+          "Ajudante de montagem": 2,
+          "Pintor": 1
         },
         "indireto": {
           "Supervisor Montagem": 1,
           "Encarregado Montagem": 1,
-          "Mestre Montagem": 1,
+          "Mestre Montagem": 3,
           "Mestre Andaime": 1
         }
       },
@@ -267,13 +268,16 @@
               "longitude":"-44,3715381",
               "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202502848942  TME-TROCAR-TELHAS-TAPMENT-TR2602.pdf",
               "arquivoLaudo":"",
-              "status":"Em andamento"
+              "status":"Em andamento",
+              "observacoes":"Líder Alonso Costa dando apoio ao Telhado com a equipe do líder Edeilson."
           }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": []
+      "observacoes": [
+        "Líder Alonso Costa dando apoio ao Telhado com a equipe do líder Edeilson."
+      ]
     }
   ]
 }
