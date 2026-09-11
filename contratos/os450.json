@@ -11,7 +11,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 5,
-          "Mecanico": 10,
+          "Mecanico": 12,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 8,
@@ -23,7 +23,7 @@
           "Encarregado Montagem": 3,
           "Supervisor Andaime": 1,
           "Encarregado Elétrica": 1,
-          "Mestre Montagem": 3,
+          "Mestre Montagem": 4,
           "Mestre Andaime": 2
         }
       },
@@ -60,29 +60,29 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Italo",
-          "contato":"98 98203-1746",
+          "operador": "Moisés",
+          "contato":"94 99181-8671",
           "status": "disponivel"
         },
          {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Geovane",
-          "contato":"98 9159-3813",
+          "operador": "Márcio",
+          "contato":"98 98805-1819",
           "status": "disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "QRI-2G50",
-          "operador": "",
-          "contato":"",
+          "placa": "QRI-2G24",
+          "operador": "Italo",
+          "contato":"98 98184-5269",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFV-7L97",
-          "operador": "Kaka",
-          "contato":"98 8480-6556",
+          "operador": "Rosivaldo",
+          "contato":"98 99187-8772",
           "status": "Disponivel"
         },
         {
