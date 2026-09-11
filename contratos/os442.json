@@ -51,8 +51,8 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
@@ -122,116 +122,147 @@
         {
           "tipo": "munck",
           "placa": "RBD-3I45",
-          "operador": "Fernando",
+          "operador": "",
           "telefone":"",
           "status": "disponivel"
         },
           {
           "tipo": "Pick-up",
-          "placa": "QRI-2G24",
-          "operador": "Rafael",
-          "telefone":"",
+          "placa": " SFT-9J87",
+          "operador": "Domingos",
+          "telefone":"98 98518-9687",
           "status": "disponivel"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Jefferson",
-          "telefone": "98 98162-8039",
+          "lider": "José Maria",
+          "telefone": "98 981850-6567",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
-          "oms": [
-
-             {
-    "om": "202604072105",
-    "frente": "RP-03",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "MP Eletromecânica Pórtico PR_3110KP_03",
-    "status":"Em andamento"
-  },
+          "oms":[
   {
-    "om": "202402249260",
-    "frente": "PÓRTICO 3",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "PÓRTICO 3 DISP. ANTI DESCAR. TRAVADO",
-    "status":"Em andamento"
-  },
-  {
-    "om": "202604741643",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "REPOR ACIONAMENTOS DA PONTE DE SUBCONJUNTOS - EXTRA",
-    "status":"Em andamento"
-  },
-  {
-    "om": "202604340847",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "MP EL MEC PONTE ROLANTE PR-36K-01",
-    "status":"Em andamento"
-  },
-  {
-    "om": "202604224125",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "MP ELETROMECANICA EXTRATOR DE SUCATAS",
-    "status":"Em andamento"
-  },
-  {
-    "om": "202600690216",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "GC 1538 SUBSTITUIR INVERSOR DE FREQUENCI",
-    "status":"Em andamento"
-  },
-  {
-    "om": "202604084695",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "EPO MPV 16S TROCA DE OLEO TE-3150KP-05 (TALHA 05)",
-    "status":"Em andamento"
-  },
-  {
-    "om": "202602802361",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "TE-3150KP05 TALHA INOPERANTE (TALHA 05)",
-    "status":"Em andamento"
+    "om": "202604540195",
+    "frente": "TR-311K-13",
+    "latitude": "-2,5714619",
+    "longitude": "-44,3445712",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1113",
+    "status": "Em andamento"
   },
   {
     "om": "202604759977",
     "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "NORMALIZAR ELETRICA (TALHA 05) - EXTRA",
-    "status":"Em andamento"
+    "latitude": "",
+    "longitude": "",
+    "descricao": "NORMALIZAR ELÉTRICA DA TALHA 05",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202604084695",
+    "frente": "TE-3150KP-05",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "EPO MPV 16S TROCA DE ÓLEO TE-3150KP-05",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202604759978",
+    "frente": "",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "MONTAGEM E DESMONTAGEM DE ACESSO À TALHA",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202602802361",
+    "frente": "",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "TE-3150KP05 TALHA INOPERANTE",
+    "status": "Em andamento"
   },
   {
     "om": "202504733775",
-    "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "EPO MPV 16S TROCA DE OLEO TE-3150KP-13 (TALHA 13)",
-    "status":"Em andamento"
+    "frente": "TE-3150KP-13",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "EPO MPV 16S TROCA DE ÓLEO TE-3150KP-13",
+    "status": "Em andamento"
   },
   {
     "om": "202604638974",
     "frente": "",
-    "latitude":"",
-    "longitude":"",
-    "descricao": "APOIO PARA MONTAR E DESMONTAR ANDAIMES NA TE-3150KP-13 (TALHA 13)",
-    "status":"Em andamento"
+    "latitude": "",
+    "longitude": "",
+    "descricao": "APOIO PARA MONTAR E DESMONTAR ANDAIMES N",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202604323773",
+    "frente": "TR-313K-12",
+    "latitude": "-2,5659464",
+    "longitude": "-44,3590292",
+    "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1312 ",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202602447971",
+    "frente": "TR-313K-12",
+    "latitude": "-2,5659464",
+    "longitude": "-44,3590292",
+    "descricao": "MCM-MPV UTIL 16S GUINCHO CONT/PESO TR1312 ",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202600690216",
+    "frente": "",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "GC 1538 SUBSTITUIR INVERSOR DE FREQUENCI",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202603943532",
+    "frente": "",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "RCM-MP ELE ESTICAMENTO",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202603943535",
+    "frente": "",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "RCM-MP ELE ESTICAMENTO ",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202604404224",
+    "frente": "TR-326K-05",
+    "latitude": "-2,5510146",
+    "longitude": "-44,3781467",
+    "descricao": "MP EL MEC GUINCHO CONTRA PESO TR2605",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202603771494",
+    "frente": "TR-326K-06",
+    "latitude": "-2,5496296",
+    "longitude": "-44,3778583",
+    "descricao": "MP TROCA ÓLEO REDUTOR GUINCHO TR2606 ",
+    "status": "Em andamento"
+  },
+  {
+    "om": "202604404225",
+    "frente": "TR-326K-06",
+    "latitude": "-2,5496296",
+    "longitude": "-44,3778583",
+    "descricao": "MP ELMEC GUINCHO CONTRA PESO TR2606",
+    "status": "Em andamento"
   }
-          ]
+]
 }
       ]
     }
