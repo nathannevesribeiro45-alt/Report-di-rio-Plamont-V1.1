@@ -10,10 +10,10 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 7,
+          "Caldeireiro": 6,
           "Mecanico": 17,
           "Soldador": 8,
-          "Eletricista": 2, 
+          "Eletricista": 4, 
           "Ajudante de montagem": 3,
           "Pintor": 1,
           "Montador": 12
@@ -87,21 +87,21 @@
          {
           "tipo": "Pick-up",
           "placa": "SFU-0A47",
-          "operador": "Janice",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A01",
-          "operador": "Genillon",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A29",
-          "operador": "Paulo",
+          "operador": "",
           "contato": "",
           "status":"Disponivel"
         },
@@ -111,14 +111,14 @@
           "placa": "NXK-0961",
           "operador": "",
           "contato": "",
-          "status":"Disponivel"
+          "status":"Manutencao"
         },
          {
           "tipo": "Guindaste",
           "placa": "QRE-5I29",
           "operador": "",
           "contato": "",
-          "status":"Manutencao"
+          "status":"Disponivel"
         },
         {
           "tipo": "Guindaste",
@@ -134,9 +134,9 @@
           
 
         {
-          "lider":"João Batista",
-          "telefone":"98 8887-8415",
-          "equipe":"3 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista",
+          "lider":"Wallace",
+          "telefone":"98 9229-0970",
+          "equipe":"4 mecânicos + 2 soldadores + 2 caldereiros + 1 eletricista + 1 ajudante de mont.",
         
         "oms":[
             {
@@ -152,35 +152,35 @@
         },
          
         {
-          "lider":"Gutemberg",
-          "telefone":"98 8542-9199",
-          "equipe":"5 mecânicos + 2 soldadores + 1 caldereiros + 1 ajudante de mont.",
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"3 mecânicos + 1 soldadores + 1 eletricista + 1 ajudante de mont.",
         
         "oms":[
             {
-             "frente":"RP-03",
-              "numero":"202500228759",
-              "descricao":"AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO (RP-03)",
-              "latitude":"-2,5650352",
-              "longitude":"-44,3487367",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03 OM  202500228759 AE14.4_FAB.PINOS E OLHAIS ART.CONTRAPESO.pdf", 
+             "frente":"ER-01",
+              "numero":"--",
+              "descricao":"PREPARAÇÃO E MOBILIZAÇÃO PARA ER-01",
+              "latitude":"-2,5754731",
+              "longitude":"-44,3367786",
+              "arquivoPdf":"", 
               "status":"Em andamento"
             }
           ]
         },
         {
-          "lider":"Mailson",
-          "telefone":"98 9614-6804",
-          "equipe":"04 mecânicos + 01 soldadores + 02 caldeireiros + 01 eletricista + 01 pintor + 01 ajudante de mont.",
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"05 mecânicos + 02 soldadores + 02 caldeireiros + 02 eletricista",
         
         "oms":[
              {
              "frente":"RP-03",
-              "numero":"202603982841",
-              "descricao":"NIVELAR MESA DE CARGA (RP-03)",
+              "numero":"202600134651",
+              "descricao":"PC1.4_RECUP.VIGAS SUP.GUINC. CTRP. LANC. (RP-03)",
               "latitude":"-2,5650352",
               "longitude":"-44,3487367",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03-202603982841_NIVELAR MESA DE CARGA-EXTRA.pdf", 
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP03 OM 202600134651  PC1.4_RECUP.VIGAS SUP.GUINC. CTRP. LANC.pdf", 
               "status":"Em andamento"
             }
           ]
@@ -192,12 +192,12 @@
         
         "oms":[
             {
-             "frente":"RP-03",
-              "numero":"202603982841",
-              "descricao":"NIVELAR MESA DE CARGA (RP-03)",
-              "latitude":"-2,5650352",
-              "longitude":"-44,3487367",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/RP-03 OM 202603982841 NIVELAR MESA DE CARGA Rev1.pdf", 
+             "frente":"Canteiro Central",
+              "numero":"--",
+              "descricao":"Fabricação no Pipe Shop para ER-01",
+              "latitude":"",
+              "longitude":"",
+              "arquivoPdf":"", 
               "status":"Em andamento"
             }
           ]
@@ -255,18 +255,18 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Ronielisson",
-          "telefone": "98 9963-7084",
+          "lider": "Edeilson",
+          "telefone": "98 8498-4952",
           "tecnicoSeguranca": "",
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
-              "frente":"TR-326k-02",
+              "frente":"TR-314K-13",
               "numero":"202502848942",
-              "descricao":" TME-TROCAR-TELHAS-TAPMENT-TR2602(TR-326k-02)",
-              "latitude":"-2,5563207",
-              "longitude":"-44,3715381",
-              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202502848942  TME-TROCAR-TELHAS-TAPMENT-TR2602.pdf",
+              "descricao":"REPOR TELHAS  TR1413 (TR-314K-13)",
+              "latitude":"",
+              "longitude":"",
+              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202603476693 REPOR TELHAS  TR1413.pdf",
               "arquivoLaudo":"",
               "status":"Em andamento"
           }
