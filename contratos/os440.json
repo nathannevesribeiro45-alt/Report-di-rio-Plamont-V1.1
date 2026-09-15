@@ -170,8 +170,8 @@
              "frente":"ER-01",
               "numero":"202403158303",
               "descricao":"AE1.0_FAB TROC.VIGA TRAV.LONG.LANÇA (ER-01)",
-              "latitude":"-2,5754731",
-              "longitude":"-44,3367786",
+              "latitude":"-2,5671205",
+              "longitude":"-44,3524934",
               "arquivoPdf":"om's/contrato 440 oms/Integridade/ER01 OM 202403158303 AE1.0_FAB TROC.VIGA TRAV.LONG.LANÇA.pdf", 
               "status":"Em andamento"
             }
@@ -184,11 +184,11 @@
         
         "oms":[
             {
-             "frente":"Canteiro Central/Pipe Shope",
-              "numero":"--",
-              "descricao":"FABRICAÇÃO PARA ER-01",
-              "latitude":"-2,5561646",
-              "longitude":"-44,3505036",
+             "frente":"TR-1307",
+              "numero":"202500911479",
+              "descricao":" AE1.8_SUBST.ELEM.FIX.CREMALHEI.CABÇ (TR-1307)",
+              "latitude":"",
+              "longitude":"",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
