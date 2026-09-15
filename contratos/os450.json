@@ -44,7 +44,11 @@
           "Mestre Andaime": 2
         }
       },
-      "ausencias": {},
+      "ausencias": {
+        "Mecânicos":2,
+        "justificadas":2,
+        "naoJustificadas":0
+      },
       "mobilizacao": {},
 
       "recursos": [
