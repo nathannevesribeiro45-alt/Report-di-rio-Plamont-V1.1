@@ -165,15 +165,15 @@
         {
           "lider":"Maurício",
           "telefone":"",
-          "equipe":"2 soldador + 1 caldeireiro",
+          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro + 4 montadores",
           "oms":[
             {
               "frente":"ER-01",
-              "numero":"",
-              "descricao":"",
-              "latitude":"",
-              "longitude":"",
-              "arquivoPdf":"", 
+              "numero":"202405911719",
+              "descricao":"TROCAR RAMPA CURVA DA ER-01 (ER-01)",
+              "latitude":"-2,5754731",
+              "longitude":"-44,3367786",
+              "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
               "status":"Em andamento"
             }
 
