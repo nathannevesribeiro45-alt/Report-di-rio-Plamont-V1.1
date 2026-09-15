@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "11/09/2026",
+  "data": "15/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,8 +13,8 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Caldeireiro": 2,
+          "Mecanico": 13,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -47,7 +47,9 @@
       },
 
       "ausencias": {
-     "justificadas": 0,
+        "Mecânico":1,
+        "Caldeireiro":2,
+     "justificadas": 3,
      "naoJustificadas":0
       },
 
@@ -59,7 +61,7 @@
           "placa": "SGC-7H66",
           "operador": "",
           "contato":"",
-          "status": "Disponivel"
+          "status": "manutenção"
         },
         {
           "tipo": "Munck",
@@ -73,21 +75,21 @@
           "placa": "RBB-1B72",
           "operador": "",
           "contato":"",
-          "status": "preventiva"
+          "status": "manutenção"
         },
       
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Anderson",
-          "contato":"",
+          "operador": "Hilgles",
+          "contato":"98 98537-4937",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "RQP-8G78",
-          "operador": "Patrick",
-          "contato":"",
+          "placa": "SFT-9H25",
+          "operador": "Carlos",
+          "contato":"98 98124-4272",
           "status": "Disponivel"
         }
       
@@ -101,12 +103,12 @@
           "equipe": "05 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
             {
-              "frente":"ER-06",
-              "latitude":"-2,5713731",
-              "longitude":"-44,3426074",
-              "numero": " 202603577002",
-              "descricao": "TROCAR 26 CHAPAS DESGASTE CHUTE CENTRAL(ER-06)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/ER-313K-06 OM - 202603577002 - TROCAR 26 CHAPAS DESGASTE CHUTE CENTRAL.pdf",
+              "frente":"ER-01",
+              "latitude":"-2,5754731",
+              "longitude":"-44,3367786",
+              "numero": "202604636645",
+              "descricao": "PREPARAÇÃO DE MATERIAS E5S PLAMONT (ER01)",
+              "arquivoPdf":"",
               "status": "Em andamento"
             }
           ]
@@ -115,34 +117,16 @@
           "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 soldador + 1 caldeireiro + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 soldador + 3 Montadores",
           "oms": [
             
             {
-              "numero": "202604097588",
-              "frente":"TR-315K-03",
-              "latitude":"-2,5661388",
-              "longitude":"-44,3780075",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604097588 - CAVALETE_TROCAR CAVALETE CARGA TR1503.pdf",
-              "descricao": " CAVALETE_TROCAR CAVALETE CARGA TR1503 (TR-315K-03)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202604047942",
-              "frente":"TR-315K-03",
-              "latitude":"-2,5661388",
-              "longitude":"-44,3780075",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604047942 - TR1503- ROLO_REPOR ROLO DE RETORNO PLAN B36 CV02.pdf",
-              "descricao": "ROLO_REPOR ROLO DE RETORNO PLAN B36 CV02 TR1503 (TR-315K-03)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202604637771",
-              "frente":"CN-01",
-              "latitude":"-2,5669823",
-              "longitude":"-44,3793001",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604637771 - ROLO_TROCA ROLO PLANO MESA 03 CV11 CN01.pdf",
-              "descricao": "ROLO_TROCA ROLO PLANO MESA 03 CV11 CN01 (CN-01)",
+              "numero": "202603522976",
+              "frente":"TR-1417",
+              "latitude":"-2,5653945",
+              "longitude":"-44,3755972",
+              "arquivoPdf":"",
+              "descricao": "CHUTE_TROCAR REVESTIMENTO CHTE DESC (TR1417)",
               "status": "Em andamento"
             }
           ]
@@ -151,33 +135,15 @@
           "lider": "Alexandre",
           "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202604348897",
-              "frente":"TR-13206",
-              "latitude":"-2,5718677",
-              "longitude":"-44,3443512",
-              "descricao":"PLAMONT-PREPARAÇÃO DE MATERIAS E FERRAM",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR13206 - OM 202604348897 - PLAMONT-PREPARAÇÃO DE MATERIAS E FERRAM.pdf",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202604154992",
-              "frente":"TR-13206",
-              "latitude":"-2,5718677",
-              "longitude":"-44,3443512",
-              "descricao":"MONTAR ANDAIME P_ TROCAR 4 ROLOS EM V TR13206",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/202604154992 _ TR13206 _ MONTAR ANDAIME P_ TROCAR 4 ROLOS EM V.pdf",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202604152499",
-              "frente":"TR-13206",
-             "latitude":"-2,5718677",
-              "longitude":"-44,3443512",
-              "descricao":"TROCAR 04 ROLOS DE RETORNO EM V TR13206",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/202604152499 – TR13206 – TROCAR 04 ROLOS DE RETORNO EM V.pdf",
+              "numero":"202501874294",
+              "frente":"TR-1359",
+              "latitude":"-2,5634191",
+              "longitude":"-44,3457215",
+              "descricao":"TROCAR CAV AA RETORNO PLANO CAB MÓVEL (TR1359)",
+              "arquivoPdf":"",
               "status":"Em andamento"
           }
           ]
@@ -194,9 +160,9 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 4,
+          "Caldeireiro": 3,
           "Mecanico": 2,
-          "Soldador": 3,
+          "Soldador": 4,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -236,38 +202,30 @@
           "lider": "Julio/Erickson",
           "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "2 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "equipe": "2 Mecânicos + 3 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-              "numero":"202603211973",
-              "frente":"TR-313K-88",
-              "latitude":"-2,5722566",
-              "longitude":"-44,3453075",
-              "descricao":"TROCAR 5 DEGRAUS DA ESCADA DO LADO ESQUERDO, COM DEFORMIDADE NEGATIVA (TR1388)",
+              "numero":"202501581736",
+              "frente":"TR-1512",
+              "latitude":"-2,5651953",
+              "longitude":"-44,3754809",
+              "descricao":"Passarela do TR 1512",
               "status":"Em andamento"
           },
          {
-              "numero":"202603229885 ",
-              "frente":"TR-313K-88",
-              "latitude":"-2,5722566",
-              "longitude":"-44,3453075",
-              "descricao":"INSTALAR TUBO DE CORRIMÃO E BARRA INTERMEDIÁRIA PARA COMPLETAR GUARDA-CORPO (TR1388)",
+              "numero":"202302212482",
+              "frente":"AM-06",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"Troca da chapa do AM06",
               "status":"Em andamento"
           },
            {
-              "numero":"202603989292 ",
-              "frente":"TR-315k-33",
-              "latitude":"-2,5684617",
-              "longitude":"-44,3548216",
-              "descricao":"REPARAR CORRIMÃO DO GUARDA-CORPO EMPENADO, REALIZANDO DESEMPENO ATRAVÉS DE CORTE OU CALOR (TR1533)",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202302438765 ",
-              "frente":"CN03",
-              "latitude":"-2,5621590",
-              "longitude":"-44,3791485",
-              "descricao":"FABRICAR E TROCAR 11 DEGRAUS NO SEGUNDO LANCE DA ESCADA DE ACESSO AO PISO DA SALA ELÉTRICA, QUE ESTÃO AVARIADOS E FORA DE PADRÃO (CN03)",
+              "numero":"202603674978",
+              "frente":"TR-2507",
+              "latitude":"-2,5630375",
+              "longitude":"-44,3791164",
+              "descricao":" TROCAR CHAPAS DE PS COM OXI PASS LD DIREITO TR2507",
               "status":"Em andamento"
           }
           ]
