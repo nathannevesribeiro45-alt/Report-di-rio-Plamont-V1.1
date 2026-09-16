@@ -57,27 +57,19 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-    "numero": "202604379135",
-    "frente": "TR-13205",
-    "latitude":"-2,5726829",
-    "longitude":"-44,3450788",
-    "descricao": "APOIO DE CORTE E SOLDA TROCAR GAR TR13205",
+    "numero": "202505155058",
+    "frente": "CN-06",
+    "latitude":"-2,5547896",
+    "longitude":"-44,3796174",
+    "descricao": " INST TAMPAS DE BANDEJAS ESCADA DE ACESSO CN06 (CN-06)",
     "status": "Em andamento"
   },
             {
-    "numero": "202604379342",
-    "frente": "TR-13205",
-    "latitude":"-2,5726829",
-    "longitude":"-44,3450788",
-    "descricao": "APOIO CORTE E SOLDA P/ ATIV GARRA TRILHO TR13205",
-    "status": "Em andamento"
-  },
-       {
-    "numero": "202604036532",
-    "frente": "ER-01",
-    "latitude":"-2,5671205",
-    "longitude":"-44,3524934",
-    "descricao": " APOIO-TROCAR CENTRALIZADA (ER01)",
+    "numero": "202600286018",
+    "frente": "CN-07",
+    "latitude":"-2,5535201",
+    "longitude":"-44,3793794",
+    "descricao": "TROCAR BANDEJAMENTO PIVÔ TRASEIRO CN07 (CN-07)",
     "status": "Em andamento"
   }
 
