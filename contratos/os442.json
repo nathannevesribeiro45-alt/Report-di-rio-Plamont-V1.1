@@ -95,7 +95,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 6,
+          "Mecanico": 5,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -127,7 +127,9 @@
         }
       },
 
-      "ausencias": {},
+      "ausencias": {
+        "Mecânico":1
+      },
 
       "mobilizacao": {
         "Mecanico": 0,
@@ -143,7 +145,7 @@
           "status": "disponivel"
         },
           {
-          "tipo": "Pick-up",
+          "tipo": "pick-up",
           "placa": " SFT-9J87",
           "operador": "Domingos",
           "telefone":"98 98518-9687",

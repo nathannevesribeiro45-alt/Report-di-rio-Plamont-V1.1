@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "15/09/2026",
+  "data": "16/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -74,6 +74,13 @@
         {
           "tipo": "Munck",
           "placa": "SGA-3I14",
+          "operador": "",
+          "contato": "",
+          "status":"Disponivel"
+        },
+         {
+          "tipo": "Munck",
+          "placa": "QRD 8D12",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
@@ -273,22 +280,22 @@
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
-              "frente":"TR-314K-13",
-              "numero":"202502848942",
-              "descricao":"REPOR TELHAS  TR1413 (TR-314K-13)",
-              "latitude":"-2,5651389",
-              "longitude":"-44,3754015",
-              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202603476693 REPOR TELHAS  TR1413.pdf",
+              "frente":"TR-313K-17",
+              "numero":"202202274356",
+              "descricao":"TROCAR E REPOR TELHAS DO TR 313K-17",
+              "latitude":"-2,5631251",
+              "longitude":"-44,3459168",
+              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202202274356 - TROCAR E REPOR TELHAS DO TR 313K-17.pdf",
               "arquivoLaudo":"",
-              "status":"Concluída",
-              "observacoes":"Somente desmobilização."
+              "status":"Planejada",
+              "observacoes":"Aguardando bloqueio para entrada da equipe"
           }
           ]
         }
       ],
       "nome": "Telhado",
       "observacoes": [
-        "Somente desmobilização do TR-314K-13, atividade do TR-313K-17 postergarda para sexta-feira. "
+        "Aguardando bloqueio para entrada da equipe no TR-313K-17."
       ]
     }
   ]
