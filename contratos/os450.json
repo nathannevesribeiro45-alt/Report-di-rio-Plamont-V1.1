@@ -10,8 +10,8 @@
       "icone":"assets/icons/manutecao.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 5,
-          "Mecanico": 12,
+          "Caldeireiro": 4,
+          "Mecanico": 11,
           "Soldador": 5,
           "Montador": 8,
           "Eletricista": 8,
@@ -45,7 +45,8 @@
         }
       },
       "ausencias": {
-        "Mecânicos":2,
+        "Mecânicos":1,
+        "Caldeireiros":1,
         "justificadas":2,
         "naoJustificadas":0
       },
