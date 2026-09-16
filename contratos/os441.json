@@ -160,7 +160,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 2,
+          "Mecanico": 3,
           "Soldador": 4,
           "Montador": 2,
           "Eletricista": 0,
@@ -201,7 +201,7 @@
           "lider": "Julio/Erickson",
           "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "2 Mecânicos + 3 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "equipe": "3 Mecânicos + 3 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
               "numero":"202501581736",
