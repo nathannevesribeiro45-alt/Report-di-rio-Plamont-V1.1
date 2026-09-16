@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "15/09/2026",
+  "data": "16/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -13,8 +13,8 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 2,
-          "Mecanico": 13,
+          "Caldeireiro": 3,
+          "Mecanico": 14,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -47,9 +47,8 @@
       },
 
       "ausencias": {
-        "Mecânico":1,
-        "Caldeireiro":2,
-     "justificadas": 3,
+      "Mecânico":1,
+     "justificadas": 1,
      "naoJustificadas":0
       },
 
@@ -72,6 +71,13 @@
         },
         {
           "tipo": "Munck",
+          "placa": "RBB-3I45 ",
+          "operador": "",
+          "contato":"",
+          "status": "Disponivel"
+        },
+        {
+          "tipo": "Munck",
           "placa": "RBB-1B72",
           "operador": "",
           "contato":"",
@@ -81,7 +87,7 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Hilgles",
+          "operador": "Rilgles",
           "contato":"98 98537-4937",
           "status": "Disponivel"
         },
@@ -106,9 +112,9 @@
               "frente":"ER-01",
                "latitude":"-2,5671205",
               "longitude":"-44,3524934",
-              "numero": "202604636645",
-              "descricao": "PREPARAÇÃO DE MATERIAS E5S PLAMONT (ER01)",
-              "arquivoPdf":"",
+              "numero": "202601910250",
+              "descricao": "TROCAR 03 ROLOS IMPACTO MESA DA RODA (ER01)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/ER01 - 202601910250 - TROCAR 03 ROLOSIMPACTO MESA DARODA.pdf",
               "status": "Em andamento"
             }
           ]
@@ -117,16 +123,16 @@
           "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 soldador + 3 Montadores",
+          "equipe": "5 Mecânicos + 1 soldador + 01 caldeireiro + 3 Montadores",
           "oms": [
             
             {
-              "numero": "202603522976",
-              "frente":"TR-1417",
-              "latitude":"-2,5653945",
-              "longitude":"-44,3755972",
-              "arquivoPdf":"",
-              "descricao": "CHUTE_TROCAR REVESTIMENTO CHTE DESC (TR1417)",
+              "numero": "202604529945",
+              "frente":"PÍER IV",
+              "latitude":"-2,5522684",
+              "longitude":"-44,3790572",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/AMOS5 - OM 202604529945 - FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4.pdf",
+              "descricao": " FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4",
               "status": "Em andamento"
             }
           ]
@@ -135,14 +141,14 @@
           "lider": "Alexandre",
           "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202501874294",
-              "frente":"TR-1359",
-              "latitude":"-2,5634191",
-              "longitude":"-44,3457215",
-              "descricao":"TROCAR CAV AA RETORNO PLANO CAB MÓVEL (TR1359)",
+              "numero":"202604853875",
+              "frente":"TR-1108",
+              "latitude":"-2,5660256",
+              "longitude":"-44,3455084",
+              "descricao":" PREPARAÇÃO E MOBILIZAÇÃO DE MATERIAS PLAMONT  (TR-1108)",
               "arquivoPdf":"",
               "status":"Em andamento"
           }
