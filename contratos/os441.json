@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 14,
+          "Mecanico": 11,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -48,7 +48,8 @@
 
       "ausencias": {
       "Mecânico":1,
-     "justificadas": 1,
+      "Caldeireiros":1,
+     "justificadas": 2,
      "naoJustificadas":0
       },
 
@@ -99,7 +100,7 @@
         "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "05 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
+          "equipe": "04 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
             {
               "frente":"ER-01",
@@ -116,7 +117,7 @@
           "lider": "Iego",
           "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 1 soldador + 01 caldeireiro + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 soldador + 01 caldeireiro + 3 Montadores",
           "oms": [
             
             {
@@ -134,7 +135,7 @@
           "lider": "Alexandre",
           "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
               "numero":"202604853875",
@@ -204,27 +205,35 @@
           "equipe": "3 Mecânicos + 3 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-              "numero":"202501581736",
-              "frente":"TR-1512",
-              "latitude":"-2,5651953",
-              "longitude":"-44,3754809",
-              "descricao":"Passarela do TR 1512",
+              "numero":"202603123740",
+              "frente":"ER-01",
+              "latitude":"-2,5671205",
+              "longitude":"-44,3524934",
+              "descricao":"SEG_PS_TROC.TEL.PIS.LE TRIPPER DA ER 01",
               "status":"Em andamento"
           },
          {
-              "numero":"202302212482",
-              "frente":"AM-06",
-              "latitude":"",
-              "longitude":"",
-              "descricao":"Troca da chapa do AM06",
+              "numero":"202603123441",
+              "frente":"ER-01",
+              "latitude":"-2,5671205",
+              "longitude":"-44,3524934",
+              "descricao":"SEG_PS_TROC.CH.PIS.CENTRAL.LANÇ.LE ER 01",
               "status":"Em andamento"
           },
            {
-              "numero":"202603674978",
-              "frente":"TR-2507",
-              "latitude":"-2,5630375",
-              "longitude":"-44,3791164",
-              "descricao":" TROCAR CHAPAS DE PS COM OXI PASS LD DIREITO TR2507",
+              "numero":"202603123553",
+              "frente":"ER-01",
+              "latitude":"-2,5671205",
+              "longitude":"-44,3524934",
+              "descricao":"SEG_GC_FABR.INST.GC.CHUT.TR.LANÇ.LE ER01",
+              "status":"Em andamento"
+          },
+          {
+              "numero":"202604852246",
+              "frente":"TR-1512 ",
+              "latitude":"-2,5651953",
+              "longitude":"-44,3754809",
+              "descricao":"SEG_PS_ TROCAR CHAPA DE 1 PISO (TR-1512)",
               "status":"Em andamento"
           }
           ]
