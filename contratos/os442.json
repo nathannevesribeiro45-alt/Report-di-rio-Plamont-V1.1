@@ -129,6 +129,13 @@
       },
 
       "recursos": [
+        {
+          "tipo": "Munck",
+          "placa": "RBB-3I45 ",
+          "operador": "",
+          "contato":"",
+          "status": "Disponivel"
+        },
           {
           "tipo": "pick-up",
           "placa": " SFT-9J87",
