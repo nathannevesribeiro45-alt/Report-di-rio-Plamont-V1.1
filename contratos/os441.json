@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 11,
+          "Mecanico": 10,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 0,
@@ -48,8 +48,7 @@
 
       "ausencias": {
       "Mecânico":1,
-      "Caldeireiros":1,
-     "justificadas": 2,
+     "justificadas": 1,
      "naoJustificadas":0
       },
 
@@ -65,8 +64,8 @@
         },
         {
           "tipo": "Munck",
-          "placa": "RQP-8G78",
-          "operador": "",
+          "placa": "QRD-8213",
+          "operador": "Jhonatan",
           "contato":"",
           "status": "Disponivel"
         },
@@ -81,15 +80,15 @@
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Rilgles",
-          "contato":"98 98537-4937",
+          "operador": "Anderson",
+          "contato":"(98) 98415-6236",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFT-9H25",
-          "operador": "Carlos",
-          "contato":"98 98124-4272",
+          "placa": "SFT-9J87",
+          "operador": "Patrick",
+          "contato":"(98) 99984-4559",
           "status": "Disponivel"
         }
       
@@ -97,8 +96,8 @@
 
       "atividades": [
         {
-        "lider": "Elias",
-          "telefone": "98 98210-6618",
+        "lider": "Adilson",
+          "telefone": "98 8898-1856",
           "tecnicoSeguranca": "",
           "equipe": "04 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
@@ -110,42 +109,60 @@
               "descricao": "TROCAR 03 ROLOS IMPACTO MESA DA RODA (ER01)",
               "arquivoPdf":"om's/contrato 441 oms/Desgaste/ER01 - 202601910250 - TROCAR 03 ROLOSIMPACTO MESA DARODA.pdf",
               "status": "Em andamento"
-            }
-          ]
-        },
-        {
-          "lider": "Iego",
-          "telefone": "98 8506-6056",
-          "tecnicoSeguranca": "",
-          "equipe": "4 Mecânicos + 1 soldador + 01 caldeireiro + 3 Montadores",
-          "oms": [
-            
+            },
             {
-              "numero": "202604529945",
-              "frente":"PÍER IV",
-              "latitude":"-2,5522684",
-              "longitude":"-44,3790572",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/AMOS5 - OM 202604529945 - FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4.pdf",
-              "descricao": " FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4",
+              "frente":"ER-01",
+               "latitude":"-2,5671205",
+              "longitude":"-44,3524934",
+              "numero": "202603719914",
+              "descricao": "MP DO CHUTE CENTRAL BANCADA SUPERIOR (ER01)",
+              "arquivoPdf":"",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Alexandre",
-          "telefone": "98 99228‑6538",
+          "lider": "Fernando Maranhão",
+          "telefone": "98 8742-8209",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "4 Mecânicos + 1 soldador + 01 caldeireiro + 3 Montadores",
+          "oms": [
+            
+            {
+              "numero": "202603719904",
+              "frente":"TR-313K-07",
+              "latitude":"-2,5671366",
+              "longitude":"-44,3568473",
+              "arquivoPdf":"",
+              "descricao": "TROCAR 48 ROLOS DE CARGA DO 1307 (TR-313K-07)",
+              "status": "Em andamento"
+            },
+             {
+              "numero": "202603788577",
+              "frente":"TR-313K-07",
+              "latitude":"-2,5671366",
+              "longitude":"-44,3568473",
+              "arquivoPdf":"",
+              "descricao": "TROCAR 70 ROLOS DE CARGA NO TR 1307 (TR-313K-07)",
+              "status": "Em andamento"
+            }
+          ]
+        },
+        {
+          "lider": "Ederson (Apoio)",
+          "telefone": "98 8242-1348",
+          "tecnicoSeguranca": "",
+          "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero":"202604853875",
-              "frente":"TR-1108",
-              "latitude":"-2,5660256",
-              "longitude":"-44,3455084",
-              "descricao":" PREPARAÇÃO E MOBILIZAÇÃO DE MATERIAS PLAMONT  (TR-1108)",
+              "numero": "202603788577",
+              "frente":"TR-313K-07",
+              "latitude":"-2,5671366",
+              "longitude":"-44,3568473",
               "arquivoPdf":"",
-              "status":"Em andamento"
-          }
+              "descricao": "TROCAR 70 ROLOS DE CARGA NO TR 1307 (TR-313K-07)",
+              "status": "Em andamento"
+            }
           ]
         }
       ]
@@ -160,7 +177,7 @@
 
       "qlp": {
         "direto": {
-          "Caldeireiro": 3,
+          "Caldeireiro": 4,
           "Mecanico": 3,
           "Soldador": 4,
           "Montador": 2,
@@ -190,8 +207,7 @@
         }
       },
       "ausencias": {
-        "Mecânico":1,
-        "justificadas": 1,
+        "justificadas": 0,
      "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -199,41 +215,33 @@
 
       "atividades": [
         {
-          "lider": "Julio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wanderson/Adeilton",
+          "telefone": "98 98508-8348/98 8882-2306",
           "tecnicoSeguranca": "",
-          "equipe": "3 Mecânicos + 3 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
+          "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-              "numero":"202603123740",
-              "frente":"ER-01",
-              "latitude":"-2,5671205",
-              "longitude":"-44,3524934",
-              "descricao":"SEG_PS_TROC.TEL.PIS.LE TRIPPER DA ER 01",
+              "numero":"202603543771",
+              "frente":"ER-06",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
+              "descricao":"SEG_GC_SOLD.G.CORP.INT.PASS.TR.LANÇ.ER06 (ER-06)",
               "status":"Em andamento"
           },
          {
-              "numero":"202603123441",
-              "frente":"ER-01",
-              "latitude":"-2,5671205",
-              "longitude":"-44,3524934",
-              "descricao":"SEG_PS_TROC.CH.PIS.CENTRAL.LANÇ.LE ER 01",
+              "numero":"202603531465",
+              "frente":"ER-06",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
+              "descricao":"SEG_PS_TROC.GRAD.PIS. TR LANÇA LD ER 06 (ER-06)",
               "status":"Em andamento"
           },
            {
-              "numero":"202603123553",
-              "frente":"ER-01",
-              "latitude":"-2,5671205",
-              "longitude":"-44,3524934",
-              "descricao":"SEG_GC_FABR.INST.GC.CHUT.TR.LANÇ.LE ER01",
-              "status":"Em andamento"
-          },
-          {
-              "numero":"202604852246",
-              "frente":"TR-1512 ",
-              "latitude":"-2,5651953",
-              "longitude":"-44,3754809",
-              "descricao":"SEG_PS_ TROCAR CHAPA DE 1 PISO (TR-1512)",
+              "numero":"202603531466",
+              "frente":"ER-06",
+              "latitude":"-2,5713731",
+              "longitude":"-44,3426074",
+              "descricao":" SEG_PS_TROC.GRAD.PIS. ESC,ACES.CONTP ER6 (ER-06)",
               "status":"Em andamento"
           }
           ]
