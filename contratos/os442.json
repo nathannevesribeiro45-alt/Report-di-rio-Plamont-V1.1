@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "15/09/2026",
-  "turno": "Dia A",
+  "data": "17/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -51,8 +51,8 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Jodersson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
@@ -87,7 +87,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 1,
-          "Mecanico": 5,
+          "Mecanico": 6,
           "Soldador": 1,
           "Montador": 3,
           "Eletricista": 6,
@@ -119,9 +119,7 @@
         }
       },
 
-      "ausencias": {
-        "Mecânico":1
-      },
+      "ausencias": {},
 
       "mobilizacao": {
         "Mecanico": 0,
@@ -147,10 +145,10 @@
 
       "atividades": [
         {
-          "lider": "José Maria",
-          "telefone": "98 981850-6567",
+          "lider": "Sueliton",
+          "telefone": "98 98888-4303",
           "tecnicoSeguranca": "",
-          "equipe": "5 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms":[
     {
       "om": "202604775798",
@@ -161,125 +159,70 @@
       "status":"Em andamento"
     },
     {
-      "om": "202601871374",
-      "frente":"EL-314K-04",
-      "descricao": "MP ELETROMECANICA ELEVADOR EL-314K-04",
-      "latitude": "-2,5656141",
-      "longitude": "-44,3756577",
+      "om": "202603834490",
+      "frente":"EX-313K-07",
+      "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-07",
+      "latitude": "-2,5671637",
+      "longitude": "-44,3576974",
       "status":"Em andamento"
     },
     {
-      "om": "202603943348",
-      "frente":"TR-2603",
-      "descricao": "MP ELMEC GUINCHO CONTRA PESO TR2603",
-      "latitude": "-2,5533891",
-      "longitude": "-44,3788340",
+      "om": "202603834492",
+      "frente":"EX-313K-07",
+      "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-07",
+      "latitude": "-2,5671637",
+      "longitude": "-44,3576974",
       "status":"Em andamento"
     },
     {
-      "om": "202603943349",
-      "frente":"TR-2604",
-      "descricao": "MP ELMEC GUINCHO CONTRA PESO TR2604",
-      "latitude": "-2,5546130",
-      "longitude": "-44,3791279",
+      "om": "202603834610",
+      "frente":"EX-313K-07",
+      "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-07",
+      "latitude": "-2,5671637",
+      "longitude": "-44,3576974",
+      "status":"Em andamento"
+    },
+     {
+      "om": "202601013209",
+      "frente":"EX-313K-07",
+      "descricao": "EX 1307 CORREIA AVARIADA (EX-313K-07)",
+      "latitude": "-2,5671637",
+      "longitude": "-44,3576974",
       "status":"Em andamento"
     },
     {
-      "om": "202604427616",
-      "frente":"TR-1319",
-      "descricao": "MP ELMEC GUINCHO CONTRA PESO TR1319",
-      "latitude": "-2,5628856",
-      "longitude": "-44,3465991",
+      "om": "202604328207",
+      "frente":"EX-313K-07",
+      "descricao": "EX1307- TB FIXO E ALINH. DESALINHADOS (EX-313K-07)",
+      "latitude": "-2,5671637",
+      "longitude": "-44,3576974",
+      "status":"Em andamento"
+    },
+     {
+      "om": "202603612423",
+      "frente":"PONTE 202",
+      "descricao": "MP ELMEC PONTE ROLANTE PR-361K-202 (PONTE 202)",
+      "latitude": null,
+      "longitude": null,
       "status":"Em andamento"
     },
     {
-      "om": "202604248673",
-      "frente":"TR-13207",
-      "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR13207",
-      "latitude": "-2,5719324",
-      "longitude": "-44,3444571",
+      "om": "202604870558",
+      "frente":"TR-313K-12",
+      "descricao": "LUBRIFICAR ROLAMENTOS DO EXTRATOR 1312 (TR-313K-12)",
+      "latitude": "-2,5659464",
+      "longitude": "-44,3590292",
       "status":"Em andamento"
     },
-    {
-      "om": "202604306514",
-      "frente":"TR-13207",
-      "descricao": "MCM-MPV UTL MEC 16S GUINCHO GRAV TR13207",
-      "latitude": "-2,5719324",
-      "longitude": "-44,3444571",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604806745",
-      "frente":"TR-1357",
-      "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1357",
-      "latitude": "-2,5647359",
-      "longitude": "-44,3456040",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604697938",
-      "frente":"TR-1357",
-      "descricao": "MCM-MPV UTL 24S CABO AÇO GUINCHO TR1357",
-      "latitude": "-2,5647359",
-      "longitude": "-44,3456040",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604806961",
-      "frente":"TR-1357",
-      "descricao": "MCM-MPV MEC UTL 08S GUINCHO TR1357",
-      "latitude": "-2,5647359",
-      "longitude": "-44,3456040",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604042775",
-      "frente":"TR-1305",
-      "descricao": "MCM-MPV ELE 16S SEPARAÇÃO MAG TR1305",
-      "latitude": "-2,5650333",
-      "longitude": "-44,3547966",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604745189",
-      "frente":"TR-1305",
-      "descricao": "1305 INSTALAR MANGUEIRAS DE LUB",
-      "latitude": "-2,5650333",
-      "longitude": "-44,3547966",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604043429",
-      "frente":"EX-313K-05",
-      "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-05",
-      "latitude": "-2,5650699",
-      "longitude": "-44,3602201",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604043431",
-      "frente":"EX-313K-05",
-      "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-05",
-      "latitude": "-2,5650699",
-      "longitude": "-44,3602201",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604241913",
-      "frente":"EX-313K-05",
-      "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-05",
-      "latitude": "-2,5650699",
-      "longitude": "-44,3602201",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604045161",
-      "frente":"EX-313K-05",
-      "descricao": "MONTAR/DESMONTAR ANDAIME EX-313K-05",
-      "latitude": "-2,5650699",
-      "longitude": "-44,3602201",
+     {
+      "om": "202604870381",
+      "frente":"TR-315K-37",
+      "descricao": "LUBRIFICAR ROLAMENTOS DO EXTRATOR 1537 (TR-315K-37)",
+      "latitude": "-2,5654485",
+      "longitude": "-44,3591822",
       "status":"Em andamento"
     }
+    
   ]
 }
       ]
