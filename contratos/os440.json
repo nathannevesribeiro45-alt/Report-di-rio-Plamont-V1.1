@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "17/09/2026",
+  "data": "18/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -45,8 +45,7 @@
         }
       },
       "ausencias": {
-        "Soldador":1,
-        "justificadas":1,
+        "justificadas":0,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -56,7 +55,7 @@
           "placa": "SGA-3I26 (RESERVA/PIT STOP)",
           "operador": "",
           "contato": "",
-          "status":"Preventiva"
+          "status":"Disponivel"
         },
         {
           "tipo": "Munck",
@@ -75,13 +74,6 @@
         {
           "tipo": "Munck",
           "placa": "SGA-3I14",
-          "operador": "",
-          "contato": "",
-          "status":"Disponivel"
-        },
-         {
-          "tipo": "Munck",
-          "placa": "QRD 8D12",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
@@ -171,7 +163,7 @@
         {
           "lider":"Rogério",
           "telefone":"98 9965-3798",
-          "equipe":"3 mecânicos + 1 ajudante de mont. + 1 eletricista",
+          "equipe":"3 mecânicos + 1 soldador + 1 ajudante de mont. + 1 eletricista",
         
         "oms":[
             {
