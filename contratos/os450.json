@@ -54,22 +54,22 @@
         {
           "tipo": "Munck",
           "placa": "QRD-8213",
-          "operador": "",
-          "contato":"",
-          "status": "manutencao"
+          "operador": "Moisés",
+          "contato":"(94) 9 9181-8671",
+          "status": "disponivel"
         },
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "Italo",
-          "contato":"98 98203-1746",
-          "status": "disponivel"
+          "operador": "",
+          "contato":"",
+          "status": "preventiva"
         },
          {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Euclides",
-          "contato":"98 98791-0912",
+          "operador": "Márcio",
+          "contato":"98 98805-1819",
           "status": "disponivel"
         },
         {
@@ -81,9 +81,9 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFV-7L97",
-          "operador": "Kaka",
-          "contato":"98480-6556",
+          "placa": "SFR-3B97",
+          "operador": "Mackson",
+          "contato":"(98) 98480-6556",
           "status": "Disponivel"
         },
         {
