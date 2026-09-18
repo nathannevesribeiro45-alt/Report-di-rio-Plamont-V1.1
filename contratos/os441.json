@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "17/09/2026",
+  "data": "18/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -86,9 +86,9 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Patrick",
-          "contato":"(98) 99984-4559",
+          "placa": "SFT-9H25",
+          "operador": "Rafael",
+          "contato":"(98) 98168-1612",
           "status": "Disponivel"
         }
       
@@ -101,15 +101,6 @@
           "tecnicoSeguranca": "",
           "equipe": "04 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
-            {
-              "frente":"ER-01",
-               "latitude":"-2,5671205",
-              "longitude":"-44,3524934",
-              "numero": "202601910250",
-              "descricao": "TROCAR 03 ROLOS IMPACTO MESA DA RODA (ER01)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/ER01 - 202601910250 - TROCAR 03 ROLOSIMPACTO MESA DARODA.pdf",
-              "status": "Em andamento"
-            },
             {
               "frente":"ER-01",
                "latitude":"-2,5671205",
@@ -138,29 +129,29 @@
               "status": "Em andamento"
             },
              {
-              "numero": "202603788577",
+              "numero": "202603784833",
               "frente":"TR-313K-07",
               "latitude":"-2,5671366",
               "longitude":"-44,3568473",
               "arquivoPdf":"",
-              "descricao": "TROCAR 70 ROLOS DE CARGA NO TR 1307 (TR-313K-07)",
+              "descricao": "INSTALAR GUIAS DO CHUTE NO TR 1307 (TR-313K-07)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Ederson (Apoio)",
+          "lider": "Ederson",
           "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "2 Mecânicos + 1 Caldeireiro + 1 soldador + 3 Montadores",
           "oms": [
             {
-              "numero": "202603788577",
-              "frente":"TR-313K-07",
-              "latitude":"-2,5671366",
-              "longitude":"-44,3568473",
+              "numero": "202604634699",
+              "frente":"ER-01",
+              "latitude":"-2,5671205",
+              "longitude":"-44,3524934",
               "arquivoPdf":"",
-              "descricao": "TROCAR 70 ROLOS DE CARGA NO TR 1307 (TR-313K-07)",
+              "descricao": "5s na ER-01",
               "status": "Em andamento"
             }
           ]
@@ -221,29 +212,22 @@
           "equipe": "3 Mecânicos + 4 Caldeireiros + 4 Soldadores + 2 Montadores + 1 pintor",
           "oms": [
             {
-              "numero":"202603543771",
-              "frente":"ER-06",
-              "latitude":"-2,5713731",
-              "longitude":"-44,3426074",
-              "descricao":"SEG_GC_SOLD.G.CORP.INT.PASS.TR.LANÇ.ER06 (ER-06)",
+              "numero":"202603913703",
+              "frente":"--",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_GC_FEC. ABERT.G.C. PASS.PORT.",
               "status":"Em andamento"
-          },
-         {
-              "numero":"202603531465",
-              "frente":"ER-06",
-              "latitude":"-2,5713731",
-              "longitude":"-44,3426074",
-              "descricao":"SEG_PS_TROC.GRAD.PIS. TR LANÇA LD ER 06 (ER-06)",
+            },
+            {
+              "numero":"202603714332",
+              "frente":"--",
+              "latitude":"",
+              "longitude":"",
+              "descricao":"SEG_GC_FEC. AB. NO G.C. DA PASS.PORT.3",
               "status":"Em andamento"
-          },
-           {
-              "numero":"202603531466",
-              "frente":"ER-06",
-              "latitude":"-2,5713731",
-              "longitude":"-44,3426074",
-              "descricao":" SEG_PS_TROC.GRAD.PIS. ESC,ACES.CONTP ER6 (ER-06)",
-              "status":"Em andamento"
-          }
+            }
+          
           ]
 
         }
