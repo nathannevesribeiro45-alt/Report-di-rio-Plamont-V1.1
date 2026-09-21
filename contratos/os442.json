@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "18/09/2026",
+  "data": "21/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -16,7 +16,7 @@
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 4,
+          "Eletricista": 3,
           "Pintor": 0
         },
         "indireto": {
@@ -44,7 +44,11 @@
         }
       },
 
-      "ausencias": {},
+      "ausencias": {
+        "Eletricista":1,
+        "justificadas":1,
+        "naoJustificadas":0
+      },
 
       "mobilizacao": {},
 
@@ -54,14 +58,14 @@
           "lider": "Jodersson",
           "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
-          "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
+          "equipe": "03 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
             "numero": "202505155058",
             "frente": "CN-06",
             "latitude":"-2,5547117",
             "longitude":"-44,3797357",
-            "descricao": "INST TAMPAS DE BANDEJAS ESCADA DE ACESSO CN06 ",
+            "descricao": "INST TAMPAS DE BANDEJAS ESCADA DE ACESSO CN06",
             "status": "Em andamento"
             },
               {
@@ -151,53 +155,128 @@
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms":[
     {
-      "om": "202604775795",
-      "frente":"TR-315K-03",
-      "descricao": "MP ELMEC GUINCHO CONTRAPESO TR1503 (TR-315K-03)",
-      "latitude": "-2,5661388",
-      "longitude": "-44,3780075",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202601013209 ",
-      "frente":"EX-313K-07",
-      "descricao": "EX 1307 CORREIA AVARIADA (EX-313K-07)",
-      "latitude": "-2,5622953",
-      "longitude": "-44,3600319",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604328207 ",
-      "frente":"TR-313K-07",
-      "descricao": "EX1307- TB FIXO E ALINH. DESALINHADOS (TR-313K-07)",
-     "latitude": "-2,5622953",
-      "longitude": "-44,3600319",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604461173",
-      "frente":"TR-313K-65",
-      "descricao": "MCM-MPV UTL MEC 16S GUINCHO GRAV TR1365 (TR-313K-65)",
-      "latitude": "-2,5614936",
-      "longitude": "-44,3578603",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604461171",
-      "frente":"TR-313K-65",
-      "descricao": "MCM-MPV ELE 08S ESTICAMENTO TR1365 (TR-313K-65)",
-      "latitude": "-2,5614936",
-      "longitude": "-44,3578603",
-      "status":"Em andamento"
-    },
-    {
-      "om": "202604461173",
-      "frente":"PONTE-203",
-      "descricao": "MCM-MPV UTL MEC 16S GUINCHO GRAV TR1365",
-      "latitude": "",
-      "longitude": "",
-      "status":"Em andamento"
-    }
+        "numero": "202604443468",
+        "frente":"VV-06",
+        "descricao": "MCM-MPV ELE 16S TALHA TE-11-218 VV6",
+        "status": "Em andamento",
+        "latitude":"-2,5690485",
+        "longitude":"-44,3447038"
+      },
+      {
+        "numero": "202604443469",
+        "frente":"VV-06",
+        "descricao": "MCM-MPV ELE 16S TALHA TE-11-223 VV6",
+        "status": "Em andamento",
+       "latitude":"-2,5690485",
+        "longitude":"-44,3447038"
+      },
+      {
+        "numero": "202604443470",
+        "frente":"VV-06",
+        "descricao": "MCM-MPV ELE 16S TALHA TE-11-224 VV6",
+        "status": "Em andamento",
+       "latitude":"-2,5690485",
+        "longitude":"-44,3447038"
+      },
+      {
+        "numero": "202604443471",
+        "frente":"VV-06",
+        "descricao": "MCM-MPV ELE 16S TALHA TE-11-230 VV6",
+        "status": "Em andamento",
+        "latitude":"-2,5690485",
+        "longitude":"-44,3447038"
+      },
+      {
+        "numero": "202602984850",
+        "frente":"GC 1534",
+        "descricao": "GC 1534 - PARAFUSOS DA BASE CORROIDOS",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202602899733",
+        "frente":"EX-311K-212",
+        "descricao": "SUBSTITUIR EXTRATOR 311K-212",
+        "status": "Em andamento",
+        "latitude": "-2,5690483",
+        "longitude": "-44,3442484"
+      },
+      {
+        "numero": "202603945352",
+        "frente":"TR-313K-88",
+        "descricao": "EPO-MPV 08S LUB GUINCHO ATS TR-313K-88",
+        "status": "Em andamento",
+        "latitude": "-2,5724918",
+        "longitude": "-44,3453183"
+      },
+      {
+        "numero": "202604073260",
+        "frente":"TR-313K-88",
+        "descricao": "EPO-MPV 08S MEC GUINCHO ATS TR-313K-88",
+        "status": "Em andamento",
+         "latitude": "-2,5724918",
+        "longitude": "-44,3453183"
+      },
+      {
+        "numero": "202604447862",
+        "frente":"",
+        "descricao": "MP ELE PAINEL BT",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202604677138",
+        "descricao": "MP ELE ENROLADOR DE CABO PD",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202604677139",
+        "descricao": "MP ELE TRANSLACAO PORTICO 50/15T PD",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202604677160",
+        "descricao": "MP ELE SENSORIAMENTO E SINALIZACAO",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202604677161",
+        "descricao": "MP ELE TRANSLACAO CARRO PONTE 50/15T PD",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202604677162",
+        "descricao": "MP ELE ELEVACAO PRINCIPAL E AUXILIAR",
+        "status": "Em andamento",
+        "latitude": null,
+        "longitude": null
+      },
+      {
+        "numero": "202602005812",
+        "frente":"EX-311K-205",
+        "descricao": "MP ELMEC PONTE ROLANTE PR-311K-205",
+        "status": "Em andamento",
+        "latitude":"-2,5682268",
+        "longitude":"-44,3460261"
+      },
+      {
+        "numero": "202604328207",
+        "frente":"EX-313k-07",
+        "descricao": "EX 1307 - TROCAR TB FIXO E ALINH. DESALIN - travar eixo do rolo no suporte",
+        "status": "Em andamento",
+        "latitude": "-2,5671654",
+        "longitude": "-44,3577348"
+      }
     
     
   ]
