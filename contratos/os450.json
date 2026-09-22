@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "21/09/2026",
+  "data": "22/09/2026",
   "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -82,8 +82,8 @@
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Mackson",
-          "contato":"(98) 98480-6556",
+          "operador": "Félix",
+          "contato":"(98) 98841-3585",
           "status": "Disponivel"
         },
         {
@@ -124,6 +124,22 @@
               "latitude":"-2,5671549",
               "longitude":"-44,3467192",
               "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Fabrício Silva",
+          "telefone":"98 8896-7117",
+          "equipe":"03 mecânicos + 2 soldadores + 2 caldeireiro + 01 pintor",
+          "oms":[
+            {
+              "frente":"TR-315K-33",
+              "numero":"202603783670",
+              "descricao":"TROCAR 15 ROLOSDE CARGA (TR-315K-33)",
+              "latitude":"-2,5682235",
+              "longitude":"-44,3555469",
+              "arquivoPdf":"", 
               "status":"Em andamento"
             }
           ]
