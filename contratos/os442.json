@@ -59,19 +59,19 @@
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
-            "numero": "202505155058",
-            "frente": "CN-06",
-            "latitude":"-2,5547117",
-            "longitude":"-44,3797357",
-            "descricao": "INST TAMPAS DE BANDEJAS ESCADA DE ACESSO CN06",
+            "numero": "202404603148",
+            "frente": "EP-06",
+            "latitude":"-2,5727272",
+            "longitude":"-44,3359387",
+            "descricao": "INSP-INFRA AVARIADA TRANSL LESF - EP06",
             "status": "Em andamento"
             },
               {
-            "numero": "202600286018",
-            "frente": "CN-07",
-            "latitude":"-2,5535402",
-            "longitude":"-44,3793104",
-            "descricao": "TROCAR BANDEJAMENTO PIVÔ TRASEIRO CN07",
+            "numero": "202404603274",
+            "frente": "EP-06",
+            "latitude":"-2,5727272",
+            "longitude":"-44,3359387",
+            "descricao": "INSP-INFRA AVARIADA TRANSL LDSF - EP06",
             "status": "Em andamento"
             }
 

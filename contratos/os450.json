@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "22/09/2026",
-  "turno": "Dia B",
+  "data": "23/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -75,15 +75,15 @@
         {
           "tipo": "Pick-up",
           "placa": "QRI-2G24",
-          "operador": "Alisson",
-          "contato":"98 98876-4732",
+          "operador": "Italo",
+          "contato":"98 98184-5269",
           "status": "Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFR-3B97",
-          "operador": "Félix",
-          "contato":"(98) 98841-3585",
+          "operador": "Rosivaldo",
+          "contato":"98 99187-8772",
           "status": "Disponivel"
         },
         {
@@ -113,9 +113,9 @@
 
         },
         {
-          "lider":"Jessé",
-          "telefone":"98 8817-1971",
-          "equipe":"05 mecânicos + 2 soldadores + 1 caldeireiro + 01 pintor",
+          "lider":"Cosmo Lima",
+          "telefone":"98 8863-1678",
+          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros",
           "oms":[
             {
               "frente":"ER-01",
@@ -129,16 +129,16 @@
           ]
         },
         {
-          "lider":"Fabrício Silva",
-          "telefone":"98 8896-7117",
-          "equipe":"03 mecânicos + 2 soldadores + 2 caldeireiro + 01 pintor",
+          "lider":"Jean Mesquita",
+          "telefone":"98 8866-0232",
+          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros",
           "oms":[
             {
-              "frente":"TR-315K-33",
-              "numero":"202603783670",
-              "descricao":"TROCAR 15 ROLOSDE CARGA (TR-315K-33)",
-              "latitude":"-2,5682235",
-              "longitude":"-44,3555469",
+              "frente":"ER-01",
+              "numero":"202604991221",
+              "descricao":"APOIO GP - CHUTE CENTRAL BANCADA INTERME (ER-01)",
+              "latitude":"-2,5671549",
+              "longitude":"-44,3467192",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
