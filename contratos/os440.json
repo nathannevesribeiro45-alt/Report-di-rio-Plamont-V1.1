@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "22/09/2026",
-  "turno": "Dia B",
+  "data": "23/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,13 +10,12 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 8,
-          "Mecanico": 16,
-          "Soldador": 8,
-          "Eletricista": 3, 
+          "Caldeireiro": 7,
+          "Mecanico": 18,
+          "Soldador": 7,
+          "Eletricista": 1, 
           "Ajudante de eletricista": 1,
           "Ajudante de montagem":2,
-          "Pintor": 1,
           "Montador": 12
         },
         "indireto": {
@@ -45,6 +44,7 @@
         }
       },
       "ausencias": {
+        "Soldador":1,
         "justificadas":0,
         "naoJustificadas":0
       },
@@ -55,7 +55,7 @@
           "placa": "SGA-3I26 (RESERVA/PIT STOP)",
           "operador": "",
           "contato": "",
-          "status":"Disponivel"
+          "status":"Manutencao"
         },
         {
           "tipo": "Munck",
@@ -76,7 +76,7 @@
           "placa": "SGA-3I14",
           "operador": "",
           "contato": "",
-          "status":"Disponivel"
+          "status":"Manutencao"
         },
         {
           "tipo": "Munck",
@@ -143,9 +143,9 @@
           
 
         {
-          "lider":"Fagner",
-          "telefone":"98 9614-6804",
-          "equipe":"5 mecânicos + 2 soldadores + 2 caldeireiros + 1 eletricista",
+          "lider":"Gutemberg",
+          "telefone":"98 8177-7618",
+          "equipe":"5 mecânicos + 1 soldadores + 1 caldeireiros + 1 ajudante de mont.",
         
         "oms":[
             {
@@ -161,9 +161,9 @@
         },
          
         {
-          "lider":"Rogério",
-          "telefone":"98 9965-3798",
-          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro + 1 ajudante de mont. + 1 eletricista",
+          "lider":"João Batista",
+          "telefone":"98 8887-8415",
+          "equipe":"4 mecânicos + 2 soldador + 2 caldeireiro + 1 eletricista",
         
         "oms":[
             {
@@ -184,29 +184,29 @@
         
         "oms":[
             {
-             "frente":"EP-06",
+             "frente":"TR-326K-01",
               "numero":"202404498272",
-              "descricao":"1.4_TRC.ELEM.FIX SUP.SUST PASSAD.TRIP. (EP-06)",
-              "latitude":"-2,5727272",
-              "longitude":"-44,3359387",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/EP06 OM 202404498272 1.4_TRC.ELEM.FIX SUP.SUST PASSAD.TRIP..pdf", 
+              "descricao":"S39 SUBSTUIÇÃO E REFORÇO NAS VIGAS (TR-326K-01)",
+              "latitude":"-2,5573071",
+              "longitude":"-44,3698684",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/TR2601 OM 202604966078 EXTRA S39 SUBSTUIÇÃO E REFORÇO NAS VIGAS.pdf", 
               "status":"Em andamento"
             }
           ]
         },
         {
-          "lider":"Cleyton",
-          "telefone":"98 93300-5461",
-          "equipe":"3 mecânicos + 2 soldadores + 3 caldereiros + 1 eletricista + 1 ajudante de mont.",
+          "lider":"Mailson",
+          "telefone":"98 9614-6804",
+          "equipe":"4 mecânicos + 1 soldadores + 2 caldereiros + 1 ajudante de mont.",
         
         "oms":[
-            {
-             "frente":"MOBILIZAÇÃO PARA O VV-06",
-              "numero":"--",
-              "descricao":"",
+            { 
+             "frente":"VV-06",
+              "numero":"202603840811",
+              "descricao":"SUBS.ELEM.FIX.ANEIS ENTR.SAI.GIRO (VV-06)",
               "latitude":"-2,5690485",  
               "longitude":"-44,3447038",
-              "arquivoPdf":"", 
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/VV-06 202603840811 SUBS.ELEM.FIX.ANEIS ENTR.SAI.GIRO.pdf", 
               "status":"Em andamento"
             }
           ]
