@@ -16,7 +16,7 @@
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 3
+          "Eletricista": 4
         },
         "indireto": {
           "Supervisor Montagem": 0,
@@ -44,8 +44,7 @@
       },
 
       "ausencias": {
-        "Eletricista":1,
-        "justificadas":1,
+        "justificadas":0,
         "naoJustificadas":0
       },
 
@@ -57,7 +56,7 @@
           "lider": "Josias",
           "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
-          "equipe": "03 Eletricistas + 01 Soldador + 1 caldereiro",
+          "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
             {
             "numero": "202505155058",
@@ -136,80 +135,40 @@
         {
           "tipo": "Munck",
           "placa": "RBB-3I45 ",
-          "operador": "Fernando",
+          "operador": "",
           "contato":"",
           "status": "Disponivel"
         },
           {
           "tipo": "pick-up",
           "placa": "SFT-9H25",
-          "operador": "Rafael",
-          "contato":"(98) 98168-1612",
+        "operador": "Carlos",
+          "contato":"98) 98124-4272",
           "status": "disponivel"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Sueliton",
-          "telefone": "98 98888-4303",
+          "lider": "José Pacheco",
+          "telefone": "98 98185-6567",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms":[
   {
-    "numero": "202602005812",
-    "frente": "PONTE 205",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "MP ELMEC PONTE ROLANTE PR-311K-205",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202602899733",
-    "frente": "TR-311K-10",
-    "latitude": "-2,5690474",
-    "longitude": "-44,3448593",
-    "descricao": "SUBSTITUIR EXTRATOR 311K-212",
-    "status": "Em andamento"
-  },
-  {
     "numero": "202504495547",
-    "frente": "TR-311K-10",
-    "latitude": "-2,5690474",
-    "longitude": "-44,3448593",
+    "frente": "EX-311K-213",
+    "latitude": "-2,5690329",
+    "longitude": "-44,3448796",
     "descricao": "TROCAR PAINEL DO EXTRATOR 213",
     "status": "Em andamento"
   },
   {
-    "numero": "202604443468",
-    "frente": "VV-311K-06",
-    "latitude": "-2,5690485",
-    "longitude": "-44,3447038",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-11-218 VV6",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604443469",
-    "frente": "VV-311K-06",
-    "latitude": "-2,5690485",
-    "longitude": "-44,3447038",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-11-223 VV6",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604443470",
-    "frente": "VV-311K-06",
-    "latitude": "-2,5690485",
-    "longitude": "-44,3447038",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-11-224 VV6",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604443471",
-    "frente": "VV-311K-06",
-    "latitude": "-2,5690485",
-    "longitude": "-44,3447038",
-    "descricao": "MCM-MPV ELE 16S TALHA TE-11-230 VV6",
+    "numero": "202602899733",
+    "frente": "EX-311K-212",
+    "latitude": "-2,5690483",
+    "longitude": "-44,3442484",
+    "descricao": "SUBSTITUIR EXTRATOR 311K-212",
     "status": "Em andamento"
   },
   {
@@ -217,13 +176,13 @@
     "frente": "TR-313K-84",
     "latitude": "-2,5727253",
     "longitude": "-44,3439651",
-    "descricao": "MCM-TRC LUB 01A ÓLEO GUINCH ATS TR1384",
+    "descricao": "MCM-TRC LUB 01A ÓLEO GUINCHO ATS TR1384",
     "status": "Em andamento"
   },
   {
     "numero": "202604075816",
     "frente": "TR-313K-84",
-    "latitude": "-2,5727253",
+   "latitude": "-2,5727253",
     "longitude": "-44,3439651",
     "descricao": "MCM-MPV ELE 08S ESTICAMENTO ATS TR1384",
     "status": "Em andamento"
@@ -233,55 +192,31 @@
     "frente": "TR-313K-84",
     "latitude": "-2,5727253",
     "longitude": "-44,3439651",
-    "descricao": "MCM-MPV UTL 08S MOTOFRE ESTIC ATS TR1384",
+    "descricao": "MCM-MPV UTL 08S MOTORFE ESTIC ATS TR1384",
     "status": "Em andamento"
   },
   {
-    "numero": "202604394803",
-    "frente": "TR-315K-34",
-    "latitude": "-2,5654938",
-    "longitude": "-44,3592505",
-    "descricao": "EX 1534 - INSTALAR MANGOTES DE LUB.",
+    "numero": "202604071537",
+    "frente": "TR-326K-01",
+    "latitude": "-2,5573071",
+    "longitude": "-44,3698684",
+    "descricao": "RCM - MP LUB. RODAS EXTRATOR TR2601",
     "status": "Em andamento"
   },
   {
-    "numero": "202603945488",
-    "frente": "TR-315K-34",
-    "latitude": "-2,5654938",
-    "longitude": "-44,3592505",
-    "descricao": "MCM-MPV 16S MEC EXTRATOR TR-315K-34",
+    "numero": "202603943573",
+    "frente": "EX-326K-01",
+    "latitude": "-2,5525920",
+    "longitude": "-44,3785040",
+    "descricao": "RCM-MPV MEC 16S EXTRATOR EX-326K-01",
     "status": "Em andamento"
   },
   {
-    "numero": "202603945341",
-    "frente": "TR-315K-34",
-    "latitude": "-2,5654938",
-    "longitude": "-44,3592505",
-    "descricao": "MCM-MPV ELE 16S SEPARAÇÃO MAG TR1534",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604073206",
-    "frente": "TR-315K-34",
-   "latitude": "-2,5654938",
-    "longitude": "-44,3592505",
-    "descricao": "MCM-MPV ELE 08S GUINCHO ESTIC TR1534 (PENDENTE OM)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603954176",
-    "frente": "TR-315K-34",
-    "latitude": "-2,5654938",
-    "longitude": "-44,3592505",
-    "descricao": "MP LUB CABO AÇO GUINCHO CONTR_TR1534 (PENDENTE OM)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604927001",
-    "frente": "TR-315K-34",
-    "latitude": "-2,5654938",
-    "longitude": "-44,3592505",
-    "descricao": "APOIO PARA MONTAR E DESMONTAR ANDAIME NO EXTRATOR 205",
+    "numero": "202603943571",
+    "frente": "EX-326K-01",
+    "latitude": "-2,5525920",
+    "longitude": "-44,3785040",
+    "descricao": "RCM-MP ELE SEPARAÇÃO MAGNÉTICA EX-326K-01",
     "status": "Em andamento"
   }
 ]
