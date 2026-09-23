@@ -16,8 +16,7 @@
           "Mecanico": 0,
           "Soldador": 1,
           "Montador": 0,
-          "Eletricista": 3,
-          "Pintor": 0
+          "Eletricista": 3
         },
         "indireto": {
           "Supervisor Montagem": 0,
@@ -55,8 +54,8 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Jodersson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
           "equipe": "03 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
