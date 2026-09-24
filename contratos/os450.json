@@ -1,7 +1,7 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "23/09/2026",
+  "data": "24/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -45,7 +45,8 @@
         }
       },
       "ausencias": {
-        "justificadas":0,
+        "Mecanico":1,
+        "justificadas":1,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -118,12 +119,12 @@
           "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros",
           "oms":[
             {
-              "frente":"ER-01",
-              "numero":"202405911719",
-              "descricao":"TROCAR RAMPA CURVA DA ER-01",
-              "latitude":"-2,5671549",
-              "longitude":"-44,3467192",
-              "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
+              "frente":"DOLPHIN 24",
+              "numero":"202604786241",
+              "descricao":"MONTAGEM SPDA PIII",
+              "latitude":"-2,5584095",
+              "longitude":"-44,3792419",
+              "arquivoPdf":"om's/contrato 450 oms/OM 202604786241 MONTAGEM SPDA PIII.pdf", 
               "status":"Em andamento"
             }
           ]
