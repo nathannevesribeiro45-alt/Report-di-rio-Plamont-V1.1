@@ -1,7 +1,7 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "23/09/2026",
+  "data": "24/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -14,10 +14,10 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 13,
+          "Mecanico": 11,
           "Soldador": 3,
           "Montador": 9,
-          "Eletricista": 0,
+          "Eletricista": 1,
           "Pintor": 0
         },
         "indireto": {
@@ -47,8 +47,8 @@
       },
 
       "ausencias": {
-      "Mecânico":3,
-     "justificadas": 3,
+      "Mecânico":2,
+     "justificadas": 2,
      "naoJustificadas":0
       },
 
@@ -58,9 +58,9 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "",
-          "contato":"",
-          "status": "manutenção"
+          "operador": "Cícero",
+          "contato":"98 98121-1895",
+          "status": "Disponivel"
         },
         {
           "tipo": "Munck",
@@ -71,17 +71,24 @@
         },
         {
           "tipo": "Munck",
-          "placa": "RBB-1B72",
-          "operador": "",
-          "contato":"",
-          "status": "manutenção"
+          "placa": "RQP-8G78",
+          "operador": "José Carlos",
+          "contato":"98 98814-7068",
+          "status": "Disponivel"
         },
       
         {
           "tipo": "Pick-up",
           "placa": "SFT-9J87",
-          "operador": "Patrick",
-          "contato":"(98) 99984-4559",
+          "operador": "Domingos",
+          "contato":"(98) 98518-9687",
+          "status": "Disponivel"
+        },
+         {
+          "tipo": "Pick-up",
+          "placa": "SFU-0A35",
+          "operador": "Rilgles",
+          "contato":"(98) 98537-4937",
           "status": "Disponivel"
         }
       
@@ -92,24 +99,24 @@
         "lider": "Elias",
           "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "05 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
+          "equipe": "03 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
             {
-              "frente":"ER-01",
-              "latitude":"-2,5671549",
-              "longitude":"-44,3467192",
-              "numero": "202603719914",
-              "descricao": "MP CHUTE CENTRAL BANCADA SUPERIOR (ER-01)",
-              "arquivoPdf":"",
+              "frente":"TR-313K-84",
+              "latitude":"-2,5727253",
+              "longitude":"-44,3439651",
+              "numero": "202501900766",
+              "descricao": "DG-SUBSTITIUR_ROLO_PLANO_BALIZA_191 (TR-313K-84)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202501900766 - DG-SUBSTITIUR ROLO PLANO BALIZA 191.pdf",
               "status": "Em andamento"
             },
             {
-              "frente":"ER-01",
-             "latitude":"-2,5671549",
-              "longitude":"-44,3467192",
-              "numero": "202603719573",
-              "descricao": "MP CHUTE CENTRAL BANCADA INTERMEDIARIA (ER-01)",
-              "arquivoPdf":"",
+              "frente":"TR-313K-84",
+             "latitude":"-2,5727253",
+              "longitude":"-44,3439651",
+              "numero": "202604587725",
+              "descricao": "PLAMONT- ANDAIME P TROCAR ROLO PLANO BL (TR-313K-84)",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604587725 - PLAMONT- ANDAIME P TROCAR ROLO PLANO BL.pdf",
               "status": "Em andamento"
             },
             {
@@ -118,15 +125,6 @@
               "longitude":"-44,3555469",
               "numero": "202604644118",
               "descricao": "PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
-             {
-              "frente":"TR-313K-07",
-              "latitude":"",
-              "longitude":"",
-              "numero": "202504389836",
-              "descricao": "MONT.DESM AND PTROCTRILHOS CHUT TR-1307",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
@@ -141,30 +139,12 @@
           "oms": [
             
             {
-              "numero": "202406213946",
-              "frente":"TR-326K-01",
-              "latitude":"-2,5573071",
-              "longitude":"-44,3698684",
-              "arquivoPdf":"",
-              "descricao": "INSTALAR CAVALETE MOVEIS TR2601",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202600928813",
-              "frente":"TR-326K-04",
-              "latitude":"-2,5545575",
-              "longitude":"-44,3790999",
-              "arquivoPdf":"",
-              "descricao": "MP TROCAR CHAPAS GUIA MATERIAL LE TR2604",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202503663418",
-              "frente":"TR-326K-01",
-             "latitude":"-2,5573071",
-              "longitude":"-44,3698684",
-              "arquivoPdf":"",
-              "descricao": "TROCAR 05 CAVALETES A.A CARGA LK TR-2601",
+              "numero": "202604529945",
+              "frente":"AMOS5",
+              "latitude":"",
+              "longitude":"",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/AMOS5 - OM 202604529945 - FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4.pdf",
+              "descricao": "FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4 (AMOS5)",
               "status": "Em andamento"
             }
           ]
@@ -185,21 +165,12 @@
               "status": "Em andamento"
             },
             {
-              "numero": "202600213419",
-              "frente":"TR-311K-14",
-              "latitude":"-2,5715538",
-              "longitude":"-44,3446362",
-              "arquivoPdf":"",
-              "descricao": "DG-SUBSTITUIR 08 ROLOS DE RETORNO EM V",
-              "status": "Em andamento"
-            },
-              {
               "numero": "202601986908",
               "frente":"TR-311K-14",
               "latitude":"-2,5715538",
               "longitude":"-44,3446362",
-              "arquivoPdf":"",
-              "descricao": "SUBSTITUIR 24 ROLOS E RECUPER ENCAIXE",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202601986908  - SUBSTITUIR24ROLOSERECUPERERENCAIXE.pdf",
+              "descricao": "SUBSTITUIR 24 ROLOS E RECUPERAR ENCAIXE (TR-311K-14)",
               "status": "Em andamento"
             }
           ]
@@ -259,40 +230,22 @@
           "tecnicoSeguranca": "",
           "equipe": "03 Mecânicos + 04 Caldeireiros + 04 Soldadores + 01 Pintor + 02 Montadores",
           "oms": [
-            {
-              "numero": "202600598080",
-              "frente":"TR-311K-14",
-              "latitude":"-2,5715538",
-              "longitude":"-44,3446362",
-              "arquivoPdf":"",
-              "descricao": "SEG_PS_TROC.PIS.LE.1110 ACIMA TR1114",
-              "status": "Em andamento"
-            },
              {
-              "numero": "202604455979",
-              "frente":"TR-311K-06",
-              "latitude":"-2,5660244",
-              "longitude":"-44,3455747",
+              "numero": "202600428279",
+              "frente":"TR-313K-07 ",
+              "latitude":"-2,5671379",
+              "longitude":"-44,3567806",
               "arquivoPdf":"",
-              "descricao": "SEG_EC-ESC.DE ACES.A PLAT.ACION.C AVARIA (TR-1106)",
+              "descricao": "SEG_A_DG_INST DEGR ESC ACES CAU L/E",
               "status": "Em andamento"
             },
             {
-              "numero": "202604442092",
-              "frente":"TR-313K-56",
-              "latitude":"-2,5646457",
-              "longitude":"-44,3457006",
+              "numero": "202604567333",
+              "frente":"TR-313K-07 ",
+              "latitude":"-2,5671379",
+              "longitude":"-44,3567806",
               "arquivoPdf":"",
-              "descricao": "SEG_EC-ESC.DE ACES.A PLAT.ACION.C AVARIA (TR-1106)",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202400123836",
-              "frente":"VV-01",
-              "latitude":"-2,5680419",
-              "longitude":"-44,3456973",
-              "arquivoPdf":"",
-              "descricao": " TROCAR CHAPA DE PISO (VV-01)",
+              "descricao": "FABR.CORRIM.ESC..PLATF.ACION.LD.TR1307",
               "status": "Em andamento"
             }
           ]
