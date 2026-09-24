@@ -1,7 +1,7 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "23/09/2026",
+  "data": "24/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -83,20 +83,20 @@
           "placa": "QRD-8213",
           "operador": "",
           "contato": "",
-          "status":"Manutencao"
+          "status":"Disponivel"
         },
 
          {
           "tipo": "Pick-up",
           "placa": "SFU-0A47",
-          "operador": "Janice",
-          "contato": "(98) 98880-3110",
+          "operador": "Antônio",
+          "contato": "(98) 98896-6615",
           "status":"Disponivel"
         },
         {
           "tipo": "Pick-up",
           "placa": "SFU-0A01",
-          "operador": "Genilon",
+          "operador": "Beneval",
           "contato": "(98) 98715-5916",
           "status":"Disponivel"
         },
@@ -134,7 +134,7 @@
           "placa": "NXJ-6614 ",
           "operador": "",
           "contato": "",
-          "status":"Disponivel"
+          "status":"Manutencao"
         }
 
        
@@ -149,12 +149,12 @@
         
         "oms":[
             {
-             "frente":"CN-07",
-              "numero":"202301508489",
-              "descricao":"PE1.2_SUBS ESTR APOI LD MES CAR REDLE (CN-07)",
-              "latitude":"-2,5535402",
-              "longitude":"-44,3793104",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/CN07 OM 202301508489 PE1.2_SUBS ESTR APOI LD MES CAR REDLE.pdf", 
+             "frente":"EP-06",
+              "numero":"202404498272",
+              "descricao":"1.4_TRC.ELEM.FIX SUP.SUST PASSAD.TRIP (EP-06)",
+              "latitude":"-2,5727272",
+              "longitude":"-44,3359387",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/EP06 OM 202404498272 1.4_TRC.ELEM.FIX SUP.SUST PASSAD.TRIP..pdf", 
               "status":"Em andamento"
             }
           ]
@@ -167,12 +167,12 @@
         
         "oms":[
             {
-             "frente":"TR-315K-34",
-              "numero":"202506089708",
-              "descricao":"PE2. _FABRIC.E SUBST.TRAVE.SUP.EIXO 32 (TR-315K-34)",
-              "latitude":"-2,5654938",
-              "longitude":"-44,3592505",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/TR1534 OM 202506089708 PE2. _FABRIC.E SUBST.TRAVE.SUP.EIXO 32 rev1.pdf", 
+             "frente":"CT-08",
+              "numero":"202604871900",
+              "descricao":"APOIO ATIVIDADE NA BASE E SUPORTES PROXI (CT-08)",
+              "latitude":"-2,5524754",
+              "longitude":"-44,3785259",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/CT08 OM 202604871900 APOIO ATIVIDADE NA BASE E SUPORTES PROXI.pdf", 
               "status":"Em andamento"
             }
           ]
@@ -184,12 +184,12 @@
         
         "oms":[
             {
-             "frente":"TR-326K-01",
-              "numero":"202404498272",
-              "descricao":"S39 SUBSTUIÇÃO E REFORÇO NAS VIGAS (TR-326K-01)",
-              "latitude":"-2,5573071",
-              "longitude":"-44,3698684",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/TR2601 OM 202604966078 EXTRA S39 SUBSTUIÇÃO E REFORÇO NAS VIGAS.pdf", 
+             "frente":"BEIRA-MAR",
+              "numero":"OS",
+              "descricao":"Recuperação de estruturas",
+              "latitude":"-2,5611756",
+              "longitude":"-44,3658971",
+              "arquivoPdf":"", 
               "status":"Em andamento"
             }
           ]
@@ -207,6 +207,15 @@
               "latitude":"-2,5690485",  
               "longitude":"-44,3447038",
               "arquivoPdf":"om's/contrato 440 oms/Integridade/VV-06 202603840811 SUBS.ELEM.FIX.ANEIS ENTR.SAI.GIRO.pdf", 
+              "status":"Em andamento"
+            },
+            { 
+             "frente":"VV-06",
+              "numero":"202603970732",
+              "descricao":"RECUP.TRINC.SUP.BRAÇ.PRINC (VV-06)",
+              "latitude":"-2,5690485",  
+              "longitude":"-44,3447038",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/VV06 OM 202603970732 RECUP.TRINC.SUP.BRAÇ.PRINC.pdf", 
               "status":"Em andamento"
             }
           ]
