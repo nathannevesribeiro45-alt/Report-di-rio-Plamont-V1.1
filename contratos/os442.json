@@ -1,7 +1,7 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "23/09/2026",
+  "data": "24/09/2026",
   "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
@@ -156,69 +156,54 @@
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms":[
   {
-    "numero": "202504495547",
-    "frente": "EX-311K-213",
-    "latitude": "-2,5690329",
-    "longitude": "-44,3448796",
-    "descricao": "TROCAR PAINEL DO EXTRATOR 213",
-    "status": "Em andamento"
-  },
-  {
     "numero": "202602899733",
-    "frente": "EX-311K-212",
-    "latitude": "-2,5690483",
-    "longitude": "-44,3442484",
-    "descricao": "SUBSTITUIR EXTRATOR 311K-212",
+    "frente": "TR-311K-10",
+    "latitude": "-2,5690439",
+    "longitude": "-44,3448194",
+    "descricao": "SUBSTITUIR EXTRATOR 311K-212 (TR-311K-10)",
+    "status": "Em andamento"
+  },
+   {
+    "numero": "202504495547",
+    "frente": "TR-311K-10",
+    "latitude": "-2,5690439",
+    "longitude": "-44,3448194",
+    "descricao": "TROCAR PAINEL DO EXTRATOR 213 (TR-311K-10)",
+    "status": "Em andamento"
+  },
+    {
+    "numero": "202602900802",
+    "frente": "TR-311K-10",
+    "latitude": "-2,5690439",
+    "longitude": "-44,3448194",
+    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMON EX212 (TR-311K-10)",
     "status": "Em andamento"
   },
   {
-    "numero": "202604540411",
-    "frente": "TR-313K-84",
-    "latitude": "-2,5727253",
-    "longitude": "-44,3439651",
-    "descricao": "MCM-TRC LUB 01A ÓLEO GUINCHO ATS TR1384",
+    "numero": "202604359178",
+    "frente": "PÓRTICO 01",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "MPV ELE 08S ANTICOLISÃO PÓRT VV01/02/03 (PÓRTICO 01)",
     "status": "Em andamento"
   },
-  {
-    "numero": "202604075816",
-    "frente": "TR-313K-84",
-   "latitude": "-2,5727253",
-    "longitude": "-44,3439651",
-    "descricao": "MCM-MPV ELE 08S ESTICAMENTO ATS TR1384",
+   {
+    "numero": "202604927590",
+    "frente": "PRÉDIO ADMINISTRATIVO",
+    "latitude": "",
+    "longitude": "",
+    "descricao": "MONTAGEM DE ACESS PARA FECHAR VAO (PRÉDIO ADMINISTRATIVO) ",
     "status": "Em andamento"
   },
-  {
-    "numero": "202604076225",
-    "frente": "TR-313K-84",
-    "latitude": "-2,5727253",
-    "longitude": "-44,3439651",
-    "descricao": "MCM-MPV UTL 08S MOTORFE ESTIC ATS TR1384",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604071537",
-    "frente": "TR-326K-01",
-    "latitude": "-2,5573071",
-    "longitude": "-44,3698684",
-    "descricao": "RCM - MP LUB. RODAS EXTRATOR TR2601",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603943573",
-    "frente": "EX-326K-01",
-    "latitude": "-2,5525920",
-    "longitude": "-44,3785040",
-    "descricao": "RCM-MPV MEC 16S EXTRATOR EX-326K-01",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202603943571",
-    "frente": "EX-326K-01",
-    "latitude": "-2,5525920",
-    "longitude": "-44,3785040",
-    "descricao": "RCM-MP ELE SEPARAÇÃO MAGNÉTICA EX-326K-01",
+     {
+    "numero": "202602722369",
+    "frente": "SILO 01",
+    "latitude": "-2,5705175",
+    "longitude": "-44,3475748",
+    "descricao": "PR-3250KP-01 DEFEITO CONTROLE REMOTO (SILO 01)",
     "status": "Em andamento"
   }
+  
 ]
 }
       ]
