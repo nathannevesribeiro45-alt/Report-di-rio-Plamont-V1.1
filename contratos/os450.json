@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "24/09/2026",
-  "turno": "Dia A",
+  "data": "25/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -45,8 +45,7 @@
         }
       },
       "ausencias": {
-        "Mecanico":1,
-        "justificadas":1,
+        "justificadas":0,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -98,32 +97,48 @@
       "atividades": [
     
         {
-          "lider":"Cosmo Lima",
-          "telefone":"98 8863-1678",
-          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros",
+          "lider":"Fabrício Silva",
+          "telefone":"98 8896-7117",
+          "equipe":"3 mecânicos + 2 caldeireiros + 2 soldadores",
           "oms":[
             {
-              "frente":"DOLPHIN 24",
-              "numero":"202604786241",
-              "descricao":"MONTAGEM SPDA PIII",
-              "latitude":"-2,5584095",
-              "longitude":"-44,3792419",
-              "arquivoPdf":"om's/contrato 450 oms/OM 202604786241 MONTAGEM SPDA PIII.pdf", 
+              "frente":"ER-01",
+              "numero":"202405911719",
+              "descricao":"TROCAR RAMPA CURVA DA ER-01 ",
+              "latitude":"-2,5671549",
+              "longitude":"-44,3467192",
+              "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
+              "status":""
+            }
+          ]
+        },
+        {
+          "lider":"Jessé",
+          "telefone":"98 8817-1971",
+          "equipe":"4 mecânicos + 1 caldeireiro + 2 soldadores",
+          "oms":[
+            {
+              "frente":"ER-01",
+              "numero":"202405911719",
+              "descricao":"TROCAR RAMPA CURVA DA ER-01 ",
+              "latitude":"-2,5671549",
+              "longitude":"-44,3467192",
+              "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
               "status":"Em andamento"
             }
           ]
         },
         {
-          "lider":"Jean Mesquita",
-          "telefone":"98 8866-0232",
-          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros",
+          "lider":"Ricardo",
+          "telefone":"98 8497-6410",
+          "equipe":"2 mecânicos + 2 caldeireiros + 1 soldador",
           "oms":[
             {
-              "frente":"ER-01",
-              "numero":"202604991221",
-              "descricao":"APOIO GP - CHUTE CENTRAL BANCADA INTERME (ER-01)",
-              "latitude":"-2,5671549",
-              "longitude":"-44,3467192",
+              "frente":"RP-08",
+              "numero":"--",
+              "descricao":"PREPARAÇÃO DA RP-08",
+              "latitude":"-2,5734222",
+              "longitude":"-44,3429541",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
