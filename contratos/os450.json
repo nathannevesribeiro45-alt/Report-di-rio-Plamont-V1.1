@@ -53,17 +53,10 @@
       "recursos": [
         {
           "tipo": "Munck",
-          "placa": "QRD-8213",
-          "operador": "Moisés",
-          "contato":"(94) 9 9181-8671",
-          "status": "disponivel"
-        },
-        {
-          "tipo": "Munck",
           "placa": "QRI-7I40",
           "operador": "",
           "contato":"",
-          "status": "preventiva"
+          "status": "Disponivel"
         },
          {
           "tipo": "Munck",
