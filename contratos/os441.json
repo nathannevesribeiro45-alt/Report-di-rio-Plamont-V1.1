@@ -59,9 +59,9 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "Cícero",
-          "contato":"98 98121-1895",
-          "status": "Disponivel"
+          "operador": "",
+          "contato":"",
+          "status": "manutencao"
         },
         {
           "tipo": "Munck",
