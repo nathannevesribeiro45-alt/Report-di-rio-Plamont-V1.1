@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "24/09/2026",
-  "turno": "Dia A",
+  "data": "25/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 11,
+          "Mecanico": 8,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 1,
@@ -47,8 +47,9 @@
       },
 
       "ausencias": {
-      "Mecânico":2,
-     "justificadas": 2,
+      "Mecânico":5,
+      "Soldadores":1,
+     "justificadas": 6,
      "naoJustificadas":0
       },
 
@@ -96,43 +97,34 @@
 
       "atividades": [
         {
-        "lider": "Elias",
-          "telefone": "98 98210-6618",
+        "lider": "Adilson",
+          "telefone": "98 8242-1348",
           "tecnicoSeguranca": "",
           "equipe": "03 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
             {
-              "frente":"TR-313K-84",
-              "latitude":"-2,5727253",
-              "longitude":"-44,3439651",
-              "numero": "202501900766",
-              "descricao": "DG-SUBSTITIUR_ROLO_PLANO_BALIZA_191 (TR-313K-84)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202501900766 - DG-SUBSTITIUR ROLO PLANO BALIZA 191.pdf",
+              "frente":"ER-01",
+              "latitude":"-2,5670494",
+              "longitude":"-44,3524849",
+              "numero": "202604636645 ",
+              "descricao": " DESMOBILIZAÇÃO E 5S  PLAMONT DESGASTES ER-01",
+              "arquivoPdf":"",
               "status": "Em andamento"
             },
             {
-              "frente":"TR-313K-84",
-             "latitude":"-2,5727253",
-              "longitude":"-44,3439651",
-              "numero": "202604587725",
-              "descricao": "PLAMONT- ANDAIME P TROCAR ROLO PLANO BL (TR-313K-84)",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202604587725 - PLAMONT- ANDAIME P TROCAR ROLO PLANO BL.pdf",
-              "status": "Em andamento"
-            },
-            {
-              "frente":"TR-315K-33",
-              "latitude":"-2,5682235",
-              "longitude":"-44,3555469",
-              "numero": "202604644118",
-              "descricao": "PREPARAÇÃO, MOBILIZAÇÃO DESMOBILIZAR_5S",
+              "frente":"ER-04",
+              "latitude":"-2,5628815",
+              "longitude":"-44,3500855",
+              "numero": "AGUARDANDO OM",
+              "descricao": "REALIZAR PREPARAÇÃO E MOBILIZAÇÃO PARA A ER04",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Iego",
-          "telefone": "98 8506-6056",
+          "lider": "Fernando Maranhão",
+          "telefone": "98 8742-8209",
           "tecnicoSeguranca": "",
           "equipe": "04 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
 
@@ -150,10 +142,10 @@
           ]
         },
         {
-          "lider": "Alexandre",
+          "lider": "Ederson",
           "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "04 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
+          "equipe": "01 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
           "oms": [
             {
               "numero": "202604591162",
@@ -162,15 +154,6 @@
               "longitude":"-44,3446362",
               "arquivoPdf":"",
               "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS -PLAMONT DESGASTES TR-1114",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202601986908",
-              "frente":"TR-311K-14",
-              "latitude":"-2,5715538",
-              "longitude":"-44,3446362",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202601986908  - SUBSTITUIR24ROLOSERECUPERERENCAIXE.pdf",
-              "descricao": "SUBSTITUIR 24 ROLOS E RECUPERAR ENCAIXE (TR-311K-14)",
               "status": "Em andamento"
             }
           ]
@@ -189,7 +172,7 @@
         "direto": {
           "Caldeireiro": 4,
           "Mecanico": 3,
-          "Soldador": 4,
+          "Soldador": 3,
           "Montador": 2,
           "Eletricista": 0,
           "Pintor": 1
@@ -217,6 +200,7 @@
         }
       },
       "ausencias": {
+      "Soldadores":1, 
      "justificadas": 0,
      "naoJustificadas":0
       },
@@ -225,27 +209,18 @@
 
       "atividades": [
         {
-          "lider": "Julio/Erickson",
-          "telefone": "98 8506-6125/98 9609-7660",
+          "lider": "Wanderson/Adeilton",
+          "telefone": "98 98508-8348/98 8882-2306",
           "tecnicoSeguranca": "",
-          "equipe": "03 Mecânicos + 04 Caldeireiros + 04 Soldadores + 01 Pintor + 02 Montadores",
+          "equipe": "03 Mecânicos + 04 Caldeireiros + 03 Soldadores + 01 Pintor + 02 Montadores",
           "oms": [
              {
-              "numero": "202600428279",
-              "frente":"TR-313K-07 ",
-              "latitude":"-2,5671379",
-              "longitude":"-44,3567806",
+              "numero": "OS",
+              "frente":"CANTEIRO CENTRAL",
+              "latitude":"-2,5560547",
+              "longitude":"-44,3504725",
               "arquivoPdf":"",
-              "descricao": "SEG_A_DG_INST DEGR ESC ACES CAU L/E",
-              "status": "Em andamento"
-            },
-            {
-              "numero": "202604567333",
-              "frente":"TR-313K-07 ",
-              "latitude":"-2,5671379",
-              "longitude":"-44,3567806",
-              "arquivoPdf":"",
-              "descricao": "FABR.CORRIM.ESC..PLATF.ACION.LD.TR1307",
+              "descricao": "REALIZANDO FABRICAÇÃO NO CANTEIRO",
               "status": "Em andamento"
             }
           ]
