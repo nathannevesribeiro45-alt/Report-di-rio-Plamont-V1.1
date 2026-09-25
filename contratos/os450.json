@@ -96,23 +96,7 @@
         }
       ],
       "atividades": [
-     
-        {
-          
-          "oms":[
-            {
-              "frente":"DESMOBILIZAÇÃO DO VV-01",
-              "numero":"202604381686",
-              "descricao":"APOIO-PREPARAÇÃO MATERIAIS VV01",
-              "latitude":"-2,5681063",
-              "longitude":"-44,3457358",
-              "arquivoPdf":"om's/contrato 450 oms/OM 202604381686 - APOIO- PREPARAÇÃO MATERIAIS VV01.pdf", 
-              "status":"Em andamento"
-            }
-
-          ]
-
-        },
+    
         {
           "lider":"Cosmo Lima",
           "telefone":"98 8863-1678",
