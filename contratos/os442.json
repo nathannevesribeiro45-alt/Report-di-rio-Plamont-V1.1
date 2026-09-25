@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "24/09/2026",
-  "turno": "Dia A",
+  "data": "25/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -53,8 +53,8 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Josias",
-          "telefone": "98 8161-3655",
+          "lider": "Joderson",
+          "telefone": "98 8476-4303",
           "tecnicoSeguranca": "",
           "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
           "oms": [
@@ -150,8 +150,8 @@
 
       "atividades": [
         {
-          "lider": "José Pacheco",
-          "telefone": "98 98185-6567",
+          "lider": "Sueliton",
+          "telefone": "98 8888-0636",
           "tecnicoSeguranca": "",
           "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
           "oms":[
@@ -170,40 +170,7 @@
     "longitude": "-44,3448194",
     "descricao": "TROCAR PAINEL DO EXTRATOR 213 (TR-311K-10)",
     "status": "Em andamento"
-  },
-    {
-    "numero": "202602900802",
-    "frente": "TR-311K-10",
-    "latitude": "-2,5690439",
-    "longitude": "-44,3448194",
-    "descricao": "MONTAR/DESMONTAR ANDAIME PLAMON EX212 (TR-311K-10)",
-    "status": "Em andamento"
-  },
-  {
-    "numero": "202604359178",
-    "frente": "PÓRTICO 01",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "MPV ELE 08S ANTICOLISÃO PÓRT VV01/02/03 (PÓRTICO 01)",
-    "status": "Em andamento"
-  },
-   {
-    "numero": "202604927590",
-    "frente": "PRÉDIO ADMINISTRATIVO",
-    "latitude": "",
-    "longitude": "",
-    "descricao": "MONTAGEM DE ACESS PARA FECHAR VAO (PRÉDIO ADMINISTRATIVO) ",
-    "status": "Em andamento"
-  },
-     {
-    "numero": "202602722369",
-    "frente": "SILO 01",
-    "latitude": "-2,5705175",
-    "longitude": "-44,3475748",
-    "descricao": "PR-3250KP-01 DEFEITO CONTROLE REMOTO (SILO 01)",
-    "status": "Em andamento"
   }
-  
 ]
 }
       ]
