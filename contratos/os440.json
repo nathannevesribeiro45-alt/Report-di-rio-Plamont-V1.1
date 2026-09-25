@@ -166,12 +166,12 @@
         
         "oms":[
             {
-             "frente":"CN-07",
-              "numero":"202301508489",
-              "descricao":"PE1.2_SUBS ESTR APOI LD MES CAR REDLE (CN-07)",
-              "latitude":"-2,5535402",
-              "longitude":"-44,3793104",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/CN07 OM 202301508489 PE1.2_SUBS ESTR APOI LD MES CAR REDLE rev1.pdf", 
+             "frente":"CT-08",
+              "numero":"202604871900",
+              "descricao":"APOIO ATIVIDADE NA BASE E SUPORTES PROXI (CT-08)",
+              "latitude":"-2,5524754",
+              "longitude":"-44,3785259",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/CT08 OM 202604871900 APOIO ATIVIDADE NA BASE E SUPORTES PROXI rev1.pdf", 
               "status":"Em andamento"
             }
           ]
