@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "24/09/2026",
-  "turno": "Dia A",
+  "data": "25/09/2026",
+  "turno": "Dia B",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -10,12 +10,12 @@
       "icone":"assets/icons/integridade.svg",
       "qlp": {
         "direto": {
-          "Caldeireiro": 7,
-          "Mecanico": 17,
-          "Soldador": 7,
-          "Eletricista": 1, 
+          "Caldeireiro": 8,
+          "Mecanico": 15,
+          "Soldador": 8,
+          "Eletricista": 3, 
           "Ajudante de eletricista": 1,
-          "Ajudante de montagem":2,
+          "Ajudante de montagem":1,
           "Montador": 12
         },
         "indireto": {
@@ -44,7 +44,6 @@
         }
       },
       "ausencias": {
-        "Soldador":1,
         "justificadas":0,
         "naoJustificadas":0
       },
@@ -143,9 +142,9 @@
           
 
         {
-          "lider":"Gutemberg",
-          "telefone":"98 8177-7618",
-          "equipe":"5 mecânicos + 1 soldadores + 1 caldeireiros + 1 ajudante de mont.",
+          "lider":"Fagner",
+          "telefone":"98 8542-9199",
+          "equipe":"5 mecânicos + 2 soldadores + 2 caldeireiros + 2 eletricistas",
         
         "oms":[
             {
@@ -161,18 +160,18 @@
         },
          
         {
-          "lider":"João Batista",
-          "telefone":"98 8887-8415",
-          "equipe":"4 mecânicos + 2 soldador + 2 caldeireiro + 1 eletricista",
+          "lider":"Rogério",
+          "telefone":"98 9965-3798",
+          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro + 1 ajudante de mont.",
         
         "oms":[
             {
-             "frente":"CT-08",
-              "numero":"202604871900",
-              "descricao":"APOIO ATIVIDADE NA BASE E SUPORTES PROXI (CT-08)",
-              "latitude":"-2,5524754",
-              "longitude":"-44,3785259",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/CT08 OM 202604871900 APOIO ATIVIDADE NA BASE E SUPORTES PROXI.pdf", 
+             "frente":"CN-07",
+              "numero":"202301508489",
+              "descricao":"PE1.2_SUBS ESTR APOI LD MES CAR REDLE (CN-07)",
+              "latitude":"-2,5535402",
+              "longitude":"-44,3793104",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/CN07 OM 202301508489 PE1.2_SUBS ESTR APOI LD MES CAR REDLE rev1.pdf", 
               "status":"Em andamento"
             }
           ]
@@ -195,9 +194,9 @@
           ]
         },
         {
-          "lider":"Mailson",
-          "telefone":"98 9614-6804",
-          "equipe":"4 mecânicos + 1 soldadores + 2 caldereiros + 1 ajudante de mont.",
+          "lider":"Cleyton",
+          "telefone":"98 93300-5461",
+          "equipe":"3 mecânicos + 2 soldadores + 3 caldereiros + 1 eletricista",
         
         "oms":[
             { 
@@ -273,26 +272,29 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Edeilson",
-          "telefone": "98 8498-4952", 
+          "lider": "Alonso Costa",
+          "telefone": "31 8495-2503", 
           "tecnicoSeguranca": "",
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
-              "frente":"TR-315K-33",
-              "numero":"202501386655",
-              "descricao":"TME-TROCAR/REPOR-TELHAS#TR1533",
-              "latitude":"-2,5682235",
-              "longitude":"-44,3555469",
-              "arquivoPdf":"",
+              "frente":"TR-326K-02",
+              "numero":"202600183026",
+              "descricao":"TME-SUBSTELHAS REPOR.TR2602 (TR-326K-02)",
+              "latitude":"-2,5571546",
+              "longitude":"-44,3700472",
+              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202600183026 TME-SUBSTELHAS REPOR.TR2602.pdf",
               "arquivoLaudo":"",
-              "status":"Em andamento"
+              "status":"Em andamento",
+              "observacoes":"No momento a equipe está somente em mobilização"
           }
           ]
         }
       ],
       "nome": "Telhado",
-      "observacoes": []
+      "observacoes": [
+        "No momento a equipe está somente em mobilização"
+      ]
     }
   ]
 }
