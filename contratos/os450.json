@@ -1,8 +1,8 @@
 {
   "id": "os450",
   "nome": "Contrato OS 450",
-  "data": "25/09/2026",
-  "turno": "Dia B",
+  "data": "28/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -54,16 +54,16 @@
         {
           "tipo": "Munck",
           "placa": "QRI-7I40",
-          "operador": "",
-          "contato":"",
+          "operador": "Moisés",
+          "contato":"9499181-8671",
           "status": "Disponivel"
         },
          {
           "tipo": "Munck",
           "placa": "QRI-8D21",
-          "operador": "Márcio",
-          "contato":"98 98805-1819",
-          "status": "disponivel"
+          "operador": "--",
+          "contato":"",
+          "status": "Manutencao"
         },
         {
           "tipo": "Pick-up",
@@ -74,7 +74,7 @@
         },
         {
           "tipo": "Pick-up",
-          "placa": "SFR-3B97",
+          "placa": "QRI-2G50",
           "operador": "Rosivaldo",
           "contato":"98 99187-8772",
           "status": "Disponivel"
@@ -90,49 +90,49 @@
       "atividades": [
     
         {
-          "lider":"Fabrício Silva",
-          "telefone":"98 8896-7117",
-          "equipe":"3 mecânicos + 2 caldeireiros + 2 soldadores",
+          "lider":"Jean Mesquita",
+          "telefone":"98 8866-0232",
+          "equipe":"4 mecânicos + 1 caldeireiros + 1 soldador",
           "oms":[
             {
               "frente":"ER-01",
-              "numero":"202405911719",
-              "descricao":"TROCAR RAMPA CURVA DA ER-01 ",
+              "numero":"",
+              "descricao":"Realizando 5s no pouso da ER-01",
               "latitude":"-2,5671549",
               "longitude":"-44,3467192",
-              "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
-              "status":""
-            }
-          ]
-        },
-        {
-          "lider":"Jessé",
-          "telefone":"98 8817-1971",
-          "equipe":"4 mecânicos + 1 caldeireiro + 2 soldadores",
-          "oms":[
-            {
-              "frente":"ER-01",
-              "numero":"202405911719",
-              "descricao":"TROCAR RAMPA CURVA DA ER-01 ",
-              "latitude":"-2,5671549",
-              "longitude":"-44,3467192",
-              "arquivoPdf":"om's/contrato 450 oms/OM 202405911719 TROCAR RAMPA CURVA DA ER-01.pdf", 
+              "arquivoPdf":"", 
               "status":"Em andamento"
             }
           ]
         },
         {
-          "lider":"Ricardo",
-          "telefone":"98 8497-6410",
-          "equipe":"2 mecânicos + 2 caldeireiros + 1 soldador",
+          "lider":"Jean Mesquita (Fabricação)",
+          "telefone":"98 8866-0232",
+          "equipe":"1 mecânico + 1 caldeireiro + 1 soldador",
+          "oms":[
+            {
+              "frente":"Canteiro Central",
+              "numero":"",
+              "descricao":"Fabricação de suportes para RP-08",
+              "latitude":"-2,5560547",
+              "longitude":"-44,3504725",
+              "arquivoPdf":"", 
+              "status":"Em andamento"
+            }
+          ]
+        },
+        {
+          "lider":"Cosmo",
+          "telefone":"98 8863-1678",
+          "equipe":"4 mecânicos + 3 caldeireiros + 3 soldador",
           "oms":[
             {
               "frente":"RP-08",
-              "numero":"--",
-              "descricao":"PREPARAÇÃO DA RP-08",
+              "numero":"202605036991",
+              "descricao":"INSTALAR SUPORTEBRAÇO CORTINA DE CABOS (RP-08)",
               "latitude":"-2,5734222",
               "longitude":"-44,3429541",
-              "arquivoPdf":"", 
+              "arquivoPdf":"om's/contrato 450 oms/OM 202605036991 -  INSTALAR SUPORTEBRAÇO CORTINA DE CABOS.pdf", 
               "status":"Em andamento"
             }
           ]
