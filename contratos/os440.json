@@ -1,8 +1,8 @@
 {
   "id": "os440",
   "nome": "Contrato OS 440",
-  "data": "25/09/2026",
-  "turno": "Dia B",
+  "data": "28/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -11,11 +11,10 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 8,
-          "Mecanico": 15,
-          "Soldador": 8,
-          "Eletricista": 3, 
+          "Mecanico": 14,
+          "Soldador": 9,
+          "Eletricista": 1, 
           "Ajudante de eletricista": 1,
-          "Ajudante de montagem":1,
           "Montador": 12
         },
         "indireto": {
@@ -44,7 +43,9 @@
         }
       },
       "ausencias": {
-        "justificadas":0,
+        "Mecanico":1,
+        "Eletricista":1,
+        "justificadas":2,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -54,7 +55,7 @@
           "placa": "SGA-3I26 (RESERVA/PIT STOP)",
           "operador": "",
           "contato": "",
-          "status":"Manutencao"
+          "status":"Disponivel"
         },
         {
           "tipo": "Munck",
@@ -66,13 +67,6 @@
         {
           "tipo": "Munck",
           "placa": "ROV-7A11",
-          "operador": "",
-          "contato": "",
-          "status":"Disponivel"
-        },
-        {
-          "tipo": "Munck",
-          "placa": "QRD-8212",
           "operador": "",
           "contato": "",
           "status":"Disponivel"
@@ -133,7 +127,14 @@
           "placa": "NXJ-6614 ",
           "operador": "",
           "contato": "",
-          "status":"Manutencao"
+          "status":"Disponivel"
+        },
+         {
+          "tipo": "Guindaste",
+          "placa": "SGJ-7A95 (Locado)",
+          "operador": "",
+          "contato": "",
+          "status":"Disponivel"
         }
 
        
@@ -142,36 +143,36 @@
           
 
         {
-          "lider":"Fagner",
-          "telefone":"98 8542-9199",
-          "equipe":"5 mecânicos + 2 soldadores + 2 caldeireiros + 2 eletricistas",
+          "lider":"João Batista",
+          "telefone":"98 8887-8415",
+          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros + 1 eletricistas",
         
         "oms":[
             {
              "frente":"EP-06",
-              "numero":"202404498272",
-              "descricao":"1.4_TRC.ELEM.FIX SUP.SUST PASSAD.TRIP (EP-06)",
+              "numero":"202501046432",
+              "descricao":"AC1.2_SUBS.FIXADORES REFORÇAR CALHA (EP-06)",
               "latitude":"-2,5727272",
               "longitude":"-44,3359387",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/EP06 OM 202404498272 1.4_TRC.ELEM.FIX SUP.SUST PASSAD.TRIP..pdf", 
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/EP06 OM 202501046432 AC1.2_SUBS.FIXADORES REFORÇAR CALHA.pdf", 
               "status":"Em andamento"
             }
           ]
         },
          
         {
-          "lider":"Rogério",
-          "telefone":"98 9965-3798",
-          "equipe":"3 mecânicos + 1 soldador + 1 caldeireiro + 1 ajudante de mont.",
+          "lider":"Gutemberg",
+          "telefone":"98 8177-7618",
+          "equipe":"5 mecânicos + 2 soldador + 1 caldeireiro",
         
         "oms":[
             {
-             "frente":"CT-08",
-              "numero":"202604871900",
-              "descricao":"APOIO ATIVIDADE NA BASE E SUPORTES PROXI (CT-08)",
-              "latitude":"-2,5524754",
-              "longitude":"-44,3785259",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/CT08 OM 202604871900 APOIO ATIVIDADE NA BASE E SUPORTES PROXI rev1.pdf", 
+             "frente":"EP-06",
+              "numero":"202602362916",
+              "descricao":"FAZER ESTAIAMENTO TRAVAMENTO CIL ELEV T (EP-06)",
+              "latitude":"-2,5727272",
+              "longitude":"-44,3359387",
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/EP06 OM 202602362916 FAZER ESTAIAMENTO TRAVAMENTO CIL ELEV T.pdf", 
               "status":"Em andamento"
             }
           ]
@@ -179,42 +180,33 @@
         {
           "lider":"Augusto Campos",
           "telefone":"98 8508-9007",
-          "equipe":"4 mecânicos + 3 soldadores + 2 caldereiros + 1 ajudante eletr.",
+          "equipe":"2 mecânicos + 3 soldadores + 2 caldereiros + 1 ajudante eletr.",
         
         "oms":[
             {
-             "frente":"BEIRA-MAR",
+             "frente":"CANTEIRO-CENTRAL",
               "numero":"OS",
-              "descricao":"Recuperação de estruturas",
-              "latitude":"-2,5611756",
-              "longitude":"-44,3658971",
+              "descricao":"Fabricação no canteiro-central",
+              "latitude":"-2,5560547",
+              "longitude":"-44,3504725",
               "arquivoPdf":"", 
               "status":"Em andamento"
             }
           ]
         },
         {
-          "lider":"Cleyton",
+          "lider":"Mailson",
           "telefone":"98 93300-5461",
-          "equipe":"3 mecânicos + 2 soldadores + 3 caldereiros + 1 eletricista",
+          "equipe":"3 mecânicos + 2 soldadores + 3 caldereiros",
         
         "oms":[
             { 
              "frente":"VV-06",
-              "numero":"202603840811",
-              "descricao":"SUBS.ELEM.FIX.ANEIS ENTR.SAI.GIRO (VV-06)",
+              "numero":"202605062486",
+              "descricao":"INSE.PAR.VIG.TU.SUP.ANEL.SAI (VV-06)",
               "latitude":"-2,5690485",  
               "longitude":"-44,3447038",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/VV-06 202603840811 SUBS.ELEM.FIX.ANEIS ENTR.SAI.GIRO.pdf", 
-              "status":"Em andamento"
-            },
-            { 
-             "frente":"VV-06",
-              "numero":"202603970732",
-              "descricao":"RECUP.TRINC.SUP.BRAÇ.PRINC (VV-06)",
-              "latitude":"-2,5690485",  
-              "longitude":"-44,3447038",
-              "arquivoPdf":"om's/contrato 440 oms/Integridade/VV06 OM 202603970732 RECUP.TRINC.SUP.BRAÇ.PRINC.pdf", 
+              "arquivoPdf":"om's/contrato 440 oms/Integridade/VV06 OM 202605062486 INSE.PAR.VIG.TU.SUP.ANEL.SAI.pdf", 
               "status":"Em andamento"
             }
           ]
@@ -272,30 +264,25 @@
       "recursos": [],
       "atividades": [
         {
-          "lider": "Alonso Costa",
-          "telefone": "31 8495-2503", 
+          "lider": "Edeilson",
+          "telefone": "98 8498-4952", 
           "tecnicoSeguranca": "",
           "equipe": "08 mecânicos + 01 eletricista",
           "oms": [
             {
-              "frente":"TR-326K-02",
-              "numero":"202600183026",
-              "descricao":"TME-SUBSTELHAS REPOR.TR2602 (TR-326K-02)",
-              "latitude":"-2,5571546",
-              "longitude":"-44,3700472",
-              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202600183026 TME-SUBSTELHAS REPOR.TR2602.pdf",
+              "frente":"CT-15/TR-315K-15",
+              "numero":"202602479754",
+              "descricao":"TME-SUBST.TLE-CT15-TR1515 (CT-15/TR-315K-15)",
+              "latitude":"-2,5628667",
+              "longitude":"-44,3602286",
+              "arquivoPdf":"om's/contrato 440 oms/Telhado/OM 202602479754 TME-SUBST.TLE-CT15-TR1515.pdf",
               "arquivoLaudo":"",
-              "status":"Em andamento",
-              "observacoes":"No momento a equipe está somente em mobilização"
+              "status":"Em andamento"
           }
           ]
         }
       ],
-      "nome": "Telhado",
-      "observacoes": 
-      [
-        "No momento a equipe está somente em mobilização"
-      ]
+      "nome": "Telhado"
     }
   ]
 }
