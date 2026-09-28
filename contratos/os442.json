@@ -1,8 +1,8 @@
 {
   "id": "os442",
   "nome": "Contrato OS 442",
-  "data": "25/09/2026",
-  "turno": "Dia B",
+  "data": "28/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -53,25 +53,17 @@
       "recursos": [],
 
       "atividades": [ {
-          "lider": "Joderson",
-          "telefone": "98 8476-4303",
+          "lider": "Josias",
+          "telefone": "98 8161-3655",
           "tecnicoSeguranca": "",
-          "equipe": "04 Eletricistas + 01 Soldador + 1 caldereiro",
+          "equipe": "05 Eletricistas + 01 Caldeireiro + 01 Soldador",
           "oms": [
             {
-            "numero": "202404603148",
-            "frente": "EP-06",
-            "latitude":"-2,5727272",
-            "longitude":"-44,3359387",
-            "descricao": "INSP-INFRA AVARIADA TRANSL LESF - EP06",
-            "status": "Em andamento"
-            },
-              {
-            "numero": "202404603274",
-            "frente": "EP-06",
-            "latitude":"-2,5727272",
-            "longitude":"-44,3359387",
-            "descricao": "INSP-INFRA AVARIADA TRANSL LDSF - EP06",
+            "numero": "202604051461",
+            "frente": "ER-04",
+            "latitude":"-2,5628815",
+            "longitude":"-44,3500855",
+            "descricao": "TROCAR CABO DO SENSOR DE SUB.TR DA LANÇA (ER-04)",
             "status": "Em andamento"
             }
 
@@ -108,7 +100,7 @@
         "direto": {
           "Caldeireiro": 1,
           "Mecanico": 6,
-          "Soldador": 1,
+          "Soldador": 0,
           "Montador": 3,
           "Eletricista": 6,
           "Pintor": 0
@@ -122,7 +114,8 @@
       },
 
       "ausencias": {
-        "justificadas":0,
+        "Soldador":1,
+        "justificadas":1,
         "naoJustificadas":0
       },
 
@@ -137,39 +130,185 @@
           "placa": "RBB-3I45 ",
           "operador": "",
           "contato":"",
-          "status": "Disponivel"
+          "status": "manutencao"
         },
           {
           "tipo": "pick-up",
-          "placa": "SFT-9H25",
-        "operador": "Carlos",
-          "contato":"98) 98124-4272",
+          "placa": "SFT-9J87",
+        "operador": "Domingos",
+          "contato":"98 98518-9687",
           "status": "disponivel"
         }
       ],
 
       "atividades": [
         {
-          "lider": "Sueliton",
-          "telefone": "98 8888-0636",
+          "lider": "José Pacheco",
+          "telefone": "98 98185-6567",
           "tecnicoSeguranca": "",
-          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 1 soldador + 3 Montadores",
+          "equipe": "6 Mecânicos + 6 Eletricistas + 1 caldeireiro + 3 Montadores",
           "oms":[
   {
-    "numero": "202602899733",
-    "frente": "TR-311K-10",
-    "latitude": "-2,5690439",
-    "longitude": "-44,3448194",
-    "descricao": "SUBSTITUIR EXTRATOR 311K-212 (TR-311K-10)",
-    "status": "Em andamento"
+    "numero": "202603754787",
+    "frente": "TR-313K-29",
+    "descricao": "MCM-MPV ELE 16S EXTRATOR EX-313K-218",
+    "status": "Em andamento",
+    "latitude": "-2,5628445",
+    "longitude": "-44,3586765",
+    "arquivoPdf": ""
   },
-   {
-    "numero": "202504495547",
-    "frente": "TR-311K-10",
-    "latitude": "-2,5690439",
-    "longitude": "-44,3448194",
-    "descricao": "TROCAR PAINEL DO EXTRATOR 213 (TR-311K-10)",
-    "status": "Em andamento"
+  {
+    "numero": "202603754789",
+    "frente": "TR-313K-29",
+    "descricao": "MCM-MPV MEC 16S EXTRATOR EX-313K-218",
+    "status": "Em andamento",
+    "latitude": "-2,5628445",
+    "longitude": "-44,3586765",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202603754979",
+    "frente": "TR-313K-29",
+    "descricao": "MCM-MPV LUB 16S TROCA ÓLEO EX-313K-218",
+    "status": "Em andamento",
+    "latitude": "-2,5628445",
+    "longitude": "-44,3586765",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604359178",
+    "frente": "Pórtico 01",
+    "descricao": "MPV ELE 08S ANTICOLISÃO PÓRT W01/02/03",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698365",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S ARTICULAÇÕES PÓRTICO 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604450018",
+    "frente": "Pórtico 01",
+    "descricao": "MP Eletromecânica Pórtico EE_3110KP_04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698370",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S MANCAIS CARRO TROLLEY PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604563252",
+    "frente": "Pórtico 01",
+    "descricao": "MP MEC 16S MOTOFRE AC CAR TROLL PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698371",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S MANCAIS ELEV PRINC PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698367",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S CABO AÇO ELEV PRINC PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604563248",
+    "frente": "Pórtico 01",
+    "descricao": "MP MEC 16S FREIO AC ELEV PRINC PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698372",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S MANCAIS ELEV AUX PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698368",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S CABO AÇO ELEV AUX PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604563249",
+    "frente": "Pórtico 01",
+    "descricao": "MP MEC 16S MOTOFRE AC ELEV AUX PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604563251",
+    "frente": "Pórtico 01",
+    "descricao": "MP MEC 16S MOTOFRE AC TRANSLAÇÃO PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698369",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S MANCAIS TRANSL PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698373",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S GARRA TRILHO TRANSL PÓRT 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
+  },
+  {
+    "numero": "202604698366",
+    "frente": "Pórtico 01",
+    "descricao": "MP LUB 08S ENROL CABOS PÓRTICO 04",
+    "status": "Em andamento",
+    "latitude": "",
+    "longitude": "",
+    "arquivoPdf": ""
   }
 ]
 }
