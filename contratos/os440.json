@@ -45,7 +45,8 @@
       "ausencias": {
         "Mecanico":1,
         "Eletricista":1,
-        "justificadas":2,
+        "Caldeireiro":1,
+        "justificadas":3,
         "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -145,7 +146,7 @@
         {
           "lider":"João Batista",
           "telefone":"98 8887-8415",
-          "equipe":"4 mecânicos + 2 soldadores + 2 caldeireiros + 1 eletricistas",
+          "equipe":"4 mecânicos + 2 soldadores + 1 caldeireiros + 1 eletricistas",
         
         "oms":[
             {

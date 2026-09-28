@@ -1,8 +1,8 @@
 {
   "id": "os441",
   "nome": "Contrato OS 441",
-  "data": "25/09/2026",
-  "turno": "Dia B",
+  "data": "28/09/2026",
+  "turno": "Dia A",
   "horario": "07:00 às 19:00",
   "abas": [
     {
@@ -14,7 +14,7 @@
       "qlp": {
         "direto": {
           "Caldeireiro": 3,
-          "Mecanico": 8,
+          "Mecanico": 14,
           "Soldador": 3,
           "Montador": 9,
           "Eletricista": 1,
@@ -59,16 +59,16 @@
         {
           "tipo": "Munck",
           "placa": "SGC-7H66",
-          "operador": "",
-          "contato":"",
-          "status": "manutencao"
+          "operador": "98 98121-1895",
+          "contato":"Cícero",
+          "status": "Disponivel"
         },
         {
           "tipo": "Munck",
           "placa": "QRD-8212",
           "operador": "Augusto",
           "contato":"98 98858-7321",
-          "status": "Disponivel"
+          "status": "manutencao"
         },
         {
           "tipo": "Munck",
@@ -80,16 +80,16 @@
       
         {
           "tipo": "Pick-up",
-          "placa": "SFT-9J87",
-          "operador": "Domingos",
-          "contato":"(98) 98518-9687",
+          "placa": "SFT-9H25",
+          "operador": "Carlos",
+          "contato":" 98 98124-4272",
           "status": "Disponivel"
         },
          {
           "tipo": "Pick-up",
           "placa": "SFU-0A35",
-          "operador": "Rilgles",
-          "contato":"(98) 98537-4937",
+          "operador": "Hilgles",
+          "contato":"98 98537-4937",
           "status": "Disponivel"
         }
       
@@ -97,63 +97,54 @@
 
       "atividades": [
         {
-        "lider": "Adilson",
-          "telefone": "98 8242-1348",
+        "lider": "Elias",
+          "telefone": "98 98210-6618",
           "tecnicoSeguranca": "",
-          "equipe": "03 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
+          "equipe": "05 Mecânicos + 01 Caldeireiro + 01 soldador + 03 montadores",
           "oms": [
-            {
-              "frente":"ER-01",
-              "latitude":"-2,5670494",
-              "longitude":"-44,3524849",
-              "numero": "202604636645 ",
-              "descricao": " DESMOBILIZAÇÃO E 5S  PLAMONT DESGASTES ER-01",
-              "arquivoPdf":"",
-              "status": "Em andamento"
-            },
             {
               "frente":"ER-04",
               "latitude":"-2,5628815",
               "longitude":"-44,3500855",
-              "numero": "AGUARDANDO OM",
-              "descricao": "REALIZAR PREPARAÇÃO E MOBILIZAÇÃO PARA A ER04",
+              "numero": " 202604328481",
+              "descricao": "MP CHUTE CENTRAL PARTE SUPERIOR ER04",
               "arquivoPdf":"",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Fernando Maranhão",
-          "telefone": "98 8742-8209",
+          "lider": "Iego",
+          "telefone": "98 8506-6056",
           "tecnicoSeguranca": "",
-          "equipe": "04 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
+          "equipe": "05 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
 
           "oms": [
             
             {
-              "numero": "202604529945",
-              "frente":"AMOS5",
-              "latitude":"",
-              "longitude":"",
-              "arquivoPdf":"om's/contrato 441 oms/Desgaste/AMOS5 - OM 202604529945 - FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4.pdf",
-              "descricao": "FAZER PREPARAÇÃO MANUTENÇÃO e 5S PIER 4 (AMOS5)",
+              "numero": "202604513324",
+              "frente":"TR-315K-15",
+              "latitude":"-2,5628667",
+              "longitude":"-44,3602286",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/TR-1515 OM 202604513324 - MP GUIAS LE LD CHUTE REC.1515.pdf",
+              "descricao": "MP GUIAS LE LD CHUTE REC.1515 (TR-315K-15)",
               "status": "Em andamento"
             }
           ]
         },
         {
-          "lider": "Ederson",
+          "lider": "Alexandre",
           "telefone": "98 99228‑6538",
           "tecnicoSeguranca": "",
-          "equipe": "01 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
+          "equipe": "04 Mecânicos + 01 Caldeireiro + 01 Soldador + 03 montadores",
           "oms": [
             {
-              "numero": "202604591162",
+              "numero": "202603475726",
               "frente":"TR-311K-14",
               "latitude":"-2,5715538",
               "longitude":"-44,3446362",
-              "arquivoPdf":"",
-              "descricao": "PREPARAÇÃO E MOBILIZAÇÃO DE FERRAMENTAS -PLAMONT DESGASTES TR-1114",
+              "arquivoPdf":"om's/contrato 441 oms/Desgaste/OM 202603475726 -  MEC- TROCAR ROLOS E RECUP ENCAIXES E SUP 1114.pdf",
+              "descricao": "MEC- TROCAR ROLOS E RECUP ENCAIXES E SUP 1114 (TR-311K-14)",
               "status": "Em andamento"
             }
           ]
@@ -165,16 +156,14 @@
 
     {
       "id": "cond.seguras",
-      "nome": "Cond.seguras",
       "icone": "assets/icons/condseguras.svg",
 
       "qlp": {
         "direto": {
           "Caldeireiro": 4,
-          "Mecanico": 3,
-          "Soldador": 3,
+          "Mecanico": 1,
+          "Soldador": 4,
           "Montador": 2,
-          "Eletricista": 0,
           "Pintor": 1
         },
         "indireto": {
@@ -200,8 +189,8 @@
         }
       },
       "ausencias": {
-      "Soldadores":1, 
-     "justificadas": 0,
+      "Mecânicos":2, 
+     "justificadas": 2,
      "naoJustificadas":0
       },
       "mobilizacao": {},
@@ -209,24 +198,30 @@
 
       "atividades": [
         {
-          "lider": "Wanderson/Adeilton",
-          "telefone": "98 98508-8348/98 8882-2306",
+          "lider": "Julio/Erickson",
+          "telefone": "98 8506-6125/98 9609-7660",
           "tecnicoSeguranca": "",
-          "equipe": "03 Mecânicos + 04 Caldeireiros + 03 Soldadores + 01 Pintor + 02 Montadores",
+          "equipe": "01 Mecânicos + 04 Caldeireiros + 04 Soldadores + 01 Pintor + 02 Montadores",
           "oms": [
              {
-              "numero": "OS",
-              "frente":"CANTEIRO CENTRAL",
-              "latitude":"-2,5560547",
-              "longitude":"-44,3504725",
+              "numero": "--",
+              "frente":"--",
+              "latitude":"",
+              "longitude":"",
               "arquivoPdf":"",
-              "descricao": "REALIZANDO FABRICAÇÃO NO CANTEIRO",
+              "descricao": "--",
               "status": "Em andamento"
             }
           ]
 
         }
+      ],
+      
+      "nome": "Cond.seguras",
+      "observacoes":[
+        "Sem atividades programadas até o momento"
       ]
+
 
     }
   ]
